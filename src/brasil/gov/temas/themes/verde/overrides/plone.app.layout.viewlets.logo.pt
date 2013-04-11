@@ -1,0 +1,12 @@
+<div id="logo"
+	tal:define="ps nocall:view/portal_state;
+	            portal ps/portal;
+				portal_description portal/description">         
+	<a href="#" title="#">
+		<span id="portal-title"
+			  tal:content="view/navigation_root_title">Portal Title</span>
+		<span 
+			id="portal-description"
+			tal:content="portal_description">Portal Description</span>
+	</a>
+</div>

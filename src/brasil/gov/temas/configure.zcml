@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="plone">
+
+    <include package="plone.app.themingplugins" />
+    <include package="plone.resource" />
+
+    <!-- Temas -->
+    <plone:static
+        type="theme"
+        name="verde"
+        directory="themes/verde"
+        />
+
+</configure>
