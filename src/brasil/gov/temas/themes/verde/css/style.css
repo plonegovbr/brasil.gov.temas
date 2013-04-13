@@ -1,15 +1,14 @@
 /*********************************************************
-Carta Capital
-Simples Consultoria - www.simplesconsultoria.com.br
+   Simples Consultoria - www.simplesconsultoria.com.br
 *********************************************************/
 
 /* reset */
 * {margin:0; padding:0; list-style:none; vertical-align:baseline;}
 
 
-/****************** Basic Stuff ******************/
+/****************** Estilos basicos ******************/
 
-/* Colors and fonts */
+/* Cores e fontes */
 body {
 	background-color: #fff;
 	color: #000000;
@@ -67,11 +66,11 @@ p {
 	background:#fff;
 	font-size: 1.3em;
 	padding: 1em 0;
-	width: 1060px;
+	max-width: 1060px;
 	margin: 0 auto;
 }
 
-/* colunas
+/* Tamnho das colunas 
 
 div.position-3\:4 {margin-left: -17.875%;}
 div.width-1\:4 {width: 17.75%;}
@@ -84,7 +83,7 @@ div.position-0 {
 }
 
 
-/****************** HEADER ******************/
+/****************** cabecalho ******************/
 #header {
 	padding: 15px 0 0 0;
 	background: #006600;
@@ -92,7 +91,7 @@ div.position-0 {
 }
 
 #header>div {
-	width: 1060px;
+	max-width: 1060px;
 	margin: 0 auto;
 }
 
@@ -231,13 +230,13 @@ div.position-0 {
 /* Sobre o brasil */
 #sobre {
 	clear: both;
-	width: 100% !important;
+	max-width: 100% !important;
 	margin: 0;
 	background: #095316;
 	padding: 5px 0;
 }
 #sobre ul {
-	width: 1060px;
+	max-width: 1060px;
 	margin: 0 auto;
 	text-align: right;
 }
@@ -278,10 +277,14 @@ div.position-0 {
 	-webkit-border-radius: 0px 5px 5px 0px; 
 	border: 1px solid #CCCCCC;
 	padding: 0.3em;
-	background: #fff url(../img/search-button.gif) no-repeat;
+	background: #fff;
 	text-indent: -2000px;
    padding: 4px 15px;
 	border-left: none;
+}
+
+#header input.searchButton {
+	background: #fff url(../img/search-button.gif) no-repeat;
 }
 
 #LSResult {
@@ -517,6 +520,8 @@ ul.navTreeLevel4 li a.navTreeItemInPath,
 ul.navTreeLevel4 li a.navTreeCurrentNode {background-position: 32px 12px !important;}
 ul.navTreeLevel5 li a.navTreeItemInPath,
 ul.navTreeLevel5 li a.navTreeCurrentNode {background-position: 38px 12px !important;}
+ul.navTreeLevel6 li a.navTreeItemInPath,
+ul.navTreeLevel6 li a.navTreeCurrentNode {background-position: 44px 12px !important;}
 
 /* deslocamento dos itens */
 dl.portlet ul.navTree li a {padding: 0.2em 1.5em !important;}
@@ -524,21 +529,11 @@ dl.portlet ul.navTreeLevel1 li a {padding: 0.2em 2em !important;}
 dl.portlet ul.navTreeLevel2 li a {padding: 0.2em 2.5em !important;}
 dl.portlet ul.navTreeLevel3 li a {padding: 0.2em 3em !important;}
 dl.portlet ul.navTreeLevel4 li a {padding: 0.2em 3.5em !important;}
+dl.portlet ul.navTreeLevel5 li a {padding: 0.2em 4em !important;}
+dl.portlet ul.navTreeLevel6 li a {padding: 0.2em 4.5em !important;}
 
 
 
-.portlet-last-edition {
-    padding: 10px 10px 0;
-    text-align: center;
-}
-.link-assine {
-    display: block;
-    margin: 10px 20px;
-    background: #2c67cd;
-    font-weight: bold;
-    font-size: 1.1em;
-    color: #fff !important;
-}
 
 .portlet img, #content img {
     height: auto;
@@ -672,12 +667,13 @@ dl.portlet div.listingBar a:link {
 	color: #fff;
 }
 #footer>div {
-	width: 1060px;
+	max-width: 1060px;
 	margin: 0 auto;
 	text-align: right;
 }
 #footer img {
 	float: left;
+	margin-right: 3em;
 }
 
 
@@ -707,8 +703,15 @@ dl.portlet div.listingBar a:link {
 
 @media screen and (max-width: 768px) {
 
-	#wrapper {max-width: 100%;}
-	#logo {min-width:140px;}
+	#wrapper {
+		max-width: 100%;
+	}
+	#logo {
+		min-width:140px;
+	}
+	#main {
+		max-width: 90%;
+	}
 
 	/*Columns*/
 	#portal-column-one,
@@ -783,10 +786,29 @@ dl.portlet div.listingBar a:link {
 @media screen and (max-width: 480px) {
 
 	#portal-breadcrumbs {display:none;}
+	
+	#header {
+		padding: 1em 0.5em;
+	}
+	
+	#language {
+		float: left;
+		margin-left: 0.5em;
+	}
+	
+	#social-icons {
+		top: 1em;
+		right: 0;
+		position: absolute;
+	}
+	
+	#logo #portal-title {
+		font-size: 2em;
+	}
 
 	#portal-searchbox {
-	    float: none;
-        width:80%;
+	   float: none;
+      width:80%;
 		clear:both;
 		margin: 0 auto 2%;
    }
@@ -803,12 +825,23 @@ dl.portlet div.listingBar a:link {
         margin-left: -100% !important;
         width: 100% !important;
    }
-    #portal-siteactions, #footer {
-        display: none !important;
-   }
    #logo {
         width: 100% !important;
    }
+	#footer p {
+		clear: both;
+	}
+	#footer>div {
+		text-align: center;
+	}
+	#footer img {
+		float: none;
+		max-width: 40%;
+		margin: 1em;
+	}
+	#accessibility, #portal-siteactions {
+		display: none !important;
+	}
 
 
 
