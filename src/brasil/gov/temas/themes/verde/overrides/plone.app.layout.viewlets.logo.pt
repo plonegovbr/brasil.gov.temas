@@ -1,8 +1,8 @@
 <div id="logo"
     tal:define="ps nocall:view/portal_state;
                 portal ps/portal;
-                portal_description portal/description">         
-    plone.app.layout.viewlets/configure.zcml
+                portal_description portal/description">
+
     <a metal:define-macro="portal_logo"
        id="portal-logo"
        title="Home"
