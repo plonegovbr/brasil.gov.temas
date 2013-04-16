@@ -894,3 +894,6 @@ div.listingBar {
     clear: both;
 }
 
+ul.formTabs{
+	padding:0px !important;
+}
