@@ -379,7 +379,7 @@ table.listing tbody th {
 }
 
 /* lista */
-#content ul, #content ol  {
+#content-core ul, #content ol  {
    list-style-type: disc;
    margin-left: 0;
 	margin-bottom: 2em;
@@ -389,12 +389,13 @@ table.listing tbody th {
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
 }
-#content li {
+#content-core li {
    border-bottom: 1px dotted #d5d5d5;
    padding: 1em;
+	list-style-position: inside !important;
 }
-#content ol li {
-   list-style: decimal inside;
+#content-core ol li {
+	list-style-type: decimal !important;
 }
 
 /* related */
