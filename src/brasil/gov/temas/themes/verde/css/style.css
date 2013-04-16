@@ -249,12 +249,10 @@ div.position-0 {
 #sobre a {
 	color: #fff;
 }
-#sobre #link-sobre a {
-	padding: 0 10px;
-   border-right: 1px solid #fff;
-}
-#sobre #link-central a {
-	padding: 0 0 0 10px;
+
+#sobre .portalservicos-item a {
+   padding: 0 10px;
+   border-right: 1px solid #fff;	
 }
 
 /* Searchbox */
@@ -896,3 +894,6 @@ div.listingBar {
     clear: both;
 }
 
+ul.formTabs{
+	padding:0px !important;
+}
