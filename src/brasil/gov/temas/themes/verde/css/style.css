@@ -849,7 +849,9 @@ dl.portlet div.listingBar a:link {
 
 @media screen and (max-width: 480px) {
 
-	#portal-breadcrumbs {display:none;}
+	#portal-breadcrumbs, #accessibility, #portal-siteactions, #em-destaque {
+		display: none !important;
+	}
 	
 	#header {
 		padding: 1em 0.5em;
@@ -903,8 +905,9 @@ dl.portlet div.listingBar a:link {
 		max-width: 40%;
 		margin: 1em;
 	}
-	#accessibility, #portal-siteactions {
-		display: none !important;
+	
+	.portaltype-collection .tileImage {
+		float: none;
 	}
 
 
