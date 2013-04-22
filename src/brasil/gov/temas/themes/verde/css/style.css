@@ -69,7 +69,7 @@ p {
 	margin: 0 auto;
 }
 
-/* Tamnho das colunas 
+/* Tamanho das colunas 
 
 div.position-3\:4 {margin-left: -17.875%;}
 div.width-1\:4 {width: 17.75%;}
@@ -117,12 +117,12 @@ div.position-0 {
 }
 
 #accessibility a {
-	color: #9cd4a7;
+	color: #9bc2a3;
 	margin-right: 8px;
 }
 
 #accessibility span {
-	background: #9cd4a7;
+	background: #9bc2a3;
 	color: #006600;
 	padding: 0 4px;
 }
@@ -312,6 +312,9 @@ div.position-0 {
 
 .portlet img, #content img {
     max-width:100%;
+	 border-radius: 5px; 
+	 -moz-border-radius: 5px; 
+	 -webkit-border-radius: 5px; 
 }
 
 
@@ -402,7 +405,7 @@ table.listing tbody th {
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
-	background: #eeeff1;
+	background: #eeefff;
 	border: 1px solid #d5d5d5;
 }
 #related-items legend, fieldset#folder-listing legend {
@@ -437,9 +440,10 @@ table.listing tbody th {
 
 #portal-column-two dl.portlet {
 	border: 1px solid #c1c1c1;
-	background: #eeeff1;
+	background: #eeefff;
 	-moz-border-radius: 5px;
     border-radius: 5px;
+	 -webkit-border-radius: 5px; 
 }
 
 #portal-column-two dl.portlet a:link,
@@ -477,16 +481,16 @@ dl.portlet dt a:visited {
 
 /* navigation */
 .portletNavigationTree .portletHeader {
-	border-top: 4px solid #00530f;
-	background: #eeeff1;
+	border-top: 4px solid #00510f;
+	background: #eeefff;
 	border-bottom: none;
-	color: #00510e;
+	color: #00510f;
 	padding: 8px 8px 24px 20px;
 	text-transform: uppercase;
 	margin: 0;
 }
 .portletNavigationTree .portletHeader a {
-	color: #00510e !important;
+	color: #00510f !important;
 }
 .portletNavigationTree {
 	border-bottom: 1px solid #ddd;
@@ -514,7 +518,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 .navTreeLevel0>li.navTreeCurrentNode {
     border-top: 2px solid #64946e !important;
     border-bottom: 2px solid #64946e !important;
-	 background-color: #eeeff1;
+	 background-color: #eeefff;
 }
 .navTreeLevel1 { background: #e7e8ea !important;}
 .navTreeLevel2 { background: #e0e1e3 !important;}
@@ -582,10 +586,39 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     list-style: none;
 }
 
+/* em destaque */
+#em-destaque ul {
+	display: table;
+	background: #e8e6e7;
+	width: 100%;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	margin-bottom: 2em;
+}
+#em-destaque li {
+	display: table-cell;
+	padding:  0.5em 1em;
+	text-align: center;
+	text-transform: uppercase;
+	border-right: 1px solid #d2d2d2;
+	font-size: 0.8em !important;
+}
+#em-destaque a {
+	color: #2d5495;
+}
+#em-destaque li#em-destaque-titulo {
+	background: #969ca8 url(../img/em-destaque.png) right center no-repeat;
+	color: #fff;
+	border-right: none;
+	border-radius: 5px 0 0 5px; 
+	-moz-border-radius: 5px 0 0 5px; 
+	-webkit-border-radius: 5px 0 0 5px; 
+}
+
 /****************** COVER *******************/
 
 .portaltype-collective-cover-content #content .row {
-    border-bottom: 1px solid #d3d3d3;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
@@ -593,9 +626,10 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /* Tiles */
 
 .tile a {
-    color: #000 !important;
+    color: #162937 !important;
 }
 .tile h1 {
+	 border-bottom: none;
     margin: 0 0 0.2em !important;
     font-size: 3em;
     text-transform: none;
@@ -607,15 +641,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     margin: 0 0 0.2em !important;
 }
 .tile h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;
+	 font-weight: normal;
     line-height: 1.2em;
     margin: 0 0 0.2em;
 }
 .tile h4 {
-    font-size: 1em;
+    font-size: 1.1em;
+	 font-weight: normal;
     line-height: 1.1em;
     margin-bottom: 10px;
-    padding-left: 15px;
 }
 .tile-subtitle {
     color: #2c67cd;
@@ -686,7 +721,7 @@ dl.portlet div.listingBar a:link {
 /****************** FOOTER ******************/
 
 #footer {
-	background: #00420c;
+	background: #034811;
 	padding: 20px 0;
 	width: 100%;
 	min-height: 50px;
