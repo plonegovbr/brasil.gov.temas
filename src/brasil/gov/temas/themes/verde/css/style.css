@@ -70,12 +70,25 @@ p {
 }
 
 /* Tamanho das colunas  */
-div.width-1\3a 4 {width: 16.75%;}
-div.position-1\3a 4 {margin-left: -78.875%;}
-div.position-3\3a 4 {margin-left: -16.75%;}
-div.width-1\3a 2 {width: 58.75%;}
-div.width-3\3a 4 {width: 80.75%;}
-
+#portal-column-two {
+	width: 24.75%;
+	margin-left: -24.75%;
+}
+#portal-column-one {
+	width: 16.75%;
+}
+div.width-1\3a 2 {
+	width: 52.75%;
+}
+div.position-1\3a 4 {
+	margin-left: -79.875%;
+}
+div.width-3\3a 4 {
+	width: 73.75%;
+}
+div.position-3\3a 4 {
+	margin-left: -16.75%;
+}
 div.position-0 {
 	margin-left: -99.875%;
 }
