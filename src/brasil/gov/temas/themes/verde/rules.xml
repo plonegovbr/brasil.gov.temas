@@ -30,7 +30,9 @@
         <merge attributes="class" css:content="body" css:theme="body" />
         <copy attributes="id dir" css:content="body" css:theme="body" />
 	    <copy attributes="role" css:content="content" css:theme="contentspace" />
-        <replace css:content="#portal-columns" css:theme="#plone-content" />
+        <replace css:content="#portal-column-one" css:theme="#portal-column-one" />
+        <replace css:content="#portal-column-content" css:theme="#portal-column-content" />
+        <replace css:content="#portal-column-two" css:theme="#portal-column-two" />
 
         <!--NITF -->
         <drop css:content=".portaltype-collective-nitf-content #viewlet-below-content-title #plone-document-byline" />
