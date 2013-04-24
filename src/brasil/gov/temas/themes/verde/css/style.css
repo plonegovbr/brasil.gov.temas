@@ -69,13 +69,12 @@ p {
 	margin: 0 auto;
 }
 
-/* Tamanho das colunas 
-
-div.position-3\:4 {margin-left: -17.875%;}
-div.width-1\:4 {width: 17.75%;}
-div.width-3\:4 {width: 78.75%;}
-
- */
+/* Tamanho das colunas  */
+div.width-1\3a 4 {width: 16.75%;}
+div.position-1\3a 4 {margin-left: -78.875%;}
+div.position-3\3a 4 {margin-left: -16.75%;}
+div.width-1\3a 2 {width: 58.75%;}
+div.width-3\3a 4 {width: 80.75%;}
 
 div.position-0 {
 	margin-left: -99.875%;
