@@ -480,14 +480,29 @@ dl.portlet dt a:visited {
 	border-bottom: 1px solid #ccc;
 	display: table-row;
 }
-.portletNews .portletItem a,
-.portletCollection .portletItem a {
-	display: table-cell;
+.portletNews .portletItem a, .portletCollection .portletItem a {
+	display: block;
+	float: right;
+	clear: both;
+	width: 65%;
+	margin: 1em 0;
+	font-size: 1em;
 }
-.portletNews .portletItem .portletItemDetails,
+.portletNews .portletItem .portletItemDetails, 
 .portletCollection .portletItem .portletItemDetails {
-	display: table-cell;
-	border-bottom: 1px solid #eee;
+    display: block;
+    float: left;
+    width: 24%;
+    margin: 1em 0 1em 1em;
+    text-align: center;
+	 color: #596e7f;
+}
+.portletFooter {
+	text-transform: uppercase;
+	color: #444b53;
+}
+.portletFooter a {
+	color: #444b53;
 }
 
 
