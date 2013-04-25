@@ -1,9 +1,9 @@
 jQuery(document).ready(function($){
-  //if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  var menuTrigger = $("<span class='menuTrigger'>MENU</span>");
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     $("body").addClass("mobile");
-    var menuTrigger = $("<span class='menuTrigger'>MENU</span>");
     $("#portal-column-one").prepend(menuTrigger);
-  //}
+  }
 
   menuTrigger.click(function(){
     $(this).parent().toggleClass("ativo");
