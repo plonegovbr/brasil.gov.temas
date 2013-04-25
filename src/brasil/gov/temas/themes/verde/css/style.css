@@ -817,6 +817,10 @@ dl.portlet div.listingBar a:link {
  * Author: Igor Prado
  */
 
+.menuTrigger {
+  display: none;
+}
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   #main {
     max-width: 100% !important;
@@ -829,7 +833,12 @@ dl.portlet div.listingBar a:link {
     padding: 20px;
   }
 
-  #portal-column-one .menuTrigger {
+  #navigation {
+    position: relative;
+    top: -16px;
+  }
+
+  .menuTrigger {
     text-indent: -9999px;
     background: #065116 url('../img/bg-menu-mobile.png') top right no-repeat;
     height: 73px;
@@ -837,21 +846,15 @@ dl.portlet div.listingBar a:link {
     cursor: pointer;
   }
 
-  #portal-column-one.ativo .menuTrigger {
+  #navigation.ativo .menuTrigger {
     background-position: bottom right;
   }
 
-  #portal-column-one {
-    position: relative;
-    top: -16px;
-  }
-
-
-  #portal-column-one .portletWrapper {
+  #navigation #portal-column-one {
     display: none;
   }
 
-  #portal-column-one.ativo .portletWrapper {
+  #navigation.ativo #portal-column-one {
     display: block;
   }
 

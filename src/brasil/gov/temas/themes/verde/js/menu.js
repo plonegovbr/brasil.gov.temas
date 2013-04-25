@@ -1,12 +1,14 @@
 jQuery(document).ready(function($){
-  var menuTrigger = $("<span class='menuTrigger'>MENU</span>");
   if($(window).width() <= 480) {
     $("body").addClass("mobile");
-    $("#portal-column-one").prepend(menuTrigger);
   }
 
-  menuTrigger.click(function(){
-    $(this).parent().toggleClass("ativo");
+  var menuTrigger = $(".menuTrigger");
+  var navigationEl = $("#navigation");
+
+  menuTrigger.click(function(e){
+    e.preventDefault();
+    navigationEl.toggleClass("ativo");
   });
 
   var sectionTrigger = $(".mobile .portletNavigationTree dt a");
