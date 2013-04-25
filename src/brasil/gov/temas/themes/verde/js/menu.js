@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
   var menuTrigger = $("<span class='menuTrigger'>MENU</span>");
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  if($(window).width() <= 480) {
     $("body").addClass("mobile");
     $("#portal-column-one").prepend(menuTrigger);
   }
