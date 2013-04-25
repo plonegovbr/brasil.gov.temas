@@ -946,55 +946,7 @@ dl.portlet div.listingBar a:link {
 	/*Search*/
     #portal-searchbox  {display:none;}
 
-	/*Global navigation*/
-	#nav {padding:0;width:100%;
-	}
 
-	#searchbt {display:block; float:right;width:14%;}
-
-	#searchbt a {
-		display:block;
-		text-indent: -900000px;
-		padding: 1em;
-		margin-top: 4%;
-		background:transparent url(/++theme++beyondskins.cartacapital.portal/src/search-ico.png) no-repeat center center;
-	}
-
-	#nav #seletor {
-		display:block;
-		padding:1em;
-		width:80%;
-		background:url("/++theme++beyondskins.cartacapital.portal/src/sections-ico.png") no-repeat 97% 60%;
-	 }
-
-	#nav li {display: none;}
-
-	#nav:hover li {
-		display: block;
-		width:100%;
-		border-top:1px solid #ffffff;;
-		display:block !Important;
-		padding:0;
-	}
-
-	#nav ul {
-		width:97.5%;
-		margin:0;
-		padding:0;
-	}
-
-	#nav:hover li a {
-		color: #ffffff;;
-		width:100%;
-		padding:0 2.5%;
-		line-height: 3em;
-      display: block;
-      width: 95% !important;
-	}
-
-	#nav:hover li:hover {background: #ff9900;}
-	#nav:hover li a:hover,
-	#nav:hover li.selected a {background: transparent;}
 
 .overlay.overlay-ajax {top: 10px !Important;}
 .overlay.overlay-ajax input.searchPage {
