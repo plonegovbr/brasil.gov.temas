@@ -42,6 +42,15 @@ h1 {
 	border-bottom: none;
 }
 
+
+h1 {
+	color: #172838;
+	font-size: 2em;
+	border-bottom: none;
+}
+
+
+
 h2, h3, h4, h5, h6 {
 	color: #231f20;
 }
@@ -362,6 +371,7 @@ p.section a {
     padding-bottom: 0.4em;
 }
 
+.portaltype-collection #viewlet-social-like,
 .portaltype-collective-nitf-content #viewlet-social-like {
     margin: 0 0 15px 0;
     border-left: 1px dotted #bfc0c2;
@@ -731,12 +741,17 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /**** Collections ****/
 
-.portaltype-collection h1#parent-fieldname-title {
+.portaltype-collection #content-core {margin-top:22px;}
+
+.portaltype-collection h1#parent-fieldname-title,
+.portaltype-collection h1.documentFirstHeading {
      color: #2c67cd;
      font-size: 2.4em;
      font-weight: bold;
      line-height: 1em;
-	  padding-bottom: 5px;
+     padding-bottom: 5px;
+     letter-spacing: 0.001em;
+    text-transform: uppercase;
 }
 
 .portaltype-collection .tileItem {
@@ -748,10 +763,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .portaltype-collection h2.tileHeadline {
     margin-bottom:0;
+    font-size: 1.2em;
+    font-weight: normal;
+    letter-spacing: 0.0001em;
+    text-transform: uppercase;
 }
 
 .portaltype-collection h2.tileHeadline a.summary {
-    color: #162635 !Important;
+    color: #2C67CD !Important;
     font-size: 0.8em;
 }
 
@@ -764,21 +783,39 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	 float: left !important;
 }
 .portaltype-collection #content .tileItem .documentByLine {
-    color: #7a8692;
-    display: block;
-	 width: 15%;
-	 height: 90px;
-	 border-right: 1px dotted #d6d6d6;
-    font-size:1em;
-	 position: absolute;
-	 top: 0;
-	 left: 0;
+    border-right: 1px dotted #D6D6D6;
+    color: #7A8692;
+    display: inline;
+    font-size: 1em;
+    height: 90px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -135px;
+    top: 0;
+    width: 15%;
 }
 
 .portaltype-collection #content .description {
     color:#666666;
 	 font-size: 1.1em;
 }
+
+.portaltype-collection #content .tileBody {
+	margin-bottom: 0;	
+}
+
+.portaltype-collection #content .tileBody .description {
+    color: #000000;
+    font-size: 1.3em;
+}
+
+.portaltype-collection #content .tileFooter a {
+color: #7A8692;
+}
+
+.portaltype-collection #content .tileItem .documentByLine span {display:none;}
+
 
 div.listingBar a:link,
 #content div.listingBar a:link,
