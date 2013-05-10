@@ -840,8 +840,10 @@ dl.portlet div.listingBar a:link {
 .template-search .searchResults dt a {
     color: #172734 !important;
     font-size: 1.3em;
-    padding-left: 7px;
+    padding-left: 26px; 
 }
+
+.template-search .searchResults dt.contenttype-collective-nitf-content a {padding-left: 7px;}
 
 .template-search fieldset#search-field,
 .template-search .searchResults dd .discreet {display:none;}
@@ -867,7 +869,14 @@ dl.portlet div.listingBar a:link {
 
 .template-search #search-results {padding-left: 0;padding-right: 0;}
 
+.template-search .searchResults dd cite {
+    color: #647788;
+    font-size: 0.8em;
+    font-style: normal;
+    padding-top: 10px;
+}
 
+.template-search #content .searchResults dd a {color: #647788;}
 
 /****************** FOOTER ******************/
 
