@@ -322,6 +322,10 @@ div.position-0 {
 
 /* Text styles */
 
+#content-core {
+    clear: both;
+}
+
 .hidden {display: none;}
 
 .clear {clear: both;}
