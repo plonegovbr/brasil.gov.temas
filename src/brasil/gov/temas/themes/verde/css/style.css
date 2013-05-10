@@ -89,7 +89,7 @@ div.position-1\3a 4 {
 	margin-left: -79.875%;
 }
 div.width-3\3a 4 {
-	width: 73.75%;
+	width: 79.75%;
 }
 div.position-3\3a 4 {
 	margin-left: -16.75%;
@@ -547,12 +547,38 @@ dl.portlet dt a:visited {
 
 /* portlet de login */
 #portal-column-two dl.portletLogin {
-	background-color: #072d6c;
+	background: #093a89;
 	color: #fff;
+	border: none;
 }
-dl.portletLogin a,
-dl.portletLogin dt a:link {
+#portal-column-two dl.portletLogin dt {
+	background: url("../img/cadeado.png") 230px 10px no-repeat;
+	border: none;
+	padding: 1em;
+	text-transform: uppercase;
+}
+#portal-column-two dl.portletLogin a:link,
+#portal-column-two dl.portletLogin dt a:link {
+	color: #fff !important;
+}
+
+.portletLogin .field input {
+	width: 97% !important;
+}
+.portletLogin div.formControls {
+	text-align: right;
+}
+.portletLogin div.formControls input {
+	background: #012154;
 	color: #fff;
+	text-transform: uppercase;
+	border: none;
+    font-size: 1em;
+    padding: 0.3em 1em;
+    margin-right: -10px;
+}
+.portletLogin .even {
+	border-top: 1px solid #5c7ba7;
 }
 
 
@@ -735,6 +761,10 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 /****************** COVER *******************/
+
+.portaltype-collective-cover-content #portal-breadcrumbs {
+	display: none;
+}
 
 .portaltype-collective-cover-content #content .row {
     margin-bottom: 20px;
