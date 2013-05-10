@@ -798,7 +798,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .portaltype-collection #content .description {
     color:#666666;
-	 font-size: 1.1em;
+	font-size: 1.1em;
 }
 
 .portaltype-collection #content .tileBody {
@@ -822,6 +822,52 @@ div.listingBar a:link,
 dl.portlet div.listingBar a:link {
     border-bottom:0.1em solid #CCCCCC !Important;
 }
+
+/*Search results*/
+
+.template-search #content h1.documentFirstHeading {
+     color: #2c67cd;
+     font-size: 2.4em;
+     border-bottom:0;
+     font-weight: bold;
+     line-height: 1em;
+     padding-bottom: 0;
+     margin-bottom: 0;
+     letter-spacing: 0.001em;
+     text-transform: uppercase;
+}
+
+.template-search .searchResults dt a {
+    color: #172734 !important;
+    font-size: 1.3em;
+    padding-left: 7px;
+}
+
+.template-search fieldset#search-field,
+.template-search .searchResults dd .discreet {display:none;}
+
+.template-search .searchResults dd div {
+	color: #000000;
+    font-size: 1.3em;
+}
+
+.template-search #search-results-bar  {
+     font-size: 1.2em;
+     padding: 25px 0;
+}
+.template-search #search-results-bar a {color:#000000;}
+
+.template-search .searchResults dt {
+    border-top: 1px solid #D3D3D3;
+    padding-top:15px;
+}
+.template-search .searchResults dt:first-child {
+	border-top: 0;
+}
+
+.template-search #search-results {padding-left: 0;padding-right: 0;}
+
+
 
 /****************** FOOTER ******************/
 
