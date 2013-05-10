@@ -788,6 +788,54 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     margin: 0 0 10px 10px;
 }
 
+/*Tile Header*/
+
+.outstanding-header {border-bottom:1px solid #CCCCCC;margin-bottom: 5px;}
+
+.outstanding-header h2.outstanding-title {
+	color: #2C67CD;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 7px 0;
+    text-transform: uppercase;
+}
+
+.outstanding-header .outstanding-link {  
+    display: block;
+    font-size: 0.7em;
+    padding-right: 30px;
+    margin-right: 10px;
+    margin-top:5px;
+    text-align: right;
+    line-height: 1.5em;
+    padding-top:3px;
+    text-transform: uppercase;
+    width: 150px;
+    background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
+}
+
+
+.roxo .outstanding-header {background:#eeeff1;border-top:4px solid #5b1285;}
+.roxo .outstanding-header h2.outstanding-title {font-size:2em;text-transform: none;font-weight: normal;color:#5b1285;}
+.roxo .outstanding-header .outstanding-link {background: url("../img/readmorepurple.png") no-repeat scroll right 5px transparent;}
+
+
+.verde .outstanding-header {background:#eeeff1;border-top:4px solid #01971c;}
+.verde .outstanding-header h2.outstanding-title {font-size:2em;text-transform: none;font-weight: normal;color:#01971c;}
+.verde .outstanding-header .outstanding-link {background: url("../img/readmoregreen.png") no-repeat scroll right 5px transparent;}
+
+.azul-claro .outstanding-header {background:#eeeff1;border-top:4px solid #018bb9;}
+.azul-claro .outstanding-header h2.outstanding-title {font-size:2em;text-transform: none;font-weight: normal;color:#018bb9;}
+.azul-claro .outstanding-header .outstanding-link {background: url("../img/readmoreblue.png") no-repeat scroll right 5px transparent;}
+
+.laranja .outstanding-header {background:#eeeff1;border-top:4px solid #d25501;}
+.laranja .outstanding-header h2.outstanding-title {font-size:2em;text-transform: none;font-weight: normal;color:#d25501;}
+.laranja .outstanding-header .outstanding-link {background: url("../img/readmoreorange.png") no-repeat scroll right 5px transparent;}
+
+
+.bege .outstanding-header {background:#eeeff1;border-top:4px solid #ad6500;}
+.bege .outstanding-header h2.outstanding-title {font-size:2em;text-transform: none;font-weight: normal;color:#ad6500;}
+.bege .outstanding-header .outstanding-link {background: url("../img/readmorebrown.png") no-repeat scroll right 5px transparent;}
 
 
 /**** Collections ****/
