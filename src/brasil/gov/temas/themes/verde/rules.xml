@@ -29,6 +29,7 @@
         <replace css:content="#logo" css:theme="#logo" />
         <merge attributes="class" css:content="body" css:theme="body" />
         <copy attributes="id dir" css:content="body" css:theme="body" />
+        <prepend css:content="#portal-features" css:theme="#main" />
 	    <copy attributes="role" css:content="content" css:theme="contentspace" />
         <replace css:content="#portal-column-one" css:theme="#portal-column-one" />
         <replace css:content="#portal-column-content" css:theme="#portal-column-content" />
@@ -47,7 +48,8 @@
         <drop css:content=".searchSection" />
         <replace css:content="#portal-searchbox" css:theme="#portal-searchbox" />
         <replace css:content="#portal-servicos li" css:theme-children="#sobre ul" />
-        <replace css:content="#portal-redes li" css:theme-children="#social-icons ul" />        
+        <replace css:content="#portal-redes li" css:theme-children="#social-icons ul" />
+        <replace css:content="#doormat-container" css:theme="#doormat" />
         <replace css:content-children="#portal-footer" css:theme="#footer-info" />
         <after css:content="#portal-languageselector" css:theme="#logo" />
 
