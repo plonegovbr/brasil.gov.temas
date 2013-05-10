@@ -42,15 +42,6 @@ h1 {
 	border-bottom: none;
 }
 
-
-h1 {
-	color: #172838;
-	font-size: 2em;
-	border-bottom: none;
-}
-
-
-
 h2, h3, h4, h5, h6 {
 	color: #231f20;
 }
@@ -881,6 +872,13 @@ dl.portlet div.listingBar a:link {
 }
 
 .template-search #content .searchResults dd a {color: #647788;}
+
+
+/* Forms */
+/* fix some bootstrap mess */
+.label:empty, .badge:empty {
+    display: inline;
+}
 
 /****************** FOOTER ******************/
 
