@@ -317,6 +317,10 @@ div.position-0 {
 
 /****************** CONTENT ******************/
 
+.documentDescription {
+	margin-top: 3em;
+}
+
 /*NITF*/
 
 #content div.newsImageContainer {
@@ -359,13 +363,18 @@ div.position-0 {
 
 #content h1.documentFirstHeading {
     margin: 5px 0;
-	 border-bottom: 1px solid #d7dcd8;
+	border-bottom: 1px solid #d7dcd8;
+	font-size: 3em;
+    color: #1a2a39;
+    text-transform: none;
+    padding-bottom: 0.4em;
 }
 
 h2.nitfSubtitle {
     color: #2c67cd !important;
     margin: 0 !important;
     font-size: 1em;
+    position: absolute;
 }
 
 
@@ -382,27 +391,17 @@ p.section a {color: #2c67cd;}
 
 
 
-.portaltype-collective-nitf-content h1.documentFirstHeading {
-    margin: 5px 0;
-    font-size: 3em;
-    color: #1a2a39;
-    text-transform: none;
-    padding-bottom: 0.4em;
-}
-
 #viewlet-below-content-title {
 	position: relative;
 }
 
-.portaltype-collection #viewlet-social-like,
-.portaltype-collective-nitf-content #viewlet-social-like {
+#viewlet-social-like {
     margin: 0 0 15px 0;
     border-left: 1px dotted #bfc0c2;
     padding: 5px 0 0 20px;
     float: right;
     width: 40%;
     width: 300px;
-    top: -20px;
     right: -30px;
     position: absolute;
 }
@@ -410,7 +409,7 @@ p.section a {color: #2c67cd;}
 .portaltype-collection #viewlet-social-like { top: -6px;}
 
 .nitfByline {
-color: #3b72cf;
+    color: #3b72cf;
 }
 
 #viewlet-social-like iframe {
