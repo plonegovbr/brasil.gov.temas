@@ -42,15 +42,6 @@ h1 {
 	border-bottom: none;
 }
 
-
-h1 {
-	color: #172838;
-	font-size: 2em;
-	border-bottom: none;
-}
-
-
-
 h2, h3, h4, h5, h6 {
 	color: #231f20;
 }
@@ -324,6 +315,7 @@ div.position-0 {
 
 #content div.newsImageContainer {
     float: left;
+    margin: 0px 1em 0.5em 0;
 }
 
 #content div.newsImageContainer p.discreet {
@@ -339,6 +331,7 @@ div.position-0 {
 
 #content-core {
     clear: both;
+    margin-top: 22px;
 }
 
 .hidden {display: none;}
@@ -390,6 +383,10 @@ p.section a {
     padding-bottom: 0.4em;
 }
 
+#viewlet-below-content-title {
+	position: relative;
+}
+
 .portaltype-collection #viewlet-social-like,
 .portaltype-collective-nitf-content #viewlet-social-like {
     margin: 0 0 15px 0;
@@ -397,6 +394,10 @@ p.section a {
     padding: 5px 0 0 20px;
     float: right;
     width: 40%;
+    width: 285px;
+    top: -20px;
+    right: -30px;
+    position: absolute;
 }
 
 .nitfByline {
@@ -761,8 +762,6 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /**** Collections ****/
 
-.portaltype-collection #content-core {margin-top:22px;}
-
 .portaltype-collection h1#parent-fieldname-title,
 .portaltype-collection h1.documentFirstHeading {
      color: #2c67cd;
@@ -897,6 +896,13 @@ dl.portlet div.listingBar a:link {
 }
 
 .template-search #content .searchResults dd a {color: #647788;}
+
+
+/* Forms */
+/* fix some bootstrap mess */
+.label:empty, .badge:empty {
+    display: inline;
+}
 
 /****************** FOOTER ******************/
 
