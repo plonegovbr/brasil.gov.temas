@@ -320,6 +320,21 @@ div.position-0 {
 
 /****************** CONTENT ******************/
 
+/*NITF*/
+
+#content div.newsImageContainer {
+    float: left;
+}
+
+#content div.newsImageContainer p.discreet {
+    background-color: transparent;
+    color: #000000;
+    font-style: italic;
+    font-weight: normal;
+    font-size:1em;
+    top: 0;
+}
+
 /* Text styles */
 
 .hidden {display: none;}
@@ -437,7 +452,8 @@ table.listing tbody th {
 }
 
 /* lista */
-#content-core ul, #content ol  {
+.template-view.portaltype-collective-nitf-content #content-core ul,
+.template-view.portaltype-collective-nitf-content #content ol  {
    list-style-type: disc;
    margin-left: 0;
 	margin-bottom: 2em;
@@ -447,12 +463,12 @@ table.listing tbody th {
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
 }
-#content-core li {
+.template-view.portaltype-collective-nitf-content  #content-core li {
    border-bottom: 1px dotted #d5d5d5;
    padding: 1em;
 	list-style-position: inside !important;
 }
-#content-core ol li {
+.template-view.portaltype-collective-nitf-content  #content-core ol li {
 	list-style-type: decimal !important;
 }
 
