@@ -859,18 +859,13 @@ dl.portlet div.listingBar a:link {
 .template-search .searchResults dt a {
     color: #172734 !important;
     font-size: 1.3em;
-    padding-left: 26px; 
+    padding-left: 23px; 
 }
 
 .template-search .searchResults dt.contenttype-collective-nitf-content a {padding-left: 7px;}
 
 .template-search fieldset#search-field,
 .template-search .searchResults dd .discreet {display:none;}
-
-.template-search .searchResults dd div {
-	color: #000000;
-    font-size: 1.3em;
-}
 
 .template-search #search-results-bar  {
      font-size: 1.2em;
@@ -897,6 +892,94 @@ dl.portlet div.listingBar a:link {
 
 .template-search #content .searchResults dd a {color: #647788;}
 
+.template-search .optionsToggle {
+    background-color: transparent;
+    border: transparent;
+    }
+
+
+#search-results {width:66.5% !Important;}
+
+#search-results-bar {
+    border-bottom: 0 none !important;
+    border-top: 0 none !important;
+    margin-top:25px;
+    background:#fff;
+    font-size: 0.9em;
+    padding:0 !Important;
+    width:317px !Important;position:absolute !Important;right:0;border-top:0 !Important;border-bottom:0!Important;}
+
+#search-results-bar>span:first-child {
+  background: #fff;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 2px 0 0 20px;
+    width: 90%;
+}
+
+#search-filter .field {
+   padding: 1em 0 !Important;
+}
+
+#search-filter .field div {
+    width: 100%;
+}
+
+#search-filter .field,
+#search-filter {background:transparent !Important;}
+  
+#search-filter .field input {margin-right: 8px;}
+       
+#search-results-bar dd.actionMenuContent {display:block;}
+
+.template-search #search-results-bar dl {width: 97%;    margin-left:20px !important;}
+
+.template-search #rss-subscription,
+.template-search .actionMenuHeader {display:none;}
+
+#search-results-wrapper {min-height:600px;}
+
+.optionsToggle {
+    background-color: transparent;
+    font-size: 100%;
+    border: medium none transparent;}
+
+#searchResultsSort>span:first-child,
+#content #search-filter legend {
+    font-size: 1.25em !Important;
+    padding-right:0 !Important;
+    padding-left:0 !Important;
+    padding-bottom:5px !important;
+    background: transparent !Important;
+    border-bottom: 1px solid #D3D3D3;
+    font-weight: normal !Important;
+    width: 88%;
+    text-transform:none !Important;
+}
+
+#searchResultsSort>span:first-child {display:block;margin-bottom: 20px;}
+
+#searchResultsSort {
+   padding: 0 20px 20px 20px;
+   float:left;
+   width: 98%;
+}
+
+.template-search #content .cell {
+	width:96% !Important; 
+	border-bottom: 1px solid #D3D3D3; 
+    padding-bottom:20px;}
+
+.template-search #search-term {font-weight:bold !Important;}
+
+#content #sorting-options>span {display:none;}
+#content #sorting-options a {border-bottom:0;text-transform:capitalize;line-height:1.6em;display:block;color:#000;}
+
+.template-search .searchResults dd div {
+	color: #000000;
+    font-size: 1.3em;
+}
 
 /* Forms */
 /* fix some bootstrap mess */
