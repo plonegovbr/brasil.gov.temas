@@ -315,6 +315,7 @@ div.position-0 {
 
 #content div.newsImageContainer {
     float: left;
+    margin: 0px 1em 0.5em 0;
 }
 
 #content div.newsImageContainer p.discreet {
