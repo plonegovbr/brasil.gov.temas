@@ -412,6 +412,7 @@ p.section a {color: #2c67cd;}
     color: #3b72cf;
 }
 
+
 #viewlet-social-like iframe {
 	width: 120px;
 	margin-left: -20px;
@@ -543,6 +544,17 @@ dl.portlet dt a:link,
 dl.portlet dt a:visited {
 	 color: #464a55 !important;
 }
+
+/* portlet de login */
+#portal-column-two dl.portletLogin {
+	background-color: #072d6c;
+	color: #fff;
+}
+dl.portletLogin a,
+dl.portletLogin dt a:link {
+	color: #fff;
+}
+
 
 /* portlet com data */
 .portletNews .portletItem,
@@ -1067,6 +1079,31 @@ dl.portlet div.listingBar a:link {
 
 /****************** FOOTER ******************/
 
+#doormat-container {
+	background: #034811;
+	float: none;
+}
+#doormat-container dl {
+	margin: 0;
+}
+#doormat-container .doormatColumn {
+    text-align: left;
+    border-left: 1px dotted #7dc48a;
+}
+
+#doormat-container dt {
+    font-weight: bold;
+    font-size: 2em;
+    color: #7dc48a;
+    padding-left: 12px;
+}
+#doormat-container dd {
+	padding: 0.5em 12px 1em 12px;
+}
+#doormat-container dd a {
+	font-size: 1.3em;
+}
+
 #footer {
 	background: #034811;
 	padding: 20px 0;
@@ -1079,7 +1116,8 @@ dl.portlet div.listingBar a:link {
 }
 #footer>div {
 	max-width: 1060px;
-	margin: 0 auto;
+	margin: 2em auto;
+	padding-top: 1em;
 	text-align: right;
 }
 #footer img {
