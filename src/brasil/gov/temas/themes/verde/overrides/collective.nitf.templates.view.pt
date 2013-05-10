@@ -33,7 +33,7 @@
     <tal:content-core metal:define-macro="content-core">
         <div class="newsImageContainer" tal:define="image view/getImage" tal:condition="image">
             <a href="#mediabox" id="parent-fieldname-image">
-               <img tal:replace="structure python: image.tag(scale='mini', css_class='newsImage nitf')" src="" alt="" />
+               <img tal:replace="structure python: image.tag(scale='preview', css_class='newsImage nitf')" src="" alt="" />
             </a>
             <p class="discreet" tal:condition="view/imageCaption|nothing"
                tal:content="view/imageCaption">

@@ -330,6 +330,7 @@ div.position-0 {
 
 #content-core {
     clear: both;
+    margin-top: 22px;
 }
 
 .hidden {display: none;}
@@ -381,6 +382,10 @@ p.section a {
     padding-bottom: 0.4em;
 }
 
+#viewlet-below-content-title {
+	position: relative;
+}
+
 .portaltype-collection #viewlet-social-like,
 .portaltype-collective-nitf-content #viewlet-social-like {
     margin: 0 0 15px 0;
@@ -388,6 +393,10 @@ p.section a {
     padding: 5px 0 0 20px;
     float: right;
     width: 40%;
+    width: 285px;
+    top: -20px;
+    right: -30px;
+    position: absolute;
 }
 
 .nitfByline {
@@ -751,8 +760,6 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 
 /**** Collections ****/
-
-.portaltype-collection #content-core {margin-top:22px;}
 
 .portaltype-collection h1#parent-fieldname-title,
 .portaltype-collection h1.documentFirstHeading {
