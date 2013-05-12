@@ -621,7 +621,11 @@ dl.portlet dt a:visited {
 }
 
 
-
+/* eventos */
+.portletEvents .portletItem a.tile {
+	font-size: 1.2em;
+	margin-left: 9px;
+}
 
 /* navigation */
 .portletNavigationTree .portletHeader {
@@ -852,7 +856,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     line-height: 1.5em;
     padding-top:3px;
     text-transform: uppercase;
-    width: 150px;
+    width: 145px;
+    min-height: 30px;
     background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 }
 
@@ -1155,23 +1160,59 @@ dl.portlet div.listingBar a:link {
 	margin-right: 3em;
 }
 
+/* Contraste */
+body.contraste,
+body.contraste #header,
+body.contraste #sobre,
+body.contraste #footer,
+body.contraste #main,
+body.contraste #doormat-container {
+	background: #000 !important;
+	color: #fff !important;
+}
+
+body.contraste #accessibility span { 
+    background: #fff !important;
+    color: #000 !important;
+}
+
+body.contraste a,
+body.contraste h1,
+body.contraste h2,
+body.contraste h3,
+body.contraste h4,
+body.contraste h5,
+body.contraste h6,
+body.contraste #plone-document-byline,
+body.contraste #doormat-container dt {
+	color: #fff !important;
+}
+body.contraste .portletHeader,
+body.contraste .portletHeader a,
+body.contraste dl.portlet dt a:visited,
+body.contraste #doormat-container .doormatColumn {
+	color: #fff !important;
+	background: #000 !important;
+	border-color: #fff !important;
+}
 
 /****************** RESPONSIVE DESIGN MAGIC ******************/
 
-
-/*
- * Formatação do menu para versão mobile
- * Author: Igor Prado
- */
 
 .menuTrigger {
   display: none;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* celular  */
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
   #main {
     max-width: 100% !important;
   }
+
+  #portal-breadcrumbs, #accessibility, #portal-siteactions, #barra-brasil, #doormat-container {
+		display: none !important;
+	}
 
   #portal-column-content {
     -moz-box-sizing: border-box;
@@ -1309,10 +1350,6 @@ dl.portlet div.listingBar a:link {
 
 @media screen and (max-width: 480px) {
 
-	#portal-breadcrumbs, #accessibility, #portal-siteactions, #em-destaque {
-		display: none !important;
-	}
-	
 	#header {
 		padding: 1em 0.5em;
 	}
