@@ -70,7 +70,7 @@ p {
 	background:#fff;
 	font-size: 1.3em;
 	padding: 1em 0;
-	max-width: 1060px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -115,9 +115,10 @@ div.position-0 {
 }
 
 #header>div {
-	max-width: 1060px;
+	max-width: 960px;
 	margin: 0 auto;
 }
+
 
 #brasilgov {
 	background: #00510f;
@@ -259,8 +260,9 @@ div.position-0 {
 	background: #095316;
 	padding: 5px 0;
 }
+
 #sobre ul {
-	max-width: 1060px;
+	max-width: 960px;
 	margin: 0 auto;
 	text-align: right;
 }
@@ -1149,8 +1151,9 @@ dl.portlet div.listingBar a:link {
 #footer a {
 	color: #fff;
 }
+
 #footer>div {
-	max-width: 1060px;
+	max-width: 960px;
 	margin: 2em auto;
 	padding-top: 1em;
 	text-align: right;
