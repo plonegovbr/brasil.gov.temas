@@ -37,6 +37,9 @@
         <replace css:content="#portal-column-two" css:theme="#portal-column-two" />
         <replace css:content="#doormat-container" css:theme="#doormat"  />
 
+        <!-- Portlets -->
+        <strip css:content=".portletNavigationTree .portletHeader a.tile" />
+
         <!--NITF -->
         <drop css:content=".portaltype-collective-nitf-content #viewlet-below-content-title #plone-document-byline" />
 
