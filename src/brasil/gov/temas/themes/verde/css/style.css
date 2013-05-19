@@ -271,8 +271,12 @@ div.position-0 {
 }
 
 #sobre .portalservicos-item a {
-   padding: 0 10px;
-   border-right: 1px solid #fff;	
+	padding: 0 10px;
+	border-right: 1px solid #fff;	
+}
+#sobre .last-item a {
+	padding: 0 0 0 10px;
+	border-right: none;
 }
 
 /* Searchbox */
@@ -519,6 +523,10 @@ table.listing tbody th {
     background: #2c67cd;
 }
 /* portlets */
+dl.portlet {
+	margin-bottom: 2em;
+}
+
 #portal-column-one dl.portlet {
     border: none;
 }
@@ -630,6 +638,7 @@ dl.portlet dt a:visited {
 }
 
 /* navigation */
+
 .portletNavigationTree .portletHeader {
 	border-top: 4px solid #00510f;
 	background: #eeefff;
@@ -654,6 +663,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-bottom: none;
 	padding: 0 !important;
 	margin: 0;
+}
+dl.portlet ul.navTreeLevel0 > .last-item {
+	border-bottom: 1px solid #ddd;
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
@@ -1156,11 +1168,13 @@ dl.portlet div.listingBar a:link {
 	max-width: 960px;
 	margin: 2em auto;
 	padding-top: 1em;
-	text-align: right;
 }
-#footer img {
-	float: left;
-	margin-right: 3em;
+#footer .logo-brasil img {
+	float: right;
+}
+#extra-footer p {
+	max-width: 960px;
+	margin: 1em auto;
 }
 
 /* Contraste */

@@ -19,5 +19,5 @@ jQuery(document).ready(function($){
     e.preventDefault();
     $(this).parent().parent().toggleClass("ativo");
   });
-
+$("ul li:last-child").addClass("last-item");
 });

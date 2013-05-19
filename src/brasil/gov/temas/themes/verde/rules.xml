@@ -26,6 +26,7 @@
         <drop css:theme="head link#plone-css" />
 
         <!--Content -->
+        <copy attributes="href" css:content="#portal-advanced-search a" css:theme="#link-busca" />
         <replace css:content="#logo" css:theme="#logo" />
         <merge attributes="class" css:content="body" css:theme="body" />
         <copy attributes="id dir" css:content="body" css:theme="body" />
