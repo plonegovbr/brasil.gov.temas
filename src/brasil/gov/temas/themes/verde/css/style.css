@@ -287,28 +287,26 @@ div.position-0 {
     font-size: 80%;
     margin: 2em 0 1.2em 0;
     text-align: right;
-    width: 25%;
+    border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 1px solid #CCCCCC;
+	background: #fff;
+	padding: 2px;
 }
 
 #portal-searchbox .searchField {
-	border-radius: 5px 0px 0px 5px; 
-	-moz-border-radius: 5px 0px 0px 5px; 
-	-webkit-border-radius: 5px 0px 0px 5px; 
-	border: 1px solid #CCCCCC;
 	padding: 0.35em;
 	border-right: none;
+	border:	none;
 }
 
 #searchGadget, #header input.searchButton {
-    border-radius: 0px 5px 5px 0px; 
-	-moz-border-radius: 0px 5px 5px 0px; 
-	-webkit-border-radius: 0px 5px 5px 0px; 
-	border: 1px solid #CCCCCC;
 	padding: 0.3em;
-	background: #fff;
+	background: transparent;
 	text-indent: -2000px;
-   padding: 4px 15px;
-	border-left: none;
+	padding: 4px 15px;
+	border: none;
 }
 
 #header input.searchButton {
