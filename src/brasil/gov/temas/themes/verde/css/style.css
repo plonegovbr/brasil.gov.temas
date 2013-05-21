@@ -167,10 +167,10 @@ div.position-0 {
 	font-weight: 900;
 }
 #logo #portal-description {
-	font-size: 1.4em;
-	text-transform: uppercase;
+    font-size: 1.2em;
+    margin: -1em 0 0 0;
+    text-transform: uppercase;
 }
-
 
 /* Personal tools */
 #portal-personaltools {
@@ -807,6 +807,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .tile {
 	margin-bottom: 1em;
+	clear: both;
 }
 
 .tile a {
@@ -843,6 +844,18 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     font-weight: normal;
     margin-bottom: 3px !Important;
     text-transform: uppercase;
+}
+
+/* lista horizontal */
+.lista-horizontal {
+	background: #ccc !important;
+}
+
+.width-16 .lista-horizontal .collection-item {
+	width: 29%;
+	padding: 0 2%;
+	float: left;
+	background: #ccc;
 }
 
 /*Cores Section*/
@@ -1230,7 +1243,8 @@ body.contraste #footer,
 body.contraste #main,
 body.contraste #doormat-container,
 body.contraste #em-destaque ul,
-body.contraste #em-destaque li#em-destaque-titulo {
+body.contraste #em-destaque li#em-destaque-titulo,
+body.contraste .outstanding-header .outstanding-title {
 	background: #000 !important;
 	color: #fff !important;
 }
