@@ -527,6 +527,15 @@ table.listing tbody th {
 #category a.link-category:hover {
     background: #2c67cd;
 }
+
+
+/* embedder fix */
+#alt_cont a {
+    cursor: pointer;
+}
+
+
+
 /* portlets */
 dl.portlet {
 	margin-bottom: 2em;
@@ -855,7 +864,11 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /*Tile Header*/
 
-.outstanding-header {border-bottom:1px solid #CCCCCC;margin-bottom: 5px;}
+.outstanding-header {
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+	min-height: 40px;
+}
 
 .outstanding-header h2.outstanding-title {
 	color: #2C67CD;
@@ -1133,6 +1146,15 @@ dl.portlet div.listingBar a:link {
 
 /****************** FOOTER ******************/
 
+#voltar-topo {
+	text-align: right;
+}
+#voltar-topo a {
+	color: #777;
+	padding-left: 20px;
+	background: url("../img/voltar-topo.png") no-repeat left center;
+	font-size: 0.9em;
+}
 #doormat-container {
 	background: #034811;
 	float: none;
