@@ -1228,7 +1228,9 @@ body.contraste #header,
 body.contraste #sobre,
 body.contraste #footer,
 body.contraste #main,
-body.contraste #doormat-container {
+body.contraste #doormat-container,
+body.contraste #em-destaque ul,
+body.contraste #em-destaque li#em-destaque-titulo {
 	background: #000 !important;
 	color: #fff !important;
 }
@@ -1246,7 +1248,11 @@ body.contraste h4,
 body.contraste h5,
 body.contraste h6,
 body.contraste #plone-document-byline,
-body.contraste #doormat-container dt {
+body.contraste #doormat-container dt,
+body.contraste #content .documentDescription, 
+body.contraste #content #description,
+body.contraste .nitfByline,
+body.contraste p.section {
 	color: #fff !important;
 }
 body.contraste .portletHeader,
