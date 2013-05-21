@@ -8,6 +8,7 @@
 
 <body>
 
+
 <metal:content-core fill-slot="content-core">
 <metal:block use-macro="context/standard_view/macros/content-core">
 
@@ -15,8 +16,11 @@
     <metal:block use-macro="context/standard_view/macros/entries">
     <metal:entry fill-slot="entry">
 
-        <div class="tileItem visualIEFloatFix"
-             tal:define="obj item/getObject">
+
+      <div tal:define="normalizeString nocall:context/@@plone/normalizeString;
+                         itemclass item/portal_type">
+         <div tal:attributes="class python:'tileItem visualIEFloatFix tile-%s' %(normalizeString(itemclass))"
+              tal:define="obj item/getObject">
             <a href="#"
                   tal:condition="obj/getImage|nothing"
                   tal:attributes="href item/getURL">
@@ -36,7 +40,7 @@
                    tal:content="item/Title">
                     Item Title
                 </a>
-            </h2>
+            </h2> bla bla bla
 
 
 
@@ -44,7 +48,7 @@
          <div id="plone-document-byline" class="documentByLine">  
 
 
-     <span class="documentCreation">
+             <span class="documentCreation">
                 <span tal:define="efDate item/EffectiveDate;
                                   effective python:context.toLocalizedTime(efDate)"
                       tal:replace="string:$effective"> 08/19/2001 
@@ -53,22 +57,12 @@
 
       
 
-       <!-- Nome e email do Autor -->
+              <!-- Nome e email do Autor -->
 
               <span class="documentAuthor" tal:condition="item/Creator|nothing"> &mdash; Por
                 <span tal:content="item/byline|item/Creator">Autor</span> 
               </span>
-</div>
-
-        
-
-
-
-
-
-
-
-
+          </div>
 
            
             <p class="tileBody" tal:condition="item_description">
@@ -77,15 +71,13 @@
                 </span>
             </p>
 
-    
 
-           
 
             <div class="visualClear"><!-- --></div>
         </div>
 
 
-
+    </div>
 
     </metal:entry>
     </metal:block>
