@@ -805,6 +805,10 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /* Tiles */
 
+.tile {
+	margin-bottom: 1em;
+}
+
 .tile a {
     color: #162937 !important;
 }
@@ -848,6 +852,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .azul-claro .tile-subtitle {color: #8fd9e4;}
 .laranja .tile-subtitle {color: #e07f48;}
 .bege .tile-subtitle {color: #ab6600;}
+
+.roxo-borda,
+.verde-borda,
+.azul-claro-borda,
+.laranja-borda,
+.bege-borda {border-bottom: 1px solid #ccc; padding-bottom: 0.8em;}
 
 .tile p {
     line-height: 1.4em;
