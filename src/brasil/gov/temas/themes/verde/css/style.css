@@ -870,11 +870,17 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .laranja .tile-subtitle {color: #e07f48;}
 .bege .tile-subtitle {color: #ab6600;}
 
+/* destaques com borda cinza*/
 .roxo-borda,
 .verde-borda,
 .azul-claro-borda,
 .laranja-borda,
 .bege-borda {border-bottom: 1px solid #ccc; padding-bottom: 0.8em;}
+.roxo-borda .tile-subtitle {color: #5c1285;}
+.verde-borda .tile-subtitle {color: #01971c;}
+.azul-claro-borda .tile-subtitle {color: #8fd9e4;}
+.laranja-borda .tile-subtitle {color: #e07f48;}
+.bege-borda .tile-subtitle {color: #ab6600;}
 
 .tile p {
     line-height: 1.4em;
