@@ -36,6 +36,10 @@ a:visited, #content a:visited, dl.portlet a:visited {
 	color: #000 !important;
 }
 
+a:focus {
+    outline: 2px solid #f1ca7f;
+}
+
 h1 {
 	color: #172838;
 	font-size: 2em;
