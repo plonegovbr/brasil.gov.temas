@@ -21,3 +21,6 @@ jQuery(document).ready(function($){
   });
 $("ul li:last-child").addClass("last-item");
 });
+$('#link-buscar').click(function() {
+    $('.searchField').focus();
+});

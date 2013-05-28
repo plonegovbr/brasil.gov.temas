@@ -285,6 +285,11 @@ div.position-0 {
 
 /* Searchbox */
 
+
+input.searchField {
+    -moz-appearance: none;
+}
+
 #portal-searchbox {
     clear: right !important;
     float: right;
