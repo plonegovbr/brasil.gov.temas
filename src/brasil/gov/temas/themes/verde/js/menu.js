@@ -24,3 +24,4 @@ $("ul li:last-child").addClass("last-item");
 $('#link-buscar').click(function() {
     $('.searchField').focus();
 });
+$("#portal-column-one div:first-child").addClass("first-item");

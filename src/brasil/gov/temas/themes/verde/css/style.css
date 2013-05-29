@@ -358,7 +358,7 @@ input.searchField {
 
 #content-core {
     clear: both;
-    margin-top: 22px;
+    margin-top: 40px;
 }
 
 .hidden {display: none;}
@@ -548,6 +548,10 @@ table.listing tbody th {
 /* portlets */
 dl.portlet {
 	margin-bottom: 2em;
+}
+
+dl.portlet dt.hiddenStructure {
+    display: none;
 }
 
 #portal-column-one dl.portlet {
@@ -747,7 +751,11 @@ dl.portlet ul.navTreeLevel4 li a {padding: 0.2em 3.5em !important;}
 dl.portlet ul.navTreeLevel5 li a {padding: 0.2em 4em !important;}
 dl.portlet ul.navTreeLevel6 li a {padding: 0.2em 4.5em !important;}
 
-
+.first-item dl.portlet ul.navTree li a {
+	padding: 0.2em 0 !important;
+	color: #2c67cd !important;
+	font-size: 110%;
+}
 
 
 .portlet img, #content img {
