@@ -913,6 +913,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .outstanding-header {
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
+	position: relative;
 }
 
 .outstanding-header .outstanding-title {
@@ -943,6 +944,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     width: 145px;
     min-height: 30px;
     background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
+    position: absolute;
+	right: 0;
+	top: 0;
 }
 
 
