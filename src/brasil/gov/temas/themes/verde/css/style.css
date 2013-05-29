@@ -978,21 +978,21 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .template-folder_summary_view h1#parent-fieldname-title,
 .template-folder_summary_view h1.documentFirstHeading
  {
-     color: #2c67cd;
-     font-size: 2.4em;
-     font-weight: bold;
-     line-height: 1em;
-     padding-bottom: 5px;
-     letter-spacing: 0.001em;
+    color: #2c67cd;
+    font-size: 2.4em;
+    font-weight: bold;
+    line-height: 1em;
+    padding-bottom: 5px;
+    letter-spacing: 0.001em;
     text-transform: uppercase;
 }
 
 .template-summary_view .tileItem,
 .template-folder_summary_view .tileItem {
     border-bottom: 1px solid #D3D3D3;
-	 position: relative;
-	 padding-left: 18%;
-	 min-height: 120px;
+	position: relative;
+	padding-left: 18%;
+	min-height: 120px;
 }
 
 .template-summary_view h2.tileHeadline,
@@ -1030,9 +1030,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     left: 0;
     overflow: hidden;
     position: absolute;
+    padding-top: 30px;
     text-indent: -135px;
     top: 0;
-    width: 15%;
+    width: 9%;
+    padding-right: 5px;
+    text-align: center;
 }
 
 .template-summary_view #content .description,
@@ -1065,6 +1068,17 @@ div.listingBar a:link,
 #content div.listingBar a:link,
 dl.portlet div.listingBar a:link {
     border-bottom:0.1em solid #CCCCCC !Important;
+}
+
+/* sprite de icones */
+.tileItem .documentByLine {
+	background: url(sprite.png) no-repeat -98px -70px;  /* generico, sem icone especifico */
+}
+.tile-sc-embedder .documentByLine {
+	background: url(../img/sprite.png) no-repeat 20px -70px;
+}
+.tile-collective-nitf-content .documentByLine {
+	background: url(../img/sprite.png) no-repeat -44px -70px;
 }
 
 /*Search results*/
