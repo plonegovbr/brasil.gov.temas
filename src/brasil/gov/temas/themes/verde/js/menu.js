@@ -21,7 +21,9 @@ jQuery(document).ready(function($){
   });
 $("ul li:last-child").addClass("last-item");
 });
-$('#link-buscar').click(function() {
+$('#link-buscar').click(function(e) {
+    e.preventDefault();
+    window.location.hash = '#portal-searchbox';
     $('.searchField').focus();
 });
 $("#portal-column-one div:first-child").addClass("first-item");
