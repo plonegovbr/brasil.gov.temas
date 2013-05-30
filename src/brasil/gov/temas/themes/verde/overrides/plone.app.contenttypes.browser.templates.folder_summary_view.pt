@@ -51,7 +51,7 @@
                    tal:attributes="href string:${portal_url}/@@search?Subject:list=${tag}"
                    class="link-category" rel="tag">Berlim</a>
               </span>
-            </div>
+            </div>        
             <!-- Byline-->
                         <span class="documentByLine">
                             <span tal:condition="python: item_type == 'Event' and item_sametime"
