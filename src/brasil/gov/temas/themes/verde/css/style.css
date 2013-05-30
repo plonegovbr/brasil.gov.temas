@@ -106,7 +106,7 @@ div.position-0 {
 /****************** cabecalho ******************/
 #header {
 	padding: 15px 0 0 0;
-	background-color: #006600;
+	background-color: #0f7424;
 	background-color: #19882c; /* Old browsers */
 	background-image: -moz-radial-gradient(center, ellipse cover,  #19882c 1%, #025310 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%,#025310)); /* Chrome,Safari4+ */
@@ -139,7 +139,7 @@ div.position-0 {
 }
 
 #accessibility a {
-	color: #dbffe5;
+	color: #dcffe3;
 	margin-right: 8px;
 }
 
@@ -261,7 +261,7 @@ div.position-0 {
 	clear: both;
 	max-width: 100% !important;
 	margin: 0;
-	background: #095316;
+	background: #0A5517;
 	padding: 5px 0;
 }
 
