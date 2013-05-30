@@ -1089,7 +1089,7 @@ dl.portlet div.listingBar a:link {
 
 /* sprite de icones */
 .tileItem .documentByLine {
-	background: url(sprite.png) no-repeat -98px -70px;  /* generico, sem icone especifico */
+	background: url(../img/sprite.png) no-repeat -98px -70px;  /* generico, sem icone especifico */
 }
 .tile-sc-embedder .documentByLine {
 	background: url(../img/sprite.png) no-repeat 20px -70px;
