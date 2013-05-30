@@ -1120,9 +1120,6 @@ dl.portlet div.listingBar a:link {
 
 .template-search .searchResults dt.contenttype-collective-nitf-content a {padding-left: 7px;}
 
-.template-search fieldset#search-field,
-.template-search .searchResults dd .discreet {display:none;}
-
 .template-search #search-results-bar  {
      font-size: 1.2em;
      padding: 25px 0;
