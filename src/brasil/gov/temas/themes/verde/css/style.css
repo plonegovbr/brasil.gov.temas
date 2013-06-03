@@ -726,6 +726,13 @@ a.navTreeItemInPath, a.navTreeCurrentNode {
 	background: transparent url("../img/menu-ativo.gif") no-repeat !important;
 	font-weight: bold;
 }
+/* Apenas para o primeiro menu */
+.first-item a.navTreeItemInPath, .first-item a.navTreeCurrentNode {
+	background-image: none !important;
+}
+.first-item .portletNavigationTree .portletHeader {
+	display: none;
+}
 
 ul.navTreeLevel0 li a.navTreeItemInPath,
 ul.navTreeLevel0 li a.navTreeCurrentNode {background-position: 8px 12px !important;}
@@ -1256,11 +1263,11 @@ dl.portlet div.listingBar a:link {
 	float: none;
 }
 #doormat-container dl {
-	margin: 0;
+	margin: 0 0 20px 0;
+	border-left: 1px dotted #7dc48a;
 }
 #doormat-container .doormatColumn {
     text-align: left;
-    border-left: 1px dotted #7dc48a;
 }
 
 #doormat-container dt {
