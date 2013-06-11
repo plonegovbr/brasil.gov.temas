@@ -5,6 +5,7 @@
 /* reset */
 * {margin:0; padding:0; list-style:none; vertical-align:baseline;}
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
 
 /****************** Estilos basicos ******************/
 
@@ -101,6 +102,9 @@ div.position-3\3a 4 {
 div.position-0 {
 	margin-left: -99.875%;
 }
+div.width-16 {
+    width: 100%;
+}
 
 
 /****************** cabecalho ******************/
@@ -151,7 +155,7 @@ div.position-0 {
 
 /* logo */
 #logo {
-	padding: 10px 0 20px 0;
+	padding: 0;
 	float: left;
     width: 70%;
 }
@@ -161,14 +165,15 @@ div.position-0 {
 }
 
 #logo a {
-   display:block;
+	display:block;
 	width:100%;
 	color: #fff !important;
+	margin: 1em 0px;
 }
 
 #logo #portal-title {
 	font-size: 4em;
-	font-weight: 900;
+	font-weight: 800;
 }
 #logo #portal-description {
     font-size: 1.2em;
@@ -329,6 +334,10 @@ input.searchField {
 
 
 /****************** CONTENT ******************/
+
+#content {
+	margin: 0;
+}
 
 #content .field {
 	position: relative;
@@ -671,7 +680,7 @@ dl.portlet dt a:visited {
 	background: #eeefff;
 	border-bottom: none;
 	color: #00510f;
-	padding: 8px 8px 24px 20px;
+	padding: 8px 8px 24px 10px;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -799,11 +808,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 #em-destaque li {
 	display: table-cell;
-	padding:  0.5em 1em;
+	padding:  0.45em 1em;
 	text-align: center;
 	text-transform: uppercase;
 	border-right: 1px solid #d2d2d2;
 	font-size: 0.8em !important;
+}
+#em-destaque li.last-item {
+	border-right: none !important;
 }
 #em-destaque a {
 	color: #2C5496;
@@ -840,14 +852,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     color: #162937 !important;
 }
 .tile h1 {
-	 border-bottom: none;
-    margin: 0;
-    font-size: 3em;
-    text-transform: none;
+	border-bottom: none;
+	font-size: 2.8em;
+	line-height: 1.1em;
+	margin: 0 0 10px 0;
+	text-transform: none;
 }
 .tile h2 {
-    font-size: 1.3em;
-    line-height: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+	line-height: 1.2em;
     margin: 0;
     margin-bottom:0;
 }
@@ -866,9 +880,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .tile-subtitle {
     color: #2C67CD;
-    font-family: Arial, sans-serif;
     font-weight: normal;
-    margin-bottom: 3px !Important;
+    margin-bottom: 3px !important;
     text-transform: uppercase;
 }
 
@@ -945,7 +958,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     padding: 7px 0;
     margin-left: 0 !important;
     padding-left: 0.3em;
-    border-top: 3px solid #172838;
+    border-top: 4px solid #172838;
     border-bottom: 1px solid #CCCCCC;
 }
 .outstanding-header h1 {font-size: 1.7em; text-transform: uppercase; font-weight: bold;}
