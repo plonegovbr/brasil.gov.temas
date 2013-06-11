@@ -19,7 +19,6 @@
                value=""
                title="Search Site"
                placeholder="Search Site"
-               accesskey="3"
                i18n:attributes="title title_search_site;
                                 placeholder title_search_site"
                tal:attributes="value request/form/SearchableText|nothing;
