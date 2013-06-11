@@ -787,6 +787,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 /* em destaque */
+
 #em-destaque ul {
 	display: table;
 	background: #e8e7e7;
@@ -808,19 +809,20 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #2C5496;
 }
 #em-destaque li#em-destaque-titulo {
-	background: #6f7681 url(../img/em-destaque.png) right center no-repeat;
+	background: #6f7681 url("../img/em-destaque.png") right center no-repeat;
 	color: #fff;
 	border-right: none;
 	border-radius: 5px 0 0 5px; 
 	-moz-border-radius: 5px 0 0 5px; 
 	-webkit-border-radius: 5px 0 0 5px; 
 }
+#portal-features {
+	text-align: right;
+    font-size: 80%;
+}
+
 
 /****************** COVER *******************/
-
-.portaltype-collective-cover-content #portal-breadcrumbs {
-	display: none;
-}
 
 .portaltype-collective-cover-content #content .row {
     margin-bottom: 20px;
@@ -1573,4 +1575,24 @@ div.listingBar {
 
 ul.formTabs{
 	padding:0px !important;
+}
+
+/* CSS de impressao */
+
+@media print { 
+ #header, 
+ #footer,
+ #em-destaque,
+ #viewlet-social-like,
+ #voltar-topo,
+ #portal-features { 
+ 	display: none !important; 
+ } 
+ .cell {
+ 	width: 100%;
+ 	margin: 0 !important;
+ }
+ * {
+ 	position: relative !important;
+ }
 }
