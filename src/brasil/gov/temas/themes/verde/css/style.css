@@ -944,6 +944,29 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     margin: 0 0 10px 10px;
 }
 
+/* collection tile */
+.tile-title {
+	background: #eeeff1;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding: 7px 0.3em;
+    border-top: 4px solid #172838;
+    border-bottom: 1px solid #ccc;
+}
+.collection-item h1,
+.collection-item h2,
+.collection-item h3,
+.collection-item h4 {
+	margin-bottom: 0.5em;
+}
+.roxo .tile-title {border-top:4px solid #5b1285; color: #5b1285;}
+.verde .tile-title {border-top:4px solid #01971c; color: #01971c;}
+.azul-claro .tile-title {border-top:4px solid #018bb9; color: #018bb9;}
+.laranja .tile-title {border-top:4px solid #d25501; color: #d25501;}
+.bege .tile-title {border-top:4px solid #ad6500; color: #ad6500;}
+
+
 /*Tile Header*/
 
 .outstanding-header {
@@ -986,27 +1009,27 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 
-.roxo .outstanding-header {background:#eeeff1;border-top:3px solid #5b1285;}
+.roxo .outstanding-header {background:#eeeff1;border-top:4px solid #5b1285;}
 .roxo .outstanding-header .outstanding-title {border-color: #5b1285;color:#5b1285; background:#eeeff1; border-bottom: none;}
 .roxo .outstanding-header .outstanding-link {background: url("../img/readmorepurple.png") no-repeat scroll right 5px transparent;}
 
 
-.verde .outstanding-header {background:#eeeff1;border-top:3px solid #01971c;}
+.verde .outstanding-header {background:#eeeff1;border-top:4px solid #01971c;}
 .verde .outstanding-header .outstanding-title {border-color:#01971c; color:#01971c; background:#eeeff1; border-bottom: none;}
 .verde .outstanding-header .outstanding-link {background: url("../img/readmoregreen.png") no-repeat scroll right 5px transparent;}
 
 
 /* azul claro */
-.azul-claro .outstanding-header {border-top:3px solid #018bb9; }
+.azul-claro .outstanding-header {border-top:4px solid #018bb9; }
 .azul-claro .outstanding-header .outstanding-title {border-color:#018bb9;color:#018bb9; background:#eeeff1;border-bottom: none;}
 .azul-claro .outstanding-header .outstanding-link {background: url("../img/readmoreblue.png") no-repeat scroll right 5px transparent;}
 
-.laranja .outstanding-header {background:#eeeff1;border-top:3px solid #d25501;}
+.laranja .outstanding-header {background:#eeeff1;border-top:4px solid #d25501;}
 .laranja .outstanding-header .outstanding-title {border-color: #d25501; color:#d25501; background:#eeeff1; border-bottom: none;}
 .laranja .outstanding-header .outstanding-link {background: url("../img/readmoreorange.png") no-repeat scroll right 5px transparent;}
 
 
-.bege .outstanding-header {background:#eeeff1;border-top:3px solid #ad6500;}
+.bege .outstanding-header {background:#eeeff1;border-top:4px solid #ad6500;}
 .bege .outstanding-header .outstanding-title {border-color: #ad6500;color:#ad6500; background:#eeeff1; border-bottom: none;}
 .bege .outstanding-header .outstanding-link {background: url("../img/readmorebrown.png") no-repeat scroll right 5px transparent;}
 
@@ -1107,7 +1130,7 @@ color: #7A8692;
 div.listingBar a:link,
 #content div.listingBar a:link,
 dl.portlet div.listingBar a:link {
-    border-bottom:0.1em solid #CCCCCC !Important;
+    border-bottom:0.1em solid #CCCCCC !important;
 }
 
 /* sprite de icones */
