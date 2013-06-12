@@ -1355,7 +1355,12 @@ body.contraste #main,
 body.contraste #doormat-container,
 body.contraste #em-destaque ul,
 body.contraste #em-destaque li#em-destaque-titulo,
-body.contraste .outstanding-header .outstanding-title {
+body.contraste .outstanding-header .outstanding-title,
+body.contraste .audiogallery-tile,
+body.contraste .videogallery-tile,
+body.contraste ul.css-tabs a,
+body.contraste .timeline,
+body.contraste .timeline a {
 	background: #000 !important;
 	color: #fff !important;
 }
