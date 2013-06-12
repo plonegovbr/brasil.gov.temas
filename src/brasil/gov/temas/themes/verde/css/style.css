@@ -1408,7 +1408,7 @@ body.contraste #doormat-container .doormatColumn {
     max-width: 100% !important;
   }
 
-  #portal-breadcrumbs, #accessibility, #portal-siteactions, #barra-brasil, #doormat-container {
+  #portal-breadcrumbs, #accessibility, #portal-siteactions, #barra-brasil, #doormat-container, #em-destaque {
 		display: none !important;
 	}
 
