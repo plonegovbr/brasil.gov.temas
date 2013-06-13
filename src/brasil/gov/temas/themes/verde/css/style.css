@@ -340,7 +340,9 @@ input.searchField {
 
 /****************** CONTENT ******************/
 
-.portaltype-plone-site #portal-breadcrumbs {
+.portaltype-plone-site #portal-breadcrumbs,
+.section-home #portal-breadcrumbs,
+.site-Plone  #portal-breadcrumbs {
 	display: none;
 }
 
