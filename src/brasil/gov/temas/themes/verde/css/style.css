@@ -175,6 +175,11 @@ div.width-16 {
 	font-size: 4em;
 	font-weight: 800;
 }
+#logo .luongo {
+	font-size: 3em !important;
+	line-height: 1.1em;
+	margin-bottom: 0.2em;
+}
 #logo #portal-description {
     font-size: 1.2em;
     margin: -1em 0 0 0;
