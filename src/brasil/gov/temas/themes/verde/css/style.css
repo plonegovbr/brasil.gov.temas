@@ -110,7 +110,7 @@ div.width-16 {
 /****************** cabecalho ******************/
 #header {
 	padding: 15px 0 0 0;
-	background-color: #0f7424;
+	background-color: #0A5517;
 	background-color: #19882c; /* Old browsers */
 	background-image: -moz-radial-gradient(center, ellipse cover,  #19882c 1%, #025310 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%,#025310)); /* Chrome,Safari4+ */
