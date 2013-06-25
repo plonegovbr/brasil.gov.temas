@@ -19,10 +19,4 @@
         directory="themes/azul"
         />
 
-    <plone:static
-        type="theme"
-        name="branco"
-        directory="themes/branco"
-        />
-
 </configure>
