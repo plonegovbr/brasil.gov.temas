@@ -1,0 +1,78 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="collective.nitf">
+<body>
+<metal:title fill-slot="content-title">
+    <tal:content-title metal:define-macro="content-title">
+
+        <h1 class="documentFirstHeading" tal:content="context/title" />
+
+        <h2 class="nitfSubtitle" tal:content="context/subtitle" />
+
+    </tal:content-title>
+</metal:title>
+
+<metal:description fill-slot="content-description">
+    <tal:content-description metal:define-macro="content-description">
+
+        <div class="documentDescription" tal:content="context/description" />
+
+        <p class="nitfByline" tal:condition="context/byline|nothing">
+            <span i18n:translate="">By</span>
+            <span tal:content="context/byline" />
+        </p>
+
+    </tal:content-description>
+</metal:description>
+
+<metal:main fill-slot="content-core">
+    <tal:content-core metal:define-macro="content-core">
+        <div class="newsImageContainer" tal:define="image view/getImage" tal:condition="image">
+            <a href="#mediabox" id="parent-fieldname-image">
+               <img tal:replace="structure python: image.tag(scale='preview', css_class='newsImage nitf')" src="" alt="" />
+            </a>
+            <p class="discreet" tal:condition="view/imageCaption|nothing"
+               tal:content="view/imageCaption">
+              Image Caption
+            </p>
+        </div>
+
+        <div tal:content="structure context/text/output|nothing" />
+
+        <fieldset id="related-items" tal:condition="exists:context/relatedItems">
+            <legend i18n:translate="">Related items</legend>
+            <tal:relateditems tal:content="structure view/w/IRelatedItems.relatedItems/render" />
+        </fieldset>
+
+        <fieldset id="folder-listing" tal:condition="folderContents">
+            <legend i18n:translate="">Contents...</legend>
+            <tal:block define="listing_macro context/folder_listing/macros/listing;
+                               contentFilter python:{'portal_type': ['File', 'Link']}">
+                <metal:use_macro use-macro="listing_macro">
+                    <metal:nocontent fill-slot="no_items_in_listing">
+                        <p class="discreet"
+                            tal:condition="not: folderContents"
+                            i18n:domain="plone" i18n:translate="description_no_items_in_folder">
+                            There are currently no items in this folder.
+                        </p>
+                    </metal:nocontent>
+                </metal:use_macro>
+            </tal:block>
+        </fieldset>
+
+        <div class="newsview">
+            <div id="mediabox" metal:use-macro="context/@@display_macros/macros/media-box">
+                <metal:navi fill-slot="navi">
+                    <metal:buttons use-macro="context/@@display_macros/macros/navi" />
+                </metal:navi>
+            </div>
+        </div>
+
+    </tal:content-core>
+</metal:main>
+</body>
+</html>

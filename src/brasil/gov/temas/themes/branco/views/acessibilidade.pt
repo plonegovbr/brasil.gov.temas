@@ -1,0 +1,90 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+
+<head>
+    <metal:noborder fill-slot="top_slot"
+                 tal:define="dummy python:request.set('disable_border',1)" />
+</head>
+
+<body>
+<metal:main fill-slot="main">
+
+    <h1 class="documentFirstHeading"
+        i18n:translate="heading_accessibility_info">Accessibility</h1>
+
+    <div id="content-core">
+
+        <div class="documentDescription description">
+            Novo modelo de identidade digital padrão do governo federal atende às principais recomendações de acessibilidade indicadas para web
+        </div>
+
+        <p>
+          O termo acessibilidade significa incluir a pessoa com deficiência na participação de atividades como o uso de produtos, serviços e informações. Alguns exemplos são os prédios com rampas de acesso para cadeira de rodas e banheiros adaptados para deficientes.
+        </p>
+
+        <p>
+          Na internet, acessibilidade refere-se principalmente às recomendações do W3C, consórcio entre empresas e órgãos governamentais e independentes que desenvolvem novos padrões de navegação e usos para a internet.
+        </p>
+
+        <p>
+          As recomendações sobre acessibilidade contemplam o tamanho e cor da fonte, localização de espaços clicáveis, facilidade de disponibilização de conteúdo e outras ações relativas até aos códigos das páginas (HTML e CSS, entre outros).
+        </p>
+
+
+        <h2>A acessibilidade na web engloba os seguintes fatores: </h2>
+
+        <p>
+          Sites e Aplicações: desenvolvidos de forma que as pessoas possam navegar e interagir.
+        </p>
+
+        <p>
+          Navegadores, tocadores de mídias e ferramentas: devem possuir meios de comunicação com tecnologias especialmente criadas para pessoas com deficiência, permitindo assim o acesso à Internet.
+        </p>
+
+        <p>
+          Ferramentas de autoria e outras tecnologias: blogs, Twitter, mensagens instantâneas e outros produtos utilizados para produção de conteúdo na Internet.
+        </p>
+
+        <p>
+          O ambiente do novo modelo de identidade digital padrão do governo federal foi desenvolvido com o objetivo de oferecer conteúdos da melhor forma possível para a pessoa com deficiência. No menu superior existem botões para aumentar e diminuir as fontes. Há também possibilidade de mudar o tom das cores, realçando o contraste do conteúdo em relação ao fundo da tela. Com isso, as pessoas podem ler com mais facilidade e utilizar todo o site de forma mais confortável.
+        </p>
+
+        <p>
+          Pelo navegador Internet Explorer é possível recorrer ao atalho Tecla Alt + 1 para chegar diretamente ao começo do conteúdo daquela página.
+        </p>
+
+        <p>
+          No caso do Firefox, em vez de Alt + número, tecle simultaneamente Alt + Shift + número.
+        </p>
+
+        <p>
+          No Opera, as teclas são Shift + Escape + número. Ao teclar apenas Shift + Escape, o usuário encontrará uma janela com todas as alternativas de ACCESSKEY da página.
+        </p>
+
+        <p>
+          Ao final desse texto, você poderá baixar alguns arquivos que explicam melhor o termo acessibilidade e como deve ser implementado nos sítios da Internet.
+        </p>
+
+        <h2>Leis e decretos sobre acessibilidade:</h2>
+
+        <p>
+          Decreto nº 5.296 de 02 de dezembro de 2004 (http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2004/Decreto/D5296.htm)
+        </p>
+
+        <h2>Dicas, links e recursos úteis:</h2>
+
+        <p>
+          Acessibilidade Legal (<a class="external-link" href="http://acessibilidadelegal.com/">http://acessibilidadelegal.com/</a>)<br />
+          Acesso Digital (<a class="external-link" href="http://acessodigital.net/links.html">http://acessodigital.net/links.html</a>)
+        </p>
+
+    </div>
+
+</metal:main>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plone">
+
+<body>
+
+    <metal:content-core fill-slot="content-core"
+           tal:define="ps context/@@plone_portal_state;
+                       portal_url ps/portal_url">
+        <metal:block define-macro="listing" extend-macro="context/folder_listing/macros/content-core">
+         <metal:entries fill-slot="entries">
+         <metal:block use-macro="context/folder_listing/macros/entries">
+         <metal:entry fill-slot="entry"
+                 tal:define="normalizeString nocall:context/@@plone/normalizeString">
+        <div tal:attributes="class python:'tileItem visualIEFloatFix tile-%s' % normalizeString(item.portal_type);"
+             tal:define="obj item/getObject">
+            <a href="#"
+                  tal:condition="obj/image|nothing"
+                  tal:attributes="href item/getURL">
+                  <div class="tileImage">
+                      <img src="" alt=""
+                           tal:define="scales obj/@@images;
+                                       scale python:scales.scale('image', 'thumb')"
+                           tal:replace="structure python:scale and scale.tag(css_class='tileImage') or None" />
+                  </div>
+            </a>
+
+            <h2 class="tileHeadline" metal:define-macro="listitem">
+                <a href="#"
+                   class="summary url"
+                   tal:attributes="href python:item_type in use_view_action and item_url+'/view' or item_url;"
+                   tal:content="item/Title">
+                    Item Title
+                </a>
+            </h2>
+            <p tal:condition="item/Description">
+                <span class="description" tal:content="item/Description">
+                    description
+                </span>
+            </p>
+            <div class="keywords" tal:define="tags item/Subject"
+                 tal:condition="tags">
+              registrado em:
+              <span tal:repeat="tag tags">
+                <a href=""
+                   tal:content="tag"
+                   tal:attributes="href string:${portal_url}/@@search?Subject:list=${tag}"
+                   class="link-category" rel="tag">Berlim</a>
+              </span>
+            </div>
+
+            <div metal:use-macro="context/standard_view/macros/document_byline"></div>
+
+            <div class="visualClear"><!-- --></div>
+        </div>
+
+    </metal:entry>
+    </metal:block>
+    </metal:entries>
+
+</metal:block>
+</metal:content-core>
+
+</body>
+</html>
