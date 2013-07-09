@@ -922,6 +922,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .roxo .tile-subtitle {color: #5c1285;}
 .verde .tile-subtitle {color: #01971c;}
 .azul-claro .tile-subtitle {color: #8fd9e4;}
+.azul-turquesa .tile-subtitle {color: #097495;}
 .laranja .tile-subtitle {color: #e07f48;}
 .bege .tile-subtitle {color: #ab6600;}
 
@@ -929,11 +930,13 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .roxo-borda,
 .verde-borda,
 .azul-claro-borda,
+.azul-turquesa-borda,
 .laranja-borda,
 .bege-borda {border-bottom: 1px solid #ccc; padding-bottom: 0.8em;}
 .roxo-borda a {color: #5c1285 !important;}
 .verde-borda a {color: #01971c !important;}
 .azul-claro-borda a {color: #8fd9e4 !important;}
+.azul-claro-turquesa a {color: #097495 !important;}
 .laranja-borda a {color: #e07f48 !important;}
 .bege-borda a {color: #ab6600 !important;}
 
