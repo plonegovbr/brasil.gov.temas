@@ -13,10 +13,4 @@
         directory="themes/verde"
         />
 
-    <plone:static
-        type="theme"
-        name="azul"
-        directory="themes/azul"
-        />
-
 </configure>

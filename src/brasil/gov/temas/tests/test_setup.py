@@ -16,8 +16,8 @@ class InstallTestCase(unittest.TestCase):
 
     def test_temas_disponiveis(self):
         themes = getAvailableThemes()
-        # Nossos dois + os dois do Plone
-        self.assertEqual(len(themes), 4)
+        # Nosso tema + os dois do Plone
+        self.assertEqual(len(themes), 3)
 
     def test_tema_verde_disponivel(self):
         theme = getTheme('verde')
@@ -28,15 +28,4 @@ class InstallTestCase(unittest.TestCase):
                          'Tema para Portal Modelo do Governo Federal')
         self.assertEqual(theme.rules, '/++theme++verde/rules.xml')
         self.assertEqual(theme.absolutePrefix, '/++theme++verde')
-        self.assertEqual(theme.doctype, "<!DOCTYPE html>")
-
-    def test_tema_azul_disponivel(self):
-        theme = getTheme('azul')
-        self.assertTrue(theme is not None)
-        self.assertEqual(theme.__name__, 'azul')
-        self.assertEqual(theme.title, 'Portal Modelo - Tema Azul')
-        self.assertEqual(theme.description,
-                         'Tema para Portal Modelo do Governo Federal')
-        self.assertEqual(theme.rules, '/++theme++azul/rules.xml')
-        self.assertEqual(theme.absolutePrefix, '/++theme++azul')
         self.assertEqual(theme.doctype, "<!DOCTYPE html>")
