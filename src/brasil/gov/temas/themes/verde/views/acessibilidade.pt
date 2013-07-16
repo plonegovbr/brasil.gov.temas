@@ -20,7 +20,7 @@
     <div id="content-core">
 
         <div class="documentDescription description">
-            Novo modelo de identidade digital padrão do governo federal atende às principais recomendações de acessibilidade indicadas para web
+            Este portal segue as diretrizes do e-MAG (Modelo de Acessibilidade em Governo Eletrônico), conforme as normas do Governo Federal, em obediência ao Decreto 5.296, de 2.12.2004.
         </div>
 
         <p>
@@ -28,34 +28,27 @@
         </p>
 
         <p>
-          Na internet, acessibilidade refere-se principalmente às recomendações do W3C, consórcio entre empresas e órgãos governamentais e independentes que desenvolvem novos padrões de navegação e usos para a internet.
+          Na internet, acessibilidade refere-se principalmente às recomendações do WCAG (World Content Accessibility Guide) do W3C e no caso do Governo Brasileiro ao e-MAG (Modelo de Acessibilidade em Governo Eletrônico). O e-MAG está alinhado as recomendações internacionais, mas estabelece padrões de comportamento acessível para sites governamentais.
         </p>
 
         <p>
-          As recomendações sobre acessibilidade contemplam o tamanho e cor da fonte, localização de espaços clicáveis, facilidade de disponibilização de conteúdo e outras ações relativas até aos códigos das páginas (HTML e CSS, entre outros).
-        </p>
-
-
-        <h2>A acessibilidade na web engloba os seguintes fatores: </h2>
-
-        <p>
-          Sites e Aplicações: desenvolvidos de forma que as pessoas possam navegar e interagir.
+          Na parte superior do portal existe uma barra de acessibilidade onde se encontra atalhos de navegação padronizados e a opção para alterar o contraste. Essas ferramentas estão disponíveis em todas as páginas do portal.
         </p>
 
         <p>
-          Navegadores, tocadores de mídias e ferramentas: devem possuir meios de comunicação com tecnologias especialmente criadas para pessoas com deficiência, permitindo assim o acesso à Internet.
+          Os atalhos padrões do governo federal são:
         </p>
 
         <p>
-          Ferramentas de autoria e outras tecnologias: blogs, Twitter, mensagens instantâneas e outros produtos utilizados para produção de conteúdo na Internet.
+          Teclando-se Alt + 1 em qualquer página do portal, chega-se diretamente ao começo do conteúdo principal da página.
         </p>
 
         <p>
-          O ambiente do novo modelo de identidade digital padrão do governo federal foi desenvolvido com o objetivo de oferecer conteúdos da melhor forma possível para a pessoa com deficiência. No menu superior existem botões para aumentar e diminuir as fontes. Há também possibilidade de mudar o tom das cores, realçando o contraste do conteúdo em relação ao fundo da tela. Com isso, as pessoas podem ler com mais facilidade e utilizar todo o site de forma mais confortável.
+          Teclando-se Alt + 2 em qualquer página do portal, chega-se diretamente ao início do menu principal.
         </p>
 
         <p>
-          Pelo navegador Internet Explorer é possível recorrer ao atalho Tecla Alt + 1 para chegar diretamente ao começo do conteúdo daquela página.
+          Teclando-se Alt + 3 em qualquer página do portal, chega-se diretamente em sua busca interna.
         </p>
 
         <p>
@@ -63,24 +56,42 @@
         </p>
 
         <p>
+          Sendo Firefox no Mac OS, em vez de Alt + Shift + número, tecle simultaneamente Ctrl + Alt + número.
+        </p>
+
+        <p>
           No Opera, as teclas são Shift + Escape + número. Ao teclar apenas Shift + Escape, o usuário encontrará uma janela com todas as alternativas de ACCESSKEY da página.
         </p>
 
         <p>
-          Ao final desse texto, você poderá baixar alguns arquivos que explicam melhor o termo acessibilidade e como deve ser implementado nos sítios da Internet.
+          Ao final desse texto, você poderá baixar alguns arquivos que explicam melhor o termo acessibilidade e como deve ser implementado nos sites da Internet.
         </p>
+
 
         <h2>Leis e decretos sobre acessibilidade:</h2>
 
-        <p>
-          Decreto nº 5.296 de 02 de dezembro de 2004 (http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2004/Decreto/D5296.htm)
-        </p>
+        <ul>
+            <li>
+              Decreto nº 5.296 de 02 de dezembro de 2004 (<a class="external-link" href="http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2004/Decreto/D5296.htm">http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2004/Decreto/D5296.htm</a>)
+            </li>
+            <li>
+              Decreto nº 6.949, de 25 de agosto de 2009 - Promulga a Convenção Internacional sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, assinados em Nova York, em 30 de março de 2007.
+            </li>
+            <li>
+              Decreto nº 7.724, de 16 de Maio de 2012 - Regulamenta a Lei No 12.527, que dispõe sobre o acesso a informações.
+            </li>
+            <li>
+              Modelo de Acessibilidade de Governo Eletrônico (<a class="external-link" href="http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG">http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG</a>)
+            </li>
+            <li>
+              Portaria nº 03, de 07 de Maio de 2007 - formato .pdf (35,5Kb) - Institucionaliza o Modelo de Acessibilidade em Governo Eletrônico – e-MAG
+            </li>
+        </ul>
 
-        <h2>Dicas, links e recursos úteis:</h2>
+        <h2>Dúvidas, sugestões e críticas:</h2>
 
         <p>
-          Acessibilidade Legal (<a class="external-link" href="http://acessibilidadelegal.com/">http://acessibilidadelegal.com/</a>)<br />
-          Acesso Digital (<a class="external-link" href="http://acessodigital.net/links.html">http://acessodigital.net/links.html</a>)
+          No caso de problemas com a acessibilidade do portal, favor <a href="${portal_url}/contato" title="formulário de contato">entrar em contato</a>.
         </p>
 
     </div>
