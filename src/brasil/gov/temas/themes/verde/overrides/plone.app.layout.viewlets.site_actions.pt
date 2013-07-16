@@ -1,5 +1,5 @@
 <ul id="portal-siteactions"
-    tal:define="accesskeys python: {'contraste' : '6', 'accessibility' : '5', 'sitemap' : '7'};"
+    tal:define="accesskeys python: {'contraste' : '6', 'accessibility' : '5', 'mapadosite' : '7'};"
     tal:condition="view/site_actions"
     i18n:domain="plone">
 
