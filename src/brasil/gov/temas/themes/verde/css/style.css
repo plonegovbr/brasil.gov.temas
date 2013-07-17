@@ -1755,7 +1755,6 @@ body.contraste #doormat-container .doormatColumn {
 
 	#portal-breadcrumbs,
 	#accessibility,
-	#barra-brasil,
 	#doormat-container,
 	#em-destaque {
 		display: none !important;
@@ -1913,6 +1912,11 @@ body.contraste #doormat-container .doormatColumn {
 
 /* iPhone 4s and greater than */
 @media screen and (max-width: 480px) {
+
+	/* barra de acessibilidade */
+	#portal-siteactions a { padding-left: 0; }
+	#portal-siteactions .last-item { margin-right: 0; }
+
 	#voltar-topo a { margin-right: .5em; }
 
 	#viewlet-social-like { right: 0; }
@@ -2035,6 +2039,16 @@ div.listingBar {
 
 ul.formTabs {
 	padding: 0px !important;
+}
+
+/* Barra de identidade do governo */
+@media screen and (max-width: 960px) {
+  #barra-brasil {
+    min-width: 100% !important
+  }
+  #barra-brasil .barra {
+      width: 98% !important
+  }
 }
 
 /* CSS de impressao */
