@@ -110,7 +110,7 @@ div.width-16 {
 /****************** cabecalho ******************/
 #header {
 	padding: 15px 0 0 0;
-	background-color: #19882c; /* Old browsers */	
+	background-color: #19882c; /* Old browsers */
 	background-color: #0A5517;
 	background-image: -moz-radial-gradient(center, ellipse cover,  #19882c 1%, #025310 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%,#025310)); /* Chrome,Safari4+ */
@@ -286,7 +286,7 @@ div.width-16 {
 
 #sobre .portalservicos-item a {
 	padding: 0 10px;
-	border-right: 1px solid #fff;	
+	border-right: 1px solid #fff;
 }
 #sobre .last-item a {
 	padding: 0 0 0 10px;
@@ -306,9 +306,9 @@ input.searchField {
     font-size: 80%;
     margin: 2em 0 1.2em 0;
     text-align: right;
-    border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	border: 1px solid #CCCCCC;
 	background: #fff;
 	padding: 2px;
@@ -391,9 +391,9 @@ input.searchField {
 
 .portlet img, #content img {
     max-width:100%;
-	 border-radius: 5px; 
-	 -moz-border-radius: 5px; 
-	 -webkit-border-radius: 5px; 
+	 border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
 }
 
 
@@ -501,9 +501,9 @@ table.listing tbody th {
 	margin-bottom: 2em;
    padding: 1em;
    border: 1px solid #d5d5d5;
-   border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+   border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 .template-view.portaltype-collective-nitf-content  #content-core li {
    border-bottom: 1px dotted #d5d5d5;
@@ -519,23 +519,30 @@ table.listing tbody th {
 
 #related-items {
 	position: relative;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	background: #eeefff;
 	border: 1px solid #d5d5d5 !important;
-	padding-top: 30px;
+	padding: 3em 1em 1.6em;
 }
 #related-items legend {
-	color: #444;
+	color: #454545;
 	position: absolute;
-	top: 8px;
+	top: 20px;
 	padding: 0px;
 	font-size: 1.3em;
 	font-weight: bold;
 }
-#related-items a {
+#related-items .relationlist-field a {
+  display: block;
+  padding-left: 23px;
+  color: #335277;
+  background: url("../img/icone-related-items.png") 2px no-repeat;
 	font-weight: bold;
+}
+#related-items div {
+  padding-top: 20px;
 }
 fieldset#folder-listing legend {
    color: #444;
@@ -579,7 +586,7 @@ dl.portlet dt.hiddenStructure {
 	background: #eeefff;
 	-moz-border-radius: 5px;
     border-radius: 5px;
-	 -webkit-border-radius: 5px; 
+	 -webkit-border-radius: 5px;
 }
 
 #portal-column-two dl.portlet a:link,
@@ -653,7 +660,7 @@ dl.portlet dt a:visited {
 .portletCollection .portletItem a {
 	clear: none;
 }
-.portletNews .portletItem .portletItemDetails, 
+.portletNews .portletItem .portletItemDetails,
 .portletCollection .portletItem .portletItemDetails {
     display: block;
     float: left;
@@ -808,9 +815,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	display: table;
 	background: #e8e7e7;
 	width: 100%;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	margin-bottom: 2em;
 }
 #em-destaque li {
@@ -831,9 +838,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: #6f7681 url("../img/em-destaque.png") right center no-repeat;
 	color: #fff;
 	border-right: none;
-	border-radius: 5px 0 0 5px; 
-	-moz-border-radius: 5px 0 0 5px; 
-	-webkit-border-radius: 5px 0 0 5px; 
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
 }
 #portal-features {
 	text-align: right;
@@ -896,9 +903,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .lista-horizontal {
 	background: #eeeff1 !important;
 	border: 1px solid #c0c1c3;
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 .lista-horizontal .tile-title {
 	border-bottom: 1px solid #c0c1c3;
@@ -999,7 +1006,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .outstanding-header h3 {font-size: 1.5em;}
 .outstanding-header h4 {font-size: 1.3em;}
 
-.outstanding-header .outstanding-link {  
+.outstanding-header .outstanding-link {
     display: block;
     font-size: 0.7em;
     padding-right: 30px;
@@ -1118,7 +1125,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .template-summary_view #content .tileBody,
 .template-folder_summary_view #content .tileBody {
-	margin-bottom: 0;	
+	margin-bottom: 0;
 }
 
 .template-summary_view #content .tileBody .description,
@@ -1170,7 +1177,7 @@ dl.portlet div.listingBar a:link {
 .template-search .searchResults dt a {
     color: #172734 !important;
     font-size: 1.3em;
-    padding-left: 23px; 
+    padding-left: 23px;
 }
 
 .template-search .searchResults dt.contenttype-collective-nitf-content a {padding-left: 7px;}
@@ -1236,9 +1243,9 @@ dl.portlet div.listingBar a:link {
 
 #search-filter .field,
 #search-filter {background:transparent !Important;}
-  
+
 #search-filter .field input {margin-right: 8px;}
-       
+
 #search-results-bar dd.actionMenuContent {display:block;}
 
 .template-search #search-results-bar dl {width: 97%;    margin-left:20px !important;}
@@ -1275,8 +1282,8 @@ dl.portlet div.listingBar a:link {
 }
 
 .template-search #content .cell {
-	width:96% !Important; 
-	border-bottom: 1px solid #D3D3D3; 
+	width:96% !Important;
+	border-bottom: 1px solid #D3D3D3;
     padding-bottom:20px;}
 
 .template-search #search-term {font-weight:bold !Important;}
@@ -1374,7 +1381,7 @@ body.contraste .timeline a {
 	color: #fff !important;
 }
 
-body.contraste #accessibility span { 
+body.contraste #accessibility span {
     background: #fff !important;
     color: #000 !important;
 }
@@ -1388,7 +1395,7 @@ body.contraste h5,
 body.contraste h6,
 body.contraste #plone-document-byline,
 body.contraste #doormat-container dt,
-body.contraste #content .documentDescription, 
+body.contraste #content .documentDescription,
 body.contraste #content #description,
 body.contraste .nitfByline,
 body.contraste p.section {
@@ -1470,7 +1477,7 @@ body.contraste #doormat-container .doormatColumn {
     display: block;
     background: url('../img/bg-menu-mobile-panel.png') top center no-repeat;
     width: 37px;
-    height: 36px; 
+    height: 36px;
     position: absolute;
     top: 18px;
     right: 20px;
@@ -1480,7 +1487,7 @@ body.contraste #doormat-container .doormatColumn {
     background-position: bottom center;
   }
 
-  
+
    #portal-column-one .portletNavigationTree .portletHeader a {
     padding: 20px 35px;
     font-size: 24px;
@@ -1560,18 +1567,18 @@ body.contraste #doormat-container .doormatColumn {
 	#header {
 		padding: 1em 0.5em;
 	}
-	
+
 	#language {
 		float: left;
 		margin-left: 0.5em;
 	}
-	
+
 	#social-icons {
 		top: 1em;
 		right: 0;
 		position: absolute;
 	}
-	
+
 	#logo #portal-title {
 		font-size: 2em;
 	}
@@ -1609,7 +1616,7 @@ body.contraste #doormat-container .doormatColumn {
 		max-width: 40%;
 		margin: 1em;
 	}
-	
+
 	.portaltype-collection .tileImage {
 		float: none;
 	}
@@ -1630,15 +1637,15 @@ ul.formTabs{
 
 /* CSS de impressao */
 
-@media print { 
- #header, 
+@media print {
+ #header,
  #footer,
  #em-destaque,
  #viewlet-social-like,
  #voltar-topo,
- #portal-features { 
- 	display: none !important; 
- } 
+ #portal-features {
+ 	display: none !important;
+ }
  .cell {
  	width: 100%;
  	margin: 0 !important;
