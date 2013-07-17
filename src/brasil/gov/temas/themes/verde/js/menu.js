@@ -1,6 +1,14 @@
 jQuery(document).ready(function($){
+
   if($(window).width() <= 480) {
     $("body").addClass("mobile");
+
+    // simulando click no botao do portlet header via mobile
+    // author: deserto digital
+    $('.portletNavigationTree .portletHeader').click(function() {
+      $(this).toggleClass('ativo');
+      $(this).next().slideToggle();
+    });
   }
 
   var menuTrigger = $(".menuTrigger");
