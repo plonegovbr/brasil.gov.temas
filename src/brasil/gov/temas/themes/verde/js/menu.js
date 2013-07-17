@@ -1,37 +1,39 @@
-jQuery(document).ready(function($){
+jQuery(document).ready(function ($) {
 
-  if($(window).width() <= 480) {
-    $("body").addClass("mobile");
+    if ($(window).width() <= 480) {
+        $("body").addClass("mobile");
+    }
 
     // simulando click no botao do portlet header via mobile
     // author: deserto digital
-    $('.portletNavigationTree .portletHeader').click(function() {
-      $(this).toggleClass('ativo');
-      $(this).next().slideToggle();
+    $('.portletNavigationTree .portletHeader').click(function () {
+        $(this).toggleClass('ativo');
+        $(this).next().slideToggle();
     });
-  }
 
-  var menuTrigger = $(".menuTrigger");
-  var navigationEl = $("#navigation");
+    var menuTrigger = $(".menuTrigger");
+    var navigationEl = $("#navigation");
 
-  menuTrigger.click(function(e){
-    e.preventDefault();
-    navigationEl.toggleClass("ativo");
-  });
+    menuTrigger.click(function (e) {
+        e.preventDefault();
+        navigationEl.toggleClass("ativo");
+    });
 
-  var sectionTrigger = $(".mobile .portletNavigationTree dt a");
-  sectionTrigger.append("<span></span>");
+    var sectionTrigger = $(".mobile .portletNavigationTree dt a");
+    sectionTrigger.append("<span></span>");
 
 
-  sectionTrigger.click(function(e){
-    e.preventDefault();
-    $(this).parent().parent().toggleClass("ativo");
-  });
-$("ul li:last-child").addClass("last-item");
+    sectionTrigger.click(function (e) {
+        e.preventDefault();
+        $(this).parent().parent().toggleClass("ativo");
+    });
+    $("ul li:last-child").addClass("last-item");
 });
-$('#link-buscar').click(function(e) {
+
+$('#link-buscar').click(function (e) {
     e.preventDefault();
     window.location.hash = '#portal-searchbox';
     $('.searchField').focus();
 });
+
 $("#portal-column-one div:first-child").addClass("first-item");

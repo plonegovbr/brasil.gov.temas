@@ -1720,19 +1720,31 @@ body.contraste #doormat-container .doormatColumn {
 
 /****************** RESPONSIVE DESIGN MAGIC ******************/
 
-
 .menuTrigger {
 	display: none;
 }
 
 /* celular  */
-
 @media only screen and (min-width : 320px) and (max-width : 768px) {
-	#main {
-		max-width: 100% !important;
+
+	#portal-siteactions {
+		clear: both;
+		float: none;
+		position: static;
+		padding: 1em 0;
+		font-size: 1em;
 	}
 
-	#portal-breadcrumbs, #accessibility, #portal-siteactions, #barra-brasil, #doormat-container, #em-destaque {
+	#main {
+		max-width: 100% !important;
+		padding-top: 0;
+	}
+
+	#portal-breadcrumbs,
+	#accessibility,
+	#barra-brasil,
+	#doormat-container,
+	#em-destaque {
 		display: none !important;
 	}
 
@@ -1741,11 +1753,6 @@ body.contraste #doormat-container .doormatColumn {
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 		padding: 20px;
-	}
-
-	#navigation {
-		position: relative;
-		top: -16px;
 	}
 
 	.menuTrigger {
@@ -1841,6 +1848,7 @@ body.contraste #doormat-container .doormatColumn {
 	color: #fff;
 }
 
+/* iPad portrait */
 @media screen and (max-width: 768px) {
 
 	#wrapper {
@@ -1890,7 +1898,14 @@ body.contraste #doormat-container .doormatColumn {
 	};
 }
 
+/* iPhone 4s and greater than */
 @media screen and (max-width: 480px) {
+	#voltar-topo a { margin-right: .5em; }
+
+	#viewlet-social-like { right: 0; }
+
+	#sobre { background: none; }
+
 
 	#header {
 		padding: 1em 0.5em;
@@ -1898,23 +1913,18 @@ body.contraste #doormat-container .doormatColumn {
 		width: 92%;
 	}
 
-	#header #accessibility,
-	#header #portal-siteactions { display: none !important; }
+	#header #accessibility { display: none !important; }
 
 	#portal-searchbox {
 		display: block;
-		background-color: red;
 		margin: 0 !important;
 		clear: left !important;
 		padding: 0;
 		border: 0 none;
 		border-radius: 0;
-		/*position: absolute;
-		top: 149px;
-		z-index: 10;*/
-		position: relative;
 		height: 41px;
-
+		background: none;
+		position: relative;
 	}
 
 	#portal-searchbox .searchField {
@@ -1926,8 +1936,8 @@ body.contraste #doormat-container .doormatColumn {
 		color: #064d13;
 		background-color: #fff;
 		border-top: 2px solid #ccc;
-		height: 38px;
-		line-height: 38px;
+		height: 39px;
+		line-height: 39px;
 		border-radius: 6px;
 		text-indent: 13px;
 		width: 100%;
@@ -1949,9 +1959,9 @@ body.contraste #doormat-container .doormatColumn {
 	}
 
 	#social-icons {
-		top: 1em;
+		/*top: 1em;
 		right: 0;
-		position: absolute;
+		position: absolute;*/
 	}
 
 	#logo #portal-title {
@@ -2018,7 +2028,7 @@ ul.formTabs {
 
 @media print {
 
-	#header,
+ #header,
  #footer,
  #em-destaque,
  #viewlet-social-like,
