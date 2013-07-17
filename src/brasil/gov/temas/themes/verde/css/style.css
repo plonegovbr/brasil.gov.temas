@@ -1331,6 +1331,10 @@ dl.portlet div.listingBar a:link {
 	font-size: 1.3em;
 }
 
+#doormat-container.columns-4 .doormatColumn {
+    width: 22%;
+}
+
 #footer {
 	background: #034811;
 	padding: 20px 0;
