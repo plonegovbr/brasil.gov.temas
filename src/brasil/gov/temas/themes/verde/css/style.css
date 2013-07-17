@@ -1904,6 +1904,10 @@ body.contraste #doormat-container .doormatColumn {
 /* iPhone 4s and greater than */
 @media screen and (max-width: 480px) {
 
+	/* barra de acessibilidade */
+	#portal-siteactions a { padding-left: 0; }
+	#portal-siteactions .last-item { margin-right: 0; }
+
 	#voltar-topo a { margin-right: .5em; }
 
 	#viewlet-social-like { right: 0; }
