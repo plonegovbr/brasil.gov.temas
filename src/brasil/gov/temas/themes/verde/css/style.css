@@ -2000,9 +2000,7 @@ body.contraste #doormat-container .doormatColumn {
 		float: none !important;
 	}
 
-	.left {
-		float: none !important;
-	}
+	.left { float: none !important; }
 
 	#portal-column-two {
 		float: none !important;
@@ -2010,17 +2008,11 @@ body.contraste #doormat-container .doormatColumn {
 		width: 100% !important;
 	}
 
-	#logo {
-		width: 100% !important;
-	}
+	#logo { width: 100% !important; }
 
-	#footer p {
-		clear: both;
-	}
+	#footer p { clear: both; }
 
-	#footer>div {
-		text-align: center;
-	}
+	#footer>div { text-align: center; }
 
 	#footer img {
 		float: none;
@@ -2028,9 +2020,9 @@ body.contraste #doormat-container .doormatColumn {
 		margin: 1em;
 	}
 
-	.portaltype-collection .tileImage {
-		float: none;
-	};
+	.portaltype-collection .tileImage { float: none; }
+
+	#extra-footer p { text-align: center; }
 }
 
 div.listingBar {
