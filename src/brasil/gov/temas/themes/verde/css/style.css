@@ -1754,6 +1754,12 @@ ul.social-tabs.css-tabs>li:nth-child(1) {
 ul.social-tabs.css-tabs>li>a {
     max-width: 41%;
 }
+.facebook-content.pane {
+    height: 271px;
+}
+.twitter-content.pane {
+    height: 300px;
+}
 /* Correção largura tile de redes sociais */
 
 /* celular  */
