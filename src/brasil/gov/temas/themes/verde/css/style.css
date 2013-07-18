@@ -1774,7 +1774,8 @@ ul.social-tabs.css-tabs>li>a {
 	#portal-breadcrumbs,
 	#accessibility,
 	#doormat-container,
-	#em-destaque {
+	#em-destaque,
+  #featured-content {
 		display: none !important;
 	}
 
