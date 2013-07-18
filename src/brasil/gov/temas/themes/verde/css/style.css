@@ -411,6 +411,11 @@ input.searchField {
 	display: none;
 }
 
+#content-core p {
+    font-size: 110%;
+}
+
+
 .clear {
 	clear: both;
 }
@@ -907,7 +912,7 @@ dl.portlet ul.navTreeLevel6 li a {
 /* lists */
 
 #content li, dl.portlet li {
-	line-height: 1.5em;
+    line-height: 1.5em !important;
 	list-style: square outside;
 	margin-bottom: 0.25em;
 }
