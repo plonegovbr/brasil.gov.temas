@@ -1177,6 +1177,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
 	position: relative;
+  overflow: hidden;
 }
 
 .outstanding-header .outstanding-title {
