@@ -565,22 +565,27 @@ table.listing tbody th {
 	-webkit-border-radius: 5px;
 	background: #eeefff;
 	border: 1px solid #d5d5d5 !important;
-	padding-top: 30px;
+	padding: 3em 1em 1.6em;
 }
 
 #related-items legend {
-	color: #444;
+	color: #454545;
 	position: absolute;
-	top: 8px;
+	top: 20px;
 	padding: 0px;
 	font-size: 1.3em;
 	font-weight: bold;
 }
-
-#related-items a {
+#related-items .relationlist-field a {
+    display: block;
+    padding-left: 23px;
+    color: #335277;
+    background: url("../img/icone-related-items.png") 2px no-repeat;
 	font-weight: bold;
 }
-
+#related-items div {
+  padding-top: 20px;
+}
 fieldset#folder-listing legend {
 	color: #444;
 	position: absolute;
@@ -2056,12 +2061,12 @@ ul.formTabs {
 
 @media print {
 
- #header,
- #footer,
- #em-destaque,
- #viewlet-social-like,
- #voltar-topo,
- #portal-features {
+    #header,
+    #footer,
+    #em-destaque,
+    #viewlet-social-like,
+    #voltar-topo,
+    #portal-features {
 		display: none !important;
 	}
 
