@@ -1904,9 +1904,6 @@ ul.social-tabs.css-tabs>li>a {
 		margin-left: -98.875%;
 	}
 
-	/*Search*/
-	#portal-searchbox { display: none; }
-
 	.overlay.overlay-ajax {
 		top: 10px !Important;
 	}
@@ -2010,7 +2007,7 @@ ul.social-tabs.css-tabs>li>a {
 
 	#portal-searchbox {
 		float: none;
-		width: 80%;
+		width: 100%;
 		clear: both;
 		margin: 0 auto 2%;
 	}
