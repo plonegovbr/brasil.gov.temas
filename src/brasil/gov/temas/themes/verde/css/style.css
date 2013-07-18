@@ -1215,13 +1215,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-right: 10px;
 	margin-top: 5px;
 	text-align: right;
-	line-height: 1.5em;
+	line-height: 3em;
 	padding-top: 3px;
 	text-transform: uppercase;
 	width: 145px;
 	min-height: 30px;
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
-	position: absolute;
 	right: 0;
 	top: 0;
 }
@@ -1942,6 +1941,7 @@ ul.social-tabs.css-tabs>li>a {
 
 	#sobre { background: none; }
 
+  #social-icons { display: none; }
 
 	#header {
 		padding: 1em 0.5em;
