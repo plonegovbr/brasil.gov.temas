@@ -1764,7 +1764,7 @@ ul.social-tabs.css-tabs>li>a {
 		float: none;
 		position: static;
 		padding: 1em 0;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 	#main {
@@ -1776,7 +1776,8 @@ ul.social-tabs.css-tabs>li>a {
 	#accessibility,
 	#doormat-container,
 	#em-destaque,
-  #featured-content {
+  #featured-,
+  #portal-features {
 		display: none !important;
 	}
 
@@ -1869,6 +1870,7 @@ ul.social-tabs.css-tabs>li>a {
 		color: #454545;
 		font-size: 24px;
 		padding: 20px 35px !important;
+    line-height: 1.2em;
 	};
 }
 
