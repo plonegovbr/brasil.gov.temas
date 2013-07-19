@@ -1757,7 +1757,7 @@ ul.social-tabs.css-tabs>li>a {
 .facebook-content.pane {
     height: 271px;
 }
-.twitter-content.pane {
+.facebook-content.pane + .twitter-content.pane {
     height: 307px;
 }
 /* Correção largura tile de redes sociais */
