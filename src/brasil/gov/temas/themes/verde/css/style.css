@@ -1205,21 +1205,18 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-right: 10px;
 	margin-top: 5px;
 	text-align: right;
-	line-height: 1.5em;
+	line-height: 2.8em;
 	padding-top: 3px;
 	text-transform: uppercase;
 	width: 145px;
 	min-height: 30px;
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
-	position: absolute;
-	right: 0;
-	top: 0;
-  position: absolute;
 }
 
 .roxo .outstanding-header {
 	background: #eeeff1;
 	border-top: 4px solid #5b1285;
+  overflow: hidden;
 }
 
 .roxo .outstanding-header .outstanding-title {
@@ -1236,6 +1233,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .verde .outstanding-header {
 	background: #eeeff1;
 	border-top: 4px solid #01971c;
+  overflow: hidden;
 }
 
 .verde .outstanding-header .outstanding-title {
@@ -1254,6 +1252,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .azul-claro .outstanding-header {
   background: #eeeff1;
 	border-top: 4px solid #018bb9;
+  overflow: hidden;
 }
 
 .azul-claro .outstanding-header .outstanding-title {
@@ -1270,6 +1269,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .laranja .outstanding-header {
 	background: #eeeff1;
 	border-top: 4px solid #d25501;
+  overflow: hidden;
 }
 
 .laranja .outstanding-header .outstanding-title {
@@ -1286,6 +1286,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .bege .outstanding-header {
 	background: #eeeff1;
 	border-top: 4px solid #ad6500;
+  overflow: hidden;
 }
 
 .bege .outstanding-header .outstanding-title {
