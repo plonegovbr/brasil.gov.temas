@@ -411,11 +411,6 @@ input.searchField {
 	display: none;
 }
 
-#content-core p {
-    font-size: 110%;
-}
-
-
 .clear {
 	clear: both;
 }
@@ -570,27 +565,22 @@ table.listing tbody th {
 	-webkit-border-radius: 5px;
 	background: #eeefff;
 	border: 1px solid #d5d5d5 !important;
-	padding: 3em 1em 1.6em;
+	padding-top: 30px;
 }
 
 #related-items legend {
-	color: #454545;
+	color: #444;
 	position: absolute;
-	top: 20px;
+	top: 8px;
 	padding: 0px;
 	font-size: 1.3em;
 	font-weight: bold;
 }
-#related-items .relationlist-field a {
-    display: block;
-    padding-left: 23px;
-    color: #335277;
-    background: url("../img/icone-related-items.png") 2px no-repeat;
+
+#related-items a {
 	font-weight: bold;
 }
-#related-items div {
-  padding-top: 20px;
-}
+
 fieldset#folder-listing legend {
 	color: #444;
 	position: absolute;
@@ -912,7 +902,7 @@ dl.portlet ul.navTreeLevel6 li a {
 /* lists */
 
 #content li, dl.portlet li {
-    line-height: 1.5em !important;
+	line-height: 1.5em;
 	list-style: square outside;
 	margin-bottom: 0.25em;
 }
@@ -1177,7 +1167,6 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
 	position: relative;
-  overflow: hidden;
 }
 
 .outstanding-header .outstanding-title {
@@ -1216,12 +1205,13 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-right: 10px;
 	margin-top: 5px;
 	text-align: right;
-	line-height: 3em;
+	line-height: 1.5em;
 	padding-top: 3px;
 	text-transform: uppercase;
 	width: 145px;
 	min-height: 30px;
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
+	position: absolute;
 	right: 0;
 	top: 0;
   position: absolute;
@@ -1759,7 +1749,7 @@ ul.social-tabs.css-tabs>li>a {
 .facebook-content.pane {
     height: 271px;
 }
-.twitter-content.pane {
+.facebook-content.pane + .twitter-content.pane {
     height: 307px;
 }
 /* Correção largura tile de redes sociais */
@@ -1772,7 +1762,7 @@ ul.social-tabs.css-tabs>li>a {
 		float: none;
 		position: static;
 		padding: 1em 0;
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 	#main {
@@ -1783,9 +1773,7 @@ ul.social-tabs.css-tabs>li>a {
 	#portal-breadcrumbs,
 	#accessibility,
 	#doormat-container,
-	#em-destaque,
-  #featured-,
-  #portal-features {
+	#em-destaque {
 		display: none !important;
 	}
 
@@ -1878,7 +1866,6 @@ ul.social-tabs.css-tabs>li>a {
 		color: #454545;
 		font-size: 24px;
 		padding: 20px 35px !important;
-    line-height: 1.2em;
 	};
 }
 
@@ -1913,6 +1900,9 @@ ul.social-tabs.css-tabs>li>a {
 		width: 97.75%;
 		margin-left: -98.875%;
 	}
+
+	/*Search*/
+	#portal-searchbox { display: none; }
 
 	.overlay.overlay-ajax {
 		top: 10px !Important;
@@ -1950,7 +1940,6 @@ ul.social-tabs.css-tabs>li>a {
 
 	#sobre { background: none; }
 
-  #social-icons { display: none; }
 
 	#header {
 		padding: 1em 0.5em;
@@ -2017,7 +2006,7 @@ ul.social-tabs.css-tabs>li>a {
 
 	#portal-searchbox {
 		float: none;
-		width: 100%;
+		width: 80%;
 		clear: both;
 		margin: 0 auto 2%;
 	}
@@ -2075,12 +2064,12 @@ ul.formTabs {
 
 @media print {
 
-    #header,
-    #footer,
-    #em-destaque,
-    #viewlet-social-like,
-    #voltar-topo,
-    #portal-features {
+ #header,
+ #footer,
+ #em-destaque,
+ #viewlet-social-like,
+ #voltar-topo,
+ #portal-features {
 		display: none !important;
 	}
 
@@ -2093,3 +2082,18 @@ ul.formTabs {
 		position: relative !important;
 	};
 }
+
+/* formulário de contato */
+.field input[type="text"],
+#content .field textarea {
+	font-family: 'Open Sans';
+	background-color: #fff;
+	border : 1px solid #000;
+	text-indent: 2px;
+	font-size: 12px;
+	padding: 3px;
+	margin : 0;
+	color  : #000;
+}
+
+#content .field textarea { resize: none; }
