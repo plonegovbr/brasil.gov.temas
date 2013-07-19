@@ -994,8 +994,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .tile h3 {
+  font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.3em;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 1.2em;
 	margin: 0;
 }
