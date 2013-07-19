@@ -1224,6 +1224,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	right: 0;
 	top: 0;
+  position: absolute;
 }
 
 .roxo .outstanding-header {
@@ -1261,6 +1262,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /* azul claro */
 .azul-claro .outstanding-header {
+  background: #eeeff1;
 	border-top: 4px solid #018bb9;
 }
 
