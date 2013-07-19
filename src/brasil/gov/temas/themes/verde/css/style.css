@@ -1733,7 +1733,8 @@ body.contraste #doormat-container .doormatColumn {
 /* Correção largura tile de redes sociais */
 .fb_iframe_widget,
 .fb_iframe_widget span[style],
-.fb_iframe_widget iframe[style] {
+.fb_iframe_widget iframe[style],
+.twitter-timeline.twitter-timeline-rendered[style] {
     width: 100% !important;
     height: 100% !important;
 }
