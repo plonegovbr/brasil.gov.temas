@@ -1165,7 +1165,6 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /*Tile Header*/
 
 .outstanding-header {
-  min-height: 35px;
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
 	position: relative;
