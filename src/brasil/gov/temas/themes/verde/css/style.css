@@ -873,11 +873,11 @@ ul.navTreeLevel6 li a.navTreeCurrentNode {
 
 /* deslocamento dos itens */
 dl.portlet ul.navTree li a {
-	padding: 0.2em 1.5em !important;
+	padding: 0.6em 1.5em !important;
 }
 
 dl.portlet ul.navTreeLevel1 li a {
-	padding: 0.2em 2em !important;
+	padding: 0.6em 2em !important;
 }
 
 dl.portlet ul.navTreeLevel2 li a {
@@ -885,19 +885,19 @@ dl.portlet ul.navTreeLevel2 li a {
 }
 
 dl.portlet ul.navTreeLevel3 li a {
-	padding: 0.2em 3em !important;
+	padding: 0.6em 3em !important;
 }
 
 dl.portlet ul.navTreeLevel4 li a {
-	padding: 0.2em 3.5em !important;
+	padding: 0.6em 3.5em !important;
 }
 
 dl.portlet ul.navTreeLevel5 li a {
-	padding: 0.2em 4em !important;
+	padding: 0.6em 4em !important;
 }
 
 dl.portlet ul.navTreeLevel6 li a {
-	padding: 0.2em 4.5em !important;
+	padding: 0.6em 4.5em !important;
 }
 
 .first-item dl.portlet ul.navTree li a {
