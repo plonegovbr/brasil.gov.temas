@@ -464,14 +464,14 @@ p.section a {
 }
 
 #viewlet-social-like {
-	margin: 0 0 15px 0;
-	border-left: 1px dotted #bfc0c2;
-	padding: 5px 0 0 20px;
-	float: right;
-	width: 40%;
-	width: 300px;
-	right: -30px;
-	position: absolute;
+    margin: 0 0 15px 0;
+    border-left: 1px dotted #bfc0c2;
+    padding: 5px 0 0 20px;
+    float: right;
+    width: 40%;
+    width: 262px;
+    right: 10px;
+    position: absolute;
 }
 
 .portaltype-collection #viewlet-social-like {
@@ -1176,7 +1176,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /*Tile Header*/
 
-.outstanding-header {
+.outtanding-header {
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
 	position: relative;
@@ -1771,6 +1771,12 @@ ul.social-tabs.css-tabs>li>a {
     height: 307px;
 }
 /* Correção largura tile de redes sociais */
+
+#viewlet-social-like>span {
+    display: block;
+    float: right;
+    margin-left: 3px;
+}
 
 /* celular  */
 @media only screen and (min-width : 320px) and (max-width : 768px) {
