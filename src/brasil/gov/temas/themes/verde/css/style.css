@@ -407,6 +407,10 @@ input.searchField {
 	margin-top: 40px;
 }
 
+#content-core p {
+  font-size: 110%;
+}
+
 .hidden {
 	display: none;
 }
@@ -565,20 +569,28 @@ table.listing tbody th {
 	-webkit-border-radius: 5px;
 	background: #eeefff;
 	border: 1px solid #d5d5d5 !important;
-	padding-top: 30px;
+	padding: 3em 1em 1.6em;
 }
 
 #related-items legend {
-	color: #444;
+	color: #454545;
 	position: absolute;
-	top: 8px;
+	top: 20px;
 	padding: 0px;
 	font-size: 1.3em;
 	font-weight: bold;
 }
 
-#related-items a {
-	font-weight: bold;
+#related-items .relationlist-field a {
+  display: block;
+  padding-left: 23px;
+  color: #335277;
+  background: url("../img/icone-related-items.png") 2px no-repeat;
+  font-weight: bold;
+}
+
+#related-items div {
+  padding-top: 20px;
 }
 
 fieldset#folder-listing legend {
@@ -902,7 +914,7 @@ dl.portlet ul.navTreeLevel6 li a {
 /* lists */
 
 #content li, dl.portlet li {
-	line-height: 1.5em;
+	line-height: 1.5em !important;
 	list-style: square outside;
 	margin-bottom: 0.25em;
 }
@@ -1768,7 +1780,7 @@ ul.social-tabs.css-tabs>li>a {
 		float: none;
 		position: static;
 		padding: 1em 0;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 	#main {
@@ -1779,7 +1791,8 @@ ul.social-tabs.css-tabs>li>a {
 	#portal-breadcrumbs,
 	#accessibility,
 	#doormat-container,
-	#em-destaque {
+	#em-destaque,
+  #portal-features {
 		display: none !important;
 	}
 
@@ -1872,6 +1885,7 @@ ul.social-tabs.css-tabs>li>a {
 		color: #454545;
 		font-size: 24px;
 		padding: 20px 35px !important;
+    line-height: 1.2em;
 	};
 }
 
@@ -1946,6 +1960,7 @@ ul.social-tabs.css-tabs>li>a {
 
 	#sobre { background: none; }
 
+  #social-icons { display: none; }
 
 	#header {
 		padding: 1em 0.5em;
@@ -2012,7 +2027,7 @@ ul.social-tabs.css-tabs>li>a {
 
 	#portal-searchbox {
 		float: none;
-		width: 80%;
+		width: 100%;
 		clear: both;
 		margin: 0 auto 2%;
 	}
