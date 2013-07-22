@@ -13,7 +13,7 @@
     <notheme if="$ajax_load" />
 
     <rules css:if-content="#visual-portal-wrapper">
-        <append css:content="div#barra-brasil" css:theme="body" />
+        <prepend css:content="div#barra-brasil" css:theme="body" />
         <!--Plone.app.toolbar-->
         <append theme="/html/body" content="//div[@data-iframe='toolbar']" />
 
