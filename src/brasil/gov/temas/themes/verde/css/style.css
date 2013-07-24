@@ -326,6 +326,11 @@ div.width-16 {
 
 /* Searchbox */
 
+.LSBox {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 input.searchField {
 	-moz-appearance: none;

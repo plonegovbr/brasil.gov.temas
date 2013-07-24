@@ -7,46 +7,46 @@
           action="@@busca"
           tal:attributes="action string:${navigation_root_url}/@@busca;
                           id string:${search_input_id}_form;">
+        <fieldset class="LSBox">
+            <legend class="hiddenStructure">Search site</legend>
+            <label class="hiddenStructure"
+                   tal:attributes="for search_input_id"
+                   i18n:translate="text_search">Search Site</label>
 
-        <div class="LSBox">
-        <label class="hiddenStructure"
-               tal:attributes="for search_input_id"
-               i18n:translate="text_search">Search Site</label>
+            <input name="SearchableText"
+                   type="text"
+                   size="18"
+                   value=""
+                   title="Search Site"
+                   placeholder="Search Site"
+                   i18n:attributes="title title_search_site;
+                                    placeholder title_search_site"
+                   tal:attributes="value request/form/SearchableText|nothing;
+                                   id search_input_id"
+                   class="searchField" />
 
-        <input name="SearchableText"
-               type="text"
-               size="18"
-               value=""
-               title="Search Site"
-               placeholder="Search Site"
-               i18n:attributes="title title_search_site;
-                                placeholder title_search_site"
-               tal:attributes="value request/form/SearchableText|nothing;
-                               id search_input_id"
-               class="searchField" />
+            <input class="searchButton"
+                   type="submit"
+                   value="Search"
+                   i18n:attributes="value label_search;" />
 
-        <input class="searchButton"
-               type="submit"
-               value="Search"
-               i18n:attributes="value label_search;" />
+            <div class="searchSection">
+                <input id="searchbox_currentfolder_only"
+                       class="noborder"
+                       type="checkbox"
+                       name="path"
+                       tal:attributes="value view/folder_path;
+                                       checked request/form/path|nothing"
+                       />
+                <label for="searchbox_currentfolder_only"
+                       i18n:translate="label_searchbox_currentfolder_only"
+                       style="cursor: pointer">
+                    only in current section
+                </label>
+            </div>
 
-        <div class="searchSection">
-            <input id="searchbox_currentfolder_only"
-                   class="noborder"
-                   type="checkbox"
-                   name="path"
-                   tal:attributes="value view/folder_path;
-                                   checked request/form/path|nothing"
-                   />
-            <label for="searchbox_currentfolder_only"
-                   i18n:translate="label_searchbox_currentfolder_only"
-                   style="cursor: pointer">
-                only in current section
-            </label>
-        </div>
-
-        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
-        </div>
+            <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+        </fieldset>
     </form>
 
     <div id="portal-advanced-search"
