@@ -379,6 +379,9 @@ margin: 1em 0.25em 2em 0.25em;
 body#content {
 margin: 1em;
 }
+#content h1 {
+margin-top: 0;
+}
 #content h1.documentFirstHeading {
 margin-top: 0;
 }
