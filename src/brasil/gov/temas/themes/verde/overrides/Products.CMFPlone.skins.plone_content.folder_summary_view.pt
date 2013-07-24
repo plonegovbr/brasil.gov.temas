@@ -48,7 +48,7 @@
               <span tal:repeat="tag tags">
                 <a href=""
                    tal:content="tag"
-                   tal:attributes="href string:${portal_url}/@@search?Subject:list=${tag}"
+                   tal:attributes="href string:${portal_url}/@@busca?Subject:list=${tag}"
                    class="link-category" rel="tag">Berlim</a>
               </span>
             </div>
