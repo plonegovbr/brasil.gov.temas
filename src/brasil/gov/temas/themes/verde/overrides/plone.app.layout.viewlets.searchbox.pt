@@ -50,7 +50,8 @@
     </form>
 
     <div id="portal-advanced-search"
-         class="hiddenStructure">
+         class="hiddenStructure"
+         tal:condition="False">
         <a href="#"
            tal:attributes="href string:${navigation_root_url}/@@busca"
            i18n:translate="label_advanced_search">
