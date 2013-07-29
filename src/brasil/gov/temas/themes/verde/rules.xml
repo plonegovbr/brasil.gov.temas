@@ -12,6 +12,8 @@
     <notheme if-path="@@manage-viewlets" />
     <notheme if="$ajax_load" />
 
+    <xsl:output method="html"/>
+
     <rules css:if-content="#visual-portal-wrapper">
         <append css:content="div#barra-brasil" css:theme="body" />
         <!--Plone.app.toolbar-->
@@ -59,5 +61,6 @@
 
 
     </rules>
+
 
 </rules>
