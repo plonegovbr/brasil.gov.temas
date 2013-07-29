@@ -218,8 +218,7 @@ div.width-16 {
 #portal-personaltools {
 	font-size: 1.2em;
     top: 0px;
-    left: 0;
-    right: 90%;
+    right: 0;
     float: left;
     position: absolute;
     width: 65px;
