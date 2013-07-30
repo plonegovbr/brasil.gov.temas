@@ -1786,7 +1786,7 @@ ul.social-tabs.css-tabs>li>a {
 }
 /* Correção largura tile de redes sociais */
 
-#viewlet-social-like>span {
+#viewlet-social-like>div {
     display: block;
     float: right;
     margin-left: 3px;
