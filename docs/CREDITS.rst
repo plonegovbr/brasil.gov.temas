@@ -8,6 +8,7 @@ seguintes pessoas:
 - Érico Andrei
 - Héctor Velarde
 - Igor Prado
-- Rennan Martini
-- Rodrigo Souza
+- Felipe Duardo
+- Rennan Rodrigues
+- Rodrigo Ferreira de Souza
 - Tania Andrea
