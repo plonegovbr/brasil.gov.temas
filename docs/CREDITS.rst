@@ -6,9 +6,9 @@ seguintes pessoas:
 
 - André Nogueira
 - Érico Andrei
-- Felipe Duardo
 - Héctor Velarde
 - Igor Prado
+- Felipe Duardo
 - Rennan Rodrigues
 - Rodrigo Ferreira de Souza
 - Tania Andrea
