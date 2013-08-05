@@ -21,7 +21,7 @@ Para uso deste pacote, seu site deve ter sido construído com:
 Captura de tela
 ------------------
 
-TODO
+.. image:: https://raw.github.com/plonegovbr/brasil.gov.temas/master/screenshot.png
 
 
 Estado deste pacote

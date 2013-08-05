@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0a1 (unreleased)
-^^^^^^^^^^^^^^^^^^
+1.0a1 (2013-07-22)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Initial release.
+  * Primeira versão [ericof]
