@@ -27,10 +27,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
-#content h1 {
-    margin-top: 0 !important;
-}
-
 .modal {
 	top: 50% !important;
 }
@@ -217,11 +213,6 @@ div.width-16 {
 /* Personal tools */
 #portal-personaltools {
 	font-size: 1.2em;
-    top: 0px;
-    right: 0;
-    float: left;
-    position: absolute;
-    width: 65px;
 }
 
 #language {
@@ -331,11 +322,6 @@ div.width-16 {
 
 /* Searchbox */
 
-.LSBox {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 input.searchField {
 	-moz-appearance: none;
@@ -1050,12 +1036,23 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	-webkit-border-radius: 5px;
 }
 
+.lista-horizontal .tile-header,
 .lista-horizontal .tile-title {
 	border-bottom: 1px solid #c0c1c3;
 	padding: 0.5em 1em;
 	color: #464a53;
 	text-transform: uppercase;
 	margin: 0;
+}
+
+.lista-horizontal .tile-footer {
+	float: left;
+	margin: 0;
+	padding: 1% 2.5%;
+	width: 95%;
+	border-top: 1px solid #c0c1c3;
+	color: #464a53;
+	text-transform: uppercase;
 }
 
 .lista-horizontal .collection-item a {
@@ -1066,7 +1063,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	width: 29%;
 	padding: 2% 1% 2% 3%;
 	float: left;
-	border-right: 1px dotted #ccc;
+	border-left: 1px dotted #ccc;
 }
 
 /*Cores Section*/
@@ -1786,7 +1783,7 @@ ul.social-tabs.css-tabs>li>a {
 }
 /* Correção largura tile de redes sociais */
 
-#viewlet-social-like>div {
+#viewlet-social-like>span {
     display: block;
     float: right;
     margin-left: 3px;
