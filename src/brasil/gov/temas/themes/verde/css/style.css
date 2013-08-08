@@ -1055,10 +1055,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	text-transform: uppercase;
 }
 
+.lista-horizontal .list-item a,
 .lista-horizontal .collection-item a {
 	color: #365073 !important;
 }
 
+.lista-horizontal .list-item,
 .lista-horizontal .collection-item {
 	width: 29%;
 	padding: 2% 1% 2% 3%;
