@@ -1862,14 +1862,10 @@ body.contraste #doormat-container .doormatColumn {
     width: 100% !important;
     height: 100% !important;
 }
-ul.social-tabs.css-tabs>li {
-    max-width: 48%;
-}
-ul.social-tabs.css-tabs>li:nth-child(1) {
-    margin-right: 2%;
-}
 ul.social-tabs.css-tabs>li>a {
-    max-width: 41%;
+    padding: 5px;
+    width: 96px;
+    text-align: center;
 }
 .facebook-content.pane {
     height: 271px;
