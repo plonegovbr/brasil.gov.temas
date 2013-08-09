@@ -1082,6 +1082,82 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-left: 1px dotted #ccc;
 }
 
+/* lista vertical do Tile List e Tile Collection */
+.lista-vertical {
+	background: #eeeff1 !important;
+	border: 1px solid #c0c1c3;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.lista-vertical .tile-header,
+.lista-vertical .tile-title,
+.lista-vertical .collection-header,
+.lista-vertical .collection-title {
+	border-bottom: 1px solid #c0c1c3;
+	padding: 0.5em 1em;
+	color: #464a53;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.lista-vertical .tile-header h3 {
+	color: #444a53;
+	font-size: 1.3em;
+}
+
+.lista-vertical .tile-footer,
+.lista-vertical .collection-footer {
+	float: left;
+	margin: 0;
+	padding: 1% 2.5%;
+	width: 95%;
+	border-top: 1px solid #c0c1c3;
+	color: #464a53;
+	text-transform: uppercase;
+}
+
+.lista-vertical .list-item a,
+.lista-vertical .collection-item a {
+	color: #365073 !important;
+}
+
+.lista-vertical .list-item,
+.lista-vertical .collection-item {
+	width: 97%;
+	padding: 0 1.5%;
+	margin: 0;
+	clear: both;
+	border-bottom: 1px dotted #c1c2c2;
+}
+
+.lista-vertical .list-item h1,
+.lista-vertical .list-item h2,
+.lista-vertical .list-item h3,
+.lista-vertical .collection-item h1,
+.lista-vertical .collection-item h2,
+.lista-vertical .collection-item h3 {
+	font-size: 1em;
+	margin: 0.8em 0 !important;
+	padding: 0;
+	line-height: 1em;
+}
+
+.lista-vertical .list-item a h1,
+.lista-vertical .list-item a h2,
+.lista-vertical .list-item a h3,
+.lista-vertical .collection-item a h1,
+.lista-vertical .collection-item a h2,
+.lista-vertical .collection-item a h3 { color: #596e7f; }
+
+.lista-vertical .list-item 		 img[width="200"],
+.lista-vertical .collection-item img[width="200"] {
+	max-width: 115px;
+	width: 115px;
+	margin: 0 .8em 0 0 !important;
+}
+
 /*Cores Section*/
 
 .roxo .tile-subtitle {
