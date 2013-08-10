@@ -42,10 +42,6 @@
         <!-- Portlets -->
         <strip css:content=".portletNavigationTree .portletHeader a.tile" />
 
-        <!--NITF -->
-        <drop css:content=".portaltype-collective-nitf-content #viewlet-below-content-title #plone-document-byline" />
-
-
         <!--Viewlets-->
         <replace css:content="#portal-personaltools" css:theme="#user" />
         <replace css:content="#portal-siteactions" css:theme="#portal-siteactions" />
