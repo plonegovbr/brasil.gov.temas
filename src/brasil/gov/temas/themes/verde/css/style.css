@@ -1358,21 +1358,27 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .outstanding-header h1 {
-	font-size: 1.7em;
+	font-size: 2.3em !important;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .outstanding-header h2 {
-	font-size: 2em;
+	font-size: 2em !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
 }
 
 .outstanding-header h3 {
-	font-size: 1.5em;
+	font-size: 1.5em !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
 }
 
 .outstanding-header h4 {
-	font-size: 1.3em;
+	font-size: 1.3em !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
 }
 
 .outstanding-header .outstanding-link {
