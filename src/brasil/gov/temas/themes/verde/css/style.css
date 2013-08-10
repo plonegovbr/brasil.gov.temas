@@ -469,6 +469,12 @@ p.section {
 	text-transform: uppercase;
 }
 
+#related-items {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+
 p.section a {
 	color: #2c67cd;
 }
