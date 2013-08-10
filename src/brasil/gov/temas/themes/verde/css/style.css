@@ -459,7 +459,6 @@ h2.nitfSubtitle {
 	color: #2c67cd !important;
 	margin: 0 !important;
 	font-size: 1em;
-	position: absolute;
 }
 
 p.section {
@@ -468,6 +467,12 @@ p.section {
 	line-height: 1em;
 	margin-bottom: 15px !important;
 	text-transform: uppercase;
+}
+
+#related-items {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
 }
 
 p.section a {
@@ -518,6 +523,19 @@ p.section a {
 #content div.newsImageContainer>div:first-child p {
 	text-align: left;
 }
+
+.newsImageContainer .photo-icon {
+	float: right;
+	background: url(../img/icone-foto-20.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent: 100%;
+	margin: 0 0 .5em 0;
+}
+
+.newsImageContainer .parent-nitf-image { display: block; }
 
 
 /* tabela */

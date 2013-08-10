@@ -42,10 +42,6 @@
         <!-- Portlets -->
         <strip css:content=".portletNavigationTree .portletHeader a.tile" />
 
-        <!--NITF -->
-        <drop css:content=".portaltype-collective-nitf-content #viewlet-below-content-title #plone-document-byline" />
-
-
         <!--Viewlets-->
         <replace css:content="#portal-personaltools" css:theme="#user" />
         <replace css:content="#portal-siteactions" css:theme="#portal-siteactions" />
@@ -58,7 +54,8 @@
         <replace css:content="#doormat-container" css:theme="#doormat" />
         <replace css:content-children="#portal-footer" css:theme="#footer-info" />
         <after css:content="#portal-languageselector" css:theme="#logo" />
-
+        <drop css:content="#viewlet-below-content-body" />
+        <!--after css:content="#related-items" css:theme=".newsImageContainer" /-->
 
     </rules>
 
