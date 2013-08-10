@@ -1042,6 +1042,37 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: url(../img/cc-icon-reportar-erro.png) no-repeat;
 }
 
+/* portleft de politicas */
+.portlet-collection-politicias {
+	background: #eeeff1 !important;
+	border: 1px solid #c0c1c3;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.portlet-collection-politicias .portletHeader {
+	border-bottom: 1px solid #c0c1c3;
+	padding: 1em;
+	color: #464a53;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.portlet-collection-politicias .portletItem .tile {
+	display: inline;
+	float: none;
+	color: #436976;
+}
+
+.portlet-collection-politicias .portletFooter a {
+	color: #436976 !important;
+}
+
+.portlet-collection-politicias .portletItem .portletItemDetails {
+	margin: 0;
+}
+
 /****************** COVER *******************/
 
 .portaltype-collective-cover-content #content .row {
