@@ -1042,8 +1042,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: url(../img/cc-icon-reportar-erro.png) no-repeat;
 }
 
-/* portleft de politicas */
-.portlet-collection-politicias {
+/* portlet de politicas */
+.portlet-collection-politicas {
 	background: #eeeff1 !important;
 	border: 1px solid #c0c1c3;
 	border-radius: 5px;
@@ -1051,7 +1051,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	-webkit-border-radius: 5px;
 }
 
-.portlet-collection-politicias .portletHeader {
+.portlet-collection-politicas .portletHeader {
 	border-bottom: 1px solid #c0c1c3;
 	padding: 1em;
 	color: #464a53;
@@ -1059,17 +1059,17 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin: 0;
 }
 
-.portlet-collection-politicias .portletItem .tile {
+.portlet-collection-politicas .portletItem .tile {
 	display: inline;
 	float: none;
 	color: #436976;
 }
 
-.portlet-collection-politicias .portletFooter a {
+.portlet-collection-politicas .portletFooter a {
 	color: #436976 !important;
 }
 
-.portlet-collection-politicias .portletItem .portletItemDetails {
+.portlet-collection-politicas .portletItem .portletItemDetails {
 	margin: 0;
 }
 
