@@ -1159,9 +1159,11 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin: 0;
 }
 
-.lista-vertical .tile-header h3 {
+.lista-vertical .tile-header h3,
+.lista-vertical .tile-header span {
 	color: #444a53;
 	font-size: 1.3em;
+	font-weight: bold;
 }
 
 .lista-vertical .tile-footer,
@@ -1213,7 +1215,19 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	max-width: 115px;
 	width: 115px;
 	margin: 0 .8em 0 0 !important;
+	float: left;
 }
+
+.lista-vertical p.data,
+.lista-vertical p.date {
+		 /* 0 20px 0 0 */
+	margin: 0 1.4em 0 0 !important;
+	float: left;
+	color: #748494;
+}
+
+.lista-vertical .list-item p,
+.lista-vertical .collection-item p { color: #46494e; }
 
 /*Cores Section*/
 
