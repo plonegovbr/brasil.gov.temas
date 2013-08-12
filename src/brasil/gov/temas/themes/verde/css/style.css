@@ -1088,6 +1088,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .portlet-collection-politicas .portletItem .portletItemDetails {
+	width: 0;
 	margin: 0;
 }
 
