@@ -1033,32 +1033,32 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /* icones central de conteudos */
 .item-central .link-videos {
-	background: url(../img/cc-icon-videos.png) no-repeat;
+	background: url(../img/sprite-icons.png) no-repeat -1px -127px;
 }
 
 .item-central .link-audios {
-	background: url(../img/cc-icon-audios.png) no-repeat;
+	background: url(../img/sprite-icons.png) no-repeat -1px -167px;
 }
 
 .item-central .link-infograficos {
-	background: url(../img/cc-icon-infograficos.png) no-repeat;
+	background: url(../img/sprite-icons.png) no-repeat -1px -207px;
 }
 
 .item-central .link-publicacoes {
-	background: url(../img/cc-icon-publicacoes.png) no-repeat;
+	background: url(../img/sprite-icons.png) no-repeat -1px -247px;
 }
 
 .item-central .link-fotos {
-	background: url(../img/cc-icon-fotos.png) no-repeat;
+	background: url(../img/sprite-icons.png) no-repeat -1px -326px;
 }
 
 .item-central .link-aplicativos {
-	background: url(../img/cc-icon-aplicativos.png) no-repeat;
+	background: url(../img/sprite-icons.png) no-repeat -1px -287px;
 }
 
-.item-central .link-reportar-erro {
+/*.item-central .link-reportar-erro {
 	background: url(../img/cc-icon-reportar-erro.png) no-repeat;
-}
+}*/
 
 /* portlet de politicas */
 .portlet-collection-politicas {
