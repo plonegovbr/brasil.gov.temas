@@ -1809,6 +1809,18 @@ dl.portlet div.listingBar a:link {
 	display: block;
 }
 
+#search-results-bar .activated dd.actionMenuContent {
+	display:block
+}
+
+#search-results-bar .deactivated dd.actionMenuContent {
+	display:none
+}
+
+#search-results-bar dl.actionMenu.activated dd {
+	position: relative;
+}
+
 .template-search #search-results-bar dl {
 	width: 97%;
 	margin-left: 20px !important;
