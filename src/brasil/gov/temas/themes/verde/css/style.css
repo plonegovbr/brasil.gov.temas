@@ -1173,6 +1173,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-top: 1px solid #c0c1c3;
 	color: #464a53;
 	text-transform: uppercase;
+	text-align: right;
 }
 
 .lista-horizontal .list-item a,
@@ -1660,27 +1661,27 @@ dl.portlet div.listingBar a:link {
 }
 
 .tile-sc-embedder .documentByLine .icon-type {
-	background: url(../img/cc-icons-19.png) no-repeat -1px -22px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -22px;
 }
 
 .tile-audio .documentByLine .icon-type {
-	background: url(../img/cc-icons-19.png) no-repeat -1px -1px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -1px;
 }
 
 .tile-page .documentByLine .icon-type {
-	background: url(../img/cc-icons-19.png) no-repeat -1px -43px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -43px;
 }
 
 .tile-images .documentByLine .icon-type {
-	background: url(../img/cc-icons-19.png) no-repeat -1px -85px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -85px;
 }
 
 .tile-aplicativos .documentByLine .icon-type {
-	background: url(../img/cc-icons-19.png) no-repeat -1px -106px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -106px;
 }
 
 .tile-folder .documentByLine .icon-type {
-	background: url(../img/cc-icons-19.png) no-repeat -1px -43px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -43px;
 }
 
 /*Search results*/
