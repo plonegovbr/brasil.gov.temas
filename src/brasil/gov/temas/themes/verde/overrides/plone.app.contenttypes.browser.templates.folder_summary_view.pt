@@ -29,13 +29,13 @@
                   </div>
             </a>
 
+            <span class="subtitle" tal:content="item/subtitle" tal:condition="item/subtitle"></span>
             <h2 class="tileHeadline" metal:define-macro="listitem">
-                <a href="#"
-                   class="summary url"
-                   tal:attributes="href python:item_type in use_view_action and item_url+'/view' or item_url;"
-                   tal:content="item/Title">
-                    Item Title
-                </a>
+              <a href="#" class="summary url"
+                 tal:attributes="href python:item_type in use_view_action and item_url+'/view' or item_url;"
+                 tal:content="item/Title">
+                  Item Title
+              </a>
             </h2>
             <p tal:condition="item/Description">
                 <span class="description" tal:content="item/Description">
@@ -44,7 +44,7 @@
             </p>
             <div class="keywords" tal:define="tags item/Subject"
                  tal:condition="tags">
-              registrado em:
+              Tags:
               <span tal:repeat="tag tags">
                 <a href=""
                    tal:content="tag"
