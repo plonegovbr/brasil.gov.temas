@@ -470,9 +470,7 @@ p.section {
 }
 
 #related-items {
-    width: 30%;
-    float: right;
-    margin-left: 10px;
+    width: 203px;
 }
 
 p.section a {
