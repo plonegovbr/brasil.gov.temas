@@ -77,6 +77,12 @@ jQuery(document).ready(function ($) {
     });
 
     resize();
+
+    $('.newsImageContainer .photo-icon').on('click', function(e) {
+        e.preventDefault();
+        $(this).parent().find('.carrossel-images').slideToggle();
+    });
+
 });
 
 $('#link-buscar').click(function (e) {
