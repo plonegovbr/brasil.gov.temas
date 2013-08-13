@@ -524,7 +524,7 @@ p.section a {
 	text-align: left;
 }
 
-.newsImageContainer .photo-icon {
+#content .newsImageContainer .photo-icon {
 	float: right;
 	background: url(../img/icone-foto-20.png) no-repeat;
 	width: 20px;
@@ -533,6 +533,7 @@ p.section a {
 	white-space: nowrap;
 	text-indent: 100%;
 	margin: 0 0 .5em 0;
+	clear: none;
 }
 
 .newsImageContainer .parent-nitf-image { display: block; }
