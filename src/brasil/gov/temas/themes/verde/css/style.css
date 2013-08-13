@@ -489,8 +489,12 @@ p.section a {
 	float: right;
 	margin: 0 0 15px 0;
 	padding: 5px 0 0 20px;
-	width: 40%;
+	width: 58%;
 	border-left: 1px dotted #bfc0c2;
+}
+
+#plone-document-byline {
+	width: 35%;
 }
 
 .portaltype-collection #viewlet-social-like {
@@ -1061,7 +1065,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }*/
 
 /* portlet de politicas */
-.portlet-collection-politicas {
+.portletCollection {
 	background: #eeeff1 !important;
 	border: 1px solid #c0c1c3;
 	border-radius: 5px;
@@ -1069,7 +1073,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	-webkit-border-radius: 5px;
 }
 
-.portlet-collection-politicas .portletHeader {
+.portletCollection .portletHeader {
 	border-bottom: 1px solid #c0c1c3;
 	padding: 1em;
 	color: #464a53;
@@ -1077,17 +1081,17 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin: 0;
 }
 
-.portlet-collection-politicas .portletItem .tile {
+.portletCollection .portletItem .tile {
 	display: inline;
 	float: none;
 	color: #436976;
 }
 
-.portlet-collection-politicas .portletFooter a {
+.portletCollection .portletFooter a {
 	color: #436976 !important;
 }
 
-.portlet-collection-politicas .portletItem .portletItemDetails {
+.portletCollection .portletItem .portletItemDetails {
 	width: 0;
 	margin: 0;
 }
