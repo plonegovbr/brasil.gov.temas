@@ -1157,7 +1157,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /* link externo */
 .link-externo .tile-header,
 .link-externo .tile-title {
-	padding: 0.5em 1em;
+	padding: 1em;
 	border-bottom: 1px solid #bec2c1;
 	background: #434a54;
 }
@@ -1166,6 +1166,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .link-externo .tile-title h2 {
 	margin: 0;
 	color: #fff !important;
+	font-weight: normal;
 }
 
 .link-externo .tile-footer {
@@ -1175,7 +1176,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .link-externo .collection-item {
-	padding: 0.5em 1em;
+	padding: 1em;
 	border-bottom: 1px dotted #bec2c1;
 }
 
