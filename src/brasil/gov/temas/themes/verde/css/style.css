@@ -489,13 +489,18 @@ p.section a {
 	float: right;
 	margin: 0 0 15px 0;
 	padding: 5px 0 0 20px;
-	width: 58%;
+	width: 40%;
 	border-left: 1px dotted #bfc0c2;
 }
 
 #plone-document-byline {
-	width: 35%;
+	width: 55%;
 }
+
+/* correção dos tamanhos quando 4 colunas */
+div.width-1\3a 2 #viewlet-social-like { width: 58%; }
+
+div.width-1\3a 2 #plone-document-byline { width: 35%; }
 
 .portaltype-collection #viewlet-social-like {
 	top: -6px;
