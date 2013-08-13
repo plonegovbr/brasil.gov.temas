@@ -2460,3 +2460,6 @@ ul.formTabs {
 }
 
 #content .field textarea { resize: none; }
+
+/* correção de espaçamento dos icones de tiles na aba layout */
+#tiles-list .last-item { float:left; }
