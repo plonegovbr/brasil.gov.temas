@@ -1162,11 +1162,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: #434a54;
 }
 
+.link-externo .tile-header span,
 .link-externo .tile-header h2,
 .link-externo .tile-title h2 {
 	margin: 0;
 	color: #fff !important;
 	font-weight: normal;
+}
+
+.tile-header span {
+	font-size: 1.4em;
 }
 
 .link-externo .tile-footer {
@@ -1756,7 +1761,7 @@ dl.portlet div.listingBar a:link {
 }
 
 .tile-folder .documentByLine .icon-type {
-	background: url(../img/sprite-icons.png) no-repeat -1px -43px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -64px;
 }
 
 /*Search results*/
