@@ -1148,6 +1148,65 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	text-transform: uppercase;
 }
 
+.link-externo {
+	border: 1px solid #c0c1c3;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+/* link externo */
+.link-externo .tile-header,
+.link-externo .tile-title {
+	padding: 0.5em 1em;
+	border-bottom: 1px solid #bec2c1;
+	background: #434a54;
+}
+
+.link-externo .tile-header h2,
+.link-externo .tile-title h2 {
+	margin: 0;
+	color: #fff !important;
+}
+
+.link-externo .tile-footer {
+	padding: 0.5em 1em;
+	background: #c2c3c5;
+	text-transform: uppercase;
+}
+
+.link-externo .collection-item {
+	padding: 0.5em 1em;
+	border-bottom: 1px dotted #bec2c1;
+}
+
+.link-externo .collection-item.odd {
+	background: #eeeff1;
+}
+
+.link-externo .collection-item.even {
+	background: #fff;
+}
+
+.link-externo .collection-item a {
+	display: block;
+	padding-right: 2em;
+	background: url(../img/readmoredarkgray.png) no-repeat right center !important;
+}
+
+.link-externo .collection-item h2,
+.link-externo .collection-item h3 {
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+.link-externo .collection-item p {
+	height: 1px;
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	overflow: hidden;
+}
+
 /* lista horizontal */
 .lista-horizontal {
 	background: #eeeff1 !important;

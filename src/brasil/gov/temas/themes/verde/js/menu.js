@@ -86,3 +86,8 @@ $('#link-buscar').click(function (e) {
 });
 
 $("#portal-column-one div:first-child").addClass("first-item");
+
+if($('.link-externo').length > 0){
+    $('.link-externo .collection-item:even').addClass ('even');
+    $('.link-externo .collection-item:odd').addClass ('odd');
+}
