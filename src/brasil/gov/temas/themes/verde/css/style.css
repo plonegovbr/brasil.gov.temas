@@ -742,7 +742,7 @@ dl.portlet dt a:visited {
 .portletNews .portletItem,
 .portletCollection .portletItem {
 	border-bottom: 1px solid #ccc;
-	min-height: 60px;
+	min-height: 45px;
 	clear: both;
 }
 
