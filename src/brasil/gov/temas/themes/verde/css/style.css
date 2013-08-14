@@ -625,7 +625,7 @@ table.listing tbody th {
   display: block;
   padding-left: 23px;
   color: #335277;
-  background: url("../img/icone-related-items.png") 2px no-repeat;
+  background: url("../img/icone-related-items.png") 2px 5px no-repeat;
   font-weight: bold;
 }
 
