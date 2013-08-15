@@ -657,14 +657,38 @@ fieldset#folder-listing legend {
 
 
 /* tags */
-#category {
+#category,
+#category-vcge {
 	text-align: left;
 }
 
-#category a.link-category:hover {
+#category a.link-category:hover,
+#category-vcge a.link-category:hover {
 	background: #2c67cd;
 }
 
+#category-vcge {
+    font-size: 75%;
+    margin: 1em 0 0;
+    color: #666;
+}
+
+#category-vcge a.link-category, span.selectedTag {
+    color: black;
+    padding: 0.25em 0.5em;
+    background: #ddd;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+#category-vcge a.link-category:hover {
+    background: #205c90;
+    color: White;
+    border-color: #205c90;
+}
+#category-vcge .separator {
+    display: none;
+}
 
 /* embedder fix */
 #alt_cont a {
