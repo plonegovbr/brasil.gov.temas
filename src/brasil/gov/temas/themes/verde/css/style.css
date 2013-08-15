@@ -121,8 +121,24 @@ div.position-0 {
 	margin-left: -99.875%;
 }
 
+div.position-5 {
+	margin-left: -65%;
+}
+
+div.position-10 {
+	margin-left: -30%;
+}
+
 div.width-16 {
 	width: 100%;
+}
+
+div.width-10 {
+	width: 65%;
+}
+
+div.width-5 {
+	width: 30%;
 }
 
 
