@@ -80,7 +80,8 @@ jQuery(document).ready(function ($) {
 
     $('.newsImageContainer .photo-icon').on('click', function(e) {
         e.preventDefault();
-        $(this).parent().find('.carrossel-images').slideToggle();
+        //$(this).parent().find('.carrossel-images').slideToggle();
+        $('#parent-fieldname-image').trigger('click');
     });
 
 });
