@@ -548,9 +548,9 @@ div.width-1\3a 2 #plone-document-byline { width: 35%; }
 
 #content .newsImageContainer .photo-icon {
 	float: right;
-	background: url(../img/icone-foto-20.png) no-repeat;
-	width: 20px;
-	height: 20px;
+	background: url(../img/mais_fotos.png) no-repeat;
+	width: 102px;
+	height: 31px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-indent: 100%;
