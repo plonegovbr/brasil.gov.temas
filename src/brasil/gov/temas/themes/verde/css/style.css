@@ -419,6 +419,7 @@ input.searchField {
 #content div.newsImageContainer {
 	float: left;
 	margin: 0.5em 1em 0.5em 0;
+	position: relative;
 }
 
 #content div.newsImageContainer p.discreet {
@@ -556,6 +557,9 @@ div.width-1\3a 2 #plone-document-byline { width: 35%; }
 	text-indent: 100%;
 	margin: 0;
 	clear: none;
+	position: relative;
+	top: 24px;
+	right: -8px;
 }
 
 #content .newsImageContainer .copyright { line-height: 31px; }
