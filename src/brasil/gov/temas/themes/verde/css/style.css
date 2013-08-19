@@ -1130,11 +1130,22 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .portletCollection .portletFooter {
+	background: url(../img/portlet-footer-textmore.png) no-repeat right;
 	text-align: right;
 }
 
+.portletCollection .portletFooter span {
+	display: block;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
 .portletCollection .portletFooter a {
-	color: #436976 !important;
+	display: block;
+	float: right;
+	width: 133px;
+	height: 100%;
 }
 
 .portletCollection .portletItem .portletItemDetails {
