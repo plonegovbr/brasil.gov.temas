@@ -554,9 +554,11 @@ div.width-1\3a 2 #plone-document-byline { width: 35%; }
 	overflow: hidden;
 	white-space: nowrap;
 	text-indent: 100%;
-	margin: 0 0 .5em 0;
+	margin: 0;
 	clear: none;
 }
+
+#content .newsImageContainer .copyright { line-height: 31px; }
 
 .newsImageContainer .parent-nitf-image { display: block; }
 
