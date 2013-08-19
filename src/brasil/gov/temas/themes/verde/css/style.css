@@ -562,7 +562,12 @@ div.width-1\3a 2 #plone-document-byline { width: 35%; }
 	right: -8px;
 }
 
-#content .newsImageContainer .copyright { line-height: 31px; }
+#content .newsImageContainer .copyright {
+	line-height: 31px;
+	float: left;
+}
+
+#content .newsImageContainer .carrossel-images { display: none; }
 
 .newsImageContainer .parent-nitf-image { display: block; }
 
