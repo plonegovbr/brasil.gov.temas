@@ -1551,7 +1551,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
 	position: relative;
+	background-color: red;
 }
+
 
 .outstanding-header .outstanding-title {
 	color: #2C67CD;
@@ -1640,6 +1642,11 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: url("../img/readmoregreen.png") no-repeat scroll right 5px transparent;
 }
 
+/* fio separador */
+.fio-separador .outstanding-header {
+  border-top: 1px solid #ddd;
+  min-height: 40px;
+}
 
 /* azul claro */
 .azul-claro .outstanding-header {
