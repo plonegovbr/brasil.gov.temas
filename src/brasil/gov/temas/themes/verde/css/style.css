@@ -416,10 +416,15 @@ input.searchField {
 
 /*NITF*/
 
-#content div.newsImageContainer {
+#content div.newsLeftPane {
 	float: left;
 	margin: 0.5em 1em 0.5em 0;
 	position: relative;
+}
+
+#content div.newsImageContainer {
+	float: None;
+	margin: 0;
 }
 
 #content div.newsImageContainer p.discreet {
