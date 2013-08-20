@@ -1714,8 +1714,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-bottom: 1px solid #D3D3D3;
 	position: relative;
 	padding-left: 13%;
+	padding-bottom: 1em;
 	min-height: 120px;
 	margin: 30px 0;
+}
+
+.template-summary_view .tileItem p,
+.template-folder_summary_view .tileItem p {
+	line-height: 1.4em;
 }
 
 .template-summary_view h2.tileHeadline,
