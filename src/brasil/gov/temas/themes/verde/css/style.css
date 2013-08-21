@@ -1377,10 +1377,10 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .lista-vertical .list-item,
 .lista-vertical .collection-item {
-	width: 97%;
-	padding: 0 1.5%;
 	margin: 0;
 	clear: both;
+	padding: 0 9px;
+	display: block;
 	border-bottom: 1px dotted #c1c2c2;
 }
 
