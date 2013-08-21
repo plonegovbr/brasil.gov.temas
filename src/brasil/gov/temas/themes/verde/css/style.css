@@ -1643,10 +1643,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 /* fio separador */
-.fio-separador .outstanding-header {
-  border-top: 1px solid #ddd;
-  min-height: 40px;
-}
+.fio-separador .outstanding-header { border-top: 1px solid #ddd; }
 
 /* azul claro */
 .azul-claro .outstanding-header {
