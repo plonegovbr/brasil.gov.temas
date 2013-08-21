@@ -576,6 +576,17 @@ div.width-1\3a 2 #plone-document-byline { width: 35%; }
 
 .newsImageContainer .parent-nitf-image { display: block; }
 
+#content .relatar-erros {
+    margin-bottom: 15px;
+}
+#content .relatar-erros .icone {
+    margin-right: 10px;
+    float: left;
+}
+#content .relatar-erros .texto {
+    display: block;
+    line-height: 38px;
+}
 
 /* tabela */
 table.listing {
