@@ -1591,112 +1591,262 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .outstanding-header .outstanding-link {
+	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	display: block;
 	font-size: 0.7em;
-	padding-right: 30px;
+	line-height: 2.8em;
 	margin-right: 10px;
 	margin-top: 5px;
-	text-align: right;
-	line-height: 2.8em;
-	padding-top: 3px;
-	text-transform: uppercase;
-	width: 145px;
 	min-height: 30px;
-	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
-  position: absolute;
-  right: 0;
-  top: 0;
+	padding-right: 30px;
+	padding-top: 3px;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	text-transform: uppercase;
+	top: 0;
+	width: 145px;
 }
 
-.roxo .outstanding-header {
+/*
+ * Paleta de cores
+ * cor / editoria
+ */
+
+/*
+ * laranja / cidadania e justiça
+ */
+.laranja .tile-title {
+	border-top: 4px solid #D25400;
+	color: #D25400;
+} .laranja .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #5b1285;
-  min-height: 40px;
-}
-
-.roxo .outstanding-header .outstanding-title {
-	border-color: #5b1285;
-	color: #5b1285;
+	border-top: 4px solid #D25400;
+	min-height: 40px;
+} .laranja .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
+	border-color: #D25400;
+	color: #D25400;
+} .laranja .outstanding-header .outstanding-link {
+	background: url("../img/readmoreorange.png") no-repeat scroll right 5px transparent;
 }
 
-.roxo .outstanding-header .outstanding-link {
+/*
+ * azul petroleo / defesa e segurança
+ */
+.azul-petroleo .tile-title {
+	border-top: 4px solid #3867B7;
+	color: #3867B7;
+} .azul-petroleo .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #3867B7;
+	min-height: 40px;
+} .azul-petroleo .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #3867B7;
+	color: #3867B7;
+} .azul-petroleo .outstanding-header .outstanding-link {
+	background: url("../img/readmoreblue.png") no-repeat scroll right 5px transparent;
+}
+
+/*
+ * marrom claro / cultura
+ */
+.marrom-claro .tile-title {
+	border-top: 4px solid #B97A00;
+	color: #B97A00;
+} .marrom-claro .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #B97A00;
+	min-height: 40px;
+} .marrom-claro .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #B97A00;
+	color: #B97A00;
+}
+
+/*
+ * roxo / ciencia e tecnologia
+ */
+.roxo .tile-title {
+	border-top: 4px solid #643C67;
+	color: #643C67;
+} .roxo .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #643C67;
+	min-height: 40px;
+} .roxo .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #643C67;
+	color: #643C67;
+} .roxo .outstanding-header .outstanding-link {
 	background: url("../img/readmorepurple.png") no-repeat scroll right 5px transparent;
 }
 
-.verde .outstanding-header {
+/*
+ * amarelo / economia e emprego
+ */
+.amarelo .tile-title {
+	border-top: 4px solid #DE9200;
+	color: #DE9200;
+} .amarelo .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #01971c;
-  min-height: 40px;
-}
-
-.verde .outstanding-header .outstanding-title {
-	border-color: #01971c;
-	color: #01971c;
+	border-top: 4px solid #DE9200;
+	min-height: 40px;
+} .amarelo .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
+	border-color: #DE9200;
+	color: #DE9200;
 }
 
-.verde .outstanding-header .outstanding-link {
+/*
+ * verde escuro / educação
+ */
+.verde-escuro .tile-title {
+	border-top: 4px solid #1D571F;
+	color: #1D571F;
+} .verde-escuro .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #1D571F;
+	min-height: 40px;
+} .verde-escuro .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #1D571F;
+	color: #1D571F;
+}
+
+/*
+ * verde / esporte
+ */
+.verde .tile-title {
+	border-top: 4px solid #017B16;
+	color: #017B16;
+} .verde .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #017B16;
+	min-height: 40px;
+} .verde .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #017B16;
+	color: #017B16;
+} .verde .outstanding-header .outstanding-link {
 	background: url("../img/readmoregreen.png") no-repeat scroll right 5px transparent;
+}
+
+
+/*
+ * azul / governo
+ */
+.azul .tile-title {
+	border-top: 4px solid #1A55DD;
+	color: #1A55DD;
+} .azul .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #1A55DD;
+	min-height: 40px;
+} .azul .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #1A55DD;
+	color: #1A55DD;
+}
+
+/*
+ * marrom / infraestrutura
+ */
+.marrom .tile-title {
+	border-top: 4px solid #753900;
+	color: #753900;
+} .marrom .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #753900;
+	min-height: 40px;
+} .marrom .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #753900;
+	color: #753900;
+}
+
+/*
+ * verde claro / meio ambiente
+ */
+.verde-claro .tile-title {
+	border-top: 4px solid #508C00;
+	color: #508C00;
+} .verde-claro .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #508C00;
+	min-height: 40px;
+} .verde-claro .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #508C00;
+	color: #508C00;
+}
+
+/*
+ * azul claro / saude
+ */
+.azul-claro .tile-title {
+	border-top: 4px solid #3867B7;
+	color: #3867B7;
+} .azul-claro .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #3867B7;
+	min-height: 40px;
+} .azul-claro .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #3867B7;
+	color: #3867B7;
+}
+
+/*
+ * azul piscina / turismo
+ */
+.azul-piscina .tile-title {
+	border-top: 4px solid #00A0DB;
+	color: #00A0DB;
+} .azul-piscina .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #00A0DB;
+	min-height: 40px;
+} .azul-piscina .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #00A0DB;
+	color: #00A0DB;
+}
+
+/*
+ * bege
+ */
+.bege .tile-title {
+	border-top: 4px solid #AD6500;
+	color: #AD6500;
+} .bege .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #AD6500;
+	min-height: 40px;
+} .bege .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #AD6500;
+	color: #AD6500;
+} .bege .outstanding-header .outstanding-link {
+	background: url("../img/readmorebrown.png") no-repeat scroll right 5px transparent;
 }
 
 /* fio separador */
 .fio-separador .outstanding-header { border-top: 1px solid #ddd; }
-
-/* azul claro */
-.azul-claro .outstanding-header {
-  background: #eeeff1;
-	border-top: 4px solid #018bb9;
-  min-height: 40px;
-}
-
-.azul-claro .outstanding-header .outstanding-title {
-	border-color: #018bb9;
-	color: #018bb9;
-	background: #eeeff1;
-	border-bottom: none;
-}
-
-.azul-claro .outstanding-header .outstanding-link {
-	background: url("../img/readmoreblue.png") no-repeat scroll right 5px transparent;
-}
-
-.laranja .outstanding-header {
-	background: #eeeff1;
-	border-top: 4px solid #d25501;
-  min-height: 40px;
-}
-
-.laranja .outstanding-header .outstanding-title {
-	border-color: #d25501;
-	color: #d25501;
-	background: #eeeff1;
-	border-bottom: none;
-}
-
-.laranja .outstanding-header .outstanding-link {
-	background: url("../img/readmoreorange.png") no-repeat scroll right 5px transparent;
-}
-
-.bege .outstanding-header {
-	background: #eeeff1;
-	border-top: 4px solid #ad6500;
-  min-height: 40px;
-}
-
-.bege .outstanding-header .outstanding-title {
-	border-color: #ad6500;
-	color: #ad6500;
-	background: #eeeff1;
-	border-bottom: none;
-}
-
-.bege .outstanding-header .outstanding-link {
-	background: url("../img/readmorebrown.png") no-repeat scroll right 5px transparent;
-}
-
 
 /**** Collections ****/
 
