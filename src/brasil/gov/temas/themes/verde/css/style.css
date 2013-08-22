@@ -1620,158 +1620,146 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 /*
- * Paleta de cores
- * cor / editoria
+ * Paleta de cores - cor / editoria
  */
 
-/*
- * laranja / cidadania e justiça
- */
+/* laranja / cidadania e justiça */
 .laranja .tile-title {
-	border-top: 4px solid #D25400;
-	color: #D25400;
+	border-top: 4px solid #ba4a00;
+	color: #ba4a00;
 } .laranja .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #D25400;
+	border-top: 4px solid #ba4a00;
 	min-height: 40px;
 } .laranja .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #D25400;
-	color: #D25400;
+	border-color: #ba4a00;
+	color: #ba4a00;
 } .laranja .outstanding-header .outstanding-link {
-	background: url("../img/readmoreorange.png") no-repeat scroll right 5px transparent;
+	background: url("../img/seta_cidadania_justica.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * azul petroleo / defesa e segurança
- */
+/* azul petroleo / defesa e segurança */
 .azul-petroleo .tile-title {
-	border-top: 4px solid #3867B7;
-	color: #3867B7;
+	border-top: 4px solid #3b7390;
+	color: #3b7390;
 } .azul-petroleo .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #3867B7;
+	border-top: 4px solid #3b7390;
 	min-height: 40px;
 } .azul-petroleo .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #3867B7;
-	color: #3867B7;
+	border-color: #3b7390;
+	color: #3b7390;
 } .azul-petroleo .outstanding-header .outstanding-link {
-	background: url("../img/readmoreblue.png") no-repeat scroll right 5px transparent;
+	background: url("../img/seta_defesa_seguranca.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * marrom claro / cultura
- */
-.marrom-claro .tile-title {
-	border-top: 4px solid #B97A00;
-	color: #B97A00;
-} .marrom-claro .outstanding-header {
+/* azul petroleo / defesa e segurança */
+.dourado .tile-title {
+	border-top: 4px solid #b97a00;
+	color: #b97a00;
+} .dourado .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #B97A00;
+	border-top: 4px solid #b97a00;
 	min-height: 40px;
-} .marrom-claro .outstanding-header .outstanding-title {
+} .dourado .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #B97A00;
-	color: #B97A00;
+	border-color: #b97a00;
+	color: #b97a00;
+} .dourado .outstanding-header .outstanding-link {
+	background: url("../img/seta_cultura.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * roxo / ciencia e tecnologia
- */
+/* roxo / ciencia e tecnologia */
 .roxo .tile-title {
-	border-top: 4px solid #643C67;
-	color: #643C67;
+	border-top: 4px solid #643c67;
+	color: #643c67;
 } .roxo .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #643C67;
+	border-top: 4px solid #643c67;
 	min-height: 40px;
 } .roxo .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #643C67;
-	color: #643C67;
+	border-color: #643c67;
+	color: #643c67;
 } .roxo .outstanding-header .outstanding-link {
-	background: url("../img/readmorepurple.png") no-repeat scroll right 5px transparent;
+	background: url("../img/seta_ciencia_tecnologia.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * amarelo / economia e emprego
- */
-.amarelo .tile-title {
-	border-top: 4px solid #DE9200;
-	color: #DE9200;
-} .amarelo .outstanding-header {
+/* marrom claro / economia e emprego */
+.marrom-claro .tile-title {
+	border-top: 4px solid #826938;
+	color: #826938;
+} .marrom-claro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #DE9200;
+	border-top: 4px solid #826938;
 	min-height: 40px;
-} .amarelo .outstanding-header .outstanding-title {
+} .marrom-claro .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #DE9200;
-	color: #DE9200;
+	border-color: #826938;
+	color: #826938;
+} .marrom-claro .outstanding-header .outstanding-link {
+	background: url("../img/seta_economia_emprego.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * verde escuro / educação
- */
+/* verde escuro / educação */
 .verde-escuro .tile-title {
 	border-top: 4px solid #1D571F;
-	color: #1D571F;
+	color: #1d571f;
 } .verde-escuro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #1D571F;
+	border-top: 4px solid #1d571f;
 	min-height: 40px;
 } .verde-escuro .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #1D571F;
-	color: #1D571F;
+	border-color: #1d571f;
+	color: #1d571f;
+} .verde-escuro .outstanding-header .outstanding-link {
+	background: url("../img/seta_educacao.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * verde / esporte
- */
+/* verde / esporte */
 .verde .tile-title {
-	border-top: 4px solid #017B16;
+	border-top: 4px solid #017b16;
 	color: #017B16;
 } .verde .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #017B16;
+	border-top: 4px solid #017b16;
 	min-height: 40px;
 } .verde .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #017B16;
-	color: #017B16;
+	border-color: #017b16;
+	color: #017b16;
 } .verde .outstanding-header .outstanding-link {
-	background: url("../img/readmoregreen.png") no-repeat scroll right 5px transparent;
+	background: url("../img/seta_esporte.png") no-repeat scroll right 5px transparent;
 }
 
-
-/*
- * azul / governo
- */
+/* azul / governo */
 .azul .tile-title {
-	border-top: 4px solid #1A55DD;
-	color: #1A55DD;
+	border-top: 4px solid #1a55dd;
+	color: #1a55dd;
 } .azul .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #1A55DD;
+	border-top: 4px solid #1a55dd;
 	min-height: 40px;
 } .azul .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #1A55DD;
-	color: #1A55DD;
+	border-color: #1a55dd;
+	color: #1a55dd;
+} .azul .outstanding-header .outstanding-link {
+	background: url("../img/seta_governo.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * marrom / infraestrutura
- */
+/* marrom / infraestrutura */
 .marrom .tile-title {
 	border-top: 4px solid #753900;
 	color: #753900;
@@ -1784,45 +1772,62 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-bottom: none;
 	border-color: #753900;
 	color: #753900;
+} .marrom .outstanding-header .outstanding-link {
+	background: url("../img/seta_infraestrutura.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * verde claro / meio ambiente
- */
+/* verde claro / meio ambiente */
 .verde-claro .tile-title {
-	border-top: 4px solid #508C00;
-	color: #508C00;
+	border-top: 4px solid #56762b;
+	color: #56762b;
 } .verde-claro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #508C00;
+	border-top: 4px solid #56762b;
 	min-height: 40px;
 } .verde-claro .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #508C00;
-	color: #508C00;
+	border-color: #56762b;
+	color: #56762b;
+} .verde-claro .outstanding-header .outstanding-link {
+	background: url("../img/seta_meio_ambiente.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * azul claro / saude
- */
+/* azul claro / saude */
 .azul-claro .tile-title {
-	border-top: 4px solid #3867B7;
-	color: #3867B7;
+	border-top: 4px solid #3867b7;
+	color: #3867b7;
 } .azul-claro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #3867B7;
+	border-top: 4px solid #3867b7;
 	min-height: 40px;
 } .azul-claro .outstanding-header .outstanding-title {
 	background: #eeeff1;
 	border-bottom: none;
-	border-color: #3867B7;
-	color: #3867B7;
+	border-color: #3867b7;
+	color: #3867b7;
+} .azul-claro .outstanding-header .outstanding-link {
+	background: url("../img/seta_saude.png") no-repeat scroll right 5px transparent;
 }
 
-/*
- * azul piscina / turismo
- */
+/* azul escuro / turismo */
+.azul-escuro .tile-title {
+	border-top: 4px solid #00439e;
+	color: #00439e;
+} .azul-escuro .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #00439e;
+	min-height: 40px;
+} .azul-escuro .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #00439e;
+	color: #00439e;
+} .azul-escuro .outstanding-header .outstanding-link {
+	background: url("../img/seta_tursimo.png") no-repeat scroll right 5px transparent;
+}
+
+/* azul piscina / turismo */
 .azul-piscina .tile-title {
 	border-top: 4px solid #00A0DB;
 	color: #00A0DB;
@@ -1837,9 +1842,39 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #00A0DB;
 }
 
-/*
- * bege
- */
+/* bege */
+.bege .tile-title {
+	border-top: 4px solid #AD6500;
+	color: #AD6500;
+} .bege .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #AD6500;
+	min-height: 40px;
+} .bege .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #AD6500;
+	color: #AD6500;
+} .bege .outstanding-header .outstanding-link {
+	background: url("../img/readmorebrown.png") no-repeat scroll right 5px transparent;
+}
+
+/* amarelo / economia e emprego */
+.amarelo .tile-title {
+	border-top: 4px solid #DE9200;
+	color: #DE9200;
+} .amarelo .outstanding-header {
+	background: #eeeff1;
+	border-top: 4px solid #DE9200;
+	min-height: 40px;
+} .amarelo .outstanding-header .outstanding-title {
+	background: #eeeff1;
+	border-bottom: none;
+	border-color: #DE9200;
+	color: #DE9200;
+}
+
+/* bege */
 .bege .tile-title {
 	border-top: 4px solid #AD6500;
 	color: #AD6500;
