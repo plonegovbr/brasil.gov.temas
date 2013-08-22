@@ -2719,15 +2719,18 @@ ul.formTabs {
 #tiles-list .last-item { float:left; }
 
 /* Correção no tamanho de itens relacionados (tela de gestão) */
-#form-widgets-relatedItems-input-fields > span.option {
+.template-edit #content #form-widgets-relatedItems-input-fields > span.option {
     margin-bottom: 5px;
 }
-.relationlist-field {
+.template-edit #content .relationlist-field {
     float: left;
     margin-right: 5px;
     line-height: 14px;
 }
-.relationlist-field + label > span.label {
+.template-edit #content #content-core #form fieldset {
+    width: 100%;
+}
+.template-edit #content .relationlist-field + label > span.label {
     width: 92%;
     overflow: hidden;
     text-overflow: ellipsis;
