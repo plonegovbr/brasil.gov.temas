@@ -2717,3 +2717,21 @@ ul.formTabs {
 
 /* correção de espaçamento dos icones de tiles na aba layout */
 #tiles-list .last-item { float:left; }
+
+/* Correção no tamanho de itens relacionados (tela de gestão) */
+#form-widgets-relatedItems-input-fields > span.option {
+    margin-bottom: 5px;
+}
+.relationlist-field {
+    float: left;
+    margin-right: 5px;
+    line-height: 14px;
+}
+.relationlist-field + label > span.label {
+    width: 92%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 14px;
+}
+/* Correção no tamanho de itens relacionados (tela de gestão) */
