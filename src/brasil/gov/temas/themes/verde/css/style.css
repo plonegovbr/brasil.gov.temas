@@ -2079,7 +2079,8 @@ dl.portlet div.listingBar a:link {
 	width: 66.5% !Important;
 }
 
-#search-results > dl.searchResults > dd > span.discreet > span.documentAuthor+span {
+#search-results > dl.searchResults > dd > span.discreet > span.documentAuthor+span,
+#search-results > dl.searchResults > dd > span.discreet > span.documentAuthor+span+span {
     float: left;
     width: 100%;
 }
