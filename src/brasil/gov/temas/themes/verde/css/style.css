@@ -2112,6 +2112,10 @@ dl.portlet div.listingBar a:link {
     margin-left: 20px;
 }
 
+#content-core form.searchPage dd {
+    margin: 0;
+}
+
 #search-filter .field {
 	padding: 1em 0 !Important;
 }
