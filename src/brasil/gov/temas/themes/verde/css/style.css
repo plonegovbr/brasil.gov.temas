@@ -2113,6 +2113,7 @@ dl.portlet div.listingBar a:link {
 
 #search-results {
 	width: 66.5% !Important;
+    padding: 0;
 }
 
 #search-results > dl.searchResults > dd > span.discreet > span.documentAuthor+span,
@@ -2149,7 +2150,8 @@ dl.portlet div.listingBar a:link {
 }
 
 #content-core form.searchPage dd {
-    margin: 0;
+    margin: 0 0 1.5em 0;
+    overflow: hidden;
 }
 
 #search-filter .field {
