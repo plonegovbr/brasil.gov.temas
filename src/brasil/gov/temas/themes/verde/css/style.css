@@ -2080,6 +2080,12 @@ dl.portlet div.listingBar a:link {
 	width: 66.5% !Important;
 }
 
+#search-results > dl.searchResults > dd > span.discreet > span.documentAuthor+span,
+#search-results > dl.searchResults > dd > span.discreet > span.documentAuthor+span+span {
+    float: left;
+    width: 100%;
+}
+
 #search-results-bar {
 	border-bottom: 0 none !important;
 	border-top: 0 none !important;
@@ -2099,8 +2105,16 @@ dl.portlet div.listingBar a:link {
 	color: #000;
 	font-size: 1.1em;
 	font-weight: bold;
-	padding: 2px 0 0 20px;
+	margin: 2px 0 0 20px;
 	width: 90%;
+}
+
+#search-results-bar>span:first-child + dl{
+    margin-left: 20px;
+}
+
+#content-core form.searchPage dd {
+    margin: 0;
 }
 
 #search-filter .field {
