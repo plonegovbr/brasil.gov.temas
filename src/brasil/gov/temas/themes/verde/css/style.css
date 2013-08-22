@@ -1992,6 +1992,7 @@ dl.portlet div.listingBar a:link {
 	background: url(../img/sprite-icons.png) no-repeat -1px -1px;
 }
 
+.tile-externalcontent .documentByLine .icon-type,
 .tile-collective-nitf-content .documentByLine .icon-type {
 	background: url(../img/sprite-icons.png) no-repeat -1px -64px;
 }
@@ -2000,7 +2001,7 @@ dl.portlet div.listingBar a:link {
 	background: url(../img/sprite-icons.png) no-repeat -1px -43px;
 }
 
-.tile-images .documentByLine .icon-type {
+.tile-image .documentByLine .icon-type {
 	background: url(../img/sprite-icons.png) no-repeat -1px -85px;
 }
 
