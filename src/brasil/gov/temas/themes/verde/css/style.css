@@ -1774,7 +1774,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .template-summary_view #content .description,
 .template-folder_summary_view #content .description {
 	color: #666666;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .template-summary_view #content .tileBody,
