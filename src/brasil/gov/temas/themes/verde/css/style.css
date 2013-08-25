@@ -1131,6 +1131,22 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: url(../img/sprite-icons.png) no-repeat -1px -287px;
 }
 
+/* Ajuste Banner Lançamento*/
+#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f a.navTreeItemInPath,
+#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f a.navTreeCurrentNode {
+	background-image: none !important;
+}
+
+#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f .portletNavigationTree .portletHeader {
+	display: none;
+}
+
+#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f dl.portlet ul.navTree li a {
+	padding: 0.2em 0 !important;
+	color: #2c67cd !important;
+	font-size: 110%;
+}
+
 /*.item-central .link-reportar-erro {
 	background: url(../img/cc-icon-reportar-erro.png) no-repeat;
 }*/
