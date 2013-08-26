@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0a2 (unreleased)
+1.0rc1 (2013-08-26)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   * Criação de Estilos para Tile Header [felipeduardo]
