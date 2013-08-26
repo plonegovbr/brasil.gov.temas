@@ -1,7 +1,7 @@
 language: python
 python: 2.7
 env:
-  - PLONE_VERSION=4.3 QA=true
+  - PLONE_VERSION=4.3
 install:
   - sed -ie "s#travis-4.x.cfg#travis-$PLONE_VERSION.x.cfg#" travis.cfg
   - mkdir -p buildout-cache/downloads
@@ -11,6 +11,6 @@ before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 script: bin/test
-after_success: test -v QA && make basic-validation coverage-validation || true
+after_success: bin/coverage.sh
 notifications:
   irc: irc.freenode.org#plonegovbr
