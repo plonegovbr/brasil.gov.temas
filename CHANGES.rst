@@ -10,6 +10,7 @@ Changelog
 1.0rc1 (2013-08-26)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+  * Atividade 320: Ajuste Estilo - Listagem Vertical [rennanrodrigues]
   * Criação de Estilos para Tile Header [felipeduardo]
   * Alteração na Posição do BreadCrumbs [felipeduardo]
   * Ajustar largura das grids do collective cover no portal brasil [felipeduardo]
