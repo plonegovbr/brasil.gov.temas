@@ -77,6 +77,13 @@ jQuery(document).ready(function ($) {
     });
 
     resize();
+
+    $('.newsImageContainer .photo-icon').on('click', function(e) {
+        e.preventDefault();
+        //$(this).parent().find('.carrossel-images').slideToggle();
+        $('#parent-fieldname-image').trigger('click');
+    });
+
 });
 
 $('#link-buscar').click(function (e) {
@@ -86,3 +93,8 @@ $('#link-buscar').click(function (e) {
 });
 
 $("#portal-column-one div:first-child").addClass("first-item");
+
+if($('.link-externo').length > 0){
+    $('.link-externo .collection-item:even').addClass ('even');
+    $('.link-externo .collection-item:odd').addClass ('odd');
+}

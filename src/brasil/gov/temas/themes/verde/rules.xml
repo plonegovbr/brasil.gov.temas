@@ -12,6 +12,8 @@
     <notheme if-path="@@manage-viewlets" />
     <notheme if="$ajax_load" />
 
+    <xsl:output method="html"/>
+
     <rules css:if-content="#visual-portal-wrapper">
         <prepend css:content="div#barra-brasil" css:theme="body" />
         <!--Plone.app.toolbar-->
@@ -33,16 +35,15 @@
         <prepend css:content="#portal-features" css:theme="#main" />
 	    <copy attributes="role" css:content="content" css:theme="contentspace" />
         <replace css:content="#portal-column-one" css:theme="#portal-column-one" />
-        <replace css:content="#portal-column-content" css:theme="#portal-column-content" />
+        <replace css:content="#viewlet-above-content" css:theme="#viewlet-above-content" />
+        <replace content="//*[@id='portal-column-content']/div[2]" theme="//*[@id='portal-column-content']/div[1]" />
+        <copy attributes="class" css:content="#portal-column-content" css:theme="#portal-column-content" />
+        <replace css:content="#portal-column-content > #viewlet-below-content" css:theme="#portal-column-content > #viewlet-below-content" />
         <replace css:content="#portal-column-two" css:theme="#portal-column-two" />
         <replace css:content="#doormat-container" css:theme="#doormat"  />
 
         <!-- Portlets -->
         <strip css:content=".portletNavigationTree .portletHeader a.tile" />
-
-        <!--NITF -->
-        <drop css:content=".portaltype-collective-nitf-content #viewlet-below-content-title #plone-document-byline" />
-
 
         <!--Viewlets-->
         <replace css:content="#portal-personaltools" css:theme="#user" />
@@ -56,8 +57,9 @@
         <replace css:content="#doormat-container" css:theme="#doormat" />
         <replace css:content-children="#portal-footer" css:theme="#footer-info" />
         <after css:content="#portal-languageselector" css:theme="#logo" />
-
+        <drop css:content="#viewlet-below-content-body" />
 
     </rules>
+
 
 </rules>
