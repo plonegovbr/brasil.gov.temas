@@ -4,7 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+  * Adicionados novos estilos CSS para o Tile New Basic Article [felipeduardo]
 
 
 1.0rc1 (2013-08-26)

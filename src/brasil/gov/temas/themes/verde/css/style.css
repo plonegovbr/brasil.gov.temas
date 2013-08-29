@@ -1449,31 +1449,34 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .lista-vertical .list-item p,
 .lista-vertical .collection-item p { color: #46494e; }
 
-/*Cores Section*/
+/* Cores Section */
+.laranja .tile-subtitle { color: #ba4a00; }
 
-.roxo .tile-subtitle {
-	color: #5c1285;
-}
+.azul-petroleo .tile-subtitle { color: #3b7390; }
 
-.verde .tile-subtitle {
-	color: #01971c;
-}
+.dourado .tile-subtitle { color: #b97a00; }
 
-.azul-claro .tile-subtitle {
-	color: #8fd9e4;
-}
+.roxo .tile-subtitle { color: #643c67; }
 
-.azul-turquesa .tile-subtitle {
-	color: #097495;
-}
+.marrom-claro .tile-subtitle { color: #826938; }
 
-.laranja .tile-subtitle {
-	color: #e07f48;
-}
+.verde-escuro .tile-subtitle { color: #1d571f; }
 
-.bege .tile-subtitle {
-	color: #ab6600;
-}
+.verde .tile-subtitle { color: #017b16; }
+
+.azul .tile-subtitle { color: #1a55dd; }
+
+.marrom .tile-subtitle { color: #753900; }
+
+.verde-claro .tile-subtitle { color: #56762b; }
+
+.azul-claro .tile-subtitle { color: #3867b7; }
+
+.azul-escuro .tile-subtitle { color: #00439e; }
+
+.azul-turquesa .tile-subtitle { color: #097495; }
+
+.bege .tile-subtitle { color: #ab6600; }
 
 /* destaques com borda cinza*/
 .roxo-borda,
