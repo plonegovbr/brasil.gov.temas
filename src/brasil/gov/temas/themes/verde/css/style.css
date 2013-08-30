@@ -48,6 +48,12 @@ a:visited, #content a:visited, dl.portlet a:visited {
 	color: #000 !important;
 }
 
+body div.overlaybg div.close,
+body div.overlay div.close {
+    right: -14px;
+    left: auto;
+}
+
 a:focus {
 	outline: 2px solid #f1ca7f;
 }
