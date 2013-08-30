@@ -4,7 +4,10 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
-  * Adicionados novos estilos CSS para o Tile New Basic Article [felipeduardo]
+  * Alterada a posição do botão fechar nos overlays.  (closes `#7`_).
+    [rodfersou]
+  * Adicionados novos estilos CSS para o Tile New Basic Article (closes `#5`_).
+    [felipeduardo]
 
 
 1.0rc1 (2013-08-26)
@@ -32,3 +35,6 @@ Changelog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   * Primeira versão [ericof]
+
+.. _`#5`: https://github.com/plonegovbr/brasil.gov.temas/issues/5
+.. _`#7`: https://github.com/plonegovbr/brasil.gov.temas/issues/7
