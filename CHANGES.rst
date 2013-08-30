@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Alteração textual na barra de acessibilidade e no form de busca (closes `#9`_).
+    [felipeduardo]
   * Alterada a posição do botão fechar nos overlays.  (closes `#7`_).
     [rodfersou]
   * Adicionados novos estilos CSS para o Tile New Basic Article (closes `#5`_).
@@ -38,3 +40,4 @@ Changelog
 
 .. _`#5`: https://github.com/plonegovbr/brasil.gov.temas/issues/5
 .. _`#7`: https://github.com/plonegovbr/brasil.gov.temas/issues/7
+.. _`#9`: https://github.com/plonegovbr/brasil.gov.temas/issues/9
