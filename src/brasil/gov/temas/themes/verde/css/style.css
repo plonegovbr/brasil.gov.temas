@@ -58,6 +58,9 @@ a:focus {
 	outline: 2px solid #f1ca7f;
 }
 
+/* resolves bug on click in firefox */
+a:hover, a:active { outline: none; }
+
 h1 {
 	color: #172838;
 	font-size: 2em;
