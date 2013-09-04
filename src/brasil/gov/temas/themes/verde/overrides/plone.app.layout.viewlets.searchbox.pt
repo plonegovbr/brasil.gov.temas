@@ -1,14 +1,15 @@
 <div id="portal-searchbox"
      i18n:domain="plone"
      tal:define="navigation_root_url view/navigation_root_url;
-                 search_input_id view/search_input_id;">
+                 search_input_id view/search_input_id;
+                 title_search_box string:'Buscar no portal'">
 
     <form id="searchGadget_form"
           action="@@busca"
           tal:attributes="action string:${navigation_root_url}/@@busca;
                           id string:${search_input_id}_form;">
         <fieldset class="LSBox">
-            <legend class="hiddenStructure">Search site</legend>
+            <legend class="hiddenStructure">Buscar no portal</legend>
             <label class="hiddenStructure"
                    tal:attributes="for search_input_id"
                    i18n:translate="text_search">Search Site</label>
@@ -18,9 +19,9 @@
                    size="18"
                    value=""
                    title="Search Site"
-                   placeholder="Search Site"
-                   i18n:attributes="title title_search_site;
-                                    placeholder title_search_site"
+                   placeholder="Buscar no portal"
+                   i18n:attributes="title title_search_box;
+                                    placeholder title_search_box"
                    tal:attributes="value request/form/SearchableText|nothing;
                                    id search_input_id"
                    class="searchField" />
