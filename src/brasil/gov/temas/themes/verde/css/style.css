@@ -696,6 +696,7 @@ fieldset#folder-listing legend {
 #category,
 #category-vcge {
 	text-align: left;
+	margin: 0;
 }
 
 #category a.link-category:hover,
@@ -722,16 +723,19 @@ fieldset#folder-listing legend {
     color: White;
     border-color: #205c90;
 }
-#category-vcge .separator {
-    display: none;
-}
 
 /* embedder fix */
-#alt_cont a {
-	cursor: pointer;
+#alt_cont a { cursor: pointer; }
+
+#content #category,
+#wrapper #category-vcge { margin: 0; }
+
+#category span,
+#category-vcge span {
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 5px;
 }
-
-
 
 /* portlets */
 dl.portlet {
