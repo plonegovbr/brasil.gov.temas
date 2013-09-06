@@ -2834,9 +2834,10 @@ ul.formTabs {
 body[class*="nitf"] #content p.section {
     font-size: 16px;
     font-family: 'Open Sans';
-    font-weight: 800;
-    margin-bottom: 24px !important;
+    font-weight: 600;
+    margin-bottom: 20px !important;
     text-transform: uppercase;
+    letter-spacing: normal;
 }
 
 /* título da notícia */
