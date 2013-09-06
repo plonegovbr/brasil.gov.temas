@@ -122,8 +122,8 @@ jQuery(document).ready(function ($) {
 
                         if (this.tamanho_anterior !== tamanho_atual) {
                             this.tamanho_anterior = tamanho_atual;
-                            if ((tamanho_atual == 'desktop')       ||
-                                (tamanho_atual == 'desktop-wide')) {
+                            if ((tamanho_atual === 'desktop')       ||
+                                (tamanho_atual === 'desktop-wide')) {
                                 var topNoticias = $('.documentFirstHeading').offset().top                +
                                                   $('.documentFirstHeading').height()                    -
                                                   $('.portlet-collection-ultimas-noticias').offset().top +
