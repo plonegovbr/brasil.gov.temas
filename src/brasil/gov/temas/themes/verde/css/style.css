@@ -1661,8 +1661,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /*
  * Paleta de cores - cor / editoria
  */
+.tile.padrao {
+	margin-bottom: 13px;
+}
+
 .padrao .outstanding-header {
 	border-top: 2px solid #172838;
+}
+
+.padrao .outstanding-header h2 {
+	min-height: 31px;
 }
 
 /* laranja / cidadania e justiça */
