@@ -10,7 +10,7 @@ Changelog
     * Alterações de alinhamento.
     * Alterações de tamanho de quebra de linha.
 
-    (closes `#18`_). [rennanrodrigues]
+    (closes `#18`_). [rennanrodrigues] [rodfersou]
   * Correção do bug no click dos links para Firefox.  (closes `#11`_).
     [felipeduardo]
   * Alteração textual na barra de acessibilidade e no form de busca (closes `#9`_).
