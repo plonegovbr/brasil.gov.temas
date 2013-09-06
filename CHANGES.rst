@@ -3,9 +3,13 @@ Changelog
 
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
-
+  * Realizado diversas alterações no estilo do tipo NITF, entre elas:
+    - Alterações de fonte.
+    - Alterações de espaçamento.
+    - Alterações de alinhamento.
+    - Alterações de tamanho de quebra de linha. (closes `#18`_). [rennanrodrigues]
   * Correção do bug no click dos links para Firefox.  (closes `#11`_).
-    [felipeduardo]  
+    [felipeduardo]
   * Alteração textual na barra de acessibilidade e no form de busca (closes `#9`_).
     [felipeduardo]
   * Alterada a posição do botão fechar nos overlays.  (closes `#7`_).
@@ -44,3 +48,4 @@ Changelog
 .. _`#7`: https://github.com/plonegovbr/brasil.gov.temas/issues/7
 .. _`#9`: https://github.com/plonegovbr/brasil.gov.temas/issues/9
 .. _`#11`: https://github.com/plonegovbr/brasil.gov.temas/issues/11
+.. _`#18`: https://github.com/plonegovbr/brasil.gov.temas/issues/18
