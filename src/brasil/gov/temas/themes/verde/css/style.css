@@ -882,7 +882,8 @@ dl.portlet dt a:visited {
 	margin: 0;
 }
 
-.portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span {
+.portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span,
+.portletStaticText > .portletItem > .list-central > .item-central > a {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: #172938 !important;
