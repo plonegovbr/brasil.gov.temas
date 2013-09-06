@@ -199,7 +199,7 @@ div.width-5 {
 }
 
 #accessibility span {
-	background: #9ed5ab;
+	background: url(../img/bg-acess-key.gif) center center no-repeat;
 	color: #006600;
 	padding: 0 4px;
 }
@@ -309,7 +309,7 @@ div.width-5 {
 #social-icons {
 	float: right;
 	clear: right;
-	margin: 10px 0;
+	margin-bottom: 10px;
 }
 
 #social-icons ul {
@@ -330,7 +330,7 @@ div.width-5 {
 	clear: both;
 	max-width: 100% !important;
 	margin: 0;
-	background: #0a5517;
+	background: #00510f;
 	padding: 5px 0;
 }
 
@@ -346,7 +346,7 @@ div.width-5 {
 
 #sobre .portalservicos-item a {
 	padding: 0 10px;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #6c9072;
 }
 
 #sobre .last-item a {
@@ -370,7 +370,7 @@ input.searchField {
 	clear: right !important;
 	float: right;
 	font-size: 80%;
-	margin: 2em 0 1.2em 0;
+	margin: 2em 0 1.25em 0;
 	text-align: right;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -381,6 +381,7 @@ input.searchField {
 }
 
 #portal-searchbox .searchField {
+	font: 1.2em 'Open Sans';
 	padding: 0.35em;
 	border-right: none;
 	border: none;
@@ -2639,7 +2640,7 @@ ul.social-tabs.css-tabs>li>a {
 
 	#sobre { background: none; }
 
-  #social-icons { display: none; }
+  	#social-icons { display: none; }
 
 	#header {
 		padding: 1em 0.5em;
