@@ -882,7 +882,7 @@ dl.portlet dt a:visited {
 	margin: 0;
 }
 
-.portletNavigationTree>.portletItem>.navTree>.navTreeItem>a>span {
+.portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
