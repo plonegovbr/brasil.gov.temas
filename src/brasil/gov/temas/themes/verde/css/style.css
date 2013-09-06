@@ -2846,6 +2846,7 @@ body[class*="nitf"] #content h1.documentFirstHeading {
     font-weight: bold;
     font-size: 34px;
     line-height: 38px;
+    letter-spacing: normal;
 }
 
 /* social like */
