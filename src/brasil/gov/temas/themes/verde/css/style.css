@@ -2358,18 +2358,6 @@ dl.portlet div.listingBar a:link {
 	margin: 2em auto;
 	padding-top: 1em;
 }
-
-#footer .footer-logos {
-    max-width: 100%;
-    margin: 0 0 -20px;
-    padding: 2em 0;
-    background: #0042b1;
-}
-.footer-logos>div {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
 #footer .footer-logos {
     max-width: 100%;
     margin: 0 0 -20px;
