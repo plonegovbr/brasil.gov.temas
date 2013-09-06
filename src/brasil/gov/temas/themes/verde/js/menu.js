@@ -107,32 +107,28 @@ jQuery(document).ready(function ($) {
 
                         tamanho_atual = 'mobile';
 
-                        if ((window.outerWidth > 480)  &&
-                            (window.outerWidth < 768)) {
+                        if (($(window).width() > 480)  &&
+                            ($(window).width() < 768)) {
                             tamanho_atual = 'tablet';
-                            console.log(tamanho_atual);
                         }
 
-                        if ((window.outerWidth > 768)  &&
-                            (window.outerWidth < 960)) {
+                        if (($(window).width() > 768)  &&
+                            ($(window).width() < 960)) {
                             tamanho_atual = 'desktop';
-                            console.log(tamanho_atual);
                         }
-                        if (window.outerWidth > 960) {
+                        if ($(window).width() > 960) {
                             tamanho_atual = 'desktop-wide';
-                            console.log(tamanho_atual);
                         }
 
                         if (this.tamanho_anterior !== tamanho_atual) {
                             this.tamanho_anterior = tamanho_atual;
-                            if ((tamanho_atual === 'desktop')       ||
-                                (tamanho_atual === 'desktop-wide')) {
+                            if ((tamanho_atual == 'desktop')       ||
+                                (tamanho_atual == 'desktop-wide')) {
                                 var topNoticias = $('.documentFirstHeading').offset().top                +
                                                   $('.documentFirstHeading').height()                    -
                                                   $('.portlet-collection-ultimas-noticias').offset().top +
                                                   14;
-
-                                if (topNoticias !== 0) {
+                                if (Math.round(topNoticias) !== 0) {
                                     $('.portlet-collection-ultimas-noticias').css('margin-top', topNoticias);
                                 }
                             }
