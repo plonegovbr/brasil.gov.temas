@@ -1622,7 +1622,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 #content .tile .outstanding-header .outstanding-title {
-	font-weight: 600 !important;
+	font-weight: normal; !important;
 	padding-right: 70px;
 }
 
@@ -1633,7 +1633,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .outstanding-header h2 {
-	font-size: 2em !important;
+	font-size: 1.8em !important;
 	text-transform: uppercase;
 	font-weight: bold !important;
 }
