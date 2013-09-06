@@ -2825,4 +2825,40 @@ ul.formTabs {
     display: block;
     line-height: 14px;
 }
-/* Correção no tamanho de itens relacionados (tela de gestão) */
+
+/**
+ * Correção de fonte e espaçamento
+ */
+
+/* título da sessão */
+body[class*="nitf"] #content p.section {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    margin-bottom: 24px !important;
+    text-transform: uppercase;
+}
+
+/* título da notícia */
+body[class*="nitf"] #content h1.documentFirstHeading {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+/* social like */
+body[class*="nitf"] #content #viewlet-social-like { right: 0 !important; }
+body[class*="nitf"] #content #viewlet-social-like > div { text-align: right; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-facebook { width: 90px; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-gplus    { width: 78px; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter  { width: 93px; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter iframe { margin-left: 0; }
+
+/* parágrado da notícia */
+body[class*="nitf"] #content article div[property*="articleBody"] p {
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 20px;
+	color: #172938;
+}

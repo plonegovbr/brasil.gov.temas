@@ -84,6 +84,87 @@ jQuery(document).ready(function ($) {
         $('#parent-fieldname-image').trigger('click');
     });
 
+
+
+
+    if ( $('body[class*="nitf"]').length > 0 ) {
+        // Ajuste no topo do portlet de últimas notícias do NITF
+        if ($('.portlet-collection-ultimas-noticias')[0] !== undefined) {
+            var ultimasNoticiasResize, root;
+
+            root = typeof exports !== "undefined" && exports !== null ? exports : this;
+
+            root.UltimasNoticiasResize = function () {
+                var _Singleton, _base;
+                _Singleton = (function () {
+                    function _Singleton() {}
+
+                    _Singleton.prototype.tamanho_anterior = '';
+                    _Singleton.prototype.scrollbar = false;
+
+                    _Singleton.prototype.resize = function () {
+                        var tamanho_atual;
+
+                        tamanho_atual = 'mobile';
+
+                        if ((window.outerWidth > 480)  &&
+                            (window.outerWidth < 768)) {
+                            tamanho_atual = 'tablet';
+                            console.log(tamanho_atual);
+                        }
+
+                        if ((window.outerWidth > 768)  &&
+                            (window.outerWidth < 960)) {
+                            tamanho_atual = 'desktop';
+                            console.log(tamanho_atual);
+                        }
+                        if (window.outerWidth > 960) {
+                            tamanho_atual = 'desktop-wide';
+                            console.log(tamanho_atual);
+                        }
+
+                        if (this.tamanho_anterior !== tamanho_atual) {
+                            this.tamanho_anterior = tamanho_atual;
+                            if ((tamanho_atual === 'desktop')       ||
+                                (tamanho_atual === 'desktop-wide')) {
+                                var topNoticias = $('.documentFirstHeading').offset().top                +
+                                                  $('.documentFirstHeading').height()                    -
+                                                  $('.portlet-collection-ultimas-noticias').offset().top +
+                                                  14;
+
+                                if (topNoticias !== 0) {
+                                    $('.portlet-collection-ultimas-noticias').css('margin-top', topNoticias);
+                                }
+                            }
+                            else
+                            {
+                                $('.portlet-collection-ultimas-noticias').css('margin-top', 0);
+                            }
+                        }
+                    };
+
+                    return _Singleton;
+                })();
+
+                if ((_base = root.UltimasNoticiasResize).instance == null) {
+                    _base.instance = new _Singleton();
+                }
+                return root.UltimasNoticiasResize.instance;
+            };
+
+            var resize = function () {
+                ultimasNoticiasResize = new root.UltimasNoticiasResize();
+                ultimasNoticiasResize.resize();
+            }
+
+            $(window).resize(function () {
+                resize();
+            });
+
+            resize();
+
+        }
+    }
 });
 
 $('#link-buscar').click(function (e) {
@@ -98,3 +179,4 @@ if($('.link-externo').length > 0){
     $('.link-externo .collection-item:even').addClass ('even');
     $('.link-externo .collection-item:odd').addClass ('odd');
 }
+
