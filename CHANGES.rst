@@ -46,4 +46,4 @@ Changelog
 .. _`#7`: https://github.com/plonegovbr/brasil.gov.temas/issues/7
 .. _`#9`: https://github.com/plonegovbr/brasil.gov.temas/issues/9
 .. _`#11`: https://github.com/plonegovbr/brasil.gov.temas/issues/11
-.. _`#11`: https://github.com/plonegovbr/brasil.gov.temas/issues/17
+.. _`#17`: https://github.com/plonegovbr/brasil.gov.temas/issues/17
