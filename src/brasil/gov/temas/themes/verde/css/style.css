@@ -95,7 +95,7 @@ p {
 #main {
 	background: #fff;
 	font-size: 1.3em;
-	padding: 1em 0;
+	padding: 4em 0 1em;
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -2845,9 +2845,8 @@ ul.formTabs {
 }
 
 /* Correção no espaçamento do breadcrumb */
-#main {
-	padding-top: 0;
-} #main #portal-breadcrumbs {
+#main #portal-breadcrumbs {
+	position: absolute;
+	top: -64px;
 	margin-top: 24px;
-	margin-bottom: 24px;
 }
