@@ -1608,7 +1608,6 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
 	position: relative;
-	background-color: red;
 }
 
 
@@ -1625,7 +1624,6 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 #content .tile .outstanding-header .outstanding-title {
 	font-weight: 600 !important;
 	padding-right: 70px;
-	line-height: 18px;
 }
 
 .outstanding-header h1 {
