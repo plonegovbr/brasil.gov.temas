@@ -1291,6 +1291,10 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	font-weight: normal;
 }
 
+.link-externo .tile-header {
+	text-transform: uppercase;
+}
+
 .tile-header span {
 	font-size: 1.4em;
 }
