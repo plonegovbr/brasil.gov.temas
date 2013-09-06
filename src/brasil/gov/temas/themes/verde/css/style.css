@@ -309,7 +309,7 @@ div.width-5 {
 #social-icons {
 	float: right;
 	clear: right;
-	margin-bottom: 10px;
+	margin: 1em 0;
 }
 
 #social-icons ul {
@@ -370,7 +370,7 @@ input.searchField {
 	clear: right !important;
 	float: right;
 	font-size: 80%;
-	margin: 2em 0 1.25em 0;
+	margin: 2em 0 0 0;
 	text-align: right;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
