@@ -3,6 +3,7 @@ Changelog
 
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
+  * Revisão de estilos da capa de editoria (closes `#25`_). [rennanrodrigues]
   * Correção de layout / css no rodapé da pagina  (closes `#19`_).
     [felipeduardo]
   * Realizado diversas alterações no estilo do tipo NITF, entre elas:
@@ -58,4 +59,5 @@ Changelog
 .. _`#17`: https://github.com/plonegovbr/brasil.gov.temas/issues/17
 .. _`#18`: https://github.com/plonegovbr/brasil.gov.temas/issues/18
 .. _`#19`: https://github.com/plonegovbr/brasil.gov.temas/issues/19
+.. _`#25`: https://github.com/plonegovbr/brasil.gov.temas/issues/25
 
