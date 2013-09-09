@@ -3,8 +3,17 @@ Changelog
 
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
-
   * Correção de layout / css no rodapé da pagina  (closes `#19`_).
+    [felipeduardo]
+  * Realizado diversas alterações no estilo do tipo NITF, entre elas:
+
+    * Alterações de fonte.
+    * Alterações de espaçamento.
+    * Alterações de alinhamento.
+    * Alterações de tamanho de quebra de linha.
+
+    (closes `#18`_). [rennanrodrigues] [rodfersou]
+  * Correções de layout para o cabecalho do portal.  (closes `#17`_).
     [felipeduardo]
   * Correção do bug no click dos links para Firefox.  (closes `#11`_).
     [felipeduardo]
@@ -46,4 +55,7 @@ Changelog
 .. _`#7`: https://github.com/plonegovbr/brasil.gov.temas/issues/7
 .. _`#9`: https://github.com/plonegovbr/brasil.gov.temas/issues/9
 .. _`#11`: https://github.com/plonegovbr/brasil.gov.temas/issues/11
+.. _`#17`: https://github.com/plonegovbr/brasil.gov.temas/issues/17
+.. _`#18`: https://github.com/plonegovbr/brasil.gov.temas/issues/18
 .. _`#19`: https://github.com/plonegovbr/brasil.gov.temas/issues/19
+
