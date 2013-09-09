@@ -3,9 +3,22 @@ Changelog
 
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
+  * Correção de fontes e cores no Menu  (closes `#23`_). [rodfersou]
+  * Revisão de estilos da capa de editoria (closes `#25`_). [rennanrodrigues]
+  * Correção de layout / css no rodapé da pagina  (closes `#19`_).
+    [felipeduardo]
+  * Realizado diversas alterações no estilo do tipo NITF, entre elas:
 
+    * Alterações de fonte.
+    * Alterações de espaçamento.
+    * Alterações de alinhamento.
+    * Alterações de tamanho de quebra de linha.
+
+    (closes `#18`_). [rennanrodrigues] [rodfersou]
+  * Correções de layout para o cabecalho do portal.  (closes `#17`_).
+    [felipeduardo]
   * Correção do bug no click dos links para Firefox.  (closes `#11`_).
-    [felipeduardo]  
+    [felipeduardo]
   * Alteração textual na barra de acessibilidade e no form de busca (closes `#9`_).
     [felipeduardo]
   * Alterada a posição do botão fechar nos overlays.  (closes `#7`_).
@@ -44,3 +57,8 @@ Changelog
 .. _`#7`: https://github.com/plonegovbr/brasil.gov.temas/issues/7
 .. _`#9`: https://github.com/plonegovbr/brasil.gov.temas/issues/9
 .. _`#11`: https://github.com/plonegovbr/brasil.gov.temas/issues/11
+.. _`#17`: https://github.com/plonegovbr/brasil.gov.temas/issues/17
+.. _`#18`: https://github.com/plonegovbr/brasil.gov.temas/issues/18
+.. _`#19`: https://github.com/plonegovbr/brasil.gov.temas/issues/19
+.. _`#23`: https://github.com/plonegovbr/brasil.gov.temas/issues/23
+.. _`#25`: https://github.com/plonegovbr/brasil.gov.temas/issues/25

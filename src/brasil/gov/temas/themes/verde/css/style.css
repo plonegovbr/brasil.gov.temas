@@ -2,7 +2,7 @@
    Simples Consultoria - www.simplesconsultoria.com.br
 *********************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600);
 
 /* reset */
 * {
@@ -199,7 +199,7 @@ div.width-5 {
 }
 
 #accessibility span {
-	background: #9ed5ab;
+	background: url(../img/bg-acess-key.gif) center center no-repeat;
 	color: #006600;
 	padding: 0 4px;
 }
@@ -309,7 +309,7 @@ div.width-5 {
 #social-icons {
 	float: right;
 	clear: right;
-	margin: 10px 0;
+	margin: 1em 0;
 }
 
 #social-icons ul {
@@ -330,7 +330,7 @@ div.width-5 {
 	clear: both;
 	max-width: 100% !important;
 	margin: 0;
-	background: #0a5517;
+	background: #00420c;
 	padding: 5px 0;
 }
 
@@ -346,7 +346,7 @@ div.width-5 {
 
 #sobre .portalservicos-item a {
 	padding: 0 10px;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #6c9072;
 }
 
 #sobre .last-item a {
@@ -370,7 +370,7 @@ input.searchField {
 	clear: right !important;
 	float: right;
 	font-size: 80%;
-	margin: 2em 0 1.2em 0;
+	margin: 2em 0 0 0;
 	text-align: right;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -381,6 +381,7 @@ input.searchField {
 }
 
 #portal-searchbox .searchField {
+	font: 1.2em 'Open Sans';
 	padding: 0.35em;
 	border-right: none;
 	border: none;
@@ -420,7 +421,7 @@ input.searchField {
 }
 
 .documentDescription {
-	margin-top: 3em;
+	margin-top: 1.5em;
 }
 
 /*NITF*/
@@ -874,12 +875,19 @@ dl.portlet dt a:visited {
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
 	border-top: 4px solid #00510f;
-	background: #eeefff;
+	background: #edeff1;
 	border-bottom: none;
 	color: #00510f;
 	padding: 8px 8px 24px 10px;
 	text-transform: uppercase;
 	margin: 0;
+}
+
+.portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span,
+.portletStaticText > .portletItem > .list-central > .item-central > a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #172938 !important;
 }
 
 .portletNavigationTree .portletHeader a {
@@ -1212,14 +1220,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /****************** COVER *******************/
 
 .portaltype-collective-cover-content #content .row {
-	margin-bottom: 20px;
-	padding-bottom: 10px;
+	margin: 0;
+	padding: 0;
 }
 
 /* Tiles */
 
 .tile {
-	margin-bottom: 1em;
+	margin-bottom: 24px;
 	clear: both;
 }
 
@@ -1236,12 +1244,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .tile h2 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.4em;
+	font-family: 'Open Sans';
+	font-size: 14px;
 	line-height: 1.2em;
 	margin: 0;
 	margin-bottom: 0;
 }
+
+#content .cover-collection-tile h2 {
+	font-weight: 600; /* semibold */
+} #content .cover-collection-tile h2 a { color: #172938; }
 
 .tile h3 {
   font-family: Arial, Helvetica, sans-serif;
@@ -1273,6 +1285,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-radius: 5px;
 	overflow: hidden;
 }
+
+#content .tile-description { margin: 0; }
 
 /* link externo */
 .link-externo .tile-header,
@@ -1415,6 +1429,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-top: 1px solid #c0c1c3;
 	color: #464a53;
 	text-transform: uppercase;
+}
+
+.lista-vertical .tile-footer a,
+.lista-vertical .collection-footer a {
+	font-size: 11px;
+	font-family: 'Open Sans';
 }
 
 .lista-vertical .list-item a,
@@ -1610,12 +1630,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .outstanding-header .outstanding-title {
 	color: #2C67CD;
 	font-size: 1.7em;
-	font-weight: normal;
 	padding: 7px 0;
 	margin-left: 0 !important;
 	padding-left: 0.3em;
 	border-bottom: 1px solid #CCCCCC;
 	border-top: 2px solid #172838;
+}
+
+#content .tile .outstanding-header .outstanding-title {
+	font-weight: normal; !important;
+	padding-right: 70px;
 }
 
 .outstanding-header h1 {
@@ -1625,7 +1649,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .outstanding-header h2 {
-	font-size: 2em !important;
+	font-size: 1.8em !important;
 	min-height: 48px;
 }
 
@@ -1642,7 +1666,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .outstanding-header .outstanding-link {
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	display: block;
-	font-size: 0.7em;
+	font-size: 10px;
+	font-family: 'Open Sans';
 	line-height: 2.8em;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -2376,6 +2401,16 @@ dl.portlet div.listingBar a:link {
 	margin: 2em auto;
 	padding-top: 1em;
 }
+#footer .footer-logos {
+    max-width: 100%;
+    margin: 0 0 -20px;
+    padding: 2em 0;
+    background: #00420c;
+}
+.footer-logos>div {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 #footer .logo-brasil img {
 	float: right;
@@ -2657,7 +2692,7 @@ ul.social-tabs.css-tabs>li>a {
 
 	#sobre { background: none; }
 
-  #social-icons { display: none; }
+	#social-icons { display: none; }
 
 	#header {
 		padding: 1em 0.5em;
@@ -2843,4 +2878,49 @@ ul.formTabs {
     display: block;
     line-height: 14px;
 }
-/* Correção no tamanho de itens relacionados (tela de gestão) */
+
+/* Correção no espaçamento do breadcrumb */
+#main #portal-breadcrumbs {
+	position: absolute;
+	top: -64px;
+	margin-top: 24px;
+}
+
+/**
+ * Correção de fonte e espaçamento
+ */
+
+/* título da sessão */
+body[class*="nitf"] #content p.section {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: 20px !important;
+    text-transform: uppercase;
+    letter-spacing: normal;
+}
+
+/* título da notícia */
+body[class*="nitf"] #content h1.documentFirstHeading {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: normal;
+}
+
+/* social like */
+body[class*="nitf"] #content #viewlet-social-like { right: 0 !important; }
+body[class*="nitf"] #content #viewlet-social-like > div { text-align: right; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-facebook { width: 90px; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-gplus    { width: 78px; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter  { width: 93px; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter iframe { margin-left: 0; }
+
+/* parágrado da notícia */
+body[class*="nitf"] #content article div[property*="articleBody"] p {
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 20px;
+	color: #172938;
+}
