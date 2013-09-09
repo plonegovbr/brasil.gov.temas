@@ -95,7 +95,7 @@ p {
 #main {
 	background: #fff;
 	font-size: 1.3em;
-	padding: 4em 0 1em;
+	padding: 4.1em 0 1.5em;
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -1265,9 +1265,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .tile h4 {
 	font-size: 1.1em;
-	font-weight: normal;
 	line-height: 1.1em;
 	margin-bottom: 10px;
+}
+
+.tile.fio-separador {
+	margin-bottom: 2em;
 }
 
 .tile-subtitle {
@@ -1299,6 +1302,10 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin: 0;
 	color: #fff !important;
 	font-weight: normal;
+}
+
+.link-externo .tile-header {
+	text-transform: uppercase;
 }
 
 .tile-header span {
@@ -1451,7 +1458,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .lista-vertical .collection-item h2,
 .lista-vertical .collection-item h3 {
 	font-size: 1em;
-	margin: 0.8em 0 !important;
+	margin: 1.2em 0 !important;
 	padding: 0;
 	line-height: 1em;
 }
@@ -1547,7 +1554,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .tile p {
-	line-height: 1.4em;
+	line-height: 1.75em;
 }
 
 .left {
@@ -1610,12 +1617,9 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /*Tile Header*/
 
-.outtanding-header {
-	margin-bottom: 5px;
-	border-top: 1px solid #172838;
-	position: relative;
+.outstanding-header {
+	font-family:  'Open Sans';
 }
-
 
 .outstanding-header .outstanding-title {
 	color: #2C67CD;
@@ -1623,8 +1627,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	padding: 7px 0;
 	margin-left: 0 !important;
 	padding-left: 0.3em;
-	border-top: 4px solid #172838;
 	border-bottom: 1px solid #CCCCCC;
+	border-top: 2px solid #172838;
 }
 
 #content .tile .outstanding-header .outstanding-title {
@@ -1640,20 +1644,17 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 .outstanding-header h2 {
 	font-size: 1.8em !important;
-	text-transform: uppercase;
-	font-weight: bold !important;
+	min-height: 48px;
 }
 
 .outstanding-header h3 {
 	font-size: 1.5em !important;
-	text-transform: uppercase;
-	font-weight: bold !important;
+	min-height: 48px;
 }
 
 .outstanding-header h4 {
 	font-size: 1.3em !important;
-	text-transform: uppercase;
-	font-weight: bold !important;
+	min-height: 48px;
 }
 
 .outstanding-header .outstanding-link {
@@ -1678,6 +1679,17 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /*
  * Paleta de cores - cor / editoria
  */
+.tile.padrao {
+	margin-bottom: 13px;
+}
+
+.padrao .outstanding-header {
+	border-top: 2px solid #172838;
+}
+
+.padrao .outstanding-header h2 {
+	min-height: 31px;
+}
 
 /* laranja / cidadania e justiça */
 .laranja .tile-title {
@@ -1685,7 +1697,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #ba4a00;
 } .laranja .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #ba4a00;
+	border-top: 2px solid #ba4a00;
 	min-height: 40px;
 } .laranja .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1702,7 +1714,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #3b7390;
 } .azul-petroleo .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #3b7390;
+	border-top: 2px solid #3b7390;
 	min-height: 40px;
 } .azul-petroleo .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1719,7 +1731,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #b97a00;
 } .dourado .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #b97a00;
+	border-top: 2px solid #b97a00;
 	min-height: 40px;
 } .dourado .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1736,7 +1748,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #643c67;
 } .roxo .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #643c67;
+	border-top: 2px solid #643c67;
 	min-height: 40px;
 } .roxo .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1753,7 +1765,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #826938;
 } .marrom-claro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #826938;
+	border-top: 2px solid #826938;
 	min-height: 40px;
 } .marrom-claro .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1770,7 +1782,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #1d571f;
 } .verde-escuro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #1d571f;
+	border-top: 2px solid #1d571f;
 	min-height: 40px;
 } .verde-escuro .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1787,7 +1799,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #017B16;
 } .verde .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #017b16;
+	border-top: 2px solid #017b16;
 	min-height: 40px;
 } .verde .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1804,7 +1816,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #1a55dd;
 } .azul .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #1a55dd;
+	border-top: 2px solid #1a55dd;
 	min-height: 40px;
 } .azul .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1821,7 +1833,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #753900;
 } .marrom .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #753900;
+	border-top: 2px solid #753900;
 	min-height: 40px;
 } .marrom .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1838,7 +1850,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #56762b;
 } .verde-claro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #56762b;
+	border-top: 2px solid #56762b;
 	min-height: 40px;
 } .verde-claro .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1855,7 +1867,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #3867b7;
 } .azul-claro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #3867b7;
+	border-top: 2px solid #3867b7;
 	min-height: 40px;
 } .azul-claro .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1872,7 +1884,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #00439e;
 } .azul-escuro .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #00439e;
+	border-top: 2px solid #00439e;
 	min-height: 40px;
 } .azul-escuro .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1889,7 +1901,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #00A0DB;
 } .azul-piscina .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #00A0DB;
+	border-top: 2px solid #00A0DB;
 	min-height: 40px;
 } .azul-piscina .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1904,7 +1916,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #AD6500;
 } .bege .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #AD6500;
+	border-top: 2px solid #AD6500;
 	min-height: 40px;
 } .bege .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1921,7 +1933,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #DE9200;
 } .amarelo .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #DE9200;
+	border-top: 2px solid #DE9200;
 	min-height: 40px;
 } .amarelo .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -1936,7 +1948,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	color: #AD6500;
 } .bege .outstanding-header {
 	background: #eeeff1;
-	border-top: 4px solid #AD6500;
+	border-top: 2px solid #AD6500;
 	min-height: 40px;
 } .bege .outstanding-header .outstanding-title {
 	background: #eeeff1;
@@ -2322,6 +2334,7 @@ dl.portlet div.listingBar a:link {
 /****************** FOOTER ******************/
 
 #voltar-topo {
+	margin-top: 44px;
 	text-align: right;
 }
 
