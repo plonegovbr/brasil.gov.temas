@@ -3,6 +3,7 @@ Changelog
 
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
+  * Correção de fontes e cores no Menu  (closes `#23`_). [rodfersou]
   * Revisão de estilos da capa de editoria (closes `#25`_). [rennanrodrigues]
   * Correção de layout / css no rodapé da pagina  (closes `#19`_).
     [felipeduardo]
@@ -59,5 +60,5 @@ Changelog
 .. _`#17`: https://github.com/plonegovbr/brasil.gov.temas/issues/17
 .. _`#18`: https://github.com/plonegovbr/brasil.gov.temas/issues/18
 .. _`#19`: https://github.com/plonegovbr/brasil.gov.temas/issues/19
+.. _`#23`: https://github.com/plonegovbr/brasil.gov.temas/issues/23
 .. _`#25`: https://github.com/plonegovbr/brasil.gov.temas/issues/25
-
