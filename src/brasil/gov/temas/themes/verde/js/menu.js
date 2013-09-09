@@ -87,8 +87,8 @@ jQuery(document).ready(function ($) {
 
 
 
+    // Ajuste no topo do portlet de últimas notícias do NITF
     if ( $('body[class*="nitf"]').length > 0 ) {
-        // Ajuste no topo do portlet de últimas notícias do NITF
         if ($('.portlet-collection-ultimas-noticias')[0] !== undefined) {
             var ultimasNoticiasResize, root;
 
@@ -106,17 +106,15 @@ jQuery(document).ready(function ($) {
                         var tamanho_atual;
 
                         tamanho_atual = 'mobile';
-
                         if (($(window).width() > 480)  &&
                             ($(window).width() < 768)) {
                             tamanho_atual = 'tablet';
                         }
-
-                        if (($(window).width() > 768)  &&
-                            ($(window).width() < 960)) {
+                        else if (($(window).width() > 768)  &&
+                                 ($(window).width() < 960)) {
                             tamanho_atual = 'desktop';
                         }
-                        if ($(window).width() > 960) {
+                        else if ($(window).width() > 960) {
                             tamanho_atual = 'desktop-wide';
                         }
 
