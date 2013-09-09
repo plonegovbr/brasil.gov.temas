@@ -2,7 +2,7 @@
    Simples Consultoria - www.simplesconsultoria.com.br
 *********************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600);
 
 /* reset */
 * {
@@ -95,7 +95,7 @@ p {
 #main {
 	background: #fff;
 	font-size: 1.3em;
-	padding: 1em 0;
+	padding: 4em 0 1em;
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -1220,14 +1220,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /****************** COVER *******************/
 
 .portaltype-collective-cover-content #content .row {
-	margin-bottom: 20px;
-	padding-bottom: 10px;
+	margin: 0;
+	padding: 0;
 }
 
 /* Tiles */
 
 .tile {
-	margin-bottom: 1em;
+	margin-bottom: 24px;
 	clear: both;
 }
 
@@ -1244,12 +1244,16 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .tile h2 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.4em;
+	font-family: 'Open Sans';
+	font-size: 14px;
 	line-height: 1.2em;
 	margin: 0;
 	margin-bottom: 0;
 }
+
+#content .cover-collection-tile h2 {
+	font-weight: 600; /* semibold */
+} #content .cover-collection-tile h2 a { color: #172938; }
 
 .tile h3 {
   font-family: Arial, Helvetica, sans-serif;
@@ -1278,6 +1282,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-radius: 5px;
 	overflow: hidden;
 }
+
+#content .tile-description { margin: 0; }
 
 /* link externo */
 .link-externo .tile-header,
@@ -1416,6 +1422,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	border-top: 1px solid #c0c1c3;
 	color: #464a53;
 	text-transform: uppercase;
+}
+
+.lista-vertical .tile-footer a,
+.lista-vertical .collection-footer a {
+	font-size: 11px;
+	font-family: 'Open Sans';
 }
 
 .lista-vertical .list-item a,
@@ -1602,19 +1614,22 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	margin-bottom: 5px;
 	border-top: 1px solid #172838;
 	position: relative;
-	background-color: red;
 }
 
 
 .outstanding-header .outstanding-title {
 	color: #2C67CD;
 	font-size: 1.7em;
-	font-weight: normal;
 	padding: 7px 0;
 	margin-left: 0 !important;
 	padding-left: 0.3em;
 	border-top: 4px solid #172838;
 	border-bottom: 1px solid #CCCCCC;
+}
+
+#content .tile .outstanding-header .outstanding-title {
+	font-weight: normal; !important;
+	padding-right: 70px;
 }
 
 .outstanding-header h1 {
@@ -1624,7 +1639,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .outstanding-header h2 {
-	font-size: 2em !important;
+	font-size: 1.8em !important;
 	text-transform: uppercase;
 	font-weight: bold !important;
 }
@@ -1644,7 +1659,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .outstanding-header .outstanding-link {
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	display: block;
-	font-size: 0.7em;
+	font-size: 10px;
+	font-family: 'Open Sans';
 	line-height: 2.8em;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -2842,6 +2858,13 @@ ul.formTabs {
     text-overflow: ellipsis;
     display: block;
     line-height: 14px;
+}
+
+/* Correção no espaçamento do breadcrumb */
+#main #portal-breadcrumbs {
+	position: absolute;
+	top: -64px;
+	margin-top: 24px;
 }
 
 /**
