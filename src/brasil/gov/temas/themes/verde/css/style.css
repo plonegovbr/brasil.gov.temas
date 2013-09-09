@@ -1617,12 +1617,6 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 
 /*Tile Header*/
 
-.outtanding-header {
-	margin-bottom: 5px;
-	position: relative;
-	border-top: 4px solid #172838;
-}
-
 .outstanding-header {
 	font-family:  'Open Sans';
 }
