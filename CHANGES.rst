@@ -11,6 +11,8 @@ Changelog
     * Alterações de tamanho de quebra de linha.
 
     (closes `#18`_). [rennanrodrigues] [rodfersou]
+  * Correções de layout para o cabecalho do portal.  (closes `#17`_).
+    [felipeduardo]
   * Correção do bug no click dos links para Firefox.  (closes `#11`_).
     [felipeduardo]
   * Alteração textual na barra de acessibilidade e no form de busca (closes `#9`_).
@@ -51,4 +53,5 @@ Changelog
 .. _`#7`: https://github.com/plonegovbr/brasil.gov.temas/issues/7
 .. _`#9`: https://github.com/plonegovbr/brasil.gov.temas/issues/9
 .. _`#11`: https://github.com/plonegovbr/brasil.gov.temas/issues/11
+.. _`#17`: https://github.com/plonegovbr/brasil.gov.temas/issues/17
 .. _`#18`: https://github.com/plonegovbr/brasil.gov.temas/issues/18
