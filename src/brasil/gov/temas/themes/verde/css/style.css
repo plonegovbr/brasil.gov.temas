@@ -381,7 +381,8 @@ input.searchField {
 }
 
 #portal-searchbox .searchField {
-	font: 1.2em 'Open Sans';
+	font-size: 1.2em;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	padding: 0.35em;
 	border-right: none;
 	border: none;
@@ -1244,7 +1245,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .tile h2 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.2em;
 	margin: 0;
@@ -1434,7 +1435,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .lista-vertical .tile-footer a,
 .lista-vertical .collection-footer a {
 	font-size: 11px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .lista-vertical .list-item a,
@@ -1618,7 +1619,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 /*Tile Header*/
 
 .outstanding-header {
-	font-family:  'Open Sans';
+	font-family:  'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .outstanding-header .outstanding-title {
@@ -1661,7 +1662,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	display: block;
 	font-size: 10px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	line-height: 2.8em;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -2713,7 +2714,7 @@ ul.social-tabs.css-tabs>li>a {
 		margin: 0;
 		border: 0 none;
 		font-size: 18px;
-		font-family:  'Open Sans';
+		font-family:  'Open Sans', Arial, Helvetica, sans-serif;
 		color: #064d13;
 		background-color: #fff;
 		border-top: 2px solid #ccc;
@@ -2833,7 +2834,7 @@ ul.formTabs {
 /* formulário de contato */
 .field input[type="text"],
 #content .field textarea {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	background-color: #fff;
 	border : 1px solid #000;
 	text-indent: 2px;
@@ -2887,7 +2888,7 @@ ul.formTabs {
 /* título da sessão */
 body[class*="nitf"] #content p.section {
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 600;
     margin-bottom: 20px !important;
     text-transform: uppercase;
