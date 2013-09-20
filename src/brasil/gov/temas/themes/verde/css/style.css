@@ -153,7 +153,7 @@ div.width-5 {
 
 /****************** cabecalho ******************/
 #header {
-	padding: 15px 0 0 0;
+	padding: 14px 0 0 0;
 	background-color: #19882c;
  /* Old browsers */
 	background-color: #0A5517;
@@ -175,8 +175,10 @@ div.width-5 {
 }
 
 #header>div {
-	max-width: 960px;
+	position: relative;
+	overflow: hidden;
 	margin: 0 auto;
+	max-width: 960px;
 }
 
 #brasilgov {
@@ -188,9 +190,10 @@ div.width-5 {
 
 #accessibility {
 	display: block !important;
-	font-size: 0.8em;
-	width: 50%;
 	float: left;
+	width: 50%;
+	font-size: 0.8em;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #accessibility a {
@@ -212,32 +215,41 @@ div.width-5 {
 }
 
 #logo span {
+	position: absolute;
 	display: block;
+	line-height: 1em;
 }
 
-#logo a {
+#portal-logo {
 	display: block;
 	width: 100%;
 	color: #fff !important;
-	margin: 1em 0px;
+	margin: 0;
 }
 
-#logo #portal-title {
+#portal-title {
 	margin: 0;
 	color: #fff;
 	font-weight: 800;
-	font-size: 4em;
+	line-height: 1em;
+	font-size: 3.35em;
+	margin: 30px 0 46px;
 }
 
-#logo .luongo {
+#logo .logo {
 	font-size: 3em !important;
 	line-height: 1.1em;
 	margin-bottom: 0.2em;
 }
 
-#logo #portal-description {
-	font-size: 1.2em;
+#portal-title-1 {
+	top: 30px;
+}
+
+#portal-description {
+	bottom: 24px;
 	text-transform: uppercase;
+	font-size: 1.2em;
 }
 
 /* Personal tools */
@@ -309,7 +321,7 @@ div.width-5 {
 #social-icons {
 	float: right;
 	clear: right;
-	margin: 1em 0;
+	margin: 1.167em 0;
 }
 
 #social-icons ul {
@@ -322,7 +334,7 @@ div.width-5 {
 
 #social-icons li a {
 	border: none;
-	padding: 0 5px;
+	padding: 0 0 0 5px;
 }
 
 /* Sobre o brasil */
@@ -332,6 +344,7 @@ div.width-5 {
 	margin: 0;
 	background: #00420c;
 	padding: 5px 0;
+	line-height: 20px;
 }
 
 #sobre ul {
@@ -370,7 +383,7 @@ input.searchField {
 	clear: right !important;
 	float: right;
 	font-size: 80%;
-	margin: 2em 0 0 0;
+	margin: 3.12em 0 0 0;
 	text-align: right;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -381,9 +394,10 @@ input.searchField {
 }
 
 #portal-searchbox .searchField {
+	width: 186px;
 	font-size: 1.2em;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-	padding: 0.35em;
+	padding: 0.3em 0.35em;
 	border-right: none;
 	border: none;
 }
