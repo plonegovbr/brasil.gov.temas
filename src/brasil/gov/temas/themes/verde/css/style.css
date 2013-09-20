@@ -2362,18 +2362,18 @@ dl.portlet div.listingBar a:link {
 
 #doormat-container dt {
 	font-weight: bold;
+	font-family: 'Open Sans';
 	font-size: 2em;
 	color: #7dc48a;
-	padding-left: 12px;
+	padding-left: .6em; /*12px*/
 }
 
 #doormat-container dd {
-	padding: 0.5em 12px 1em 12px;
+	padding: .5em 1.2em .3em 1.2em;
+	font-family: 'Open Sans';
 }
 
-#doormat-container dd a {
-	font-size: 1.3em;
-}
+#doormat-container dd a { font-size: 1.4em; }
 
 #doormat-container.columns-4 .doormatColumn {
     width: 22%;
