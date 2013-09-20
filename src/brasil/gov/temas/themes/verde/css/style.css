@@ -314,6 +314,14 @@ div.width-5 {
 	text-transform: uppercase;
 }
 
+#siteaction-accessibility a {
+	padding-left: 0;
+}
+
+#portal-siteactions .last-item {
+	margin-right: 0;
+}
+
 #portal-siteactions a:hover {
 	color: #fff !important;
 }
