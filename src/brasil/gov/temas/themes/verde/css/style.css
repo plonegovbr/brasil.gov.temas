@@ -938,23 +938,27 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 .navTreeLevel0>li.navTreeCurrentNode {
 	border-top: 2px solid #64946e !important;
 	border-bottom: 2px solid #64946e !important;
-	background-color: #eeefff;
+	background-color: #edeff1;
 }
 
 .navTreeLevel1 {
-	background: #e7e8ea !important;
+	background: #e6e8ea !important;
 }
 
 .navTreeLevel2 {
-	background: #e0e1e3 !important;
+	background: #dfe1e3 !important;
 }
 
 .navTreeLevel3 {
-	background: #dadbdd !important;
+	background: #d9dbdd !important;
 }
 
 .navTreeLevel4 {
-	background: #d4d5d7 !important;
+	background: #d3d5d7 !important;
+}
+
+.navTreeLevel5 {
+	background: #cbcdcf !important;
 }
 
 dl.portlet ul.navTreeLevel1 .navTreeItem {
