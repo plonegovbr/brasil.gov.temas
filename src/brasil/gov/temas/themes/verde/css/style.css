@@ -1008,6 +1008,7 @@ ul.navTreeLevel6 li a.navTreeCurrentNode {
 /* deslocamento dos itens */
 dl.portlet ul.navTree li a {
 	padding: 0.5em 1.5em !important;
+	line-height: 1.3em !important;
 }
 
 dl.portlet ul.navTreeLevel1 li a {
@@ -1035,7 +1036,7 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 .first-item dl.portlet ul.navTree li a {
-	padding: 0.2em 0 !important;
+	padding: 0.4em 0 !important;
 	color: #2c67cd !important;
 	font-size: 110%;
 }
@@ -2616,7 +2617,7 @@ ul.social-tabs.css-tabs>li>a {
 		color: #454545;
 		font-size: 24px;
 		padding: 20px 35px !important;
-    line-height: 1.2em;
+		line-height: 1.2em;
 	};
 }
 
