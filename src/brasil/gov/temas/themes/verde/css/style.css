@@ -752,8 +752,12 @@ dl.portlet dt.hiddenStructure {
 	border: none;
 }
 
-#portal-column-one .portletNavigationTree:first-child {
+#portal-column-one .portletNavigationTree {
 	margin-bottom: 3.61em;
+}
+
+#portal-column-one .first-item-nav a {
+	color: #2c66ce;
 }
 
 #portal-column-two dl.portlet {
@@ -1007,12 +1011,13 @@ ul.navTreeLevel6 li a.navTreeCurrentNode {
 
 /* deslocamento dos itens */
 dl.portlet ul.navTree li a {
-	padding: 0.5em 1.5em !important;
+	padding: 0.55em 1.5em !important;
 	line-height: 1.3em !important;
 }
 
 dl.portlet ul.navTreeLevel1 li a {
-	padding: 0.5em 2em !important;
+	padding: 0.55em 2em !important;
+	font-size: 1.05em;
 }
 
 dl.portlet ul.navTreeLevel2 li a {
@@ -1020,23 +1025,24 @@ dl.portlet ul.navTreeLevel2 li a {
 }
 
 dl.portlet ul.navTreeLevel3 li a {
-	padding: 0.5em 3em !important;
+	padding: 0.55em 3em !important;
 }
 
 dl.portlet ul.navTreeLevel4 li a {
-	padding: 0.5em 3.5em !important;
+	padding: 0.55em 3.5em !important;
 }
 
 dl.portlet ul.navTreeLevel5 li a {
-	padding: 0.5em 4em !important;
+	padding: 0.55em 4em !important;
 }
 
 dl.portlet ul.navTreeLevel6 li a {
-	padding: 0.5em 4.5em !important;
+	padding: 0.55em 4.5em !important;
 }
 
-.first-item dl.portlet ul.navTree li a {
-	padding: 0.4em 0 !important;
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav ul.navTree li a,
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav ul.navTree li a span {
+	padding: 0.475em 0 !important;
 	color: #2c67cd !important;
 	font-size: 110%;
 }
