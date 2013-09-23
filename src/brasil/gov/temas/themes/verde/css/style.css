@@ -752,7 +752,7 @@ dl.portlet dt.hiddenStructure {
 	border: none;
 }
 
-#portal-column-one .first-item .portletNavigationTree {
+#portal-column-one .portletNavigationTree:first-child {
 	margin-bottom: 3.61em;
 }
 
