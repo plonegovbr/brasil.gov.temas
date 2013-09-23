@@ -891,7 +891,7 @@ dl.portlet dt a:visited {
 .portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span,
 .portletStaticText > .portletItem > .list-central > .item-central > a {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.15em;
     color: #172938 !important;
 }
 
