@@ -95,7 +95,7 @@ p {
 #main {
 	background: #fff;
 	font-size: 1.3em;
-	padding: 4.1em 0 1.5em;
+	padding: 4.104em 0 1.5em;
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -411,6 +411,11 @@ input.searchField {
 .portaltype-plone-site #portal-breadcrumbs,
 .section-home #portal-breadcrumbs {
 	display: none;
+}
+
+.portaltype-plone-site #portal-breadcrumbs,
+.section-home #main {
+	padding-top: 3.078em;
 }
 
 #content {
@@ -2877,8 +2882,9 @@ ul.formTabs {
 /* Correção no espaçamento do breadcrumb */
 #main #portal-breadcrumbs {
 	position: absolute;
-	top: -64px;
-	margin-top: 24px;
+	top: -5.128em;
+	margin-top: 1.923em;
+	margin-bottom: 1.923em;
 }
 
 /**
