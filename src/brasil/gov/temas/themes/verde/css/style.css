@@ -915,14 +915,15 @@ dl.portlet dt a:visited {
 }
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #dfdfdf;
 	border-bottom: none;
 	padding: 0 !important;
 	margin: 0;
+	list-style: none;
 }
 
 dl.portlet ul.navTreeLevel0 > .last-item {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #dfdfdf;
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
@@ -1065,10 +1066,6 @@ dl.portlet ul.navTreeLevel6 li a {
 
 #content ol li, dl.portlet ol li {
 	list-style: decimal outside;
-}
-
-dl.portlet ul.navTreeLevel0 > .navTreeItem {
-	list-style: none;
 }
 
 /* em destaque */
