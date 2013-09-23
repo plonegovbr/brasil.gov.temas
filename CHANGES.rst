@@ -4,6 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Realizadas modificações sugeridas para breadcrumbs (closes `#40`_). [rodfersou]
   * Revisão de fontes com fallbacks definidos (closes `#30`_). [rodfersou]
   * Correção de css no tamanho de fonts e espaçamentos da homepage
     (closes `#26`_). [felipeduardo]
@@ -71,3 +72,4 @@ Changelog
 .. _`#25`: https://github.com/plonegovbr/brasil.gov.temas/issues/25
 .. _`#26`: https://github.com/plonegovbr/brasil.gov.temas/issues/26
 .. _`#30`: https://github.com/plonegovbr/brasil.gov.temas/issues/30
+.. _`#40`: https://github.com/plonegovbr/brasil.gov.temas/issues/40
