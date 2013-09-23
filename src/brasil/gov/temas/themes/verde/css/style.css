@@ -2523,12 +2523,20 @@ ul.social-tabs.css-tabs>li>a {
 /* celular  */
 @media only screen and (min-width : 320px) and (max-width : 768px) {
 
+	#header {
+		padding-top: 1em !important;
+	}
+
 	#portal-siteactions {
 		clear: both;
 		float: none;
 		position: static;
-		padding: 1em 0;
+		padding:0 0 0.5em;
 		font-size: 0.9em;
+	}
+
+	#portal-description {
+		bottom: 62px;
 	}
 
 	#main {
@@ -2540,7 +2548,7 @@ ul.social-tabs.css-tabs>li>a {
 	#accessibility,
 	#doormat-container,
 	#em-destaque,
-  #portal-features {
+	#portal-features {
 		display: none !important;
 	}
 
