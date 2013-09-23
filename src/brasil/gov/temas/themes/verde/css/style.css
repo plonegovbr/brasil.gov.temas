@@ -418,6 +418,37 @@ input.searchField {
 	padding-top: 3.078em;
 }
 
+#portal-breadcrumbs span,
+#portal-breadcrumbs a {
+	color: #172938;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#portal-breadcrumbs > #breadcrumbs-home,
+#portal-breadcrumbs > #breadcrumbs-home > a {
+	color: #2C66CE;
+    font-weight: 400;
+}
+
+#portal-breadcrumbs > span {
+	font-size: 0.833em;
+}
+
+#portal-breadcrumbs > span > span,
+#portal-breadcrumbs > span > a {
+	font-size: 1em;
+}
+
+#portal-breadcrumbs > span > a,
+#portal-breadcrumbs > span > #breadcrumbs-current {
+    text-decoration: underline;
+}
+
+#portal-breadcrumbs > #breadcrumbs-home > a {
+    text-decoration: none;
+}
+
 #content {
 	margin: 0;
 }
