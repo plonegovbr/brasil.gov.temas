@@ -4,6 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
   * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
   * Revisão de fontes com fallbacks definidos (closes `#30`_). [rodfersou]
   * Correção de css no tamanho de fonts e espaçamentos da homepage
@@ -38,9 +39,9 @@ Changelog
   * Atividade 320: Ajuste Estilo - Listagem Vertical [rennanrodrigues]
   * Criação de Estilos para Tile Header [felipeduardo]
   * Alteração na Posição do BreadCrumbs [felipeduardo]
-  * Ajustar largura das grids do collective cover no portal brasil 
+  * Ajustar largura das grids do collective cover no portal brasil
     [felipeduardo]
-  * Ajuste de CSS no Portlet Texto Estático de Centrais de Conteudo 
+  * Ajuste de CSS no Portlet Texto Estático de Centrais de Conteudo
     [felipeduardo]
   * Correção de CSS na altura Mínima Header [felipeduardo]
   * Ajustar CSS da Visão Sumária para folders [felipeduardo]
@@ -51,7 +52,7 @@ Changelog
   * Ajuste de css no portlet collection ("Políticas") [felipeduardo]
   * Atividade 316: Novo estilo para Linha Fina do Tile Header [rennanrodrigues]
   * Atividade 305: Visualização de Tags VCGE [rennanrodrigues]
-  * Atividade 317: Gestão de Itens Relacionados - Quebra de linha automática 
+  * Atividade 317: Gestão de Itens Relacionados - Quebra de linha automática
     [rodfersou]
   * Acerto estilo de filtro de busca avancada [dbarbato]
 
