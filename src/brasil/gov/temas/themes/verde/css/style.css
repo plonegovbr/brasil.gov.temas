@@ -2595,6 +2595,7 @@ ul.social-tabs.css-tabs>li>a {
 		margin-bottom: 0;
 	}
 
+	#portal-column-one .portletStaticText,
 	#portal-column-one dl.portlet dd {
 		display: none;
 	}
