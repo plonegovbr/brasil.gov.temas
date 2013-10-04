@@ -6,6 +6,13 @@ Changelog
 
   * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
   * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
+  * Correção para ocultar portlets estaticos no menu lateral (closes `#46`_)
+    [felipeduardo]
+  * Ajuste de css no layout do menu lateral (closes `#43`_). [felipeduardo]
+  * Realizadas modificações sugeridas para breadcrumbs (closes `#40`_). [rodfersou]
+  * Correção das larguras das grid, conforme solicitado em imagem de referência (closes `#38`_).
+    [rodfersou]
+  * Revisão de tamanho de fontes e espaçamentos no footer `#34`_). [rennanrodrigues]
   * Ajustes de layout nos espaçamentos e fontes do cabeçalho (header) do portal (closes `#32`_).
     [felipeduardo]
   * Revisão de fontes com fallbacks definidos (closes `#30`_). [rodfersou]
@@ -76,4 +83,10 @@ Changelog
 .. _`#26`: https://github.com/plonegovbr/brasil.gov.temas/issues/26
 .. _`#30`: https://github.com/plonegovbr/brasil.gov.temas/issues/30
 .. _`#32`: https://github.com/plonegovbr/brasil.gov.temas/issues/32
+.. _`#34`: https://github.com/plonegovbr/brasil.gov.temas/issues/34
 .. _`#35`: https://github.com/plonegovbr/brasil.gov.temas/issues/35
+.. _`#38`: https://github.com/plonegovbr/brasil.gov.temas/issues/38
+.. _`#40`: https://github.com/plonegovbr/brasil.gov.temas/issues/40
+.. _`#43`: https://github.com/plonegovbr/brasil.gov.temas/issues/43
+.. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/46
+
