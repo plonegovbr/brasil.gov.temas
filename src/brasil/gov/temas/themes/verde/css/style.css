@@ -73,7 +73,6 @@ body {
 	color: #000000;
 	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	font-size: 62.5%;
- /* with this 1em = 10px */;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -111,7 +110,7 @@ a:focus {
 	outline: 2px solid #f1ca7f;
 }
 
-/* resolves bug on click in firefox */
+/* resolve bug on click in firefox */
 a:hover, a:active { outline: none; }
 
 h1 {
@@ -1328,10 +1327,6 @@ dl.portlet ul.navTreeLevel6 li a {
 	font-size: 110%;
 }
 
-/*.item-central .link-reportar-erro {
-	background: url(../img/cc-icon-reportar-erro.png) no-repeat;
-}*/
-
 /* portlet de politicas */
 .portletCollection {
 	background: #eeeff1 !important;
@@ -1641,7 +1636,6 @@ dl.portlet ul.navTreeLevel6 li a {
 
 .lista-vertical p.data,
 .lista-vertical p.date {
-		 /* 0 20px 0 0 */
 	margin: 0 1.4em 0 0 !important;
 	float: left;
 	color: #748494;
@@ -2528,7 +2522,7 @@ dl.portlet div.listingBar a:link {
 	font-family: 'Open Sans';
 	font-size: 2em;
 	color: #7dc48a;
-	padding-left: .6em; /*12px*/
+	padding-left: .6em;
 }
 
 #doormat-container dd {
@@ -2912,14 +2906,7 @@ ul.social-tabs.css-tabs>li>a {
 		margin-left: 0.5em;
 	}
 
-	#social-icons {
-		/*top: 1em;
-		right: 0;
-		position: absolute;*/
-	}
-
 	#logo #portal-title {
-		/*font-size: 2em;*/
 		font-size: 3.5em;
 		line-height: 1em;
 	}
