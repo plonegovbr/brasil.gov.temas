@@ -6,6 +6,9 @@ Changelog
 
   * Correção das larguras das grid, conforme solicitado em imagem de referência (closes `#38`_).
     [rodfersou]
+  * Revisão de tamanho de fontes e espaçamentos no footer `#34`_). [rennanrodrigues]
+  * Ajustes de layout nos espaçamentos e fontes do cabeçalho (header) do portal (closes `#32`_).
+    [felipeduardo]
   * Revisão de fontes com fallbacks definidos (closes `#30`_). [rodfersou]
   * Correção de css no tamanho de fonts e espaçamentos da homepage
     (closes `#26`_). [felipeduardo]
@@ -39,9 +42,9 @@ Changelog
   * Atividade 320: Ajuste Estilo - Listagem Vertical [rennanrodrigues]
   * Criação de Estilos para Tile Header [felipeduardo]
   * Alteração na Posição do BreadCrumbs [felipeduardo]
-  * Ajustar largura das grids do collective cover no portal brasil 
+  * Ajustar largura das grids do collective cover no portal brasil
     [felipeduardo]
-  * Ajuste de CSS no Portlet Texto Estático de Centrais de Conteudo 
+  * Ajuste de CSS no Portlet Texto Estático de Centrais de Conteudo
     [felipeduardo]
   * Correção de CSS na altura Mínima Header [felipeduardo]
   * Ajustar CSS da Visão Sumária para folders [felipeduardo]
@@ -52,7 +55,7 @@ Changelog
   * Ajuste de css no portlet collection ("Políticas") [felipeduardo]
   * Atividade 316: Novo estilo para Linha Fina do Tile Header [rennanrodrigues]
   * Atividade 305: Visualização de Tags VCGE [rennanrodrigues]
-  * Atividade 317: Gestão de Itens Relacionados - Quebra de linha automática 
+  * Atividade 317: Gestão de Itens Relacionados - Quebra de linha automática
     [rodfersou]
   * Acerto estilo de filtro de busca avancada [dbarbato]
 
@@ -73,4 +76,7 @@ Changelog
 .. _`#25`: https://github.com/plonegovbr/brasil.gov.temas/issues/25
 .. _`#26`: https://github.com/plonegovbr/brasil.gov.temas/issues/26
 .. _`#30`: https://github.com/plonegovbr/brasil.gov.temas/issues/30
+.. _`#32`: https://github.com/plonegovbr/brasil.gov.temas/issues/32
+.. _`#34`: https://github.com/plonegovbr/brasil.gov.temas/issues/34
 .. _`#38`: https://github.com/plonegovbr/brasil.gov.temas/issues/38
+
