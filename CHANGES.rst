@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Correção para ocultar portlets estaticos no menu lateral (closes `#46`_)
+    [felipeduardo]
   * Ajuste de css no layout do menu lateral (closes `#43`_). [felipeduardo]
   * Realizadas modificações sugeridas para breadcrumbs (closes `#40`_). [rodfersou]
   * Correção das larguras das grid, conforme solicitado em imagem de referência (closes `#38`_).
@@ -83,4 +85,5 @@ Changelog
 .. _`#38`: https://github.com/plonegovbr/brasil.gov.temas/issues/38
 .. _`#40`: https://github.com/plonegovbr/brasil.gov.temas/issues/40
 .. _`#43`: https://github.com/plonegovbr/brasil.gov.temas/issues/43
+.. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/46
 
