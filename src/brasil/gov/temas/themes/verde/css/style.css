@@ -840,6 +840,14 @@ dl.portlet dt.hiddenStructure {
 	border: none;
 }
 
+#portal-column-one .portletNavigationTree {
+	margin-bottom: 3.61em;
+}
+
+#portal-column-one .first-item-nav a {
+	color: #2c66ce;
+}
+
 #portal-column-two dl.portlet {
 	border: 1px solid #c1c1c1;
 	background: #eeefff;
@@ -975,8 +983,11 @@ dl.portlet dt a:visited {
 .portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span,
 .portletStaticText > .portletItem > .list-central > .item-central > a {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #172938 !important;
+    font-size: 1.15em;
+}
+
+.portletNavigationTree > .portletItem a span {
+	color: #172938 !important;
 }
 
 .portletNavigationTree .portletHeader a {
@@ -992,14 +1003,15 @@ dl.portlet dt a:visited {
 }
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #dfdfdf;
 	border-bottom: none;
 	padding: 0 !important;
 	margin: 0;
+	list-style: none;
 }
 
 dl.portlet ul.navTreeLevel0 > .last-item {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #dfdfdf;
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
@@ -1014,23 +1026,27 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 .navTreeLevel0>li.navTreeCurrentNode {
 	border-top: 2px solid #64946e !important;
 	border-bottom: 2px solid #64946e !important;
-	background-color: #eeefff;
+	background-color: #edeff1;
 }
 
 .navTreeLevel1 {
-	background: #e7e8ea !important;
+	background: #e6e8ea !important;
 }
 
 .navTreeLevel2 {
-	background: #e0e1e3 !important;
+	background: #dfe1e3 !important;
 }
 
 .navTreeLevel3 {
-	background: #dadbdd !important;
+	background: #d9dbdd !important;
 }
 
 .navTreeLevel4 {
-	background: #d4d5d7 !important;
+	background: #d3d5d7 !important;
+}
+
+.navTreeLevel5 {
+	background: #cbcdcf !important;
 }
 
 dl.portlet ul.navTreeLevel1 .navTreeItem {
@@ -1091,11 +1107,13 @@ ul.navTreeLevel6 li a.navTreeCurrentNode {
 
 /* deslocamento dos itens */
 dl.portlet ul.navTree li a {
-	padding: 0.6em 1.5em !important;
+	padding: 0.55em 1.5em !important;
+	line-height: 1.3em !important;
 }
 
 dl.portlet ul.navTreeLevel1 li a {
-	padding: 0.6em 2em !important;
+	padding: 0.55em 2em !important;
+	font-size: 1.05em;
 }
 
 dl.portlet ul.navTreeLevel2 li a {
@@ -1103,23 +1121,24 @@ dl.portlet ul.navTreeLevel2 li a {
 }
 
 dl.portlet ul.navTreeLevel3 li a {
-	padding: 0.6em 3em !important;
+	padding: 0.55em 3em !important;
 }
 
 dl.portlet ul.navTreeLevel4 li a {
-	padding: 0.6em 3.5em !important;
+	padding: 0.55em 3.5em !important;
 }
 
 dl.portlet ul.navTreeLevel5 li a {
-	padding: 0.6em 4em !important;
+	padding: 0.55em 4em !important;
 }
 
 dl.portlet ul.navTreeLevel6 li a {
-	padding: 0.6em 4.5em !important;
+	padding: 0.55em 4.5em !important;
 }
 
-.first-item dl.portlet ul.navTree li a {
-	padding: 0.2em 0 !important;
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav a,
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav a span {
+	padding: 0.475em 0 !important;
 	color: #2c67cd !important;
 	font-size: 110%;
 }
@@ -1139,10 +1158,6 @@ dl.portlet ul.navTreeLevel6 li a {
 
 #content ol li, dl.portlet ol li {
 	list-style: decimal outside;
-}
-
-dl.portlet ul.navTreeLevel0 > .navTreeItem {
-	list-style: none;
 }
 
 /* em destaque */
@@ -2708,7 +2723,7 @@ ul.social-tabs.css-tabs>li>a {
 		color: #454545;
 		font-size: 24px;
 		padding: 20px 35px !important;
-    line-height: 1.2em;
+		line-height: 1.2em;
 	};
 }
 
