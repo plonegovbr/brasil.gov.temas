@@ -1819,7 +1819,7 @@ dl.portlet ul.navTreeLevel6 li a {
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	display: block;
 	font-size: 10px;
-	font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	line-height: 2.8em;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -2518,8 +2518,7 @@ dl.portlet div.listingBar a:link {
 }
 
 #doormat-container dt {
-	font-weight: bold;
-	font-family: 'Open Sans';
+	font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
 	font-size: 2em;
 	color: #7dc48a;
 	padding-left: .6em;
@@ -2527,7 +2526,7 @@ dl.portlet div.listingBar a:link {
 
 #doormat-container dd {
 	padding: .5em 1.2em 0 1.2em;
-	font-family: 'Open Sans';
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 }
 
 #doormat-container dd a { font-size: 1.4em; }
@@ -2880,7 +2879,7 @@ ul.social-tabs.css-tabs>li>a {
 		margin: 0;
 		border: 0 none;
 		font-size: 18px;
-		font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+		font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 		color: #064d13;
 		background-color: #fff;
 		border-top: 2px solid #ccc;
@@ -3056,7 +3055,7 @@ body[class*="nitf"] #content p.section {
 
 /* título da notícia */
 body[class*="nitf"] #content h1.documentFirstHeading {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 34px;
     line-height: 38px;
@@ -3074,7 +3073,7 @@ body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter if
 /* parágrado da notícia */
 body[class*="nitf"] #content article div[property*="articleBody"] p {
 	font-size: 14px;
-	font-family: Arial;
+	font-family: Arial, Helvetica, sans-serif;
 	line-height: 20px;
 	color: #172938;
 }
