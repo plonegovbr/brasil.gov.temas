@@ -2,7 +2,60 @@
    Simples Consultoria - www.simplesconsultoria.com.br
 *********************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600);
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-300-webfont.eot');
+    src: url('../fonts/opensans-300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-300-webfont.woff') format('woff'),
+         url('../fonts/opensans-300-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-300-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-400-webfont.eot');
+    src: url('../fonts/opensans-400-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-400-webfont.woff') format('woff'),
+         url('../fonts/opensans-400-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-400-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-600-webfont.eot');
+    src: url('../fonts/opensans-600-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-600-webfont.woff') format('woff'),
+         url('../fonts/opensans-600-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-600-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-700-webfont.eot');
+    src: url('../fonts/opensans-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-700-webfont.woff') format('woff'),
+         url('../fonts/opensans-700-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-700-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('opensans-800-webfont.eot');
+    src: url('opensans-800-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-800-webfont.woff') format('woff'),
+         url('opensans-800-webfont.ttf') format('truetype'),
+         url('opensans-800-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* reset */
 * {
@@ -18,13 +71,12 @@
 body {
 	background-color: #fff;
 	color: #000000;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	font-size: 62.5%;
- /* with this 1em = 10px */;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
 }
 
 #content h1 {
@@ -58,7 +110,7 @@ a:focus {
 	outline: 2px solid #f1ca7f;
 }
 
-/* resolves bug on click in firefox */
+/* resolve bug on click in firefox */
 a:hover, a:active { outline: none; }
 
 h1 {
@@ -260,7 +312,7 @@ div.width-16 {
 #portal-title {
 	margin: 0;
 	color: #fff;
-	font-weight: 800;
+	font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
 	line-height: 1em;
 	font-size: 3.35em;
 	margin: 30px 0 46px;
@@ -434,7 +486,7 @@ input.searchField {
 #portal-searchbox .searchField {
 	width: 186px;
 	font-size: 1.2em;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	padding: 0.3em 0.35em;
 	border-right: none;
 	border: none;
@@ -978,11 +1030,14 @@ dl.portlet dt a:visited {
 	padding: 8px 8px 24px 10px;
 	text-transform: uppercase;
 	margin: 0;
+	/* reseta font-weight:bold do public.css */
+	font-weight: normal;
+	font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
 }
 
 .portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span,
 .portletStaticText > .portletItem > .list-central > .item-central > a {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
     font-size: 1.15em;
 }
 
@@ -1272,10 +1327,6 @@ dl.portlet ul.navTreeLevel6 li a {
 	font-size: 110%;
 }
 
-/*.item-central .link-reportar-erro {
-	background: url(../img/cc-icon-reportar-erro.png) no-repeat;
-}*/
-
 /* portlet de politicas */
 .portletCollection {
 	background: #eeeff1 !important;
@@ -1348,7 +1399,7 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 .tile h2 {
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.2em;
 	margin: 0;
@@ -1356,11 +1407,12 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 #content .cover-collection-tile h2 {
-	font-weight: 600; /* semibold */
-} #content .cover-collection-tile h2 a { color: #172938; }
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+}
+#content .cover-collection-tile h2 a { color: #172938; }
 
 .tile h3 {
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.3em;
 	font-weight: bold;
 	line-height: 1.2em;
@@ -1538,7 +1590,7 @@ dl.portlet ul.navTreeLevel6 li a {
 .lista-vertical .tile-footer a,
 .lista-vertical .collection-footer a {
 	font-size: 11px;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 }
 
 .lista-vertical .list-item a,
@@ -1584,7 +1636,6 @@ dl.portlet ul.navTreeLevel6 li a {
 
 .lista-vertical p.data,
 .lista-vertical p.date {
-		 /* 0 20px 0 0 */
 	margin: 0 1.4em 0 0 !important;
 	float: left;
 	color: #748494;
@@ -1721,8 +1772,11 @@ dl.portlet ul.navTreeLevel6 li a {
 
 /*Tile Header*/
 
-.outstanding-header {
-	font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+#content .outstanding-header h1,
+#content .outstanding-header h2,
+#content .outstanding-header h3,
+#content .outstanding-header h4 {
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 }
 
 .outstanding-header .outstanding-title {
@@ -1765,7 +1819,7 @@ dl.portlet ul.navTreeLevel6 li a {
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	display: block;
 	font-size: 10px;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	line-height: 2.8em;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -2464,16 +2518,15 @@ dl.portlet div.listingBar a:link {
 }
 
 #doormat-container dt {
-	font-weight: bold;
-	font-family: 'Open Sans';
+	font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
 	font-size: 2em;
 	color: #7dc48a;
-	padding-left: .6em; /*12px*/
+	padding-left: .6em;
 }
 
 #doormat-container dd {
 	padding: .5em 1.2em 0 1.2em;
-	font-family: 'Open Sans';
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 }
 
 #doormat-container dd a { font-size: 1.4em; }
@@ -2826,7 +2879,7 @@ ul.social-tabs.css-tabs>li>a {
 		margin: 0;
 		border: 0 none;
 		font-size: 18px;
-		font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+		font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 		color: #064d13;
 		background-color: #fff;
 		border-top: 2px solid #ccc;
@@ -2852,14 +2905,7 @@ ul.social-tabs.css-tabs>li>a {
 		margin-left: 0.5em;
 	}
 
-	#social-icons {
-		/*top: 1em;
-		right: 0;
-		position: absolute;*/
-	}
-
 	#logo #portal-title {
-		/*font-size: 2em;*/
 		font-size: 3.5em;
 		line-height: 1em;
 	}
@@ -2946,7 +2992,7 @@ ul.formTabs {
 /* formulário de contato */
 .field input[type="text"],
 #content .field textarea {
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	background-color: #fff;
 	border : 1px solid #000;
 	text-indent: 2px;
@@ -3001,8 +3047,7 @@ ul.formTabs {
 /* título da sessão */
 body[class*="nitf"] #content p.section {
     font-size: 16px;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
     margin-bottom: 20px !important;
     text-transform: uppercase;
     letter-spacing: normal;
@@ -3010,7 +3055,7 @@ body[class*="nitf"] #content p.section {
 
 /* título da notícia */
 body[class*="nitf"] #content h1.documentFirstHeading {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 34px;
     line-height: 38px;
@@ -3028,7 +3073,7 @@ body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter if
 /* parágrado da notícia */
 body[class*="nitf"] #content article div[property*="articleBody"] p {
 	font-size: 14px;
-	font-family: Arial;
+	font-family: Arial, Helvetica, sans-serif;
 	line-height: 20px;
 	color: #172938;
 }
