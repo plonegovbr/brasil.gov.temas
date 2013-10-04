@@ -2,8 +2,6 @@
    Simples Consultoria - www.simplesconsultoria.com.br
 *********************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600);
-
 @font-face {
     font-family: 'open_sanslight';
     src: url('../fonts/opensans-300-webfont.eot');
@@ -73,15 +71,13 @@
 body {
 	background-color: #fff;
 	color: #000000;
-	/*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sansregular';
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	font-size: 62.5%;
  /* with this 1em = 10px */;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	/*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sanssemibold';
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
 }
 
 #content h1 {
@@ -282,8 +278,7 @@ div.width-5 {
 #logo #portal-title {
 	margin: 0;
 	color: #fff;
-	/*font-weight: 800;*/
-	font-family: 'open_sansbold';
+	font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
 	font-size: 4em;
 }
 
@@ -440,8 +435,7 @@ input.searchField {
 
 #portal-searchbox .searchField {
 	font-size: 1.2em;
-	/*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sansregular', Arial, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	padding: 0.35em;
 	border-right: none;
 	border: none;
@@ -943,13 +937,12 @@ dl.portlet dt a:visited {
 	margin: 0;
 	/* reseta font-weight:bold do public.css */
 	font-weight: normal;
-	font-family: 'open_sansbold';
+	font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
 }
 
 .portletNavigationTree > .portletItem > .navTree > .navTreeItem > a > span,
 .portletStaticText > .portletItem > .list-central > .item-central > a {
-    /*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-    font-family: 'open_sansregular';
+    font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #172938 !important;
 }
@@ -1308,8 +1301,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 .tile h2 {
-	/*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sansregular';
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.2em;
 	margin: 0;
@@ -1317,8 +1309,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 #content .cover-collection-tile h2 {
-	/*font-weight: 600;*/
-	font-family: 'open_sanssemibold';
+	font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
 }
 #content .cover-collection-tile h2 a { color: #172938; }
 
@@ -1501,8 +1492,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 .lista-vertical .tile-footer a,
 .lista-vertical .collection-footer a {
 	font-size: 11px;
-	/*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sansregular', Arial, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 }
 
 .lista-vertical .list-item a,
@@ -1689,8 +1679,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 #content .outstanding-header h2,
 #content .outstanding-header h3,
 #content .outstanding-header h4 {
-	/*font-family:  'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sansregular', Arial, sans-serif;
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 }
 
 .outstanding-header .outstanding-title {
@@ -1733,8 +1722,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 	background: url("../img/readmoredarkblue.png") no-repeat scroll right 5px transparent;
 	display: block;
 	font-size: 10px;
-	/*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sansregular', Arial, sans-serif;
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
 	line-height: 2.8em;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -2786,8 +2774,7 @@ ul.social-tabs.css-tabs>li>a {
 		margin: 0;
 		border: 0 none;
 		font-size: 18px;
-		/*font-family:  'Open Sans', Arial, Helvetica, sans-serif;*/
-		font-family: 'open_sansregular', Arial, sans-serif;
+		font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
 		color: #064d13;
 		background-color: #fff;
 		border-top: 2px solid #ccc;
@@ -2907,8 +2894,7 @@ ul.formTabs {
 /* formulário de contato */
 .field input[type="text"],
 #content .field textarea {
-	/*font-family: 'Open Sans', Arial, Helvetica, sans-serif;*/
-	font-family: 'open_sansregular';
+	font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 	background-color: #fff;
 	border : 1px solid #000;
 	text-indent: 2px;
@@ -2962,9 +2948,7 @@ ul.formTabs {
 /* título da sessão */
 body[class*="nitf"] #content p.section {
     font-size: 16px;
-    /*font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: 600;*/
-    font-family: 'open_sanssemibold', Arial, sans-serif;
+    font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
     margin-bottom: 20px !important;
     text-transform: uppercase;
     letter-spacing: normal;
