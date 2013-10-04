@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Correção das larguras das grid, conforme solicitado em imagem de referência (closes `#38`_).
+    [rodfersou]
   * Revisão de tamanho de fontes e espaçamentos no footer `#34`_). [rennanrodrigues]
   * Ajustes de layout nos espaçamentos e fontes do cabeçalho (header) do portal (closes `#32`_).
     [felipeduardo]
@@ -76,3 +78,5 @@ Changelog
 .. _`#30`: https://github.com/plonegovbr/brasil.gov.temas/issues/30
 .. _`#32`: https://github.com/plonegovbr/brasil.gov.temas/issues/32
 .. _`#34`: https://github.com/plonegovbr/brasil.gov.temas/issues/34
+.. _`#38`: https://github.com/plonegovbr/brasil.gov.temas/issues/38
+
