@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
+  * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
   * Correção para ocultar portlets estaticos no menu lateral (closes `#46`_)
     [felipeduardo]
   * Ajuste de css no layout do menu lateral (closes `#43`_). [felipeduardo]
@@ -82,6 +84,7 @@ Changelog
 .. _`#30`: https://github.com/plonegovbr/brasil.gov.temas/issues/30
 .. _`#32`: https://github.com/plonegovbr/brasil.gov.temas/issues/32
 .. _`#34`: https://github.com/plonegovbr/brasil.gov.temas/issues/34
+.. _`#35`: https://github.com/plonegovbr/brasil.gov.temas/issues/35
 .. _`#38`: https://github.com/plonegovbr/brasil.gov.temas/issues/38
 .. _`#40`: https://github.com/plonegovbr/brasil.gov.temas/issues/40
 .. _`#43`: https://github.com/plonegovbr/brasil.gov.temas/issues/43
