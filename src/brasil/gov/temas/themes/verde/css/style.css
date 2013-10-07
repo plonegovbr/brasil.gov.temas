@@ -867,14 +867,14 @@ fieldset#folder-listing legend {
 }
 
 #category {
-    border-top: 4px solid #000;
+    border-top: 4px solid #172937;
     padding-top: 1em;
     margin-top: 2.5em;
 }
 
 #category-vcge {
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
+    border-bottom: 1px solid #8b949b;
+    border-top: 1px solid #8b949b;
     display: block;
     margin: 1em 0 0 0;
     padding: 1em 0;
