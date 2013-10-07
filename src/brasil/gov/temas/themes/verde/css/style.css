@@ -3136,6 +3136,11 @@ body[class*="nitf"] #content .documentModified {
 body[class*="nitf"] #content .documentAuthor {
     margin-top: 1.1312em;
     margin-bottom: 0.6598em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #2c66ce;
+    line-height: 1.7em;
 }
 body[class*="nitf"] #content .documentPublished > span:first-child,
 body[class*="nitf"] #content .documentModified > span:first-child {
@@ -3172,6 +3177,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 }
 
 /* nitf - data e histórico da notícia */
+#content article #viewlet-below-content-title .documentPublished,
 #content article #viewlet-below-content-title .documentModified,
 #content article #viewlet-below-content-title .contentHistory a {
     font-family: Arial, Helvetica, sans-serif;
