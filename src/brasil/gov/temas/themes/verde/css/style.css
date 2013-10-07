@@ -795,39 +795,59 @@ table.listing tbody th {
 	list-style-type: decimal !important;
 }
 
-/* related */
-
-
-#related-items {
-	position: relative;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	background: #eeefff;
-	border: 1px solid #d5d5d5 !important;
-	padding: 3em 1em 1.6em;
+/* Itens relacionados */
+#content .newsRelatedItems,
+#content #newsRelatedItems {
+    background-color: #eeeff1;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #c0c1c3;
+    border-radius: 3px;
+    font-size: 16px; /* root size */
 }
 
-#related-items legend {
-	color: #454545;
-	position: absolute;
-	top: 20px;
-	padding: 0px;
-	font-size: 1.3em;
-	font-weight: bold;
+#content .newsRelatedItems fieldset,
+#content #newsRelatedItems fieldset {
+    background-color: none;
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
-#related-items .relationlist-field a {
-  display: block;
-  padding-left: 23px;
-  color: #335277;
-  background: url("../img/icone-related-items.png") 2px 5px no-repeat;
-  font-weight: bold;
+#content .newsRelatedItems legend,
+#content #newsRelatedItems legend {
+    display: block;
+    font-size: 1em;
+    line-height: 1em;
+    font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #454545;
+    margin: 0;
+    padding: .600em 0 .600em .875em;
 }
 
-#related-items div {
-  padding-top: 20px;
+#content #form-widgets-relatedItems {
+    display: block;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.875em;
+    border-top: 1px solid #c0c1c3;
 }
+
+#content #form-widgets-relatedItems div {
+    clear: both;
+    border-top: 1px dotted #c0c1c3;
+    line-height: 2.800em;
+} #content #form-widgets-relatedItems div:first-child { border-top: 0 none; }
+
+#content #form-widgets-relatedItems div a {
+    color: #335277;
+    padding: 0 1em;
+}
+
 
 fieldset#folder-listing legend {
 	color: #444;
