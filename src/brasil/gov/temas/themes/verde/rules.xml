@@ -40,10 +40,6 @@
         <copy attributes="class" css:content="#portal-column-content" css:theme="#portal-column-content" />
         <replace css:content="#portal-column-content > #viewlet-below-content" css:theme="#portal-column-content > #viewlet-below-content" />
         <replace css:content="#portal-column-two" css:theme="#portal-column-two" />
-        <replace css:content="#portal-column-content #content > #newsRelatedItems > fieldset" css:theme="#portal-column-content > #newsRelatedItems > fieldset" />
-        <drop css:content="#portal-column-content #content > #newsRelatedItems" />
-        <replace css:content="#portal-column-content #content > #relatar-erros > a" css:theme="#portal-column-content > #relatar-erros > a" />
-        <drop css:content="#portal-column-content #content > #relatar-erros" />
         <replace css:content="#doormat-container" css:theme="#doormat"  />
 
         <!-- Portlets -->
