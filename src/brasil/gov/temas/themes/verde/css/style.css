@@ -627,10 +627,13 @@ input.searchField {
 	padding-bottom: 0.4em;
 }
 
-h2.nitfSubtitle {
-	color: #2c67cd !important;
-	margin: 0 !important;
-	font-size: 1em;
+#content article h2.nitfSubtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #2c66ce;
+    line-height: 1.500em;
+    font-weight: bold;
+    margin: 0;
 }
 
 p.section {
@@ -831,8 +834,6 @@ fieldset#folder-listing legend {
 	position: absolute;
 	padding: 1em 0 0 0;
 }
-
-
 
 /* tags */
 #category,
@@ -3055,7 +3056,7 @@ ul.formTabs {
  * Correção de fonte e espaçamento
  */
 
-/* título da sessão */
+/* nitf - título da sessão */
 body[class*="nitf"] #content p.section {
     font-size: 16px;
     font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
@@ -3065,7 +3066,7 @@ body[class*="nitf"] #content p.section {
     letter-spacing: normal;
 }
 
-/* título da notícia */
+/* nitf - título da notícia */
 body[class*="nitf"] #content h1.documentFirstHeading {
     color: #172938;
     font-family: Arial, Helvetica, sans-serif;
@@ -3083,7 +3084,7 @@ body[class*="nitf"] #content #viewlet-social-like .sociallike-network-gplus    {
 body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter  { width: 93px; }
 body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter iframe { margin-left: 0; }
 
-/* parágrado da notícia */
+/* nitf - parágrado da notícia */
 body[class*="nitf"] #content article div[property*="articleBody"] p {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
@@ -3091,7 +3092,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     color: #172938;
 }
 
-/* subtítulo da notícia */
+/* nitf - subtítulo da notícia */
 #content article .documentDescription {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
@@ -3100,9 +3101,17 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     margin: 1em 0 0;
 }
 
-/* nitf fonte da notícia */
+/* nitf - fonte da notícia */
 #content article .external-link {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9em;
     color: #3a70d1;
+}
+
+/* nitf - data e histórico da notícia */
+#content article #viewlet-below-content-title .documentModified,
+#content article #viewlet-below-content-title .contentHistory a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #2c66ce;
 }
