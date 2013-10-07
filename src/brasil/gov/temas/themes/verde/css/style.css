@@ -3149,8 +3149,14 @@ body[class*="nitf"] #content .documentModified > span:first-letter {
 
 /* social like */
 body[class*="nitf"] #content #viewlet-social-like { right: 0 !important; }
-body[class*="nitf"] #content #viewlet-social-like > div { text-align: right; }
-body[class*="nitf"] #content #viewlet-social-like .sociallike-network-facebook { width: 90px; }
+body[class*="nitf"] #content #viewlet-social-like > div {
+    text-align: right;
+    height: 20px;
+}
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-facebook {
+    width: 90px;
+    padding-left: 2px;
+}
 body[class*="nitf"] #content #viewlet-social-like .sociallike-network-gplus    { width: 78px; }
 body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter  { width: 93px; }
 body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter iframe { margin-left: 0; }
