@@ -5,6 +5,7 @@ Changelog
 ^^^^^^^^^^^^^^^^^^^
 
   * Revisão de espaçamento em conteúdo NITF (closes `#52`_). [rennanrodrigues]
+  * Correção de espaçamento em conteúdo NITF (closes `#52`_). [rodfersou]
   * Ajustes nas regras de fontes em conteúdo NITF (closes `#51`_). [rennanrodrigues]
   * Correção para ocultar portlets estaticos no menu lateral (closes `#46`_)
     [felipeduardo]
