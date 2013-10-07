@@ -579,11 +579,11 @@ input.searchField {
 }
 
 #content div.newsImageContainer p.discreet {
-	background-color: transparent;
-	color: #000000;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: #172938;
+    font-weight: normal;
+    font-size: .85em;
 	top: 0;
 }
 
@@ -627,10 +627,13 @@ input.searchField {
 	padding-bottom: 0.4em;
 }
 
-h2.nitfSubtitle {
-	color: #2c67cd !important;
-	margin: 0 !important;
-	font-size: 1em;
+#content article h2.nitfSubtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #2c66ce;
+    line-height: 1.500em;
+    font-weight: bold;
+    margin: 0;
 }
 
 p.section {
@@ -792,39 +795,59 @@ table.listing tbody th {
 	list-style-type: decimal !important;
 }
 
-/* related */
-
-
-#related-items {
-	position: relative;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	background: #eeefff;
-	border: 1px solid #d5d5d5 !important;
-	padding: 3em 1em 1.6em;
+/* Itens relacionados */
+#content .newsRelatedItems,
+#content #newsRelatedItems {
+    background-color: #eeeff1;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #c0c1c3;
+    border-radius: 3px;
+    font-size: 16px; /* root size */
 }
 
-#related-items legend {
-	color: #454545;
-	position: absolute;
-	top: 20px;
-	padding: 0px;
-	font-size: 1.3em;
-	font-weight: bold;
+#content .newsRelatedItems fieldset,
+#content #newsRelatedItems fieldset {
+    background-color: none;
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
-#related-items .relationlist-field a {
-  display: block;
-  padding-left: 23px;
-  color: #335277;
-  background: url("../img/icone-related-items.png") 2px 5px no-repeat;
-  font-weight: bold;
+#content .newsRelatedItems legend,
+#content #newsRelatedItems legend {
+    display: block;
+    font-size: 1em;
+    line-height: 1em;
+    font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #454545;
+    margin: 0;
+    padding: .600em 0 .600em .875em;
 }
 
-#related-items div {
-  padding-top: 20px;
+#content #form-widgets-relatedItems {
+    display: block;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.875em;
+    border-top: 1px solid #c0c1c3;
 }
+
+#content #form-widgets-relatedItems div {
+    clear: both;
+    border-top: 1px dotted #c0c1c3;
+    line-height: 2.800em;
+} #content #form-widgets-relatedItems div:first-child { border-top: 0 none; }
+
+#content #form-widgets-relatedItems div a {
+    color: #335277;
+    padding: 0 1em;
+}
+
 
 fieldset#folder-listing legend {
 	color: #444;
@@ -832,45 +855,50 @@ fieldset#folder-listing legend {
 	padding: 1em 0 0 0;
 }
 
-
-
 /* tags */
 #category,
 #category-vcge {
-	text-align: left;
-	margin: 0;
+    color: #3a70d1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    text-align: left;
+    margin: 0;
+    clear: both;
 }
 
-#category a.link-category:hover,
-#category-vcge a.link-category:hover {
-	background: #2c67cd;
+#category {
+    border-top: 4px solid #172937;
+    padding-top: 1em;
+    margin-top: 2.5em;
 }
 
 #category-vcge {
-    font-size: 75%;
-    margin: 1em 0 0;
-    color: #666;
+    border-bottom: 1px solid #8b949b;
+    border-top: 1px solid #8b949b;
+    display: block;
+    margin: 1em 0 0 0;
+    padding: 1em 0;
 }
 
-#category-vcge a.link-category, span.selectedTag {
-    color: black;
-    padding: 0.25em 0.5em;
-    background: #ddd;
-    border-radius: 0.5em;
-    -webkit-border-radius: 0.5em;
-    -moz-border-radius: 0.5em;
+/* tags e assuntos */
+#category a.link-category,
+#category span.selectedTag,
+#category-vcge a.link-category,
+#category-vcge span.selectedTag {
+    background-color: #e9e8ed;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    color: #3a70d1;
+    padding: 4px 9px;
+    margin: 0;
 }
-#category-vcge a.link-category:hover {
+
+#category-vcge .link-category:hover,
+#category-vcge .link-category:focus {
     background: #205c90;
-    color: White;
+    color: #fff;
     border-color: #205c90;
 }
-
-/* embedder fix */
-#alt_cont a { cursor: pointer; }
-
-#content #category,
-#wrapper #category-vcge { margin: 0; }
 
 #category span,
 #category-vcge span {
@@ -878,6 +906,10 @@ fieldset#folder-listing legend {
     line-height: 30px;
     margin-left: 5px;
 }
+
+/* embedder fix */
+#alt_cont a { cursor: pointer; }
+
 
 /* portlets */
 dl.portlet {
@@ -3044,21 +3076,23 @@ ul.formTabs {
  * Correção de fonte e espaçamento
  */
 
-/* título da sessão */
+/* nitf - título da sessão */
 body[class*="nitf"] #content p.section {
     font-size: 16px;
-    font-family: 'open_sanssemibold', Arial, Helvetica, sans-serif;
+    font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
+    font-weight: normal;
     margin-bottom: 20px !important;
     text-transform: uppercase;
     letter-spacing: normal;
 }
 
-/* título da notícia */
+/* nitf - título da notícia */
 body[class*="nitf"] #content h1.documentFirstHeading {
+    color: #172938;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 34px;
-    line-height: 38px;
+    line-height: 37px;
     letter-spacing: normal;
 }
 
@@ -3070,10 +3104,34 @@ body[class*="nitf"] #content #viewlet-social-like .sociallike-network-gplus    {
 body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter  { width: 93px; }
 body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter iframe { margin-left: 0; }
 
-/* parágrado da notícia */
+/* nitf - parágrado da notícia */
 body[class*="nitf"] #content article div[property*="articleBody"] p {
-	font-size: 14px;
-	font-family: Arial, Helvetica, sans-serif;
-	line-height: 20px;
-	color: #172938;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    color: #172938;
+}
+
+/* nitf - subtítulo da notícia */
+#content article .documentDescription {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;;
+    color: #172938;
+    margin: 1em 0 0;
+}
+
+/* nitf - fonte da notícia */
+#content article .external-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    color: #3a70d1;
+}
+
+/* nitf - data e histórico da notícia */
+#content article #viewlet-below-content-title .documentModified,
+#content article #viewlet-below-content-title .contentHistory a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #2c66ce;
 }
