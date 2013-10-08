@@ -524,15 +524,13 @@ input.searchField {
 
 #portal-breadcrumbs span,
 #portal-breadcrumbs a {
-	color: #172938;
+	color: #2C66CE;
     text-transform: uppercase;
-    font-weight: 700;
+    font-family: open_sansregular, Arial, Helvetica, sans-serif;
 }
 
-#portal-breadcrumbs > #breadcrumbs-home,
-#portal-breadcrumbs > #breadcrumbs-home > a {
+#portal-breadcrumbs > span > span.breadcrumbSeparator {
 	color: #2C66CE;
-    font-weight: 400;
 }
 
 #portal-breadcrumbs > span {
@@ -544,13 +542,8 @@ input.searchField {
 	font-size: 1em;
 }
 
-#portal-breadcrumbs > span > a,
-#portal-breadcrumbs > span > #breadcrumbs-current {
+#portal-breadcrumbs > span > a:hover {
     text-decoration: underline;
-}
-
-#portal-breadcrumbs > #breadcrumbs-home > a {
-    text-decoration: none;
 }
 
 #content {
