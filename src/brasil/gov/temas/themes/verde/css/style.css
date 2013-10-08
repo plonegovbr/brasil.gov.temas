@@ -3138,7 +3138,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
 
 /**
- * Listagem do tile collection
+ * Visão sumária de coleções - Listagem
  */
 body[class*="collection"] #viewlet-below-content-title { display: none; }
 
@@ -3148,7 +3148,7 @@ body[class*="collection"] #content .tileItem {
     padding-bottom: 1.650em;
     padding-left: 8.975em;
     margin: 1.910em 0 0 0;
-    min-height: 111px;
+    min-height: 8.900em;
 }
 
 body[class*="collection"] #content h1.documentFirstHeading {
@@ -3204,8 +3204,50 @@ body[class*="collection"] #content .tileItem .documentByLine { color: #596e7f; }
 
 body[class*="collection"] #content .tileItem .documentByLine {
     font-family: "open_sansregular", Arial, Helvetica, sans-serif;
-    padding: 0 1.930em 0 0;
+    padding: 0 .850em 0 0;
     margin: 0;
     width: 100%;
-    max-width: 5.620em;
+    max-width: 7em;
+    height: auto;
+}
+
+/* icones - beaseado na semantica do font awesome */
+body[class*="collection"] #content .summary-view-icon {
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1em;
+    color: #596e7f;
+    display: block;
+    margin-bottom: .5em;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/summary-view-icons-sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    margin-right: 3px;
+}
+
+body[class*="collection"] #content .summary-view-icon .icon-day { background-position: -244px -392px; }
+body[class*="collection"] #content .summary-view-icon .icon-hour { background-position: -273px -393px; }
+body[class*="collection"] #content .summary-view-icon .icon-audio { background-position: -3px -393px; }
+body[class*="collection"] #content .summary-view-icon .icon-video { background-position: -33px -391px; }
+body[class*="collection"] #content .summary-view-icon .icon-info { background-position: -63px -391px; }
+body[class*="collection"] #content .summary-view-icon .icon-edit { background-position: -93px -391px; }
+body[class*="collection"] #content .summary-view-icon .icon-app { background-position: -155px -392px; }
+body[class*="collection"] #content .summary-view-icon .icon-gallery { background-position: -303px -391px; }
+body[class*="collection"] #content .summary-view-icon .icon-photo { background-position: -123px -391px; }
+body[class*="collection"] #content .summary-view-icon .icon-gallery,
+body[class*="collection"] #content .summary-view-icon .icon-photo {
+    width: 15px;
+    margin-right: 2px;
 }
