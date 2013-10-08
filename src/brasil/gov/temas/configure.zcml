@@ -1,16 +1,23 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="plone">
 
-    <include package="plone.app.themingplugins" />
-    <include package="plone.resource" />
+  <include package="plone.app.themingplugins" />
+  <include package="plone.resource" />
 
-    <!-- Temas -->
-    <plone:static
-        type="theme"
-        name="verde"
-        directory="themes/verde"
-        />
+  <!-- Temas -->
+  <plone:static
+      type="theme"
+      name="verde"
+      directory="themes/verde"
+      />
+
+  <include package="z3c.jbot" file="meta.zcml" />
+
+  <browser:jbot
+      directory="jbot"
+      layer="brasil.gov.portal.interfaces.IBrasilGov" />
 
 </configure>

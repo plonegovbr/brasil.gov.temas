@@ -49,6 +49,7 @@ setup(
     extras_require={
         'test': [
             'plone.app.testing',
+            'brasil.gov.portal',
         ]
     },
     entry_points="""
