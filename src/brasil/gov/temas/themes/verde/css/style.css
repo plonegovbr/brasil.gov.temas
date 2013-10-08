@@ -3186,5 +3186,5 @@ body[class*="collection"] #content .tileItem .documentByLine { color: #596e7f; }
 
 body[class*="collection"] #content .tileItem .documentByLine {
     font-family: "open_sansregular", Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1em;
 }
