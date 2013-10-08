@@ -1476,11 +1476,11 @@ dl.portlet ul.navTreeLevel6 li a {
 	margin-bottom: 2.4em;g s
 }
 
-.tile-subtitle {
-	color: #2C67CD;
-	font-weight: normal;
-	margin-bottom: 3px !important;
-	text-transform: uppercase;
+.tile .tile-subtitle {
+    margin-bottom: 0.7em !important;
+    color: #2c67cd;
+    text-transform: uppercase;
+    font-weight: normal;
     font-size: 0.9em;
 }
 
@@ -1831,12 +1831,13 @@ g
 }
 
 .outstanding-header .outstanding-title {
-	color: #2C67CD;
-	font-size: 1.7em;
-	padding: 0.45em;
-	margin-left: 0 !important;
-	border-bottom: 1px solid #CCCCCC;
-	border-top: 2px solid #172838;
+    margin-left: 0 !important;
+    padding: 0.45em;
+    border-top: 2px solid #172838;
+    border-bottom: 1px solid #CCCCCC;
+    color: #2C67CD;
+    font-size: 1.7em;
+    line-height: 1em;
 }
 
 #content .tile .outstanding-header .outstanding-title {
