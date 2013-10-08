@@ -4,6 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Relação de ícones no tipo de conteúdo anexado (closes `#54`_). [rennanrodrigues]
   * Ajustes de fonte, cor e espaçamento da visão sumária de coleções (closes `#54`_). [rennanrodrigues]
   * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
   * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
