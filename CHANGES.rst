@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Revisão da fonte no breadcrumb (closes `#40`_).
+    [rodfersou]
   * Removidas customizações da pasta overrides to tema, e movidas para brasil.gov.portal
     (closes `#49`_).
     [rodfersou]
