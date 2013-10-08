@@ -4,6 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Ajustes de fonte, cor e espaçamento da listagem de notícias (closes `#54`_). [rennanrodrigues]
   * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
   * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
   * Correção para ocultar portlets estaticos no menu lateral (closes `#46`_)
@@ -89,4 +90,5 @@ Changelog
 .. _`#40`: https://github.com/plonegovbr/brasil.gov.temas/issues/40
 .. _`#43`: https://github.com/plonegovbr/brasil.gov.temas/issues/43
 .. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/46
+.. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/54
 
