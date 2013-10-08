@@ -3142,9 +3142,18 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
  */
 body[class*="collection"] #viewlet-below-content-title { display: none; }
 
+body[class*="collection"] #content-core { margin-top: 0; }
+
+body[class*="collection"] #content .tileItem {
+    padding-bottom: 1.650em;
+    padding-left: 8.975em;
+    margin: 1.910em 0 0 0;
+    min-height: 111px;
+}
+
 body[class*="collection"] #content h1.documentFirstHeading {
     margin: 0;
-    padding:0;
+    padding: .825em 0;
     border-bottom: 1px solid #d9dbda;
     font-size: 2.333em;
     font-family: "open_sansbold", Arial, Helvetica, sans-serif;
@@ -3165,6 +3174,15 @@ body[class*="collection"] #content .tileHeadline {
     font-weight: bold;
     color: #172938;
     line-height: 1.350em;
+    margin: .400em 0 1em;
+}
+
+body[class*="collection"] #content .tileHeadline + p {
+    margin: 0 0 1.170em;
+}
+
+body[class*="collection"] #content .tileImage {
+    margin: 0 1.250em 0 0 !important;
 }
 
 body[class*="collection"] #content .description {
@@ -3186,5 +3204,8 @@ body[class*="collection"] #content .tileItem .documentByLine { color: #596e7f; }
 
 body[class*="collection"] #content .tileItem .documentByLine {
     font-family: "open_sansregular", Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    padding: 0 24px 0 0;
+    margin: 0;
+    width: 100%;
+    max-width: 70px;
 }
