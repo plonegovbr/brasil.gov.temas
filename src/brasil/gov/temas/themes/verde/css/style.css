@@ -3242,12 +3242,27 @@ body[class*="collection"] #content .summary-view-icon .icon-hour { background-po
 body[class*="collection"] #content .summary-view-icon .icon-audio { background-position: -3px -393px; }
 body[class*="collection"] #content .summary-view-icon .icon-video { background-position: -33px -391px; }
 body[class*="collection"] #content .summary-view-icon .icon-info { background-position: -63px -391px; }
+body[class*="collection"] #content .summary-view-icon .icon-gallery { background-position: -303px -391px; }
 body[class*="collection"] #content .summary-view-icon .icon-edit { background-position: -93px -391px; }
 body[class*="collection"] #content .summary-view-icon .icon-app { background-position: -155px -392px; }
-body[class*="collection"] #content .summary-view-icon .icon-gallery { background-position: -303px -391px; }
 body[class*="collection"] #content .summary-view-icon .icon-photo { background-position: -123px -391px; }
 body[class*="collection"] #content .summary-view-icon .icon-gallery,
 body[class*="collection"] #content .summary-view-icon .icon-photo {
     width: 15px;
     margin-right: 2px;
 }
+
+/* Contraste
+ * icones - beaseado na semantica do font awesome*/
+body[class*="collection"].contraste #content .summary-view-icon .icon-day { background-position: -624px -392px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-hour { background-position: -653px -393px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-audio { background-position: -383px -393px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-video { background-position: -413px -391px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-info { background-position: -443px -391px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-gallery { background-position: -683px -391px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-edit { background-position: -473px -391px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-photo { background-position: -503px -391px; }
+body[class*="collection"].contraste #content .summary-view-icon .icon-app { background-position: -535px -392px; }
+
+body[class*="collection"].contraste #content .description,
+body[class*="collection"].contraste #content .tileHeadline a { color: #fff !important; }
