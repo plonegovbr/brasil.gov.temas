@@ -1427,7 +1427,6 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 /* Tiles */
-
 .tile {
 	margin-bottom: 45px;
 	clear: both;
@@ -1447,7 +1446,7 @@ dl.portlet ul.navTreeLevel6 li a {
 
 .tile h2 {
     margin: 0;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     font-size: 1.25em;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.345em;
