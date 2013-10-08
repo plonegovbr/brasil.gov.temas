@@ -1,6 +1,8 @@
-JBot Folder
-===========
+Pasta JBot
+==========
 
-This folder MUST be used just to override templates from skins folder.
-If any other kind of template be overriden here, it will NEED to come with
-a new issue to TAKE OUT this template and move it to brasil.gov.portal.
+Esta pasta DEVE ser utilizada somente para sobrepor templates de pastas skins.
+
+Caso outro template sem ser de pasta skins for sobreposto nesta pasta, DEVE-SE
+abrir uma nova issue para RETIRAR este template desta pasta e mover para o
+pacote brasil.gov.portal.
