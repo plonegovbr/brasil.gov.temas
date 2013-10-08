@@ -4,7 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
-  * Removidas customizações da pasta overrides to tema, e movidas para brasil.gov.portal (closes `#49`_).
+  * Removidas customizações da pasta overrides to tema, e movidas para brasil.gov.portal
+    (closes `#49`_).
     [rodfersou]
   * Revisão de espaçamento em conteúdo NITF (closes `#52`_). [rennanrodrigues]
   * Correção de espaçamento em conteúdo NITF (closes `#52`_). [rodfersou]
