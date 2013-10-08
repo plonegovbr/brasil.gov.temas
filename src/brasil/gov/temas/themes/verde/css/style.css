@@ -1447,10 +1447,10 @@ dl.portlet ul.navTreeLevel6 li a {
 
 .tile h2 {
     margin: 0;
-    margin-bottom: 0;
-    font-size: 1.15em;
+    margin-bottom: 1em;
+    font-size: 1.25em;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.2em;
+    line-height: 1.345em;
 }
 
 #content .cover-collection-tile h2 {
@@ -1751,7 +1751,7 @@ dl.portlet ul.navTreeLevel6 li a {
 .laranja-borda a {
 	color: #e07f48 !important;
 }
-
+g
 .bege-borda a {
 	color: #ab6600 !important;
 }
