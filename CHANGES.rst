@@ -4,7 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
-  * Ajustes de fonte, cor e espaçamento da listagem de notícias (closes `#54`_). [rennanrodrigues]
+  * Ajustes de fonte, cor e espaçamento da visão sumária de coleções (closes `#54`_). [rennanrodrigues]
   * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
   * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
   * Correção para ocultar portlets estaticos no menu lateral (closes `#46`_)

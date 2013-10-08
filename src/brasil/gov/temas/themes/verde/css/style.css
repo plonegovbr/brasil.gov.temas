@@ -3204,8 +3204,8 @@ body[class*="collection"] #content .tileItem .documentByLine { color: #596e7f; }
 
 body[class*="collection"] #content .tileItem .documentByLine {
     font-family: "open_sansregular", Arial, Helvetica, sans-serif;
-    padding: 0 24px 0 0;
+    padding: 0 1.930em 0 0;
     margin: 0;
     width: 100%;
-    max-width: 70px;
+    max-width: 5.620em;
 }
