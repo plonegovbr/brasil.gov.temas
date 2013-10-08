@@ -1473,7 +1473,7 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 .tile.fio-separador {
-	margin-bottom: 2.4em;
+	margin-bottom: 2.4em;g s
 }
 
 .tile-subtitle {
@@ -1757,7 +1757,10 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 .tile p {
-	line-height: 1.75em;
+    color: #172938;
+    font-size: 1.15em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25em !important;
 }
 
 .left {
