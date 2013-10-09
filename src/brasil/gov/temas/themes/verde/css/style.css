@@ -2711,6 +2711,7 @@ ul.social-tabs.css-tabs>li>a {
 body[class*="nitf"] #viewlet-social-like>div {
     display: block;
     margin-bottom: 0.6410em;
+    float: left;
 }
 
 /* celular  */
