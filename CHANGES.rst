@@ -6,13 +6,23 @@ Changelog
 
   * Relação de ícones no tipo de conteúdo anexado (closes `#54`_). [rennanrodrigues]
   * Ajustes de fonte, cor e espaçamento da visão sumária de coleções (closes `#54`_). [rennanrodrigues]
-  * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
-  * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
+  * Revisão de alinhamento e espaçamento no social like (closes `#58`_).
+    [rennanrodrigues]
+  * Revisão da fonte no breadcrumb (closes `#40`_).
+    [rodfersou]
+  * Removidas customizações da pasta overrides to tema, e movidas para brasil.gov.portal
+    (closes `#49`_).
+    [rodfersou]
+  * Revisão de espaçamento em conteúdo NITF (closes `#52`_). [rennanrodrigues]
+  * Correção de espaçamento em conteúdo NITF (closes `#52`_). [rodfersou]
+  * Ajustes nas regras de fontes em conteúdo NITF (closes `#51`_). [rennanrodrigues]
   * Correção para ocultar portlets estaticos no menu lateral (closes `#46`_)
     [felipeduardo]
   * Ajuste de css no layout do menu lateral (closes `#43`_). [felipeduardo]
   * Realizadas modificações sugeridas para breadcrumbs (closes `#40`_). [rodfersou]
   * Correção das larguras das grid, conforme solicitado em imagem de referência (closes `#38`_).
+  * Revisão de regra para fonte nos títulos (closes `#35`_). [rodfersou]
+  * Inserção de font-face manual (closes `#35`_). [rennanrodrigues]
     [rodfersou]
   * Revisão de tamanho de fontes e espaçamentos no footer `#34`_). [rennanrodrigues]
   * Ajustes de layout nos espaçamentos e fontes do cabeçalho (header) do portal (closes `#32`_).
@@ -92,4 +102,8 @@ Changelog
 .. _`#43`: https://github.com/plonegovbr/brasil.gov.temas/issues/43
 .. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/46
 .. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/54
+.. _`#49`: https://github.com/plonegovbr/brasil.gov.temas/issues/49
+.. _`#51`: https://github.com/plonegovbr/brasil.gov.temas/issues/51
+.. _`#52`: https://github.com/plonegovbr/brasil.gov.temas/issues/52
+.. _`#58`: https://github.com/plonegovbr/brasil.gov.temas/issues/58
 
