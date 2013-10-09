@@ -280,7 +280,7 @@ div.position-10 { margin-left: -30.042%; }
 
 #accessibility span {
     padding: 0 4px;
-    background: url(../img/bg-acess-key.gif) center center no-repeat;
+    background: url("../img/bg-acess-key.gif") center center no-repeat;
     color: #006600;
 }
 
@@ -366,11 +366,11 @@ div.position-10 { margin-left: -30.042%; }
 
 #language .language-en {
     margin-right: 10px;
-    background: url(../img/flag-en.gif) no-repeat left;
+    background: url("../img/flag-en.gif") no-repeat left;
 }
 
 #language .language-es {
-    background: url(../img/flag-es.gif) no-repeat left;
+    background: url("../img/flag-es.gif") no-repeat left;
 }
 
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
@@ -719,7 +719,7 @@ body[class*="nitf"] div.width-1\3a 2 #plone-document-byline { width: 68.7216%; }
     margin: 0;
     width: 102px;
     height: 31px;
-    background: url(../img/mais_fotos.png) no-repeat;
+    background: url("../img/mais_fotos.png") no-repeat;
     text-indent: 100%;
     white-space: nowrap;
 }
@@ -1305,27 +1305,27 @@ dl.portlet ul.navTreeLevel6 li a {
 /* Icones da Central de conteudo
    ========================================================================== */
 .item-central .link-videos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -127px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -127px;
 }
 
 .item-central .link-audios {
-    background: url(../img/sprite-icons.png) no-repeat -1px -167px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -167px;
 }
 
 .item-central .link-infograficos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -207px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -207px;
 }
 
 .item-central .link-publicacoes {
-    background: url(../img/sprite-icons.png) no-repeat -1px -247px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -247px;
 }
 
 .item-central .link-fotos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -326px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -326px;
 }
 
 .item-central .link-aplicativos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -287px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -287px;
 }
 
 /* Portlet de Lista
@@ -1422,7 +1422,7 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 .portletCollection .portletFooter {
-    background: url(../img/portlet-footer-textmore.png) no-repeat right;
+    background: url("../img/portlet-footer-textmore.png") no-repeat right;
     text-align: right;
 }
 
@@ -1566,7 +1566,7 @@ dl.portlet ul.navTreeLevel6 li a {
 .link-externo .collection-item a {
     display: block;
     padding-right: 2em;
-    background: url(../img/readmoredarkgray.png) no-repeat right center !important;
+    background: url("../img/readmoredarkgray.png") no-repeat right center !important;
 }
 
 .link-externo .collection-item h2,
@@ -2323,32 +2323,32 @@ dl.portlet div.listingBar a:link {
 }
 
 .tile-sc-embedder .documentByLine .icon-type {
-    background: url(../img/sprite-icons.png) no-repeat -1px -22px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -22px;
 }
 
 .tile-audio .documentByLine .icon-type {
-    background: url(../img/sprite-icons.png) no-repeat -1px -1px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -1px;
 }
 
 .tile-externalcontent .documentByLine .icon-type,
 .tile-collective-nitf-content .documentByLine .icon-type {
-    background: url(../img/sprite-icons.png) no-repeat -1px -64px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -64px;
 }
 
 .tile-page .documentByLine .icon-type {
-    background: url(../img/sprite-icons.png) no-repeat -1px -43px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -43px;
 }
 
 .tile-image .documentByLine .icon-type {
-    background: url(../img/sprite-icons.png) no-repeat -1px -85px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -85px;
 }
 
 .tile-aplicativos .documentByLine .icon-type {
-    background: url(../img/sprite-icons.png) no-repeat -1px -106px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -106px;
 }
 
 .tile-folder .documentByLine .icon-type {
-    background: url(../img/sprite-icons.png) no-repeat -1px -64px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -64px;
 }
 
 
@@ -2912,7 +2912,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     .menuTrigger {
         display: block;
         height: 73px;
-        background: #065116 url(../img/bg-menu-mobile.png) top right no-repeat;
+        background: #065116 url("../img/bg-menu-mobile.png") top right no-repeat;
         text-indent: -9999px;
         cursor: pointer;
     }
@@ -2927,7 +2927,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
     #navigation.ativo #portal-column-one {
         display: block;
-        background: url(../img/shadow-bottom.gif) repeat-x bottom left;
+        background: url("../img/shadow-bottom.gif") repeat-x bottom left;
         padding-bottom: 13px;
     }
 
@@ -2939,7 +2939,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
         border-top: none;
         border-bottom: 1px solid #cdd4d0;
         background: #edeff1;
-        background: url(../img/portlet-header.gif) no-repeat 96% center ;
+        background: url("../img/portlet-header.gif") no-repeat 96% center ;
         color: #00510f;
         text-indent: 30px;
         text-transform: uppercase;
@@ -2948,7 +2948,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     }
 
     .portletNavigationTree .portletHeader.ativo {
-        background: url(../img/portlet-header-expanded.gif) no-repeat 96% center ;
+        background: url("../img/portlet-header-expanded.gif") no-repeat 96% center ;
     }
 
     .portletNavigationTree .portletHeader a span {
@@ -2958,7 +2958,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
         display: block;
         width: 37px;
         height: 36px;
-        background: url(../img/bg-menu-mobile-panel.png) top center no-repeat;
+        background: url("../img/bg-menu-mobile-panel.png") top center no-repeat;
     }
 
     #portal-column-one .ativo .portletHeader a span {
@@ -3107,7 +3107,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
         right: 13px;
         width: 30px;
         height: 30px;
-        background: url(../img/search-button-30px.gif) no-repeat;
+        background: url("../img/search-button-30px.gif") no-repeat;
         cursor: pointer;
     }
 
