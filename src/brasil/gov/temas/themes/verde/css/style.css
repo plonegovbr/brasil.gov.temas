@@ -731,17 +731,28 @@ div.width-1\3a 2 #plone-document-byline { width: 35%; }
 .newsImageContainer .parent-nitf-image { display: block; }
 
 #content .relatar-erros {
-    margin-bottom: 15px;
+    margin-bottom: 1.250em;
+    min-height: 1.700em;
 }
 #content .relatar-erros .icone {
     margin-right: 10px;
     float: left;
 }
 #content .relatar-erros .texto {
-    display: block;
-    line-height: 38px;
+    margin-left: 2.1em;
+    line-height: 1em
 }
 
+#content .relatar-erros a {
+    background: url("../img/icon-reportar-erros.png") no-repeat;
+    height: 21px;
+    float: left;
+}
+
+#content .relatar-erros a:hover,
+#content .relatar-erros a:focus {
+    background-position: 0 -21px;
+}
 /* tabela */
 table.listing {
 	border-left: 0;
@@ -2651,6 +2662,16 @@ body.contraste #doormat-container .doormatColumn {
 	color: #fff !important;
 	background: #000 !important;
 	border-color: #fff !important;
+}
+
+body.contraste #content .relatar-erros a {
+    background: url("../img/icon-reportar-erros-contraste.png") no-repeat;
+}
+
+body.contraste #content .relatar-erros a:hover,
+body.contraste #content .relatar-erros a:focus {
+    background-position: 0 -21px;
+    color: #3a3a3a !important;
 }
 
 /****************** RESPONSIVE DESIGN MAGIC ******************/
