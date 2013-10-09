@@ -7,6 +7,7 @@
  * https://github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
  */
 
+
 /* ==========================================================================
    Font-face local para fonte 'Open Sans'
    ========================================================================== */
@@ -65,6 +66,7 @@
          url('opensans-800-webfont.svg#open_sansextrabold') format('svg');
 }
 
+
 /* ==========================================================================
    Reset
    ========================================================================== */
@@ -75,11 +77,13 @@
     vertical-align: baseline;
 }
 
+
 /* ==========================================================================
    Estilos básicos
    ========================================================================== */
 
-/* Cores e fontes */
+/* Cores e fontes
+   ========================================================================== */
 body {
     background-color: #fff;
     color: #000000;
@@ -99,12 +103,15 @@ h1, h2, h3, h4, h5, h6 {
     top: 50% !important;
 }
 
-a:link, #content a:link, dl.portlet a:link {
+a:link,
+#content a:link,
+dl.portlet a:link {
     border-bottom: none !important;
     color: #2c67cd;
 }
 
-a:visited, #content a:visited,
+a:visited,
+#content a:visited,
 dl.portlet a:visited {
     color: #2c67cd;
 }
@@ -153,6 +160,10 @@ p {
     line-height: 1.8em;
 }
 
+
+/* ==========================================================================
+   Estrutura principal
+   ========================================================================== */
 #wrapper {
     margin: 0 auto;
     width: 100%;
@@ -168,84 +179,50 @@ p {
 }
 
 /* Tamanho das colunas  */
-#portal-column-two {
-    margin-left: -24.0625%;
-    width: 24.0625%;
-}
-
 #portal-column-one {
     margin-left: -98.958%;
     width: 15.625%;
 }
 
-div.width-1\3a 2 {
-    width: 51.25%;
+#portal-column-two {
+    margin-left: -24.0625%;
+    width: 24.0625%;
 }
 
-div.position-1\3a 4 {
-    margin-left: -78.2291%;
-}
+/* Grids
+   ========================================================================== */
+div.width-1\3a 2 { width: 51.25%; }
 
-div.width-3\3a 4 {
-    width: 79.75%;
-}
+div.width-2 { width: 13.061%; }
 
-div.position-3\3a 4 {
-    margin-left: -16.75%;
-}
+div.width-2.position-2 { margin-left: -80.982%; }
+div.width-2.position-4 { margin-left: -64.002%; }
+div.width-2.position-6 { margin-left: -47.022%; }
+div.width-2.position-8 { margin-left: -30.042%; }
+div.width-2.position-10 { margin-left: -13.061%; }
 
-div.position-0 {
-    margin-left: -97.963%;
-}
+div.width-3\3a 4 { width: 79.75%; }
 
-div.position-5 {
-    margin-left: -64.002%;
-}
+div.width-8 { width: 47.022%; }
 
-div.position-10 {
-    margin-left: -30.042%;
-}
+div.width-8.position-8 { margin-left: -47.022%; }
 
-div.width-2.position-2 {
-    margin-left: -80.982%;
-}
-div.width-2.position-4 {
-    margin-left: -64.002%;
-}
-div.width-2.position-6 {
-    margin-left: -47.022%;
-}
-div.width-2.position-8 {
-    margin-left: -30.042%;
-}
-div.width-2.position-10 {
-    margin-left: -13.061%;
-}
+div.width-5 { width: 30.042%; }
 
-div.width-8.position-8 {
-    margin-left: -47.022%;
-}
-
-div.width-2 {
-    width: 13.061%;
-}
-
-div.width-5 {
-    width: 30.042%;
-}
-
-div.width-8 {
-    width: 47.022%;
-}
-
-div.width-10 {
-    width: 64.002%;
-}
+div.width-10 { width: 64.002%; }
 
 div.width-15,
-div.width-16 {
-    width: 97.963%;
-}
+div.width-16 { width: 97.963%; }
+
+div.position-0 { margin-left: -97.963%; }
+
+div.position-1\3a 4 { margin-left: -78.2291%; }
+
+div.position-3\3a 4 { margin-left: -16.75%; }
+
+div.position-5 { margin-left: -64.002%; }
+
+div.position-10 { margin-left: -30.042%; }
 
 
 /* ==========================================================================
@@ -267,9 +244,8 @@ div.width-16 {
     background-image: -ms-radial-gradient(center, ellipse cover,  #19882c 1%,#025310 100%);
     /* IE10+ */
     background-image: radial-gradient(ellipse at center,  #19882c 1%,#025310 100%);
-    /* IE6-9 fallback on horizontal gradient */
     color: #fff;
-    /* W3C */
+    /* IE6-9 fallback on horizontal gradient */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19882c', endColorstr='#025310',GradientType=1);
 }
 
@@ -287,6 +263,8 @@ div.width-16 {
     color: #fff;
 }
 
+/* Menu de Acessibilidade
+   ========================================================================== */
 #accessibility {
     display: block !important;
     float: left;
@@ -306,7 +284,8 @@ div.width-16 {
     color: #006600;
 }
 
-/* logo */
+/* Titulo do portal
+   ========================================================================== */
 #logo {
     float: left;
     padding: 0;
@@ -351,7 +330,7 @@ div.width-16 {
     font-size: 1.2em;
 }
 
-/* Personal tools */
+/* Personal Tools - Menu de administração */
 #portal-personaltools {
     position: absolute;
     top: 0px;
@@ -360,6 +339,8 @@ div.width-16 {
     font-size: 1.2em;
 }
 
+/* Menu de idioma
+   ========================================================================== */
 #language {
     float: right;
     margin-left: 20px;
@@ -392,8 +373,8 @@ div.width-16 {
     background: url(../img/flag-es.gif) no-repeat left;
 }
 
-
-/* Site Actions */
+/* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
+   ========================================================================== */
 #portal-siteactions {
     display: block;
     float: right;
@@ -425,6 +406,8 @@ div.width-16 {
     color: #fff !important;
 }
 
+/* Links de redes sociais
+   ========================================================================== */
 #social-icons {
     float: right;
     clear: right;
@@ -444,7 +427,8 @@ div.width-16 {
     padding: 0 0 0 5px;
 }
 
-/* Sobre o brasil */
+/* Menu sobre o portal
+   ========================================================================== */
 #sobre {
     clear: both;
     margin: 0;
@@ -474,13 +458,13 @@ div.width-16 {
     border-right: none;
 }
 
-/* Searchbox */
+/* Formulário de busca
+   ========================================================================== */
 .LSBox {
     margin: 0;
     padding: 0;
     border: none;
 }
-
 
 input.searchField {
     -moz-appearance: none;
@@ -509,7 +493,8 @@ input.searchField {
     font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
 }
 
-#searchGadget, #header input.searchButton {
+#searchGadget,
+#header input.searchButton {
     padding: 0.3em;
     padding: 4px 15px;
     border: none;
@@ -527,8 +512,9 @@ input.searchField {
 }
 
 
-/****************** CONTENT ******************/
-
+/* ==========================================================================
+   Conteúdo
+   ========================================================================== */
 .portaltype-plone-site #portal-breadcrumbs,
 .section-home #portal-breadcrumbs {
     display: none;
@@ -575,8 +561,10 @@ input.searchField {
     margin-top: 1.5em;
 }
 
-/*NITF*/
 
+/* ==========================================================================
+   NITF
+   ========================================================================== */
 #content div.newsLeftPane {
     position: relative;
     float: left;
@@ -599,8 +587,10 @@ input.searchField {
     line-height: 1.36340em;
 }
 
-/* Text styles */
 
+/* ==========================================================================
+   Estilos de texto
+   ========================================================================== */
 #content-core {
     clear: both;
     margin-top: 40px;
@@ -816,7 +806,10 @@ table.listing tbody th {
     list-style-type: decimal !important;
 }
 
-/* Itens relacionados */
+
+/* ==========================================================================
+   Itens relacionados
+   ========================================================================== */
 #content .newsRelatedItems,
 #content #newsRelatedItems {
     clear: both;
@@ -877,7 +870,10 @@ fieldset#folder-listing legend {
     color: #444;
 }
 
-/* tags */
+
+/* ==========================================================================
+   VCGE - TAGS
+   ========================================================================== */
 #category,
 #category-vcge {
     clear: both;
@@ -933,7 +929,9 @@ fieldset#folder-listing legend {
 #alt_cont a { cursor: pointer; }
 
 
-/* portlets */
+/* ==========================================================================
+   Portles
+   ========================================================================== */
 dl.portlet {
     margin-bottom: 0;
 }
@@ -996,7 +994,8 @@ dl.portlet dt a:visited {
     margin-bottom: 1.9230em;
 }
 
-/* portlet de login */
+/* Portlet de login
+   ========================================================================== */
 #portal-column-two dl.portletLogin {
     border: none;
     background: #093a89;
@@ -1037,8 +1036,8 @@ dl.portlet dt a:visited {
     border-top: 1px solid #5c7ba7;
 }
 
-
-/* portlet com data */
+/* Portlet com data
+   ========================================================================== */
 .portletNews .portletItem,
 .portletCollection .portletItem {
     clear: both;
@@ -1083,15 +1082,14 @@ dl.portlet dt a:visited {
     color: #444b53;
 }
 
-
-/* eventos */
+/* Portlet de eventos */
 .portletEvents .portletItem a.tile {
     margin-left: 9px;
     font-size: 1.2em;
 }
 
-/* navigation */
-
+/* Portlet de navegação
+   ========================================================================== */
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
     margin: 0;
@@ -1187,6 +1185,7 @@ a.navTreeItemInPath, a.navTreeCurrentNode {
     background: transparent url("../img/menu-ativo.gif") no-repeat !important;
     font-weight: bold;
 }
+
 /* Apenas para o primeiro menu */
 .first-item a.navTreeItemInPath, .first-item a.navTreeCurrentNode {
     background-image: none !important;
@@ -1274,8 +1273,63 @@ dl.portlet ul.navTreeLevel6 li a {
     height: auto;
 }
 
-/* lists */
+/* Portlet de Centrais de Conteúdos
+   ========================================================================== */
+.portlet-static-centrais-de-conteudos .portletItem {
+    padding: 0 !important;
+}
 
+.portlet-static-centrais-de-conteudos .list-central {
+    margin: 0;
+    padding: 0;
+}
+
+.list-central .item-central {
+    padding: 15px 0;
+    border-bottom: 1px solid #d6dcd7;
+    list-style: none;
+}
+
+.list-central .item-central.first {
+    border-top: 1px solid #d6dcd7;
+}
+
+.item-central .link-central {
+    display: block;
+    padding-left: 50px;
+    height: 38px;
+    color: #436976 !important;
+    line-height: 38px;
+}
+
+/* Icones da Central de conteudo
+   ========================================================================== */
+.item-central .link-videos {
+    background: url(../img/sprite-icons.png) no-repeat -1px -127px;
+}
+
+.item-central .link-audios {
+    background: url(../img/sprite-icons.png) no-repeat -1px -167px;
+}
+
+.item-central .link-infograficos {
+    background: url(../img/sprite-icons.png) no-repeat -1px -207px;
+}
+
+.item-central .link-publicacoes {
+    background: url(../img/sprite-icons.png) no-repeat -1px -247px;
+}
+
+.item-central .link-fotos {
+    background: url(../img/sprite-icons.png) no-repeat -1px -326px;
+}
+
+.item-central .link-aplicativos {
+    background: url(../img/sprite-icons.png) no-repeat -1px -287px;
+}
+
+/* Portlet de Lista
+   ========================================================================== */
 #content li, dl.portlet li {
     margin-bottom: 0.25em;
     list-style: square outside;
@@ -1286,8 +1340,8 @@ dl.portlet ul.navTreeLevel6 li a {
     list-style: decimal outside;
 }
 
-/* em destaque */
-
+/* Icones da Central de conteudo
+   ========================================================================== */
 #em-destaque ul {
     display: table;
     margin-bottom: 2em;
@@ -1329,59 +1383,6 @@ dl.portlet ul.navTreeLevel6 li a {
     font-size: 80%;
 }
 
-/* centrais de conteudos */
-.portlet-static-centrais-de-conteudos .portletItem {
-    padding: 0 !important;
-}
-
-.portlet-static-centrais-de-conteudos .list-central {
-    margin: 0;
-    padding: 0;
-}
-
-.list-central .item-central {
-    padding: 15px 0;
-    border-bottom: 1px solid #d6dcd7;
-    list-style: none;
-}
-
-.list-central .item-central.first {
-    border-top: 1px solid #d6dcd7;
-}
-
-.item-central .link-central {
-    display: block;
-    padding-left: 50px;
-    height: 38px;
-    color: #436976 !important;
-    line-height: 38px;
-}
-
-/* icones central de conteudos */
-.item-central .link-videos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -127px;
-}
-
-.item-central .link-audios {
-    background: url(../img/sprite-icons.png) no-repeat -1px -167px;
-}
-
-.item-central .link-infograficos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -207px;
-}
-
-.item-central .link-publicacoes {
-    background: url(../img/sprite-icons.png) no-repeat -1px -247px;
-}
-
-.item-central .link-fotos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -326px;
-}
-
-.item-central .link-aplicativos {
-    background: url(../img/sprite-icons.png) no-repeat -1px -287px;
-}
-
 /* Ajuste Banner Lançamento*/
 #portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f a.navTreeItemInPath,
 #portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f a.navTreeCurrentNode {
@@ -1398,7 +1399,8 @@ dl.portlet ul.navTreeLevel6 li a {
     font-size: 110%;
 }
 
-/* portlet de politicas */
+/* Portlet de politicas
+   ========================================================================== */
 .portletCollection {
     border: 1px solid #c0c1c3;
     border-radius: 5px;
@@ -1443,15 +1445,17 @@ dl.portlet ul.navTreeLevel6 li a {
     width: 0;
 }
 
-/****************** COVER *******************/
 
+/* ==========================================================================
+   Collective Cover
+   ========================================================================== */
 .portaltype-collective-cover-content #content .row {
     margin: 0;
     padding: 0;
 }
 
-/* Tiles */
-
+/* Tiles
+   ========================================================================== */
 .tile {
     clear: both;
     margin-bottom: 24px;
@@ -1515,7 +1519,8 @@ dl.portlet ul.navTreeLevel6 li a {
 
 #content .tile-description { margin: 0; }
 
-/* link externo */
+/* Link externo
+   ========================================================================== */
 .link-externo .tile-header,
 .link-externo .tile-title {
     padding: 1em;
@@ -1578,7 +1583,8 @@ dl.portlet ul.navTreeLevel6 li a {
     height: 1px;
 }
 
-/* lista horizontal */
+/* Lista horizontal
+   ========================================================================== */
 .lista-horizontal {
     border: 1px solid #c0c1c3;
     -webkit-border-radius: 5px;
@@ -1620,7 +1626,8 @@ dl.portlet ul.navTreeLevel6 li a {
     border-left: 1px dotted #ccc;
 }
 
-/* lista vertical do Tile List e Tile Collection */
+/* Lista vertical - Tile List e Tile Collection
+   ========================================================================== */
 .lista-vertical {
     border: 1px solid #c0c1c3;
     -webkit-border-radius: 5px;
@@ -1840,9 +1847,7 @@ dl.portlet ul.navTreeLevel6 li a {
     color: #ad6500;
 }
 
-
-/*Tile Header*/
-
+/* Tile Header */
 #content .outstanding-header h1,
 #content .outstanding-header h2,
 #content .outstanding-header h3,
@@ -1905,9 +1910,8 @@ dl.portlet ul.navTreeLevel6 li a {
     line-height: 2.8em;
 }
 
-/*
- * Paleta de cores - cor / editoria
- */
+/* Paleta de cores - cor-editoria
+   ========================================================================== */
 .tile.padrao {
     margin-bottom: 13px;
 }
@@ -2191,8 +2195,10 @@ dl.portlet ul.navTreeLevel6 li a {
 /* fio separador */
 .fio-separador .outstanding-header { border-top: 1px solid #ddd; }
 
-/**** Collections ****/
 
+/* ==========================================================================
+   Collections
+   ========================================================================== */
 .template-summary_view h1#parent-fieldname-title,
 .template-summary_view h1.documentFirstHeading,
 .template-folder_summary_view h1#parent-fieldname-title,
@@ -2345,8 +2351,10 @@ dl.portlet div.listingBar a:link {
     background: url(../img/sprite-icons.png) no-repeat -1px -64px;
 }
 
-/*Search results*/
 
+/* ==========================================================================
+   Resultado da busca
+   ========================================================================== */
 .template-search #content h1.documentFirstHeading {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -2554,7 +2562,11 @@ dl.portlet div.listingBar a:link {
     font-size: 1.3em;
 }
 
-/* Forms */
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
 /* fix some bootstrap mess */
 .label:empty, .badge:empty {
     display: inline;
@@ -2563,6 +2575,41 @@ dl.portlet div.listingBar a:link {
 /* ==========================================================================
    Footer
    ========================================================================== */
+#footer {
+    padding: 20px 0;
+    min-height: 50px;
+    width: 100%;
+    background: #034811;
+    color: #fff;
+}
+
+#footer a { color: #fff; }
+
+#footer > div {
+    margin: 2em auto;
+    padding-top: 1em;
+    max-width: 960px;
+}
+
+#footer .footer-logos {
+    margin: 0 0 -20px;
+    padding: 2em 0;
+    max-width: 100%;
+    background: #00420c;
+}
+
+.footer-logos>div {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+#footer .logo-brasil img { float: right; }
+
+#extra-footer p {
+    margin: 1em auto;
+    max-width: 960px;
+}
+
 #voltar-topo {
     margin-top: 44px;
     text-align: right;
@@ -2575,6 +2622,8 @@ dl.portlet div.listingBar a:link {
     font-size: 0.9em;
 }
 
+/* Doormat
+   ========================================================================== */
 #doormat-container {
     float: none;
     background: #034811;
@@ -2585,9 +2634,7 @@ dl.portlet div.listingBar a:link {
     border-left: 1px dotted #7dc48a;
 }
 
-#doormat-container .doormatColumn {
-    text-align: left;
-}
+#doormat-container .doormatColumn { text-align: left; }
 
 #doormat-container dt {
     padding-left: .6em;
@@ -2603,95 +2650,8 @@ dl.portlet div.listingBar a:link {
 
 #doormat-container dd a { font-size: 1.4em; }
 
-#doormat-container.columns-4 .doormatColumn {
-    width: 22%;
-}
+#doormat-container.columns-4 .doormatColumn { width: 22%; }
 
-#footer {
-    padding: 20px 0;
-    min-height: 50px;
-    width: 100%;
-    background: #034811;
-    color: #fff;
-}
-
-#footer a {
-    color: #fff;
-}
-
-#footer>div {
-    margin: 2em auto;
-    padding-top: 1em;
-    max-width: 960px;
-}
-#footer .footer-logos {
-    margin: 0 0 -20px;
-    padding: 2em 0;
-    max-width: 100%;
-    background: #00420c;
-}
-.footer-logos>div {
-    margin: 0 auto;
-    max-width: 960px;
-}
-
-#footer .logo-brasil img {
-    float: right;
-}
-
-#extra-footer p {
-    margin: 1em auto;
-    max-width: 960px;
-}
-
-/* Contraste */
-body.contraste,
-body.contraste #header,
-body.contraste #sobre,
-body.contraste #footer,
-body.contraste #main,
-body.contraste #doormat-container,
-body.contraste #em-destaque ul,
-body.contraste #em-destaque li#em-destaque-titulo,
-body.contraste .outstanding-header .outstanding-title,
-body.contraste .audiogallery-tile,
-body.contraste .videogallery-tile,
-body.contraste ul.css-tabs a,
-body.contraste .timeline,
-body.contraste .timeline a {
-    background: #000 !important;
-    color: #fff !important;
-}
-
-body.contraste #accessibility span {
-    background: #fff !important;
-    color: #000 !important;
-}
-
-body.contraste a,
-body.contraste h1,
-body.contraste h2,
-body.contraste h3,
-body.contraste h4,
-body.contraste h5,
-body.contraste h6,
-body.contraste #plone-document-byline,
-body.contraste #doormat-container dt,
-body.contraste #content .documentDescription,
-body.contraste #content #description,
-body.contraste .nitfByline,
-body.contraste p.section {
-    color: #fff !important;
-}
-
-body.contraste .portletHeader,
-body.contraste .portletHeader a,
-body.contraste dl.portlet dt a:visited,
-body.contraste #doormat-container .doormatColumn {
-    border-color: #fff !important;
-    background: #000 !important;
-    color: #fff !important;
-}
 
 /****************** RESPONSIVE DESIGN MAGIC ******************/
 
@@ -2776,13 +2736,17 @@ body[class*="nitf"] #viewlet-social-like>div {
     line-height: 14px;
 }
 
-/* Correção no espaçamento do breadcrumb */
+
+/* ==========================================================================
+   Breadcrumb
+   ========================================================================== */
 #main #portal-breadcrumbs {
     position: absolute;
     top: -5.128em;
     margin-top: 1.923em;
     margin-bottom: 1.923em;
 }
+
 
 /* ==========================================================================
    Especificação de estilos para NITF
@@ -2809,6 +2773,7 @@ body[class*="nitf"] #content h1.documentFirstHeading {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.1788em;
 }
+
 body[class*="nitf"] #content h2.nitfSubtitle {
     margin-bottom: 1.9230em;
     color: #2c66ce;
@@ -2899,11 +2864,13 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     color: #2c66ce;
 }
 
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-/* Smartphone  */
+/* Smartphone
+   ========================================================================== */
 @media only screen and (min-width : 320px) and (max-width : 768px) {
 
     #header {
@@ -3030,7 +2997,8 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     }
 }
 
-/* iPad portrait */
+/* iPad portrait
+   ========================================================================== */
 @media screen and (max-width: 768px) {
 
     #wrapper {
@@ -3045,7 +3013,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
         max-width: 90%;
     }
 
-    /*Columns*/
+    /* Columns */
     #portal-column-one,
     #portal-column-two,
     #portal-column-content {
@@ -3054,7 +3022,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
         width: 97.75%;
     }
 
-    /*Search*/
+    /* Search */
     #portal-searchbox { display: none; }
 
     .overlay.overlay-ajax {
@@ -3080,11 +3048,13 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     }
 }
 
-/* iPhone 4s and greater than */
+/* iPhone 4s and greater than
+   ========================================================================== */
 @media screen and (max-width: 480px) {
 
     /* barra de acessibilidade */
     #portal-siteactions a { padding-left: 0; }
+
     #portal-siteactions .last-item { margin-right: 0; }
 
     #voltar-topo a { margin-right: .5em; }
@@ -3189,7 +3159,8 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     #extra-footer p { text-align: center; }
 }
 
-/* Barra de identidade do governo */
+/* Barra de identidade do governo
+   ========================================================================== */
 @media screen and (max-width: 960px) {
 
     #barra-brasil {
@@ -3200,6 +3171,59 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
         width: 98% !important
     }
 }
+
+
+/* ==========================================================================
+   Contraste
+   ========================================================================== */
+body.contraste,
+body.contraste #header,
+body.contraste #sobre,
+body.contraste #footer,
+body.contraste #main,
+body.contraste #doormat-container,
+body.contraste #em-destaque ul,
+body.contraste #em-destaque li#em-destaque-titulo,
+body.contraste .outstanding-header .outstanding-title,
+body.contraste .audiogallery-tile,
+body.contraste .videogallery-tile,
+body.contraste ul.css-tabs a,
+body.contraste .timeline,
+body.contraste .timeline a {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+body.contraste #accessibility span {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+body.contraste a,
+body.contraste h1,
+body.contraste h2,
+body.contraste h3,
+body.contraste h4,
+body.contraste h5,
+body.contraste h6,
+body.contraste #plone-document-byline,
+body.contraste #doormat-container dt,
+body.contraste #content .documentDescription,
+body.contraste #content #description,
+body.contraste .nitfByline,
+body.contraste p.section {
+    color: #fff !important;
+}
+
+body.contraste .portletHeader,
+body.contraste .portletHeader a,
+body.contraste dl.portlet dt a:visited,
+body.contraste #doormat-container .doormatColumn {
+    border-color: #fff !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+
 
 /* ==========================================================================
    Print
