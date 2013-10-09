@@ -124,8 +124,9 @@ a:focus {
     outline: 2px solid #f1ca7f;
 }
 
-/* resolve bug on click in firefox */
-a:hover, a:active { outline: none; }
+/* bug fix on click in firefox */
+a:hover,
+a:active { outline: none; }
 
 h1 {
     border-bottom: none;
@@ -606,7 +607,7 @@ input.searchField {
 }
 
 #content-core p {
-  font-size: 110%;
+    font-size: 110%;
 }
 
 .hidden {
@@ -2559,8 +2560,9 @@ dl.portlet div.listingBar a:link {
     display: inline;
 }
 
-/****************** FOOTER ******************/
-
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 #voltar-topo {
     margin-top: 44px;
     text-align: right;
@@ -2782,9 +2784,9 @@ body[class*="nitf"] #viewlet-social-like>div {
     margin-bottom: 1.923em;
 }
 
-/**
- * Correção de fonte e espaçamento
- */
+/* ==========================================================================
+   Especificação de estilos para NITF
+   ========================================================================== */
 
 /* nitf - título da sessão */
 body[class*="nitf"] #content p.section {
@@ -2897,29 +2899,11 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     color: #2c66ce;
 }
 
-div.listingBar {
-    clear: both;
-}
-
-ul.formTabs {
-    padding: 0px !important;
-}
-
-#searchbt, #nav #seletor {
-    display: none;
-}
-
-#nav #seletor {
-    color: #fff;
-}
-
-/* nitf - redes sociais */
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-/* smartphone  */
+/* Smartphone  */
 @media only screen and (min-width : 320px) and (max-width : 768px) {
 
     #header {
@@ -3300,4 +3284,20 @@ ul.formTabs {
     * {
         position: relative !important;
     }
+}
+
+div.listingBar {
+    clear: both;
+}
+
+ul.formTabs {
+    padding: 0px !important;
+}
+
+#searchbt, #nav #seletor {
+    display: none;
+}
+
+#nav #seletor {
+    color: #fff;
 }
