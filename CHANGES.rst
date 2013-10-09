@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Customizacoes nitf para brasil.gov.portal (closes `#60`_).
+    [rodfersou]
   * Removidas customizações da pasta overrides to tema, e movidas para brasil.gov.portal
     (closes `#49`_).
     [rodfersou]
@@ -98,4 +100,5 @@ Changelog
 .. _`#49`: https://github.com/plonegovbr/brasil.gov.temas/issues/49
 .. _`#51`: https://github.com/plonegovbr/brasil.gov.temas/issues/51
 .. _`#52`: https://github.com/plonegovbr/brasil.gov.temas/issues/52
+.. _`#60`: https://github.com/plonegovbr/brasil.gov.temas/issues/60
 
