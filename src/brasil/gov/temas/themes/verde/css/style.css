@@ -2730,318 +2730,6 @@ body[class*="nitf"] #viewlet-social-like>div {
     margin-bottom: 0.6410em;
 }
 
-/* celular  */
-@media only screen and (min-width : 320px) and (max-width : 768px) {
-
-    #header {
-        padding-top: 1em !important;
-    }
-
-    #portal-siteactions {
-        position: static;
-        float: none;
-        clear: both;
-        padding:0 0 0.5em;
-        font-size: 0.9em;
-    }
-
-    #portal-description {
-        bottom: 62px;
-    }
-
-    #main {
-        padding-top: 0;
-        max-width: 100% !important;
-    }
-
-    #portal-breadcrumbs,
-    #accessibility,
-    #doormat-container,
-    #em-destaque,
-    #portal-features {
-        display: none !important;
-    }
-
-    #portal-column-content {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        padding: 20px;
-    }
-
-    .menuTrigger {
-        display: block;
-        height: 73px;
-        background: #065116 url('../img/bg-menu-mobile.png') top right no-repeat;
-        text-indent: -9999px;
-        cursor: pointer;
-    }
-
-    #navigation.ativo .menuTrigger {
-        background-position: bottom right;
-    }
-
-    #navigation #portal-column-one {
-        display: none;
-    }
-
-    #navigation.ativo #portal-column-one {
-        display: block;
-        background: url(../img/shadow-bottom.gif) repeat-x bottom left;
-        padding-bottom: 13px;
-    }
-
-    .portlet-static-centrais-de-conteudos .portletHeader,
-    .portletNavigationTree .portletHeader {
-        position: relative;
-        margin: 0;
-        padding: 30px 0;
-        border-top: none;
-        border-bottom: 1px solid #cdd4d0;
-        background: #edeff1;
-        background: url(../img/portlet-header.gif) no-repeat 96% center ;
-        color: #00510f;
-        text-indent: 30px;
-        text-transform: uppercase;
-        font-size: 24px;
-        cursor: pointer;
-    }
-
-    .portletNavigationTree .portletHeader.ativo {
-        background: url(../img/portlet-header-expanded.gif) no-repeat 96% center ;
-    }
-
-    .portletNavigationTree .portletHeader a span {
-        position: absolute;
-        top: 18px;
-        right: 20px;
-        display: block;
-        width: 37px;
-        height: 36px;
-        background: url('../img/bg-menu-mobile-panel.png') top center no-repeat;
-    }
-
-    #portal-column-one .ativo .portletHeader a span {
-        background-position: bottom center;
-    }
-
-    #portal-column-one .portletNavigationTree .portletHeader a {
-        padding: 20px 35px;
-        color: #00500f !important;
-        font-size: 24px;
-    }
-
-    #portal-column-one dl.portlet {
-        margin-bottom: 0;
-    }
-
-    #portal-column-one .portletStaticText,
-    #portal-column-one dl.portlet dd {
-        display: none;
-    }
-
-    #portal-column-one dl.ativo dd {
-        display: block;
-    }
-
-    dl.portlet ul.navTreeLevel0 > .navTreeItem {
-        border-top: none;
-        border-bottom: 1px solid #d2d2d2;
-    }
-
-    dl.portlet ul.navTreeLevel0 > .navTreeItem a {
-        padding: 20px 35px !important;
-        color: #454545;
-        font-size: 24px;
-        line-height: 1.2em;
-    }
-}
-
-#searchbt, #nav #seletor {
-    display: none;
-}
-
-#nav #seletor {
-    color: #fff;
-}
-
-/* iPad portrait */
-@media screen and (max-width: 768px) {
-
-    #wrapper {
-        max-width: 100%;
-    }
-
-    #logo {
-        min-width: 140px;
-    }
-
-    #main {
-        max-width: 90%;
-    }
-
-    /*Columns*/
-    #portal-column-one,
-    #portal-column-two,
-    #portal-column-content {
-        clear: both;
-        margin-left: -98.875%;
-        width: 97.75%;
-    }
-
-    /*Search*/
-    #portal-searchbox { display: none; }
-
-    .overlay.overlay-ajax {
-        top: 10px !Important;
-    }
-
-    .overlay.overlay-ajax input.searchPage {
-        margin-bottom: 1em;
-        width: 90%;
-        font-size: 200% !important;
-    }
-
-    .overlay.overlay-ajax input.searchPage.searchButton {
-        width: auto;
-    }
-
-    .overlay.overlay-ajax #searchform .discreet {
-        text-align: left;
-    }
-
-    .overlay.overlay-ajax #content-core strong {
-        display: none;
-    }
-}
-
-/* iPhone 4s and greater than */
-@media screen and (max-width: 480px) {
-
-    /* barra de acessibilidade */
-    #portal-siteactions a { padding-left: 0; }
-    #portal-siteactions .last-item { margin-right: 0; }
-
-    #voltar-topo a { margin-right: .5em; }
-
-    #viewlet-social-like { right: 0; }
-
-    #sobre { background: none; }
-
-    #social-icons { display: none; }
-
-    #header {
-        padding: 1em 0.5em;
-        padding: 0 4%;
-        width: 92%;
-    }
-
-    #header #accessibility { display: none !important; }
-
-    #portal-searchbox {
-        position: relative;
-        display: block;
-        clear: left !important;
-        margin: 0 !important;
-        padding: 0;
-        height: 41px;
-        border: 0 none;
-        border-radius: 0;
-        background: none;
-    }
-
-    #portal-searchbox .searchField {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 39px;
-        border: 0 none;
-        border-top: 2px solid #ccc;
-        border-radius: 6px;
-        background-color: #fff;
-        color: #064d13;
-        text-indent: 13px;
-        font-size: 18px;
-        font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
-        line-height: 39px;
-    }
-
-    #header #portal-searchbox .searchButton {
-        position: absolute;
-        top: 7px;
-        right: 13px;
-        width: 30px;
-        height: 30px;
-        background: url(../img/search-button-30px.gif) no-repeat;
-        cursor: pointer;
-    }
-
-    #language {
-        float: left;
-        margin-left: 0.5em;
-    }
-
-    #logo #portal-title {
-        font-size: 3.5em;
-        line-height: 1em;
-    }
-
-    #portal-searchbox {
-        float: none;
-        clear: both;
-        margin: 0 auto 2%;
-        width: 100%;
-    }
-
-    .cell {
-        float: none !important;
-        margin-left: -100% !important;
-        width: 100% !important;
-    }
-
-    .left { float: none !important; }
-
-    #portal-column-two {
-        float: none !important;
-        margin-left: -100% !important;
-        width: 100% !important;
-    }
-
-    #logo { width: 100% !important; }
-
-    #footer p { clear: both; }
-
-    #footer > div { text-align: center; }
-
-    #footer img {
-        float: none;
-        margin: 1em;
-        max-width: 40%;
-    }
-
-    .portaltype-collection .tileImage { float: none; }
-
-    #extra-footer p { text-align: center; }
-}
-
-div.listingBar {
-    clear: both;
-}
-
-ul.formTabs {
-    padding: 0px !important;
-}
-
-/* Barra de identidade do governo */
-@media screen and (max-width: 960px) {
-  #barra-brasil {
-    min-width: 100% !important
-  }
-  #barra-brasil .barra {
-      width: 98% !important
-  }
-}
-
 
 /* formulário de contato */
 .field input[type="text"],
@@ -3209,7 +2897,325 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     color: #2c66ce;
 }
 
+div.listingBar {
+    clear: both;
+}
+
+ul.formTabs {
+    padding: 0px !important;
+}
+
+#searchbt, #nav #seletor {
+    display: none;
+}
+
+#nav #seletor {
+    color: #fff;
+}
+
 /* nitf - redes sociais */
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* smartphone  */
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+
+    #header {
+        padding-top: 1em !important;
+    }
+
+    #portal-siteactions {
+        position: static;
+        float: none;
+        clear: both;
+        padding:0 0 0.5em;
+        font-size: 0.9em;
+    }
+
+    #portal-description {
+        bottom: 62px;
+    }
+
+    #main {
+        padding-top: 0;
+        max-width: 100% !important;
+    }
+
+    #portal-breadcrumbs,
+    #accessibility,
+    #doormat-container,
+    #em-destaque,
+    #portal-features {
+        display: none !important;
+    }
+
+    #portal-column-content {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .menuTrigger {
+        display: block;
+        height: 73px;
+        background: #065116 url(../img/bg-menu-mobile.png) top right no-repeat;
+        text-indent: -9999px;
+        cursor: pointer;
+    }
+
+    #navigation.ativo .menuTrigger {
+        background-position: bottom right;
+    }
+
+    #navigation #portal-column-one {
+        display: none;
+    }
+
+    #navigation.ativo #portal-column-one {
+        display: block;
+        background: url(../img/shadow-bottom.gif) repeat-x bottom left;
+        padding-bottom: 13px;
+    }
+
+    .portlet-static-centrais-de-conteudos .portletHeader,
+    .portletNavigationTree .portletHeader {
+        position: relative;
+        margin: 0;
+        padding: 30px 0;
+        border-top: none;
+        border-bottom: 1px solid #cdd4d0;
+        background: #edeff1;
+        background: url(../img/portlet-header.gif) no-repeat 96% center ;
+        color: #00510f;
+        text-indent: 30px;
+        text-transform: uppercase;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .portletNavigationTree .portletHeader.ativo {
+        background: url(../img/portlet-header-expanded.gif) no-repeat 96% center ;
+    }
+
+    .portletNavigationTree .portletHeader a span {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        display: block;
+        width: 37px;
+        height: 36px;
+        background: url(../img/bg-menu-mobile-panel.png) top center no-repeat;
+    }
+
+    #portal-column-one .ativo .portletHeader a span {
+        background-position: bottom center;
+    }
+
+    #portal-column-one .portletNavigationTree .portletHeader a {
+        padding: 20px 35px;
+        color: #00500f !important;
+        font-size: 24px;
+    }
+
+    #portal-column-one dl.portlet {
+        margin-bottom: 0;
+    }
+
+    #portal-column-one .portletStaticText,
+    #portal-column-one dl.portlet dd {
+        display: none;
+    }
+
+    #portal-column-one dl.ativo dd {
+        display: block;
+    }
+
+    dl.portlet ul.navTreeLevel0 > .navTreeItem {
+        border-top: none;
+        border-bottom: 1px solid #d2d2d2;
+    }
+
+    dl.portlet ul.navTreeLevel0 > .navTreeItem a {
+        padding: 20px 35px !important;
+        color: #454545;
+        font-size: 24px;
+        line-height: 1.2em;
+    }
+}
+
+/* iPad portrait */
+@media screen and (max-width: 768px) {
+
+    #wrapper {
+        max-width: 100%;
+    }
+
+    #logo {
+        min-width: 140px;
+    }
+
+    #main {
+        max-width: 90%;
+    }
+
+    /*Columns*/
+    #portal-column-one,
+    #portal-column-two,
+    #portal-column-content {
+        clear: both;
+        margin-left: -98.875%;
+        width: 97.75%;
+    }
+
+    /*Search*/
+    #portal-searchbox { display: none; }
+
+    .overlay.overlay-ajax {
+        top: 10px !Important;
+    }
+
+    .overlay.overlay-ajax input.searchPage {
+        margin-bottom: 1em;
+        width: 90%;
+        font-size: 200% !important;
+    }
+
+    .overlay.overlay-ajax input.searchPage.searchButton {
+        width: auto;
+    }
+
+    .overlay.overlay-ajax #searchform .discreet {
+        text-align: left;
+    }
+
+    .overlay.overlay-ajax #content-core strong {
+        display: none;
+    }
+}
+
+/* iPhone 4s and greater than */
+@media screen and (max-width: 480px) {
+
+    /* barra de acessibilidade */
+    #portal-siteactions a { padding-left: 0; }
+    #portal-siteactions .last-item { margin-right: 0; }
+
+    #voltar-topo a { margin-right: .5em; }
+
+    #viewlet-social-like { right: 0; }
+
+    #sobre { background: none; }
+
+    #social-icons { display: none; }
+
+    #header {
+        padding: 1em 0.5em;
+        padding: 0 4%;
+        width: 92%;
+    }
+
+    #header #accessibility { display: none !important; }
+
+    #portal-searchbox {
+        position: relative;
+        display: block;
+        clear: left !important;
+        margin: 0 !important;
+        padding: 0;
+        height: 41px;
+        border: 0 none;
+        border-radius: 0;
+        background: none;
+    }
+
+    #portal-searchbox .searchField {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 39px;
+        border: 0 none;
+        border-top: 2px solid #ccc;
+        border-radius: 6px;
+        background-color: #fff;
+        color: #064d13;
+        text-indent: 13px;
+        font-size: 18px;
+        font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+        line-height: 39px;
+    }
+
+    #header #portal-searchbox .searchButton {
+        position: absolute;
+        top: 7px;
+        right: 13px;
+        width: 30px;
+        height: 30px;
+        background: url(../img/search-button-30px.gif) no-repeat;
+        cursor: pointer;
+    }
+
+    #language {
+        float: left;
+        margin-left: 0.5em;
+    }
+
+    #logo #portal-title {
+        font-size: 3.5em;
+        line-height: 1em;
+    }
+
+    #portal-searchbox {
+        float: none;
+        clear: both;
+        margin: 0 auto 2%;
+        width: 100%;
+    }
+
+    .cell {
+        float: none !important;
+        margin-left: -100% !important;
+        width: 100% !important;
+    }
+
+    .left { float: none !important; }
+
+    #portal-column-two {
+        float: none !important;
+        margin-left: -100% !important;
+        width: 100% !important;
+    }
+
+    #logo { width: 100% !important; }
+
+    #footer p { clear: both; }
+
+    #footer > div { text-align: center; }
+
+    #footer img {
+        float: none;
+        margin: 1em;
+        max-width: 40%;
+    }
+
+    .portaltype-collection .tileImage { float: none; }
+
+    #extra-footer p { text-align: center; }
+}
+
+/* Barra de identidade do governo */
+@media screen and (max-width: 960px) {
+
+    #barra-brasil {
+        min-width: 100% !important
+    }
+
+    #barra-brasil .barra {
+        width: 98% !important
+    }
+}
 
 /* ==========================================================================
    Print
@@ -3218,8 +3224,8 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
     * {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
         text-shadow: none !important;
     }
 
