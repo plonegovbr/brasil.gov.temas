@@ -1,6 +1,12 @@
-/*********************************************************
-   Simples Consultoria - www.simplesconsultoria.com.br
-*********************************************************/
+/*
+ * @autores
+ * - Simples Consultoria - www.simplesconsultoria.com.br
+ * - DESERTO Digital - www.desertodigital.com.br
+ *
+ * Leia esta orientação antes de implementar alterações de css
+ * https://github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
+ */
+
 
 @font-face {
     font-family: 'open_sanslight';
