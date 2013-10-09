@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Revisão de alinhamento e espaçamento no social like (closes `#58`_).
+    [rennanrodrigues]
   * Revisão da fonte no breadcrumb (closes `#40`_).
     [rodfersou]
   * Removidas customizações da pasta overrides to tema, e movidas para brasil.gov.portal
@@ -100,4 +102,5 @@ Changelog
 .. _`#49`: https://github.com/plonegovbr/brasil.gov.temas/issues/49
 .. _`#51`: https://github.com/plonegovbr/brasil.gov.temas/issues/51
 .. _`#52`: https://github.com/plonegovbr/brasil.gov.temas/issues/52
+.. _`#58`: https://github.com/plonegovbr/brasil.gov.temas/issues/58
 
