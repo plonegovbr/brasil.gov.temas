@@ -721,13 +721,21 @@ div.width-1\3a 2 #plone-document-byline { width: 68.7216%; }
 .newsImageContainer .parent-nitf-image { display: block; }
 
 #content .relatar-erros {
-    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+    font-size: .900em;
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 14px;
 }
+
 #content .relatar-erros .icone {
-    margin-right: 10px;
     float: left;
+    margin-right: .800em;
 }
+
 #content .relatar-erros .texto {
+    color: #172938;
     display: block;
     line-height: 38px;
 }
