@@ -98,11 +98,13 @@ a:link, #content a:link, dl.portlet a:link {
     border-bottom: none !important;
 }
 
-a:visited, #content a:visited, dl.portlet a:visited {
+a:visited, #content a:visited,
+dl.portlet a:visited {
     color: #2c67cd;
 }
 
-#content a:hover, dl.portlet a:hover {
+#content a:hover,
+dl.portlet a:hover {
     color: #000 !important;
 }
 
@@ -239,30 +241,32 @@ div.width-16 {
 }
 
 
-/****************** cabecalho ******************/
+/* ==========================================================================
+   Cabeçalho do portal
+   ========================================================================== */
 #header {
     padding: 14px 0 0 0;
     background-color: #19882c;
- /* Old browsers */
+    /* Old browsers */
     background-color: #0A5517;
     background-image: -moz-radial-gradient(center, ellipse cover,  #19882c 1%, #025310 100%);
- /* FF3.6+ */
+    /* FF3.6+ */
     background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%,#025310));
- /* Chrome,Safari4+ */
+    /* Chrome,Safari4+ */
     background-image: -webkit-radial-gradient(center, ellipse cover,  #19882c 1%,#025310 100%);
- /* Chrome10+,Safari5.1+ */
+    /* Chrome10+,Safari5.1+ */
     background-image: -o-radial-gradient(center, ellipse cover,  #19882c 1%,#025310 100%);
- /* Opera 12+ */
+    /* Opera 12+ */
     background-image: -ms-radial-gradient(center, ellipse cover,  #19882c 1%,#025310 100%);
- /* IE10+ */
+    /* IE10+ */
     background-image: radial-gradient(ellipse at center,  #19882c 1%,#025310 100%);
- /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19882c', endColorstr='#025310',GradientType=1 );
- /* IE6-9 fallback on horizontal gradient */
+    /* IE6-9 fallback on horizontal gradient */
     color: #fff;
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19882c', endColorstr='#025310',GradientType=1);
 }
 
-#header>div {
+#header > div {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -1850,7 +1854,7 @@ dl.portlet ul.navTreeLevel6 li a {
 }
 
 #content .tile .outstanding-header .outstanding-title {
-    font-weight: normal; !important;
+    font-weight: normal !important;
     padding-right: 70px;
 }
 
@@ -2708,10 +2712,10 @@ ul.social-tabs.css-tabs>li>a {
 }
 /* Correção largura tile de redes sociais */
 
-#viewlet-social-like>div {
-     display: block;
-     float: right;
--    margin-left: 3px;
+#viewlet-social-like > div {
+    display: block;
+    float: right;
+    margin-left: 3px;
 }
 
 body[class*="nitf"] #viewlet-social-like>div {
@@ -2844,7 +2848,7 @@ body[class*="nitf"] #viewlet-social-like>div {
         font-size: 24px;
         padding: 20px 35px !important;
         line-height: 1.2em;
-    };
+    }
 }
 
 #searchbt, #nav #seletor {
@@ -2902,7 +2906,7 @@ body[class*="nitf"] #viewlet-social-like>div {
 
     .overlay.overlay-ajax #content-core strong {
         display: none;
-    };
+    }
 }
 
 /* iPhone 4s and greater than */
@@ -3001,7 +3005,7 @@ body[class*="nitf"] #viewlet-social-like>div {
 
     #footer p { clear: both; }
 
-    #footer>div { text-align: center; }
+    #footer > div { text-align: center; }
 
     #footer img {
         float: none;
@@ -3052,7 +3056,7 @@ ul.formTabs {
 
     * {
         position: relative !important;
-    };
+    }
 }
 
 /* formulário de contato */
@@ -3060,12 +3064,12 @@ ul.formTabs {
 #content .field textarea {
     font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
     background-color: #fff;
-    border : 1px solid #000;
+    border: 1px solid #000;
     text-indent: 2px;
     font-size: 12px;
     padding: 3px;
-    margin : 0;
-    color  : #000;
+    margin: 0;
+    color: #000;
 }
 
 #content .field textarea { resize: none; }
