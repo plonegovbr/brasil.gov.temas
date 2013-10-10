@@ -1,4 +1,7 @@
 /*
+ *
+ * CSS com estilos específicos do tema verde
+ *
  * @Autores
  *
  * - Simples Consultoria - www.simplesconsultoria.com.br
@@ -52,6 +55,12 @@
     background: url("../img/bg-acess-key.gif") center center no-repeat;
     color: #006600;
 }
+
+/* Titulo do portal
+   ========================================================================== */
+
+#portal-logo,
+#portal-title { color: #fff !important; }
 
 /* Menu sobre o portal
    ========================================================================== */

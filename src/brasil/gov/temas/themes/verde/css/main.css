@@ -1,4 +1,7 @@
 /*
+ *
+ * CSS com estilos genéricos para todos os temas
+ *
  * @Autores
  *
  * - Simples Consultoria - www.simplesconsultoria.com.br
@@ -283,7 +286,6 @@ div.position-10 { margin-left: -30.042%; }
     display: block;
     margin: 0;
     width: 100%;
-    color: #fff !important;
 }
 
 #portal-title {
