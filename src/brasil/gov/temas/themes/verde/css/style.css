@@ -40,3 +40,15 @@
     /* IE6-9 fallback on horizontal gradient */
     filter:progid: DXImageTransform.Microsoft.gradient( startColorstr="#19882c", endColorstr="#025310",GradientType=1);
 }
+
+/* Menu de Acessibilidade
+   ========================================================================== */
+
+#accessibility a {
+    color: #dcffe3;
+}
+
+#accessibility span {
+    background: url("../img/bg-acess-key.gif") center center no-repeat;
+    color: #006600;
+}
