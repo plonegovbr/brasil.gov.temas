@@ -138,10 +138,22 @@
    Media Queries
    ========================================================================== */
 
+/* Smartphone
+   ========================================================================== */
+
 @media only screen and (min-width : 320px) and (max-width : 768px) {
 
     .menuTrigger {
         background: #065116 url("../img/bg-menu-mobile.png") top right no-repeat;
+    }
+
+    .portlet-static-centrais-de-conteudos .portletHeader,
+    .portletNavigationTree .portletHeader {
+        background: #edeff1 url("../img/portlet-header.gif") no-repeat 96% center ;
+    }
+
+    .portletNavigationTree .portletHeader.ativo {
+        background: url("../img/portlet-header-expanded.gif") no-repeat 96% center ;
     }
 
 }

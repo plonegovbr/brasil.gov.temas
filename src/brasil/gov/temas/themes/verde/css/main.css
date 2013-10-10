@@ -2782,17 +2782,10 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
         padding: 30px 0;
         border-top: none;
         border-bottom: 1px solid #cdd4d0;
-        background: #edeff1;
-        background: url("../img/portlet-header.gif") no-repeat 96% center ;
-        color: #00510f;
         text-indent: 30px;
         text-transform: uppercase;
         font-size: 24px;
         cursor: pointer;
-    }
-
-    .portletNavigationTree .portletHeader.ativo {
-        background: url("../img/portlet-header-expanded.gif") no-repeat 96% center ;
     }
 
     .portletNavigationTree .portletHeader a span {
