@@ -11,6 +11,7 @@
 /* ==========================================================================
    Font-face local para fonte "Open Sans"
    ========================================================================== */
+
 @font-face {
     font-weight: normal;
     font-style: normal;
@@ -70,6 +71,7 @@
 /* ==========================================================================
    Reset
    ========================================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -84,6 +86,7 @@
 
 /* Cores e fontes
    ========================================================================== */
+
 body {
     background-color: #fff;
     color: #000000;
@@ -99,19 +102,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .modal { top: 50% !important; }
 
-a: link,
-#content a: link,
-dl.portlet a: link {
+a:link,
+#content a:link,
+dl.portlet a:link {
     border-bottom: none !important;
     color: #2c67cd;
 }
 
-a: visited,
-#content a: visited,
-dl.portlet a: visited { color: #2c67cd; }
+a:visited,
+#content a:visited,
+dl.portlet a:visited { color: #2c67cd; }
 
-#content a: hover,
-dl.portlet a: hover { color: #000 !important; }
+#content a:hover,
+dl.portlet a:hover { color: #000 !important; }
 
 body div.overlaybg div.close,
 body div.overlay div.close {
@@ -119,11 +122,11 @@ body div.overlay div.close {
     left: auto;
 }
 
-a: focus { outline: 2px solid #f1ca7f; }
+a:focus { outline: 2px solid #f1ca7f; }
 
 /* bug fix on click in firefox */
-a: hover,
-a: active { outline: none; }
+a:hover,
+a:active { outline: none; }
 
 h1 {
     border-bottom: none;
@@ -152,6 +155,7 @@ p {
 /* ==========================================================================
    Estrutura principal
    ========================================================================== */
+
 #wrapper {
     margin: 0 auto;
     width: 100%;
@@ -179,6 +183,7 @@ p {
 
 /* Grids
    ========================================================================== */
+
 div.width-1\3a 2 { width: 51.25%; }
 
 div.width-2 { width: 13.061%; }
@@ -216,6 +221,7 @@ div.position-10 { margin-left: -30.042%; }
 /* ==========================================================================
    Cabeçalho do portal
    ========================================================================== */
+
 #header {
     padding: 14px 0 0 0;
     background-color: #19882c;
@@ -223,18 +229,18 @@ div.position-10 { margin-left: -30.042%; }
     background-color: #0A5517;
     background-image: -moz-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
     /* FF3.6+ */
-    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%,#025310));
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%, #025310));
     /* Chrome,Safari4+ */
-    background-image: -webkit-radial-gradient(center, ellipse cover, #19882c 1%,#025310 100%);
+    background-image: -webkit-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
     /* Chrome10+,Safari5.1+ */
-    background-image: -o-radial-gradient(center, ellipse cover, #19882c 1%,#025310 100%);
+    background-image: -o-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
     /* Opera 12+ */
-    background-image: -ms-radial-gradient(center, ellipse cover, #19882c 1%,#025310 100%);
+    background-image: -ms-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
     /* IE10+ */
-    background-image: radial-gradient(ellipse at center, #19882c 1%,#025310 100%);
+    background-image: radial-gradient(ellipse at center, #19882c 1%, #025310 100%);
     color: #fff;
     /* IE6-9 fallback on horizontal gradient */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#19882c", endColorstr="#025310",GradientType=1);
+    filter:progid: DXImageTransform.Microsoft.gradient( startColorstr="#19882c", endColorstr="#025310",GradientType=1);
 }
 
 #header > div {
@@ -253,6 +259,7 @@ div.position-10 { margin-left: -30.042%; }
 
 /* Menu de Acessibilidade
    ========================================================================== */
+
 #accessibility {
     display: block !important;
     float: left;
@@ -274,6 +281,7 @@ div.position-10 { margin-left: -30.042%; }
 
 /* Titulo do portal
    ========================================================================== */
+
 #logo {
     float: left;
     padding: 0;
@@ -327,6 +335,7 @@ div.position-10 { margin-left: -30.042%; }
 
 /* Menu de idioma
    ========================================================================== */
+
 #language {
     float: right;
     margin-left: 20px;
@@ -344,7 +353,7 @@ div.position-10 { margin-left: -30.042%; }
     text-transform: uppercase;
 }
 
-#language a: hover { color: #fff !important; }
+#language a:hover { color: #fff !important; }
 
 #language .language-en {
     margin-right: 10px;
@@ -357,6 +366,7 @@ div.position-10 { margin-left: -30.042%; }
 
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
    ========================================================================== */
+
 #portal-siteactions {
     display: block;
     float: right;
@@ -378,10 +388,11 @@ div.position-10 { margin-left: -30.042%; }
 
 #portal-siteactions .last-item { margin-right: 0; }
 
-#portal-siteactions a: hover { color: #fff !important; }
+#portal-siteactions a:hover { color: #fff !important; }
 
 /* Links de redes sociais
    ========================================================================== */
+
 #social-icons {
     float: right;
     clear: right;
@@ -398,6 +409,7 @@ div.position-10 { margin-left: -30.042%; }
 
 /* Menu sobre o portal
    ========================================================================== */
+
 #sobre {
     clear: both;
     margin: 0;
@@ -427,6 +439,7 @@ div.position-10 { margin-left: -30.042%; }
 
 /* Formulário de busca
    ========================================================================== */
+
 .LSBox {
     margin: 0;
     padding: 0;
@@ -483,6 +496,7 @@ input.searchField { -moz-appearance: none; }
 
 /* Breadcrumb
    ========================================================================== */
+
 .section-home #portal-breadcrumbs,
 .portaltype-plone-site #portal-breadcrumbs { display: none; }
 
@@ -503,7 +517,7 @@ input.searchField { -moz-appearance: none; }
 
 #portal-breadcrumbs > span > span.breadcrumbSeparator { color: #2C66CE; }
 
-#portal-breadcrumbs > span > a: hover { text-decoration: underline; }
+#portal-breadcrumbs > span > a:hover { text-decoration: underline; }
 
 #main #portal-breadcrumbs {
     position: absolute;
@@ -522,6 +536,7 @@ input.searchField { -moz-appearance: none; }
 /* ==========================================================================
    NITF
    ========================================================================== */
+
 #content div.newsLeftPane {
     position: relative;
     float: left;
@@ -529,7 +544,7 @@ input.searchField { -moz-appearance: none; }
 }
 
 #content div.newsImageContainer {
-    float: None;
+    float: none;
     margin: 0;
 }
 
@@ -548,6 +563,7 @@ input.searchField { -moz-appearance: none; }
 /* ==========================================================================
    Estilos de texto
    ========================================================================== */
+
 #content-core {
     clear: both;
     margin-top: 40px;
@@ -633,12 +649,12 @@ body[class*="nitf"] div.width-1\3a 2 #plone-document-byline { width: 68.7216%; }
     font-size: 1.6em;
 }
 
-#content div.newsImageContainer > div: first-child {
+#content div.newsImageContainer > div:first-child {
     background: #e5e5e5;
     text-align: center;
 }
 
-#content div.newsImageContainer > div: first-child p { text-align: left; }
+#content div.newsImageContainer > div:first-child p { text-align: left; }
 
 #content .newsImageContainer .photo-icon {
     position: relative;
@@ -738,6 +754,7 @@ table.listing tbody th {
 /* ==========================================================================
    Itens relacionados
    ========================================================================== */
+
 #content .newsRelatedItems,
 #content #newsRelatedItems {
     clear: both;
@@ -783,7 +800,7 @@ table.listing tbody th {
 #content #form-widgets-relatedItems div {
     clear: both;
     border-top: 1px dotted #c0c1c3;
-} #content #form-widgets-relatedItems div: first-child { border-top: 0 none; }
+} #content #form-widgets-relatedItems div:first-child { border-top: 0 none; }
 
 #content #form-widgets-relatedItems div a {
     float: left;
@@ -801,6 +818,7 @@ fieldset#folder-listing legend {
 /* ==========================================================================
    VCGE - TAGS
    ========================================================================== */
+
 #category,
 #category-vcge {
     clear: both;
@@ -838,8 +856,8 @@ fieldset#folder-listing legend {
     color: #3a70d1;
 }
 
-#category-vcge .link-category: hover,
-#category-vcge .link-category: focus {
+#category-vcge .link-category:hover,
+#category-vcge .link-category:focus {
     border-color: #205c90;
     background: #205c90;
     color: #fff;
@@ -859,6 +877,7 @@ fieldset#folder-listing legend {
 /* ==========================================================================
    Portles
    ========================================================================== */
+
 dl.portlet { margin-bottom: 0; }
 
 dl.portlet dt.hiddenStructure { display: none; }
@@ -877,8 +896,8 @@ dl.portlet dt.hiddenStructure { display: none; }
     background: #eeefff;
 }
 
-#portal-column-two dl.portlet a: link,
-#portal-column-two dl.portlet a: visited { color: #464a55 !important; }
+#portal-column-two dl.portlet a:link,
+#portal-column-two dl.portlet a:visited { color: #464a55 !important; }
 
 dl.portlet dt {
     border-bottom: 1px solid #c1c1c1;
@@ -887,11 +906,11 @@ dl.portlet dt {
     text-transform: uppercase;
 }
 
-dl.portlet dt a: link,
-dl.portlet dt a: visited { color: #464a55 !important; }
+dl.portlet dt a:link,
+dl.portlet dt a:visited { color: #464a55 !important; }
 
 #portal-column-two > .portletWrapper { margin-bottom: 1.9230em; }
-#portal-column-two > .portletWrapper: first-child { margin-top: 1.7307em; }
+#portal-column-two > .portletWrapper:first-child { margin-top: 1.7307em; }
 
 #portal-column-two > .portletWrapper > .portletStaticText a,
 #portal-column-two > .portletWrapper > .portletStaticText img { display: block; }
@@ -912,8 +931,8 @@ dl.portlet dt a: visited { color: #464a55 !important; }
     text-transform: uppercase;
 }
 
-#portal-column-two dl.portletLogin a: link,
-#portal-column-two dl.portletLogin dt a: link { color: #fff !important; }
+#portal-column-two dl.portletLogin a:link,
+#portal-column-two dl.portletLogin dt a:link { color: #fff !important; }
 
 .portletLogin .field input { width: 97% !important; }
 
@@ -979,6 +998,7 @@ dl.portlet dt a: visited { color: #464a55 !important; }
 
 /* Portlet de navegação
    ========================================================================== */
+
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
     margin: 0;
@@ -1024,7 +1044,10 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     background-color: transparent;
 }
 
-/* backgound colors */
+/*
+ * Backgound colors
+ */
+
 .navTreeLevel0 > li.navTreeItemInPath,
 .navTreeLevel0 > li.navTreeCurrentNode {
     border-top: 2px solid #64946e !important;
@@ -1049,7 +1072,10 @@ a.navTreeCurrentNode {
     font-weight: bold;
 }
 
-/* Apenas para o primeiro menu */
+/*
+ * Apenas para o primeiro menu
+ */
+
 .first-item a.navTreeItemInPath,
 .first-item a.navTreeCurrentNode { background-image: none !important; }
 
@@ -1090,7 +1116,10 @@ ul.navTreeLevel6 li a.navTreeCurrentNode {
     background-position: 44px 12px !important;
 }
 
-/* deslocamento dos itens */
+/*
+ * Deslocamento dos itens
+ */
+
 dl.portlet ul.navTree li a {
     padding: 0.55em 1.5em !important;
     line-height: 1.3em !important;
@@ -1122,6 +1151,7 @@ dl.portlet ul.navTreeLevel6 li a { padding: 0.55em 4.5em !important; }
 
 /* Portlet de Centrais de Conteúdos
    ========================================================================== */
+
 .portlet-static-centrais-de-conteudos .portletItem { padding: 0 !important; }
 
 .portlet-static-centrais-de-conteudos .list-central {
@@ -1147,6 +1177,7 @@ dl.portlet ul.navTreeLevel6 li a { padding: 0.55em 4.5em !important; }
 
 /* Icones da Central de conteudo
    ========================================================================== */
+
 .item-central .link-videos {
     background: url("../img/sprite-icons.png") no-repeat -1px -127px;
 }
@@ -1173,6 +1204,7 @@ dl.portlet ul.navTreeLevel6 li a { padding: 0.55em 4.5em !important; }
 
 /* Portlet de Lista
    ========================================================================== */
+
 #content li,
 dl.portlet li {
     margin-bottom: 0.25em;
@@ -1185,6 +1217,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Icones da Central de conteudo
    ========================================================================== */
+
 #em-destaque ul {
     display: table;
     margin-bottom: 2em;
@@ -1222,7 +1255,10 @@ dl.portlet ol li { list-style: decimal outside; }
     font-size: 80%;
 }
 
-/* Ajuste Banner Lançamento*/
+/*
+ * Ajuste Banner Lançamento
+ */
+
 #portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f a.navTreeItemInPath,
 #portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f636c69656e7465732f62726173696c2f62726173696c0a61706f696f a.navTreeCurrentNode {
     background-image: none !important;
@@ -1240,6 +1276,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Portlet de politicas
    ========================================================================== */
+
 .portletCollection {
     border: 1px solid #c0c1c3;
     border-radius: 5px;
@@ -1288,6 +1325,7 @@ dl.portlet ol li { list-style: decimal outside; }
 /* ==========================================================================
    Collective Cover
    ========================================================================== */
+
 .portaltype-collective-cover-content #content .row {
     margin: 0;
     padding: 0;
@@ -1295,6 +1333,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Tiles
    ========================================================================== */
+
 .tile {
     clear: both;
     margin-bottom: 24px;
@@ -1321,6 +1360,7 @@ dl.portlet ol li { list-style: decimal outside; }
 #content .cover-collection-tile h2 {
     font-family: "open_sanssemibold", Arial, Helvetica, sans-serif;
 }
+
 #content .cover-collection-tile h2 a { color: #172938; }
 
 .tile h3 {
@@ -1356,6 +1396,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Link externo
    ========================================================================== */
+
 .link-externo .tile-header,
 .link-externo .tile-title {
     padding: 1em;
@@ -1411,6 +1452,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Lista horizontal
    ========================================================================== */
+
 .lista-horizontal {
     border: 1px solid #c0c1c3;
     -webkit-border-radius: 5px;
@@ -1452,6 +1494,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Lista vertical - Tile List e Tile Collection
    ========================================================================== */
+
 .lista-vertical {
     border: 1px solid #c0c1c3;
     -webkit-border-radius: 5px;
@@ -1590,7 +1633,7 @@ dl.portlet ol li { list-style: decimal outside; }
     margin: 0 0 10px 10px;
 }
 
-/* collection tile */
+/* Collection tile */
 .tile-title {
     margin-bottom: 5px;
     padding: 7px 0.3em;
@@ -1635,7 +1678,9 @@ dl.portlet ol li { list-style: decimal outside; }
     color: #ad6500;
 }
 
-/* Tile Header */
+/* Tile header
+   ========================================================================== */
+
 #content .outstanding-header h1,
 #content .outstanding-header h2,
 #content .outstanding-header h3,
@@ -1700,6 +1745,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Paleta de cores - cor-editoria
    ========================================================================== */
+
 .tile.padrao { margin-bottom: 13px; }
 
 .padrao .outstanding-header { border-top: 2px solid #172838; }
@@ -1708,6 +1754,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Laranja - Cidadania e Justiça
    ========================================================================== */
+
 .laranja .tile-title {
     border-top: 4px solid #ba4a00;
     color: #ba4a00;
@@ -1732,6 +1779,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Azul Petroleo - Defesa e Segurança
    ========================================================================== */
+
 .azul-petroleo .tile-title {
     border-top: 4px solid #3b7390;
     color: #3b7390;
@@ -1756,6 +1804,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Dourado -
    ========================================================================== */
+
 .dourado .tile-title {
     border-top: 4px solid #b97a00;
     color: #b97a00;
@@ -1780,6 +1829,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Roxo - Ciencia e Tecnologia
    ========================================================================== */
+
 .roxo .tile-title {
     border-top: 4px solid #643c67;
     color: #643c67;
@@ -1804,6 +1854,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Marron Claro - Economia e Emprego
    ========================================================================== */
+
 .marrom-claro .tile-title {
     border-top: 4px solid #826938;
     color: #826938;
@@ -1828,6 +1879,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Verde Escuro - Educação
    ========================================================================== */
+
 .verde-escuro .tile-title {
     border-top: 4px solid #1D571F;
     color: #1d571f;
@@ -1852,6 +1904,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Verde - Esporte
    ========================================================================== */
+
 .verde .tile-title {
     border-top: 4px solid #017b16;
     color: #017B16;
@@ -1876,6 +1929,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Azul Governo
    ========================================================================== */
+
 .azul .tile-title {
     border-top: 4px solid #1a55dd;
     color: #1a55dd;
@@ -1900,6 +1954,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Marron - Infraestrutura
    ========================================================================== */
+
 .marrom .tile-title {
     border-top: 4px solid #753900;
     color: #753900;
@@ -1924,6 +1979,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Verde Claro - Meio Ambiente
    ========================================================================== */
+
 .verde-claro .tile-title {
     border-top: 4px solid #56762b;
     color: #56762b;
@@ -1948,6 +2004,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Azul Claro - Saúde
    ========================================================================== */
+
 .azul-claro .tile-title {
     border-top: 4px solid #3867b7;
     color: #3867b7;
@@ -1972,6 +2029,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Azul Escuro - Turismo
    ========================================================================== */
+
 .azul-escuro .tile-title {
     border-top: 4px solid #00439e;
     color: #00439e;
@@ -1996,15 +2054,18 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Azul Piscinba - Turismo
    ========================================================================== */
+
 .azul-piscina .tile-title {
     border-top: 4px solid #00A0DB;
     color: #00A0DB;
 }
+
 .azul-piscina .outstanding-header {
     min-height: 40px;
     border-top: 2px solid #00A0DB;
     background: #eeeff1;
 }
+
 .azul-piscina .outstanding-header .outstanding-title {
     border-color: #00A0DB;
     border-bottom: none;
@@ -2014,6 +2075,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Bege
    ========================================================================== */
+
 .bege .tile-title {
     border-top: 4px solid #AD6500;
     color: #AD6500;
@@ -2038,6 +2100,7 @@ dl.portlet ol li { list-style: decimal outside; }
 
 /* Amarelo - Economia e Emprego
    ========================================================================== */
+
 .amarelo .tile-title {
     border-top: 4px solid #DE9200;
     color: #DE9200;
@@ -2056,6 +2119,26 @@ dl.portlet ol li { list-style: decimal outside; }
     color: #DE9200;
 }
 
+/* Tile de redes sociais
+   ========================================================================== */
+
+.social-panes .fb_iframe_widget,
+.social-panes .fb_iframe_widget span[style],
+.social-panes .fb_iframe_widget iframe[style],
+.social-panes .twitter-timeline.twitter-timeline-rendered[style] {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+ul.social-tabs.css-tabs > li > a {
+    padding: 5px;
+    width: 96px;
+    text-align: center;
+}
+
+.facebook-content.pane { height: 271px; }
+.facebook-content.pane + .twitter-content.pane { height: 307px; }
+
 /* fio separador */
 .fio-separador .outstanding-header { border-top: 1px solid #ddd; }
 
@@ -2063,6 +2146,7 @@ dl.portlet ol li { list-style: decimal outside; }
 /* ==========================================================================
    Collections
    ========================================================================== */
+
 .template-summary_view h1#parent-fieldname-title,
 .template-summary_view h1.documentFirstHeading,
 .template-folder_summary_view h1#parent-fieldname-title,
@@ -2156,16 +2240,19 @@ dl.portlet ol li { list-style: decimal outside; }
 
 .template-folder_summary_view .documentDescription { margin-top: 1em; }
 
-div.listingBar a: link,
-#content div.listingBar a: link,
-dl.portlet div.listingBar a: link {
+div.listingBar a:link,
+#content div.listingBar a:link,
+dl.portlet div.listingBar a:link {
     border-bottom: 0.1em solid #CCCCCC !important;
 }
 
-/* sprite de icones */
+/*
+ * Sprite de icones
+ */
+
 .tileItem .documentByLine {
+    /* generico, sem icone especifico */
     background: transparent;
-    /* generico, sem icone especifico */;
 }
 
 .documentByLine .icon-type {
@@ -2211,6 +2298,7 @@ dl.portlet div.listingBar a: link {
 /* ==========================================================================
    Resultado da busca
    ========================================================================== */
+
 .template-search #content h1.documentFirstHeading {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -2245,7 +2333,7 @@ dl.portlet div.listingBar a: link {
     border-top: 1px solid #D3D3D3;
 }
 
-.template-search .searchResults dt: first-child { border-top: 0; }
+.template-search .searchResults dt:first-child { border-top: 0; }
 
 .template-search #search-results {
     padding-right: 0;
@@ -2290,7 +2378,7 @@ dl.portlet div.listingBar a: link {
     font-size: 0.9em;
 }
 
-#search-results-bar > span: first-child {
+#search-results-bar > span:first-child {
     margin: 2px 0 0 20px;
     width: 90%;
     background: #fff;
@@ -2299,7 +2387,7 @@ dl.portlet div.listingBar a: link {
     font-size: 1.1em;
 }
 
-#search-results-bar > span: first-child + dl { margin-left: 20px; }
+#search-results-bar > span:first-child + dl { margin-left: 20px; }
 
 #content-core form.searchPage dd {
     overflow: hidden;
@@ -2337,7 +2425,7 @@ dl.portlet div.listingBar a: link {
     font-size: 100%;
 }
 
-#searchResultsSort > span: first-child,
+#searchResultsSort > span:first-child,
 #content #search-filter legend {
     padding-right: 0 !important;
     padding-bottom: 5px !important;
@@ -2350,7 +2438,7 @@ dl.portlet div.listingBar a: link {
     font-size: 1.25em !important;
 }
 
-#searchResultsSort > span: first-child {
+#searchResultsSort > span:first-child {
     display: block;
     margin-bottom: 20px;
 }
@@ -2391,14 +2479,33 @@ dl.portlet div.listingBar a: link {
    Forms
    ========================================================================== */
 
+/*
+ * Formulário de contato
+ */
+
+.field input[type="text"],
+#content .field textarea {
+    margin: 0;
+    padding: 3px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-indent: 2px;
+    font-size: 12px;
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+}
+
+#content .field textarea { resize: none; }
+
 /* fix some bootstrap mess */
-.label: empty,
-.badge: empty { display: inline; }
+.label:empty,
+.badge:empty { display: inline; }
 
 
 /* ==========================================================================
    Footer
    ========================================================================== */
+
 #footer {
     padding: 20px 0;
     min-height: 50px;
@@ -2448,6 +2555,7 @@ dl.portlet div.listingBar a: link {
 
 /* Doormat
    ========================================================================== */
+
 #doormat-container {
     float: none;
     background: #034811;
@@ -2476,55 +2584,15 @@ dl.portlet div.listingBar a: link {
 
 #doormat-container.columns-4 .doormatColumn { width: 22%; }
 
+/*
+ * Social Like
+ */
 
-/****************** RESPONSIVE DESIGN MAGIC ******************/
-.menuTrigger { display: none; }
-
-/* Correção largura tile de redes sociais */
-.social-panes .fb_iframe_widget,
-.social-panes .fb_iframe_widget span[style],
-.social-panes .fb_iframe_widget iframe[style],
-.social-panes .twitter-timeline.twitter-timeline-rendered[style] {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-ul.social-tabs.css-tabs > li > a {
-    padding: 5px;
-    width: 96px;
-    text-align: center;
-}
-
-.facebook-content.pane { height: 271px; }
-.facebook-content.pane + .twitter-content.pane { height: 307px; }
-
-/* Correção largura tile de redes sociais */
 #viewlet-social-like > div {
     display: block;
     float: right;
     margin-left: 3px;
 }
-
-body[class*="nitf"] #viewlet-social-like > div {
-    display: block;
-    float: left;
-    margin-bottom: 0.6410em;
-}
-
-/* formulário de contato */
-.field input[type="text"],
-#content .field textarea {
-    margin: 0;
-    padding: 3px;
-    border: 1px solid #000;
-    background-color: #fff;
-    color: #000;
-    text-indent: 2px;
-    font-size: 12px;
-    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
-}
-
-#content .field textarea { resize: none; }
 
 /* correção de espaçamento dos icones de tiles na aba layout */
 #tiles-list .last-item { float: left; }
@@ -2617,19 +2685,20 @@ body[class*="nitf"] #content .documentAuthor {
     line-height: 1.6em;
 }
 
-body[class*="nitf"] #content .documentPublished > span: first-child,
-body[class*="nitf"] #content .documentModified > span: first-child {
+body[class*="nitf"] #content .documentPublished > span:first-child,
+body[class*="nitf"] #content .documentModified > span:first-child {
     display: block;
     float: left;
 }
 
-body[class*="nitf"] #content .documentPublished > span: first-letter,
-body[class*="nitf"] #content .documentModified > span: first-letter {
+body[class*="nitf"] #content .documentPublished > span:first-letter,
+body[class*="nitf"] #content .documentModified > span:first-letter {
     text-transform: uppercase;
 }
 
 /* Social Like
    ========================================================================== */
+
 body[class*="nitf"] #plone-document-byline { padding-top: .600em; }
 body[class*="nitf"] #content #viewlet-social-like {
     position: static;
@@ -2637,6 +2706,9 @@ body[class*="nitf"] #content #viewlet-social-like {
 }
 
 body[class*="nitf"] #content #viewlet-social-like > div {
+    display: block;
+    float: left;
+    margin-bottom: 0.6410em;
     height: 20px;
     text-align: right;
 }
@@ -2646,9 +2718,17 @@ body[class*="nitf"] #content #viewlet-social-like .sociallike-network-facebook {
     width: 90px;
 }
 
-body[class*="nitf"] #content #viewlet-social-like .sociallike-network-gplus    { width: 78px; }
-body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter  { width: 93px; }
-body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter iframe { margin-left: 0; }
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-gplus {
+    width: 78px;
+}
+
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter {
+    width: 93px;
+}
+
+body[class*="nitf"] #content #viewlet-social-like .sociallike-network-twitter iframe {
+    margin-left: 0;
+}
 
 /* Paragrafo da noticia */
 body[class*="nitf"] #content article div[property*="articleBody"] p {
@@ -2680,8 +2760,11 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
    Media Queries
    ========================================================================== */
 
+.menuTrigger { display: none; }
+
 /* Smartphone
    ========================================================================== */
+
 @media only screen and (min-width : 320px) and (max-width : 768px) {
 
     #header { padding-top: 1em !important; }
@@ -2796,6 +2879,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
 /* iPad portrait
    ========================================================================== */
+
 @media screen and (max-width: 768px) {
 
     #wrapper { max-width: 100%; }
@@ -2833,6 +2917,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
 /* iPhone 4s and greater than
    ========================================================================== */
+
 @media screen and (max-width: 480px) {
 
     /* barra de acessibilidade */
@@ -2944,6 +3029,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
 /* Barra de identidade do governo
    ========================================================================== */
+
 @media screen and (max-width: 960px) {
 
     #barra-brasil { min-width: 100% !important; }
@@ -2955,6 +3041,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 /* ==========================================================================
    Contraste
    ========================================================================== */
+
 body.contraste,
 body.contraste #header,
 body.contraste #sobre,
@@ -2994,7 +3081,7 @@ body.contraste p.section { color: #fff !important; }
 
 body.contraste .portletHeader,
 body.contraste .portletHeader a,
-body.contraste dl.portlet dt a: visited,
+body.contraste dl.portlet dt a:visited,
 body.contraste #doormat-container .doormatColumn {
     border-color: #fff !important;
     background: #000 !important;
@@ -3005,6 +3092,7 @@ body.contraste #doormat-container .doormatColumn {
 /* ==========================================================================
    Print
    ========================================================================== */
+
 @media print {
 
     * {
@@ -3015,15 +3103,15 @@ body.contraste #doormat-container .doormatColumn {
     }
 
     a,
-    a: visited { text-decoration: underline; }
+    a:visited { text-decoration: underline; }
 
-    a[href]: after { content: " (" attr(href) ")"; }
+    a[href]:after { content: " (" attr(href) ")"; }
 
-    abbr[title]: after { content: " (" attr(title) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
 
-    .ir a: after,
-    a[href^="javascript: "]: after,
-    a[href^="#"]: after {
+    .ir a:after,
+    a[href^="javascript: "]:after,
+    a[href^="#"]:after {
         content: "";
     }
 
@@ -3039,8 +3127,6 @@ body.contraste #doormat-container .doormatColumn {
     img { page-break-inside: avoid; }
 
     img { max-width: 100% !important; }
-
-    @page { margin: 0.5cm; }
 
     p,
     h2,
