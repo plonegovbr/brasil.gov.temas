@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Movidas customizacoes nitf do portal brasil para portal modelo (closes `#60`_).
+    [rodfersou]
   * Adicionada regra diazo para mapear viewlet plone.analytics (closes `#71`_).
     [rodfersou]
   * Revisão de alinhamento e espaçamento no social like (closes `#58`_).
@@ -105,5 +107,6 @@ Changelog
 .. _`#51`: https://github.com/plonegovbr/brasil.gov.temas/issues/51
 .. _`#52`: https://github.com/plonegovbr/brasil.gov.temas/issues/52
 .. _`#58`: https://github.com/plonegovbr/brasil.gov.temas/issues/58
+.. _`#60`: https://github.com/plonegovbr/brasil.gov.temas/issues/60
 .. _`#71`: https://github.com/plonegovbr/brasil.gov.temas/issues/71
 
