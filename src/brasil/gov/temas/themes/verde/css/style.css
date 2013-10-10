@@ -110,3 +110,16 @@
 #doormat-container dt { color: #7dc48a; }
 
 #footer .footer-logos { background: #00420c; }
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+
+    .menuTrigger {
+        background: #065116 url("../img/bg-menu-mobile.png") top right no-repeat;
+    }
+
+}

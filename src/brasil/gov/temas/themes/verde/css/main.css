@@ -2764,7 +2764,6 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     .menuTrigger {
         display: block;
         height: 73px;
-        background: #065116 url("../img/bg-menu-mobile.png") top right no-repeat;
         text-indent: -9999px;
         cursor: pointer;
     }
