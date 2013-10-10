@@ -1314,8 +1314,6 @@ dl.portlet ol li { list-style: decimal outside; }
     margin-bottom: 24px;
 }
 
-.tile a { color: #162937 !important; }
-
 .tile h1 {
     margin: 0 0 10px 0;
     border-bottom: none;
