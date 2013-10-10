@@ -279,8 +279,8 @@ div.width-16 {
 }
 
 #accessibility a {
-	color: #dcffe3;
-	margin-right: 8px;
+    color: #fff;
+    margin-right: 8px;
 }
 
 #accessibility span {
@@ -390,7 +390,7 @@ div.width-16 {
 }
 
 #portal-siteactions a {
-	color: #dcffe3;
+	color: #fff;
 	text-decoration: none;
 	padding: 4px 0 4px 10px;
 	text-transform: uppercase;
