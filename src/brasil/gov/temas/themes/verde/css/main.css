@@ -2368,8 +2368,8 @@ dl.portlet div.listingBar a:link {
 }
 
 #search-filter,
-#search-filter .field { background: transparent !Important; }
-#search-filter .field { padding: 1em 0 !Important; }
+#search-filter .field { background: transparent !important; }
+#search-filter .field { padding: 1em 0 !important; }
 #search-filter .field div { width: 100%; }
 #search-filter .field input { margin-right: 8px; }
 
@@ -2424,12 +2424,12 @@ dl.portlet div.listingBar a:link {
 
 .template-search #content .cell {
     padding-bottom: 20px;
-    width: 96% !Important;
+    width: 96% !important;
     border-bottom: 1px solid #D3D3D3;
 }
 
 .template-search #search-term {
-    font-weight: bold !Important;
+    font-weight: bold !important;
 }
 
 #content #sorting-options > span { display: none; }
@@ -2863,7 +2863,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
     /* Search */
     #portal-searchbox { display: none; }
 
-    .overlay.overlay-ajax { top: 10px !Important; }
+    .overlay.overlay-ajax { top: 10px !important; }
 
     .overlay.overlay-ajax input.searchPage {
         margin-bottom: 1em;
