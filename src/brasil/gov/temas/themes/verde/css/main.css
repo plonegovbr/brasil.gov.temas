@@ -2529,21 +2529,14 @@ dl.portlet div.listingBar a:link {
 /* Doormat
    ========================================================================== */
 
-#doormat-container {
-    float: none;
-    background: #034811;
-}
+#doormat-container { float: none; }
 
-#doormat-container dl {
-    margin: 0 0 20px 0;
-    border-left: 1px dotted #7dc48a;
-}
+#doormat-container dl { margin: 0 0 20px 0; }
 
 #doormat-container .doormatColumn { text-align: left; }
 
 #doormat-container dt {
     padding-left: .6em;
-    color: #7dc48a;
     font-size: 2em;
     font-family: "open_sansbold", Arial, Helvetica, sans-serif;
 }
