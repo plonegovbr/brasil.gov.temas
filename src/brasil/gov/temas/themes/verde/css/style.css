@@ -2714,10 +2714,12 @@ body[class*="nitf"] #content #viewlet-social-like {
     right: 0 !important;
 }
 
-body[class*="nitf"] #content #viewlet-social-like > div {
-    display: block;
+body[class*="nitf"] div.width-1\3a 2 #viewlet-social-like > div {
     float: left;
     margin-bottom: 0.6410em;
+}
+
+body[class*="nitf"] #content #viewlet-social-like > div {
     height: 20px;
     text-align: right;
 }
