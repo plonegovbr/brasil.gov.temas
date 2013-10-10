@@ -6,6 +6,8 @@ Changelog
 
   * Relação de ícones no tipo de conteúdo anexado (closes `#54`_). [rennanrodrigues]
   * Ajustes de fonte, cor e espaçamento da visão sumária de coleções (closes `#54`_). [rennanrodrigues]
+  * Adicionada regra diazo para mapear viewlet plone.analytics (closes `#71`_).
+    [rodfersou]
   * Revisão de alinhamento e espaçamento no social like (closes `#58`_).
     [rennanrodrigues]
   * Revisão da fonte no breadcrumb (closes `#40`_).
@@ -101,9 +103,10 @@ Changelog
 .. _`#40`: https://github.com/plonegovbr/brasil.gov.temas/issues/40
 .. _`#43`: https://github.com/plonegovbr/brasil.gov.temas/issues/43
 .. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/46
-.. _`#46`: https://github.com/plonegovbr/brasil.gov.temas/issues/54
 .. _`#49`: https://github.com/plonegovbr/brasil.gov.temas/issues/49
 .. _`#51`: https://github.com/plonegovbr/brasil.gov.temas/issues/51
 .. _`#52`: https://github.com/plonegovbr/brasil.gov.temas/issues/52
+.. _`#54`: https://github.com/plonegovbr/brasil.gov.temas/issues/54
 .. _`#58`: https://github.com/plonegovbr/brasil.gov.temas/issues/58
+.. _`#71`: https://github.com/plonegovbr/brasil.gov.temas/issues/71
 
