@@ -6,6 +6,8 @@ Changelog
 
   * Relação de ícones no tipo de conteúdo anexado (closes `#54`_). [rennanrodrigues]
   * Ajustes de fonte, cor e espaçamento da visão sumária de coleções (closes `#54`_). [rennanrodrigues]
+  * Movidas customizacoes nitf do portal brasil para portal modelo (closes `#60`_).
+    [rodfersou]
   * Adicionada regra diazo para mapear viewlet plone.analytics (closes `#71`_).
     [rodfersou]
   * Revisão de alinhamento e espaçamento no social like (closes `#58`_).
@@ -108,5 +110,6 @@ Changelog
 .. _`#52`: https://github.com/plonegovbr/brasil.gov.temas/issues/52
 .. _`#54`: https://github.com/plonegovbr/brasil.gov.temas/issues/54
 .. _`#58`: https://github.com/plonegovbr/brasil.gov.temas/issues/58
+.. _`#60`: https://github.com/plonegovbr/brasil.gov.temas/issues/60
 .. _`#71`: https://github.com/plonegovbr/brasil.gov.temas/issues/71
 
