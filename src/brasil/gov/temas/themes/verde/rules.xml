@@ -58,6 +58,7 @@
         <replace css:content-children="#portal-footer" css:theme="#footer-info" />
         <after css:content="#portal-languageselector" css:theme="#logo" />
         <drop css:content="#viewlet-below-content-body" />
+        <after theme-children="/html/body" css:content-children="#plone-analytics" />
 
     </rules>
 
