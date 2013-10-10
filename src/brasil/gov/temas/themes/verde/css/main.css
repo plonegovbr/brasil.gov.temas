@@ -400,7 +400,6 @@ div.position-10 { margin-left: -30.042%; }
     margin: 0;
     padding: 5px 0;
     max-width: 100% !important;
-    background: #00420c;
     line-height: 20px;
 }
 
@@ -410,12 +409,7 @@ div.position-10 { margin-left: -30.042%; }
     text-align: right;
 }
 
-#sobre a { color: #fff; }
-
-#sobre .portalservicos-item a {
-    padding: 0 10px;
-    border-right: 1px solid #6c9072;
-}
+#sobre .portalservicos-item a { padding: 0 10px; }
 
 #sobre .last-item a {
     padding: 0 0 0 10px;
