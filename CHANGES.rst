@@ -4,7 +4,7 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
-  * Customizacoes nitf para brasil.gov.portal (closes `#60`_).
+  * Movidas customizacoes nitf do portal brasil para portal modelo (closes `#60`_).
     [rodfersou]
   * Revisão de alinhamento e espaçamento no social like (closes `#58`_).
     [rennanrodrigues]

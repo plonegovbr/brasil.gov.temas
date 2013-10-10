@@ -2708,7 +2708,7 @@ ul.social-tabs.css-tabs>li>a {
 -    margin-left: 3px;
 }
 
-body[class*="nitf"] div.width-1\3a 2 #viewlet-social-like>div {
+body[class*="nitf"] #viewlet-social-like>div {
     display: block;
     margin-bottom: 0.6410em;
     float: left;
