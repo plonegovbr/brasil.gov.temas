@@ -149,11 +149,11 @@
 
     .portlet-static-centrais-de-conteudos .portletHeader,
     .portletNavigationTree .portletHeader {
-        background: #edeff1 url("../img/portlet-header.gif") no-repeat 96% center ;
+        background: #edeff1 url("../img/portlet-header.gif") no-repeat 96% center;
     }
 
     .portletNavigationTree .portletHeader.ativo {
-        background: url("../img/portlet-header-expanded.gif") no-repeat 96% center ;
+        background: url("../img/portlet-header-expanded.gif") no-repeat 96% center;
     }
 
 }
