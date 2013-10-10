@@ -2723,6 +2723,15 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
 .menuTrigger { display: none; }
 
+div.listingBar { clear: both; }
+
+ul.formTabs { padding: 0px !important; }
+
+#searchbt,
+#nav #seletor { display: none; }
+
+#nav #seletor { color: #fff; }
+
 /* Smartphone
    ========================================================================== */
 
@@ -3107,13 +3116,3 @@ body.contraste #doormat-container .doormatColumn {
 
     * { position: relative !important; }
 }
-
-/* temp */
-div.listingBar { clear: both; }
-
-ul.formTabs { padding: 0px !important; }
-
-#searchbt,
-#nav #seletor { display: none; }
-
-#nav #seletor { color: #fff; }
