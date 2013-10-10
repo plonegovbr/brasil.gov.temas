@@ -430,7 +430,6 @@ input.searchField { -moz-appearance: none; }
     clear: right !important;
     margin: 3.12em 0 0 0;
     padding: 2px;
-    border: 1px solid #CCCCCC;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;

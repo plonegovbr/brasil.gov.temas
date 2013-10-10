@@ -79,6 +79,11 @@
 
 #sobre .portalservicos-item a { border-right: 1px solid #6c9072; }
 
+/* Formulário de busca
+   ========================================================================== */
+
+#portal-searchbox { border: 1px solid #CCCCCC; }
+
 
 /* ==========================================================================
    Portles
@@ -117,6 +122,8 @@
 
 #footer a { color: #fff; }
 
+#footer .footer-logos { background: #00420c; }
+
 /* Doormat
    ========================================================================== */
 
@@ -125,8 +132,6 @@
 #doormat-container dl { border-left: 1px dotted #7dc48a; }
 
 #doormat-container dt { color: #7dc48a; }
-
-#footer .footer-logos { background: #00420c; }
 
 
 /* ==========================================================================
