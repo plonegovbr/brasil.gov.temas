@@ -1428,7 +1428,7 @@ dl.portlet ul.navTreeLevel6 li a {
 
 /* Tiles */
 .tile {
-	margin-bottom: 45px;
+	margin-bottom: 3.605em;
 	clear: both;
 }
 
@@ -1750,7 +1750,7 @@ dl.portlet ul.navTreeLevel6 li a {
 .laranja-borda a {
 	color: #e07f48 !important;
 }
-g
+
 .bege-borda a {
 	color: #ab6600 !important;
 }
@@ -2542,7 +2542,7 @@ dl.portlet div.listingBar a:link {
 /****************** FOOTER ******************/
 
 #voltar-topo {
-	margin-top: 30px;
+	margin-top: 1.915em;
 	text-align: right;
 }
 
