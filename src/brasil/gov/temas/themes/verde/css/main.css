@@ -359,14 +359,12 @@ div.position-10 { margin-left: -30.042%; }
     float: right;
     clear: none;
     padding-bottom: 2px;
-    border-bottom: 1px dotted #9bc2a3;
 }
 
 #portal-siteactions li { display: inline; }
 
 #portal-siteactions a {
     padding: 4px 0 4px 10px;
-    color: #dcffe3;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -374,8 +372,6 @@ div.position-10 { margin-left: -30.042%; }
 #siteaction-accessibility a { padding-left: 0; }
 
 #portal-siteactions .last-item { margin-right: 0; }
-
-#portal-siteactions a:hover { color: #fff !important; }
 
 /* Links de redes sociais
    ========================================================================== */
