@@ -61,3 +61,19 @@
 #sobre a { color: #fff; }
 
 #sobre .portalservicos-item a { border-right: 1px solid #6c9072; }
+
+
+/* ==========================================================================
+   Portles
+   ========================================================================== */
+
+/* Portlet de navegação
+   ========================================================================== */
+
+.portlet-static-centrais-de-conteudos .portletHeader,
+.portletNavigationTree .portletHeader {
+    border-top: 4px solid #00510f;
+    color: #00510f;
+}
+
+.portletNavigationTree .portletHeader a { color: #00510f !important; }

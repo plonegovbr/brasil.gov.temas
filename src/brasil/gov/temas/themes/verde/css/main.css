@@ -982,10 +982,8 @@ dl.portlet dt a:visited { color: #464a55 !important; }
 .portletNavigationTree .portletHeader {
     margin: 0;
     padding: 8px 8px 24px 10px;
-    border-top: 4px solid #00510f;
     border-bottom: none;
     background: #edeff1;
-    color: #00510f;
     text-transform: uppercase;
     /* reseta font-weight: bold do public.css */
     font-weight: normal;
@@ -1001,8 +999,6 @@ dl.portlet dt a:visited { color: #464a55 !important; }
 .portletNavigationTree { border-bottom: 1px solid #ddd; }
 
 .portletNavigationTree li { list-style: none !important; }
-
-.portletNavigationTree .portletHeader a { color: #00510f !important; }
 
 .portletNavigationTree > .portletItem a span { color: #172938 !important; }
 
