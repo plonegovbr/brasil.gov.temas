@@ -93,6 +93,13 @@
    Footer
    ========================================================================== */
 
+#footer {
+    background: #034811;
+    color: #fff;
+}
+
+#footer a { color: #fff; }
+
 /* Doormat
    ========================================================================== */
 
@@ -101,3 +108,5 @@
 #doormat-container dl { border-left: 1px dotted #7dc48a; }
 
 #doormat-container dt { color: #7dc48a; }
+
+#footer .footer-logos { background: #00420c; }
