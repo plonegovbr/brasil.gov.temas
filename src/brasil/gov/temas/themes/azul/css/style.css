@@ -26,35 +26,20 @@
 
 #header {
     padding: 14px 0 0 0;
-    background-color: #19882c;
-    /* Old browsers */
-    background-color: #0A5517;
-    background-image: -moz-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
-    /* FF3.6+ */
-    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%, #025310));
-    /* Chrome,Safari4+ */
-    background-image: -webkit-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
-    /* Chrome10+,Safari5.1+ */
-    background-image: -o-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
-    /* Opera 12+ */
-    background-image: -ms-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
-    /* IE10+ */
-    background-image: radial-gradient(ellipse at center, #19882c 1%, #025310 100%);
+    background-color: #1659bf;
     color: #fff;
-    /* IE6-9 fallback on horizontal gradient */
-    filter:progid: DXImageTransform.Microsoft.gradient( startColorstr="#19882c", endColorstr="#025310",GradientType=1);
 }
 
 /* Menu de Acessibilidade
    ========================================================================== */
 
 #accessibility a {
-    color: #dcffe3;
+    color: #dcecff;
 }
 
 #accessibility span {
     background: url("../img/bg-acess-key.gif") center center no-repeat;
-    color: #006600;
+    color: #0a1857;
 }
 
 /* Titulo do portal
@@ -66,19 +51,19 @@
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
    ========================================================================== */
 
-#portal-siteactions { border-bottom: 1px dotted #9bc2a3; }
+#portal-siteactions { border-bottom: 1px dotted #6893cb; }
 
 #portal-siteactions a,
-#portal-siteactions a:hover { color: #dcffe3 !important; }
+#portal-siteactions a:hover { color: #dcecff !important; }
 
 /* Menu sobre o portal
    ========================================================================== */
 
-#sobre { background: #00420c; }
+#sobre { background: #0f4098; }
 
 #sobre a { color: #fff; }
 
-#sobre .portalservicos-item a { border-right: 1px solid #6c9072; }
+#sobre .portalservicos-item a { border-right: 1px solid #87a0cc; }
 
 /* Formulário de busca
    ========================================================================== */
@@ -95,21 +80,21 @@
 
 #portal-column-one > .portletWrapper dl.portlet.first-item-nav a,
 #portal-column-one > .portletWrapper dl.portlet.first-item-nav a span {
-    color: #2c67cd !important;
+    color: #2c66ce !important;
 }
 
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
-    border-top: 4px solid #00510f;
-    color: #00510f;
+    border-top: 4px solid #1659bf;
+    color: #1659bf;
 }
 
-.portletNavigationTree .portletHeader a { color: #00510f !important; }
+.portletNavigationTree .portletHeader a { color: #1659bf !important; }
 
 .navTreeLevel0 > li.navTreeItemInPath,
 .navTreeLevel0 > li.navTreeCurrentNode {
-    border-top: 2px solid #64946e !important;
-    border-bottom: 2px solid #64946e !important;
+    border-top: 2px solid #1659bf !important;
+    border-bottom: 2px solid #1659bf !important;
 }
 
 
@@ -128,22 +113,22 @@
    ========================================================================== */
 
 #footer {
-    background: #034811;
+    background: #1659bf;
     color: #fff;
 }
 
 #footer a { color: #fff; }
 
-#footer .footer-logos { background: #00420c; }
+#footer .footer-logos { background: #0042b1; }
 
 /* Doormat
    ========================================================================== */
 
-#doormat-container { background: #034811; }
+#doormat-container { background: #1659bf; }
 
-#doormat-container dl { border-left: 1px dotted #7dc48a; }
+#doormat-container dl { border-left: 1px dotted #fff; }
 
-#doormat-container dt { color: #7dc48a; }
+#doormat-container dt { color: #fff; }
 
 
 /* ==========================================================================
