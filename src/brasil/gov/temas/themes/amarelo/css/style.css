@@ -93,6 +93,11 @@
 /* Portlet de navegação
    ========================================================================== */
 
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav a,
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav a span {
+    color: #00500f !important;
+}
+
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
     border-top: 4px solid #03316f;
