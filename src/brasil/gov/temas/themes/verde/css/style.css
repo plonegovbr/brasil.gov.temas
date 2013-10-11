@@ -68,7 +68,8 @@
 
 #portal-siteactions { border-bottom: 1px dotted #9bc2a3; }
 
-#portal-siteactions a { color: #dcffe3; }
+#portal-siteactions a,
+#portal-siteactions a:hover { color: #dcffe3 !important; }
 
 /* Menu sobre o portal
    ========================================================================== */
