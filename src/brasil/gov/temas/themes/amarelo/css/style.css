@@ -61,12 +61,12 @@
    ========================================================================== */
 
 #portal-logo,
-#portal-title { color: #fff !important; }
+#portal-title { color: #03316f !important; }
 
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
    ========================================================================== */
 
-#portal-siteactions { border-bottom: 1px dotted #9bc2a3; }
+#portal-siteactions { border-bottom: 1px dotted #7d8e23; }
 
 #portal-siteactions a,
 #portal-siteactions a:hover { color: #00500f !important; }
@@ -74,11 +74,11 @@
 /* Menu sobre o portal
    ========================================================================== */
 
-#sobre { background: #00420c; }
+#sobre { background: #f8b904; }
 
-#sobre a { color: #fff; }
+#sobre a { color: #00500f; }
 
-#sobre .portalservicos-item a { border-right: 1px solid #6c9072; }
+#sobre .portalservicos-item a { border-right: 1px solid #7c840a; }
 
 /* Formulário de busca
    ========================================================================== */
@@ -95,11 +95,11 @@
 
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
-    border-top: 4px solid #00510f;
-    color: #00510f;
+    border-top: 4px solid #03316f;
+    color: #03316f;
 }
 
-.portletNavigationTree .portletHeader a { color: #00510f !important; }
+.portletNavigationTree .portletHeader a { color: #03316f !important; }
 
 
 /* ==========================================================================
@@ -117,22 +117,22 @@
    ========================================================================== */
 
 #footer {
-    background: #034811;
-    color: #fff;
+    background: #f8c300;
+    color: #2c66ce;
 }
 
-#footer a { color: #fff; }
+#footer a { color: #00500f; }
 
-#footer .footer-logos { background: #00420c; }
+#footer .footer-logos { background: #f28f00; }
 
 /* Doormat
    ========================================================================== */
 
-#doormat-container { background: #034811; }
+#doormat-container { background: #f8c300; }
 
-#doormat-container dl { border-left: 1px dotted #7dc48a; }
+#doormat-container dl { border-left: 1px dotted #7c8908; }
 
-#doormat-container dt { color: #7dc48a; }
+#doormat-container dt { color: #2c66ce; }
 
 
 /* ==========================================================================
