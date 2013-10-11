@@ -21,6 +21,13 @@
       directory="themes/amarelo"
       />
 
+  <!-- Temas -->
+  <plone:static
+      type="theme"
+      name="branco"
+      directory="themes/branco"
+      />
+
   <include package="z3c.jbot" file="meta.zcml" />
 
   <browser:jbot
