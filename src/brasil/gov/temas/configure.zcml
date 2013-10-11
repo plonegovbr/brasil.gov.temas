@@ -28,6 +28,13 @@
       directory="themes/branco"
       />
 
+  <!-- Temas -->
+  <plone:static
+      type="theme"
+      name="azul"
+      directory="themes/azul"
+      />
+
   <include package="z3c.jbot" file="meta.zcml" />
 
   <browser:jbot
