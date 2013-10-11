@@ -411,7 +411,7 @@ div.position-10 { margin-left: -30.042%; }
 
 #sobre .last-item a {
     padding: 0 0 0 10px;
-    border-right: none;
+    border-right: none !important;
 }
 
 /* Formulário de busca
@@ -2626,7 +2626,7 @@ body[class*="nitf"] #content .documentDescription {
     color: #172938;
     font-weight: normal;
     font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body[class*="nitf"] #content .documentAuthor,
@@ -2747,12 +2747,13 @@ ul.formTabs { padding: 0px !important; }
         font-size: 0.9em;
     }
 
-    #portal-description { bottom: 62px; }
-
-    #main {
+    #main,
+    .section-home #main {
         padding-top: 0;
         max-width: 100% !important;
     }
+
+    #sobre .last-item a { padding: 0 10px; }
 
     #portal-breadcrumbs,
     #accessibility,
@@ -2891,6 +2892,8 @@ ul.formTabs { padding: 0px !important; }
 
     #viewlet-social-like { right: 0; }
 
+    #portal-description { bottom: 62px; }
+
     #sobre { background: none; }
 
     #social-icons { display: none; }
@@ -2898,10 +2901,19 @@ ul.formTabs { padding: 0px !important; }
     #header {
         padding: 1em 0.5em;
         padding: 0 4%;
+        width: 100%;
+    }
+
+    #header > div { width: 92% }
+
+    #header #accessibility { display: none !important; }
+
+    #header #sobre {
+        padding: 0 4%;
         width: 92%;
     }
 
-    #header #accessibility { display: none !important; }
+    #sobre .last-item a { padding: 0 0 0 10px; }
 
     #portal-searchbox {
         position: relative;
