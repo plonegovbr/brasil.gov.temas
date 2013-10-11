@@ -101,6 +101,12 @@
 
 .portletNavigationTree .portletHeader a { color: #00510f !important; }
 
+.navTreeLevel0 > li.navTreeItemInPath,
+.navTreeLevel0 > li.navTreeCurrentNode {
+    border-top: 2px solid #00510f !important;
+    border-bottom: 2px solid #00510f !important;
+}
+
 
 /* ==========================================================================
    Collective Cover

@@ -1021,11 +1021,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
  */
 
 .navTreeLevel0 > li.navTreeItemInPath,
-.navTreeLevel0 > li.navTreeCurrentNode {
-    border-top: 2px solid #64946e !important;
-    border-bottom: 2px solid #64946e !important;
-    background-color: #edeff1;
-}
+.navTreeLevel0 > li.navTreeCurrentNode { background-color: #edeff1; }
 
 .navTreeLevel1 { background: #e6e8ea !important; }
 .navTreeLevel2 { background: #dfe1e3 !important; }
