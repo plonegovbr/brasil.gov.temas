@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:esi="http://www.edge-delivery.org/esi/1.0"
+    xmlns:str="http://exslt.org/strings"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme href="index.html" css:if-content="#visual-portal-wrapper" />
+
+    <notheme if-path="@@manage-viewlets" />
+    <notheme if="$ajax_load" />
+
+    <xsl:output method="html"/>
+
+    <rules css:if-content="#visual-portal-wrapper">
+        <prepend css:content="div#barra-brasil" css:theme="body" />
+        <!--Plone.app.toolbar-->
+        <append theme="/html/body" content="//div[@data-iframe='toolbar']" />
+
+        <!--Head-->
+        <copy css:content="html" css:theme="html" attributes="lang dir" />
+        <prepend css:content-children="head" css:theme="head" />
+        <drop css:content="head link[rel='shortcut icon']" />
+        <drop css:content="head link[rel='apple-touch-icon']" />
+        <drop css:content="head meta[name='viewport']" />
+        <drop css:theme="head link#plone-css" />
+
+        <!--Content -->
+        <copy attributes="href" css:content="#portal-advanced-search a" css:theme="#link-busca" />
+        <replace css:content="#logo" css:theme="#logo" />
+        <merge attributes="class" css:content="body" css:theme="body" />
+        <copy attributes="id dir" css:content="body" css:theme="body" />
+        <prepend css:content="#portal-features" css:theme="#main" />
+	    <copy attributes="role" css:content="content" css:theme="contentspace" />
+        <replace css:content="#portal-column-one" css:theme="#portal-column-one" />
+        <replace css:content="#viewlet-above-content" css:theme="#viewlet-above-content" />
+        <replace content="//*[@id='portal-column-content']/div[2]" theme="//*[@id='portal-column-content']/div[1]" />
+        <copy attributes="class" css:content="#portal-column-content" css:theme="#portal-column-content" />
+        <replace css:content="#portal-column-content > #viewlet-below-content" css:theme="#portal-column-content > #viewlet-below-content" />
+        <replace css:content="#portal-column-two" css:theme="#portal-column-two" />
+        <replace css:content="#doormat-container" css:theme="#doormat"  />
+
+        <!-- Portlets -->
+        <strip css:content=".portletNavigationTree .portletHeader a.tile" />
+
+        <!--Viewlets-->
+        <replace css:content="#portal-personaltools" css:theme="#user" />
+        <replace css:content="#portal-siteactions" css:theme="#portal-siteactions" />
+        <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+        <drop css:content="#portal-header p.hiddenStructure" />
+        <drop css:content=".searchSection" />
+        <replace css:content="#portal-searchbox" css:theme="#portal-searchbox" />
+        <replace css:content="#portal-servicos li" css:theme-children="#sobre ul" />
+        <replace css:content="#portal-redes li" css:theme-children="#social-icons ul" />
+        <replace css:content="#doormat-container" css:theme="#doormat" />
+        <replace css:content-children="#portal-footer" css:theme="#footer-info" />
+        <after css:content="#portal-languageselector" css:theme="#logo" />
+        <drop css:content="#viewlet-below-content-body" />
+
+    </rules>
+
+
+</rules>
