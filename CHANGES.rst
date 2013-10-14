@@ -4,6 +4,9 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Movido main.css para brasil.gov.portal - será mantido no tema somente para
+    previsualizacao do tema (closes `#77`_).
+    [rodfersou]
   * Padronização do css e separação dos atributos especificos para outros temas (closes `#65`_).
     [felipeduardo]
   * Alteração da cor da barra de acessibilidade (closes `#74`_).
@@ -112,6 +115,7 @@ Changelog
 .. _`#52`: https://github.com/plonegovbr/brasil.gov.temas/issues/52
 .. _`#58`: https://github.com/plonegovbr/brasil.gov.temas/issues/58
 .. _`#60`: https://github.com/plonegovbr/brasil.gov.temas/issues/60
+.. _`#65`: https://github.com/plonegovbr/brasil.gov.temas/issues/65
 .. _`#71`: https://github.com/plonegovbr/brasil.gov.temas/issues/71
 .. _`#74`: https://github.com/plonegovbr/brasil.gov.temas/issues/74
-.. _`#65`: https://github.com/plonegovbr/brasil.gov.temas/issues/65
+.. _`#77`: https://github.com/plonegovbr/brasil.gov.temas/issues/77
