@@ -1,0 +1,156 @@
+/*
+ *
+ * CSS com estilos específicos do tema verde
+ *
+ * @Autores
+ *
+ * - Simples Consultoria - www.simplesconsultoria.com.br
+ * - DESERTO Digital - www.desertodigital.com.br
+ *
+ * @Referencias
+ *
+ * Lista de padrões, convenções e boas praticas CSS que devem ser seguidas.
+ * https: //github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
+ *
+ * Plugins para ordenar os atributos de CSS.
+ * http://csscomb.com/
+ *
+ * Validador de CSS do W3C.
+ * http://jigsaw.w3.org/css-validator/
+ */
+
+
+/* ==========================================================================
+   Cabeçalho do portal
+   ========================================================================== */
+
+#header {
+    padding: 14px 0 0 0;
+    background-color: #1659bf;
+    color: #fff;
+}
+
+/* Menu de Acessibilidade
+   ========================================================================== */
+
+#accessibility a {
+    color: #dcecff;
+}
+
+#accessibility span {
+    background: url("../img/bg-acess-key.gif") center center no-repeat;
+    color: #0a1857;
+}
+
+/* Titulo do portal
+   ========================================================================== */
+
+#portal-logo,
+#portal-title { color: #fff !important; }
+
+/* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
+   ========================================================================== */
+
+#portal-siteactions { border-bottom: 1px dotted #6893cb; }
+
+#portal-siteactions a,
+#portal-siteactions a:hover { color: #dcecff !important; }
+
+/* Menu sobre o portal
+   ========================================================================== */
+
+#sobre { background: #0f4098; }
+
+#sobre a { color: #fff; }
+
+#sobre .portalservicos-item a { border-right: 1px solid #87a0cc; }
+
+/* Formulário de busca
+   ========================================================================== */
+
+#portal-searchbox { border: 1px solid #CCCCCC; }
+
+
+/* ==========================================================================
+   Portles
+   ========================================================================== */
+
+/* Portlet de navegação
+   ========================================================================== */
+
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav a,
+#portal-column-one > .portletWrapper dl.portlet.first-item-nav a span {
+    color: #2c66ce !important;
+}
+
+.portlet-static-centrais-de-conteudos .portletHeader,
+.portletNavigationTree .portletHeader {
+    border-top: 4px solid #1659bf;
+    color: #1659bf;
+}
+
+.portletNavigationTree .portletHeader a { color: #1659bf !important; }
+
+.navTreeLevel0 > li.navTreeItemInPath,
+.navTreeLevel0 > li.navTreeCurrentNode {
+    border-top: 2px solid #1659bf !important;
+    border-bottom: 2px solid #1659bf !important;
+}
+
+
+/* ==========================================================================
+   Collective Cover
+   ========================================================================== */
+
+/* Tiles
+   ========================================================================== */
+
+.tile a { color: #162937 !important; }
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+#footer {
+    background: #1659bf;
+    color: #fff;
+}
+
+#footer a { color: #fff; }
+
+#footer .footer-logos { background: #0042b1; }
+
+/* Doormat
+   ========================================================================== */
+
+#doormat-container { background: #1659bf; }
+
+#doormat-container dl { border-left: 1px dotted #fff; }
+
+#doormat-container dt { color: #fff; }
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Smartphone
+   ========================================================================== */
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+
+    .menuTrigger {
+        background: #065116 url("../img/bg-menu-mobile.png") top right no-repeat;
+    }
+
+    .portlet-static-centrais-de-conteudos .portletHeader,
+    .portletNavigationTree .portletHeader {
+        background: #edeff1 url("../img/portlet-header.gif") no-repeat 96% center;
+    }
+
+    .portletNavigationTree .portletHeader.ativo {
+        background: url("../img/portlet-header-expanded.gif") no-repeat 96% center;
+    }
+
+}

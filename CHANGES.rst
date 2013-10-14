@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Padronização do css e separação dos atributos especificos para outros temas (closes `#65`_).
+    [felipeduardo]
   * Alteração da cor da barra de acessibilidade (closes `#74`_).
     [rennanrodrigues]
   * Movidas customizacoes nitf do portal brasil para portal modelo (closes `#60`_).
@@ -112,4 +114,4 @@ Changelog
 .. _`#60`: https://github.com/plonegovbr/brasil.gov.temas/issues/60
 .. _`#71`: https://github.com/plonegovbr/brasil.gov.temas/issues/71
 .. _`#74`: https://github.com/plonegovbr/brasil.gov.temas/issues/74
-
+.. _`#65`: https://github.com/plonegovbr/brasil.gov.temas/issues/65
