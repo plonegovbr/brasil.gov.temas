@@ -1777,7 +1777,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .laranja .outstanding-header .outstanding-link {
-    background: url("../img/seta_cidadania_justica.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_laranja.png") no-repeat scroll right 5px transparent;
 }
 
 /* Azul Petroleo - Defesa e Segurança
@@ -1802,10 +1802,10 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .azul-petroleo .outstanding-header .outstanding-link {
-    background: url("../img/seta_defesa_seguranca.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_azul-petroleo.png") no-repeat scroll right 5px transparent;
 }
 
-/* Dourado -
+/* Dourado - Cultura
    ========================================================================== */
 
 .dourado .tile-title {
@@ -1827,7 +1827,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .dourado .outstanding-header .outstanding-link {
-    background: url("../img/seta_cultura.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_dourado.png") no-repeat scroll right 5px transparent;
 }
 
 /* Roxo - Ciencia e Tecnologia
@@ -1852,7 +1852,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .roxo .outstanding-header .outstanding-link {
-    background: url("../img/seta_ciencia_tecnologia.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_roxo.png") no-repeat scroll right 5px transparent;
 }
 
 /* Marron Claro - Economia e Emprego
@@ -1877,7 +1877,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .marrom-claro .outstanding-header .outstanding-link {
-    background: url("../img/seta_economia_emprego.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_marrom-claro.png") no-repeat scroll right 5px transparent;
 }
 
 /* Verde Escuro - Educação
@@ -1902,7 +1902,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .verde-escuro .outstanding-header .outstanding-link {
-    background: url("../img/seta_educacao.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_verde-escuro.png") no-repeat scroll right 5px transparent;
 }
 
 /* Verde - Esporte
@@ -1927,7 +1927,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .verde .outstanding-header .outstanding-link {
-    background: url("../img/seta_esporte.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_verde.png") no-repeat scroll right 5px transparent;
 }
 
 /* Azul Governo
@@ -1952,7 +1952,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .azul .outstanding-header .outstanding-link {
-    background: url("../img/seta_governo.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_azul.png") no-repeat scroll right 5px transparent;
 }
 
 /* Marron - Infraestrutura
@@ -1977,7 +1977,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .marrom .outstanding-header .outstanding-link {
-    background: url("../img/seta_infraestrutura.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_marrom.png") no-repeat scroll right 5px transparent;
 }
 
 /* Verde Claro - Meio Ambiente
@@ -2002,7 +2002,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .verde-claro .outstanding-header .outstanding-link {
-    background: url("../img/seta_meio_ambiente.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_verde-claro.png") no-repeat scroll right 5px transparent;
 }
 
 /* Azul Claro - Saúde
@@ -2027,7 +2027,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .azul-claro .outstanding-header .outstanding-link {
-    background: url("../img/seta_saude.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_azul-claro.png") no-repeat scroll right 5px transparent;
 }
 
 /* Azul Escuro - Turismo
@@ -2052,10 +2052,10 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .azul-escuro .outstanding-header .outstanding-link {
-    background: url("../img/seta_tursimo.png") no-repeat scroll right 5px transparent;
+    background: url("../img/seta_azul-escuro.png") no-repeat scroll right 5px transparent;
 }
 
-/* Azul Piscinba - Turismo
+/* Azul Piscinba - Turismo - defasados *
    ========================================================================== */
 
 .azul-piscina .tile-title {
@@ -2076,7 +2076,7 @@ dl.portlet ol li { list-style: decimal outside; }
     color: #00A0DB;
 }
 
-/* Bege
+/* Bege - defasados *
    ========================================================================== */
 
 .bege .tile-title {
@@ -2101,7 +2101,7 @@ dl.portlet ol li { list-style: decimal outside; }
     background: url("../img/readmorebrown.png") no-repeat scroll right 5px transparent;
 }
 
-/* Amarelo - Economia e Emprego
+/* Amarelo - Economia e Emprego - defasados *
    ========================================================================== */
 
 .amarelo .tile-title {
