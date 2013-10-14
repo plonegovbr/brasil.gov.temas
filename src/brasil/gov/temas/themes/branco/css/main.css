@@ -2598,9 +2598,8 @@ dl.portlet div.listingBar a:link {
 
 #tiles-list .last-item { float: left; }
 
-/*
- * Ajuste no tamanho de itens relacionados (tela de gestão)
- */
+/* Ajuste no tamanho de itens relacionados (tela de gestão)
+   ========================================================================== */
 
 .template-edit.portaltype-collective-nitf-content #content #form-widgets-relatedItems-input-fields > span.option {
     margin-bottom: 5px;
