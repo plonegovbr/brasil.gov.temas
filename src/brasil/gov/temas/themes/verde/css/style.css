@@ -49,7 +49,7 @@
    ========================================================================== */
 
 #accessibility a {
-    color: #dcffe3;
+    color: #fff;
 }
 
 #accessibility span {
@@ -69,7 +69,7 @@
 #portal-siteactions { border-bottom: 1px dotted #9bc2a3; }
 
 #portal-siteactions a,
-#portal-siteactions a:hover { color: #dcffe3 !important; }
+#portal-siteactions a:hover { color: #fff !important; }
 
 /* Menu sobre o portal
    ========================================================================== */
