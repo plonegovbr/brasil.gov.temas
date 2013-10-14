@@ -5,7 +5,7 @@ Changelog
 ^^^^^^^^^^^^^^^^^^^
 
   * Movido main.css para brasil.gov.portal - será mantido no tema somente para
-    previsualizacao do tema (closes `#65`_).
+    previsualizacao do tema (closes `#77`_).
     [rodfersou]
   * Padronização do css e separação dos atributos especificos para outros temas (closes `#65`_).
     [felipeduardo]
