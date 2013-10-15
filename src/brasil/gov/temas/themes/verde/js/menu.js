@@ -102,3 +102,8 @@ if($('.link-externo').length > 0){
     $('.link-externo .collection-item:odd').addClass ('odd');
 }
 
+$('#accessibility a').each(function(){
+    var sHref = $(this).attr('href');
+    this.href = window.location.href + sHref;
+});
+
