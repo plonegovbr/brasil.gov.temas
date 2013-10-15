@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Revisão de ícones de redes sociais para escolher cor por tema (closes `#78`_).
+    [rodfersou]
   * Movido main.css para brasil.gov.portal - será mantido no tema somente para
     previsualizacao do tema (closes `#77`_).
     [rodfersou]
@@ -119,3 +121,4 @@ Changelog
 .. _`#71`: https://github.com/plonegovbr/brasil.gov.temas/issues/71
 .. _`#74`: https://github.com/plonegovbr/brasil.gov.temas/issues/74
 .. _`#77`: https://github.com/plonegovbr/brasil.gov.temas/issues/77
+.. _`#78`: https://github.com/plonegovbr/brasil.gov.temas/issues/78
