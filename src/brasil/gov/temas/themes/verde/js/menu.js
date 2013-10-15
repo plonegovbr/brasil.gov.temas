@@ -106,4 +106,3 @@ $('#accessibility a').each(function(){
     var sHref = $(this).attr('href');
     this.href = window.location.href + sHref;
 });
-
