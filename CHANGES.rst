@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Adicionado ancoras no html dos temas e alterado os links de acessibiliade (closes `#83`_).
+    [felipeduardo]
   * Revisão de ícones de redes sociais para escolher cor por tema (closes `#78`_).
     [rodfersou]
   * Movido main.css para brasil.gov.portal - será mantido no tema somente para
@@ -122,3 +124,4 @@ Changelog
 .. _`#74`: https://github.com/plonegovbr/brasil.gov.temas/issues/74
 .. _`#77`: https://github.com/plonegovbr/brasil.gov.temas/issues/77
 .. _`#78`: https://github.com/plonegovbr/brasil.gov.temas/issues/78
+.. _`#78`: https://github.com/plonegovbr/brasil.gov.temas/issues/83
