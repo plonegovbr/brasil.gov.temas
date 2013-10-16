@@ -98,11 +98,16 @@ var firstNavigation = $("#portal-column-one .portletWrapper .portletNavigationTr
 if(firstNavigation){ $(firstNavigation).addClass("first-item-nav"); }
 
 if($('.link-externo').length > 0){
-    $('.link-externo .collection-item:even').addClass ('even');
-    $('.link-externo .collection-item:odd').addClass ('odd');
+    $('.link-externo .collection-item:even').addClass('even');
+    $('.link-externo .collection-item:odd').addClass('odd');
 }
 
-$('#accessibility a').each(function(){
-    var sHref = $(this).attr('href');
-    this.href = window.location.href + sHref;
-});
+/*
+ * Bug fix para o bug de <base url=""> do Plone
+ */
+
+if($("base").length > 0) {
+    var aCurrentUrl = document.location.href.match(/(^[^#]*)/);
+
+    $('base').attr('href', aCurrentUrl[1]);
+}
