@@ -4,6 +4,9 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Alterado href da tag base, via js para evitar reload da página ao usar o
+    menu de acessibilidade (closes `#48`_).
+    [felipeduardo]
   * Adicionado ancoras no html dos temas e alterado os links de acessibiliade (closes `#83`_).
     [felipeduardo]
   * Revisão de ícones de redes sociais para escolher cor por tema (closes `#78`_).
@@ -125,3 +128,4 @@ Changelog
 .. _`#77`: https://github.com/plonegovbr/brasil.gov.temas/issues/77
 .. _`#78`: https://github.com/plonegovbr/brasil.gov.temas/issues/78
 .. _`#78`: https://github.com/plonegovbr/brasil.gov.temas/issues/83
+.. _`#48`: https://github.com/plonegovbr/brasil.gov.temas/issues/48
