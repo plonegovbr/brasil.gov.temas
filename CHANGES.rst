@@ -4,6 +4,9 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Agrupado seletores css dos icones das centrais de conteudo por tema com o
+    sprite principal (closes `#65`_).
+    [felipeduardo]
   * Revisão dos ícones de redes sociais (closes `#85`_).
     [rodfersou]
   * Movido arquivo javascript dos temas para brasil.gov.portal (closes `#87`_).
