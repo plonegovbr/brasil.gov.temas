@@ -6,6 +6,8 @@ Changelog
 
   * Revisão dos ícones de redes sociais (closes `#85`_).
     [rodfersou]
+  * Movido arquivo javascript dos temas para brasil.gov.portal (closes `#87`_).
+    [rodfersou]
   * Adicionado ancoras no html dos temas e alterado os links de acessibiliade (closes `#83`_).
     [felipeduardo]
   * Revisão de ícones de redes sociais para escolher cor por tema (closes `#78`_).
@@ -128,3 +130,4 @@ Changelog
 .. _`#78`: https://github.com/plonegovbr/brasil.gov.temas/issues/78
 .. _`#83`: https://github.com/plonegovbr/brasil.gov.temas/issues/83
 .. _`#85`: https://github.com/plonegovbr/brasil.gov.temas/issues/85
+.. _`#87`: https://github.com/plonegovbr/brasil.gov.temas/issues/87
