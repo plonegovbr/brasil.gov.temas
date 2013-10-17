@@ -75,6 +75,7 @@
    Sprinte Icons
    ========================================================================== */
 
+/* icones de redes sociais */
 #social-icons a,
 /* central de conteudo */
 .item-central .link-videos,
@@ -82,7 +83,9 @@
 .item-central .link-infograficos,
 .item-central .link-publicacoes,
 .item-central .link-fotos,
-.item-central .link-aplicativos { background-image: url("../img/sprite.png"); }
+.item-central .link-aplicativos,
+/* icone do botão de busca */
+#header input.searchButton { background-image: url("../img/sprite.png"); }
 
 
 /* ==========================================================================
