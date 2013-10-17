@@ -85,10 +85,18 @@
 
 #portal-searchbox { border: 1px solid #CCCCCC; }
 
-/* Links de redes sociais
+/* ==========================================================================
+   Sprinte Icons
    ========================================================================== */
 
-#social-icons a { background-image: url("../img/sprite.png"); }
+#social-icons a,
+/* central de conteudo */
+.item-central .link-videos,
+.item-central .link-audios,
+.item-central .link-infograficos,
+.item-central .link-publicacoes,
+.item-central .link-fotos,
+.item-central .link-aplicativos { background-image: url("../img/sprite.png"); }
 
 
 /* ==========================================================================
@@ -115,7 +123,7 @@
 .navTreeLevel0 > li.navTreeCurrentNode {
     border-top: 2px solid #03316f !important;
     border-bottom: 2px solid #03316f !important;
-}
+}}
 
 
 /* ==========================================================================
