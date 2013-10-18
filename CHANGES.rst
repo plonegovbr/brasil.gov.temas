@@ -4,6 +4,8 @@ Changelog
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
+  * Revisão dos ícones de redes sociais (closes `#85`_).
+    [rodfersou]
   * Movido arquivo javascript dos temas para brasil.gov.portal (closes `#87`_).
     [rodfersou]
   * Alterado href da tag base, via js para evitar reload da página ao usar o
@@ -130,4 +132,5 @@ Changelog
 .. _`#77`: https://github.com/plonegovbr/brasil.gov.temas/issues/77
 .. _`#78`: https://github.com/plonegovbr/brasil.gov.temas/issues/78
 .. _`#83`: https://github.com/plonegovbr/brasil.gov.temas/issues/83
+.. _`#85`: https://github.com/plonegovbr/brasil.gov.temas/issues/85
 .. _`#48`: https://github.com/plonegovbr/brasil.gov.temas/issues/48
