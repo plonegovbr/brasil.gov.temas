@@ -106,8 +106,8 @@ if($('.link-externo').length > 0){
  * Bug fix para o bug de <base url=""> do Plone
  */
 
-if($("base").length > 0) {
+if($("base").length > 0 && $(".userrole-anonymous").length > 0) {
     var aCurrentUrl = document.location.href.match(/(^[^#]*)/);
 
-    $('base').attr('href', aCurrentUrl[1]);
+    $("base").attr("href", aCurrentUrl[1]);
 }
