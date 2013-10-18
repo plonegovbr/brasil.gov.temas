@@ -70,10 +70,21 @@
 
 #portal-searchbox { border: 1px solid #CCCCCC; }
 
-/* Links de redes sociais
+/* ==========================================================================
+   Sprinte Icons
    ========================================================================== */
 
-#social-icons a { background-image: url("../img/sprite.png"); }
+/* icones de redes sociais */
+#social-icons a,
+/* central de conteudo */
+.item-central .link-videos,
+.item-central .link-audios,
+.item-central .link-infograficos,
+.item-central .link-publicacoes,
+.item-central .link-fotos,
+.item-central .link-aplicativos,
+/* icone do botão de busca */
+#header input.searchButton { background-image: url("../img/sprite.png"); }
 
 
 /* ==========================================================================
