@@ -3,7 +3,8 @@ Changelog
 
 1.0rc2 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
-
+  * Revisão dos ícones de reportar erro (closes `#69`_).
+    [rennanrodrigues]
   * Agrupado seletores css dos icones das centrais de conteudo por tema com o
     sprite principal (closes `#65`_).
     [felipeduardo]
@@ -127,6 +128,7 @@ Changelog
 .. _`#58`: https://github.com/plonegovbr/brasil.gov.temas/issues/58
 .. _`#60`: https://github.com/plonegovbr/brasil.gov.temas/issues/60
 .. _`#65`: https://github.com/plonegovbr/brasil.gov.temas/issues/65
+.. _`#69`: https://github.com/plonegovbr/brasil.gov.temas/issues/69
 .. _`#71`: https://github.com/plonegovbr/brasil.gov.temas/issues/71
 .. _`#74`: https://github.com/plonegovbr/brasil.gov.temas/issues/74
 .. _`#77`: https://github.com/plonegovbr/brasil.gov.temas/issues/77

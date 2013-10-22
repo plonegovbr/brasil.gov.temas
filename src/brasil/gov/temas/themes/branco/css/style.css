@@ -86,6 +86,8 @@
 .item-central .link-aplicativos,
 /* icone do botão de busca */
 #header input.searchButton { background-image: url("../img/sprite.png"); }
+/* icone do botão de relatar erros */
+#content .relatar-erros a { background: url("../img/icon-reportar-erros.png") no-repeat; }
 
 
 /* ==========================================================================
