@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0rc2 (unreleased)
+1.0rc2 (2013-10-24)
 ^^^^^^^^^^^^^^^^^^^
   * Revisão dos ícones de reportar erro (closes `#69`_).
     [rennanrodrigues]
