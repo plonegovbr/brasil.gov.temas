@@ -9,6 +9,8 @@ Changelog
 
 1.0rc2 (2013-10-24)
 ^^^^^^^^^^^^^^^^^^^
+  * Registro dos icones das redes sociais (closes `#94`_).
+    [rennanrodrigues]
   * Revisão dos ícones de reportar erro (closes `#69`_).
     [rennanrodrigues]
   * Agrupado seletores css dos icones das centrais de conteudo por tema com o
@@ -142,3 +144,4 @@ Changelog
 .. _`#83`: https://github.com/plonegovbr/brasil.gov.temas/issues/83
 .. _`#85`: https://github.com/plonegovbr/brasil.gov.temas/issues/85
 .. _`#87`: https://github.com/plonegovbr/brasil.gov.temas/issues/87
+.. _`#94`: https://github.com/plonegovbr/brasil.gov.temas/issues/94
