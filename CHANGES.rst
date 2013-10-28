@@ -4,13 +4,12 @@ Changelog
 1.0rc3 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
-
+* Registro dos icones das redes sociais (closes `#94`_).
+  [rennanrodrigues]
 
 1.0rc2 (2013-10-24)
 ^^^^^^^^^^^^^^^^^^^
-  * Registro dos icones das redes sociais (closes `#94`_).
-    [rennanrodrigues]
+
   * Revisão dos ícones de reportar erro (closes `#69`_).
     [rennanrodrigues]
   * Agrupado seletores css dos icones das centrais de conteudo por tema com o
