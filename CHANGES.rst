@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0rc3 (unreleased)
+1.0 (2013-10-29)
 ^^^^^^^^^^^^^^^^^^^
 
 * Registro dos icones das redes sociais (closes `#94`_).
