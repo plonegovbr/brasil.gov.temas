@@ -34,12 +34,13 @@
    ========================================================================== */
 
 #accessibility a {
-    color: #00500f;
+    color: #2c66ce;
 }
 
 #accessibility span {
-    background: url("../img/bg-acess-key.gif") center center no-repeat;
     color: #fdffff;
+    background: #2c66ce;
+    padding: 0 3px;
 }
 
 /* Titulo do portal
