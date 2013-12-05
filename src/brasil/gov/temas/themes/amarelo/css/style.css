@@ -49,11 +49,12 @@
    ========================================================================== */
 
 #accessibility a {
-    color: #00500f;
+    color: #03316f;
 }
 
 #accessibility span {
-    background: url("../img/bg-acess-key.gif") center center no-repeat;
+    padding: 0 3px;
+    background: #03316f;
     color: #fff;
 }
 
