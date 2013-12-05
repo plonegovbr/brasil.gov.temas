@@ -11,13 +11,6 @@ Introdução
 Este pacote provê temas (Diazo) modelo do Governo Federal para uso em
 sites Plone do Governo da República Federativa do Brasil.
 
-Requisitos
-----------
-
-Para uso deste pacote, seu site deve ter sido construído com:
-
-    * Plone 4.3 ou superior (http://plone.org/products/plone)
-
 Captura de tela
 ---------------
 

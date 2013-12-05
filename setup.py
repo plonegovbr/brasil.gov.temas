@@ -43,6 +43,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'Products.CMFPlone >=4.3',
         'setuptools',
         'plone.app.themingplugins',
     ],
