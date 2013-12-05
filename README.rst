@@ -11,13 +11,6 @@ Introdução
 Este pacote provê temas (Diazo) modelo do Governo Federal para uso em
 sites Plone do Governo da República Federativa do Brasil.
 
-Requisitos
-----------
-
-Para uso deste pacote, seu site deve ter sido construído com:
-
-    * Plone 4.3 ou superior (http://plone.org/products/plone)
-
 Captura de tela
 ---------------
 
@@ -33,7 +26,12 @@ código os testes são executados pelo serviço Travis.
 O estado atual dos testes pode ser visto na imagem a seguir:
 
 .. image:: https://secure.travis-ci.org/plonegovbr/brasil.gov.temas.png?branch=master
+    :alt: Travis CI badge
     :target: http://travis-ci.org/plonegovbr/brasil.gov.temas
+
+.. image:: https://coveralls.io/repos/plonegovbr/brasil.gov.temas/badge.png?branch=master
+    :alt: Coveralls badge
+    :target: https://coveralls.io/r/plonegovbr/brasil.gov.temas
 
 Instalação
 ----------
