@@ -151,7 +151,7 @@
     color: #2c66ce;
 }
 
-#footer a { color: #00500f; }
+#footer a { color: #03316f; }
 
 #footer .footer-logos { background: #f28f00; }
 
@@ -160,9 +160,9 @@
 
 #doormat-container { background: #f8c300; }
 
-#doormat-container dl { border-left: 1px dotted #7c8908; }
+#doormat-container dl { border-left: 1px dotted #03316f; }
 
-#doormat-container dt { color: #2c66ce; }
+#doormat-container dt { color: #03316f; }
 
 
 /* ==========================================================================
