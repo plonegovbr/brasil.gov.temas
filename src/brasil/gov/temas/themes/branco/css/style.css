@@ -34,12 +34,13 @@
    ========================================================================== */
 
 #accessibility a {
-    color: #00500f;
+    color: #2c66ce;
 }
 
 #accessibility span {
-    background: url("../img/bg-acess-key.gif") center center no-repeat;
     color: #fdffff;
+    background: #2c66ce;
+    padding: 0 3px;
 }
 
 /* Titulo do portal
@@ -51,19 +52,19 @@
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
    ========================================================================== */
 
-#portal-siteactions { border-bottom: 1px dotted #bec4c6; }
+#portal-siteactions { border-bottom: 1px dotted #2c66ce; }
 
 #portal-siteactions a,
-#portal-siteactions a:hover { color: #00500f !important; }
+#portal-siteactions a:hover { color: #2c66ce !important; }
 
 /* Menu sobre o portal
    ========================================================================== */
 
 #sobre { background: #dadce2; }
 
-#sobre a { color: #00500f; }
+#sobre a { color: #2c66ce; }
 
-#sobre .portalservicos-item a { border-right: 1px solid #6d9678; }
+#sobre .portalservicos-item a { border-right: 1px solid #5e83d2; }
 
 /* Formulário de busca
    ========================================================================== */
@@ -136,7 +137,7 @@
     color: #2c66ce;
 }
 
-#footer a { color: #00500f; }
+#footer a { color: #2c66ce; }
 
 #footer .footer-logos { background: #0042b1; }
 
@@ -145,7 +146,7 @@
 
 #doormat-container { background: #d5d5d5; }
 
-#doormat-container dl { border-left: 1px dotted #00500f; }
+#doormat-container dl { border-left: 1px dotted #2c66ce; }
 
 #doormat-container dt { color: #2c66ce; }
 

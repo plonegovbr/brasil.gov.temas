@@ -4,7 +4,8 @@ Changelog
 1.1 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+* Padronização nas cores de Header e Footer (closes `#97`_).
+  [felipeduardo]
 
 
 1.0 (2013-10-29)
@@ -150,3 +151,4 @@ Changelog
 .. _`#85`: https://github.com/plonegovbr/brasil.gov.temas/issues/85
 .. _`#87`: https://github.com/plonegovbr/brasil.gov.temas/issues/87
 .. _`#94`: https://github.com/plonegovbr/brasil.gov.temas/issues/94
+.. _`#97`: https://github.com/plonegovbr/brasil.gov.temas/issues/97
