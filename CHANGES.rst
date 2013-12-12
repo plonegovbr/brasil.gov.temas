@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0.1 (unreleased)
+1.0.1 (2013-12-12)
 ^^^^^^^^^^^^^^^^^^
 
   * Padronização nas cores de Header e Footer (closes `#97`_).
