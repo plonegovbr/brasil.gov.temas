@@ -1,18 +1,18 @@
 Changelog
 ---------
 
-1.1 (unreleased)
-^^^^^^^^^^^^^^^^
+1.0.1 (unreleased)
+^^^^^^^^^^^^^^^^^^
 
-* Padronização nas cores de Header e Footer (closes `#97`_).
-  [felipeduardo]
+  * Padronização nas cores de Header e Footer (closes `#97`_).
+    [felipeduardo]
 
 
 1.0 (2013-10-29)
 ^^^^^^^^^^^^^^^^^^^
 
-* Registro dos icones das redes sociais (closes `#94`_).
-  [rennanrodrigues]
+  * Registro dos icones das redes sociais (closes `#94`_).
+    [rennanrodrigues]
 
 1.0rc2 (2013-10-24)
 ^^^^^^^^^^^^^^^^^^^
