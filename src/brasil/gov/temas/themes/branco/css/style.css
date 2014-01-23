@@ -90,6 +90,11 @@
 /* icone do botão de relatar erros */
 #content .relatar-erros a { background: url("../img/icon-reportar-erros.png") no-repeat; }
 
+/* Summary view */
+#content .summary-view-icon [class*="icon"] {
+    background-image: url("../img/summary-view-icons-sprite.png");
+}
+
 
 /* ==========================================================================
    Portles
