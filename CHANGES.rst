@@ -4,7 +4,8 @@ Changelog
 1.0.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+  * Adicionado os icones de summary view para cor de tema (closes `#99`_).
+    [felipeduardo]
 
 
 1.0.1 (2013-12-12)
@@ -158,3 +159,4 @@ Changelog
 .. _`#87`: https://github.com/plonegovbr/brasil.gov.temas/issues/87
 .. _`#94`: https://github.com/plonegovbr/brasil.gov.temas/issues/94
 .. _`#97`: https://github.com/plonegovbr/brasil.gov.temas/issues/97
+.. _`#99`: https://github.com/plonegovbr/brasil.gov.temas/issues/99
