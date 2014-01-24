@@ -46,6 +46,7 @@ setup(
         'Products.CMFPlone >=4.3',
         'setuptools',
         'plone.app.themingplugins',
+        'plone.app.contenttypes<1.1a1',
     ],
     extras_require={
         'test': [
