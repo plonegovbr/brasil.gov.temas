@@ -2627,6 +2627,14 @@ dl.portlet div.listingBar a:link {
     line-height: 14px;
 }
 
+/* ==========================================================================
+   Especificação de estilos para Páginas
+   ========================================================================== */
+
+/* Legenda de Imagem alinhada à esquerda */
+.template-document_view #content-core .image-left dd.image-caption {
+    margin-left: 0;
+}
 
 /* ==========================================================================
    Especificação de estilos para NITF
