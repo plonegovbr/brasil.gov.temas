@@ -4,6 +4,9 @@ Changelog
 1.0.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+  * Ajuste em Páginas do alinhamento de legenda de imagens alinhadas à
+    esquerda (closes `#101`_).
+    [dbarbato]
   * Adicionado os icones de summary view para cor de tema (closes `#99`_).
     [felipeduardo]
 
@@ -160,3 +163,4 @@ Changelog
 .. _`#94`: https://github.com/plonegovbr/brasil.gov.temas/issues/94
 .. _`#97`: https://github.com/plonegovbr/brasil.gov.temas/issues/97
 .. _`#99`: https://github.com/plonegovbr/brasil.gov.temas/issues/99
+.. _`#101`: https://github.com/plonegovbr/brasil.gov.temas/issues/101
