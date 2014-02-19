@@ -4,10 +4,12 @@ Changelog
 1.0.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+  * Corrige o nome dos temas para Portal Padrão.
+    [dbarbato]
   * Ajuste em Páginas do alinhamento de legenda de imagens alinhadas à
     esquerda (closes `#101`_).
     [dbarbato]
-  * Adicionado os icones de summary view para cor de tema (closes `#99`_).
+  * Adiciona os icones de summary view para cor de tema (closes `#99`_).
     [felipeduardo]
 
 
