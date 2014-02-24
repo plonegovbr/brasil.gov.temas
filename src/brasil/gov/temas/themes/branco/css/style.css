@@ -52,10 +52,13 @@
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
    ========================================================================== */
 
-#portal-siteactions { border-bottom: 1px dotted #2c66ce; }
+#portal-siteactions,
+#portal-language { border-bottom: 1px dotted #2c66ce; }
 
 #portal-siteactions a,
-#portal-siteactions a:hover { color: #2c66ce !important; }
+#portal-siteactions a:hover,
+#portal-language a,
+#portal-language a:hover { color: #2c66ce !important; }
 
 /* Menu sobre o portal
    ========================================================================== */
