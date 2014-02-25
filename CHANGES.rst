@@ -4,7 +4,7 @@ Changelog
 1.0.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 * Adiciona ícones de redes sociais tumblr e instagram (closes `#103`_).
-  [rodfersou]
+  [rodfersou][rennanrodrigues]
 * Ajusta estilo de menu de idiomas em cada cor de tema.
   [taniaa]
 * Ajusta texto para atalho dos idiomas no topo de cada cor de tema. 
