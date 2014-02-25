@@ -5,6 +5,10 @@ Changelog
 ^^^^^^^^^^^^^^^^^^
 * Adiciona ícones de redes sociais tumblr e instagram (closes `#103`_).
   [rodfersou]
+* Ajusta estilo de menu de idiomas em cada cor de tema.
+  [taniaa]
+* Ajusta texto para atalho dos idiomas no topo de cada cor de tema. 
+  [taniaa]
 * Corrige o nome dos temas para Portal Padrão.
   [dbarbato]
 * Ajuste em Páginas do alinhamento de legenda de imagens alinhadas à
