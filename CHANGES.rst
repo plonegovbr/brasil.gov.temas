@@ -3,18 +3,17 @@ Changelog
 
 1.0.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
-* Adiciona ícones de redes sociais tumblr e instagram (closes `#103`_).
+* Adiciona ícones de redes sociais Tumblr e Instagram (closes `#103`_).
   [rodfersou][rennanrodrigues]
-* Ajusta estilo de menu de idiomas em cada cor de tema.
+* Ajusta estilo de Menu de idiomas em cada cor de tema.
   [taniaa]
-* Ajusta texto para atalho dos idiomas no topo de cada cor de tema. 
+* Ajusta texto para atalho ao site de idiomas no topo de cada cor de tema. 
   [taniaa]
 * Corrige o nome dos temas para Portal Padrão.
   [dbarbato]
-* Ajuste em Páginas do alinhamento de legenda de imagens alinhadas à
-  esquerda (closes `#101`_).
+* Ajusta alinhamento em páginas onde tem legenda de imagens à esquerda (closes `#101`_).
   [dbarbato]
-* Adiciona os icones de summary view para cor de tema (closes `#99`_).
+* Adiciona os ícones da visão folder_summary_view para cada cor de tema (closes `#99`_).
   [felipeduardo]
 
 
