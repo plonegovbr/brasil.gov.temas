@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0.2 (unreleased)
+1.0.2 (2014-02-28)
 ^^^^^^^^^^^^^^^^^^
 * Adiciona ícones de redes sociais Tumblr e Instagram (closes `#103`_).
   [rodfersou][rennanrodrigues]
