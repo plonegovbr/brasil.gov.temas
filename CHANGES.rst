@@ -1,6 +1,12 @@
 Changelog
 ---------
 
+1.0.3 (unreleased)
+^^^^^^^^^^^^^^^^^^
+
+- Nothing changed yet.
+
+
 1.0.2 (2014-02-28)
 ^^^^^^^^^^^^^^^^^^
 * Adiciona ícones de redes sociais Tumblr e Instagram (closes `#103`_).
