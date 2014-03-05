@@ -12,4 +12,4 @@ seguintes pessoas:
 - Felipe Duardo
 - Rennan Rodrigues
 - Rodrigo Ferreira de Souza
-- Tania Andrea
+- Tânia Andrea
