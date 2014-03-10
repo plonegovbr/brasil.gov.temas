@@ -4,7 +4,8 @@ Changelog
 1.0.3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige cor do link do menu de apoio de verde para azul no tema Amarelo.
+  [taniaa]
 
 
 1.0.2 (2014-02-28)

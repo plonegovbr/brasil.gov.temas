@@ -323,7 +323,7 @@ div.position-10 { margin-left: -30.042%; }
 
 #portal-personaltools {
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
     float: left;
     font-size: 1.2em;
@@ -2791,7 +2791,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 
 div.listingBar { clear: both; }
 
-ul.formTabs { padding: 0px !important; }
+ul.formTabs { padding: 0 !important; }
 
 #searchbt,
 #nav #seletor { display: none; }
@@ -2880,7 +2880,7 @@ ul.formTabs { padding: 0px !important; }
 
     #portal-column-one .portletNavigationTree .portletHeader a {
         padding: 20px 35px;
-        color: #00500f !important;
+        color: #03316f !important;
         font-size: 24px;
     }
 

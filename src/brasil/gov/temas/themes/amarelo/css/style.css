@@ -31,7 +31,7 @@
     background-color: #f8c60b;
     background-image: -moz-radial-gradient(center, ellipse cover, #fbda43 1%, #f8c60b 100%);
     /* FF3.6+ */
-    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#fbda43), color-stop(100%, #f8c60b));
+    background-image: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(1%,#fbda43), color-stop(100%, #f8c60b));
     /* Chrome,Safari4+ */
     background-image: -webkit-radial-gradient(center, ellipse cover, #fbda43 1%, #f8c60b 100%);
     /* Chrome10+,Safari5.1+ */
@@ -122,7 +122,7 @@
 
 #portal-column-one > .portletWrapper dl.portlet.first-item-nav a,
 #portal-column-one > .portletWrapper dl.portlet.first-item-nav a span {
-    color: #00500f !important;
+    color: #03316f !important;
 }
 
 .portlet-static-centrais-de-conteudos .portletHeader,
