@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.0.3 (unreleased)
+1.0.3 (2014-03-11)
 ^^^^^^^^^^^^^^^^^^
 
 - Corrige cor do link do menu de apoio de verde para azul no tema Amarelo.
