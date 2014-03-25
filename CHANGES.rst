@@ -4,7 +4,8 @@ Changelog
 1.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+* Inclui estatísticas web nas regras dos temas azul, amarelo e branco.
+  [dbarbato]
 
 
 1.0.3 (2014-03-11)
