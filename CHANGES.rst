@@ -4,6 +4,8 @@ Changelog
 1.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Acerta imagem de menu responsivo para cada cor de tema.
+  [dbarbato]
 * Inclui estatísticas web nas regras dos temas azul, amarelo e branco.
   [dbarbato]
 
