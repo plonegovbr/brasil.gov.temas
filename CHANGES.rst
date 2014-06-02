@@ -4,6 +4,10 @@ Changelog
 1.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Remove a marca do Governo Federal. (closes `#106`_)
+  [ericof]
+* Adiciona testes funcionais.
+  [ericof]
 * Acerta imagem de menu responsivo para cada cor de tema.
   [dbarbato]
 * Inclui estatísticas web nas regras dos temas azul, amarelo e branco.
@@ -13,7 +17,7 @@ Changelog
 1.0.3 (2014-03-11)
 ^^^^^^^^^^^^^^^^^^
 
-- Corrige cor do link do menu de apoio de verde para azul no tema Amarelo.
+* Corrige cor do link do menu de apoio de verde para azul no tema Amarelo.
   [taniaa]
 
 
@@ -184,3 +188,4 @@ Changelog
 .. _`#99`: https://github.com/plonegovbr/brasil.gov.temas/issues/99
 .. _`#101`: https://github.com/plonegovbr/brasil.gov.temas/issues/101
 .. _`#103`: https://github.com/plonegovbr/brasil.gov.temas/issues/103
+.. _`#106`: https://github.com/plonegovbr/brasil.gov.temas/issues/106
