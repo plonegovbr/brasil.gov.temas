@@ -1,5 +1,5 @@
 ***************************
-Brasil.gov.br: Temas Modelo
+.gov.br: Temas Modelo
 ***************************
 
 .. contents:: Conteúdo
