@@ -8,22 +8,49 @@
 Introdução
 ----------
 
-Este pacote provê temas (Diazo) modelo do Governo Federal para uso em
-sites Plone do Governo da República Federativa do Brasil.
+Este pacote provê quatro temas (Diazo) modelo do Governo Federal para uso em sites Plone do Governo da República Federativa do Brasil.
 
-Captura de tela
----------------
+O desenvolvimento deste pacote foi feito como parte da iniciativa `Portal Padrão <http://portalpadrao.plone.org.br>`_ da comunidade `PloneGov.Br <http://www.softwarelivre.gov.br/plone>`_
 
-.. image:: https://raw.github.com/plonegovbr/brasil.gov.temas/master/screenshot.png
+Temas
+-----------------
 
+Tema Verde
+^^^^^^^^^^^^
+
+.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/verde/preview.png
+       :height: 150px
+       :width: 200px
+
+
+Tema Azul
+^^^^^^^^^^^^
+
+.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/azul/preview.jpg
+       :height: 150px
+       :width: 200px
+
+Tema Amarelo
+^^^^^^^^^^^^
+
+.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/amarelo/preview.jpg
+       :height: 150px
+       :width: 200px
+
+Tema Branco
+^^^^^^^^^^^^
+
+.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/branco/preview.jpg
+       :height: 150px
+       :width: 200px
 
 Estado deste pacote
 -------------------
 
-O **brasil.gov.temas** tem testes automatizados e, a cada alteração em seu
-código os testes são executados pelo serviço Travis. 
+O **brasil.gov.temas** conta testes automatizados e, a cada alteração em seu
+código os testes são executados pelo serviço `Travis <https://travis-ci.org/>`_.
 
-O estado atual dos testes pode ser visto na imagem a seguir:
+O estado atual dos testes, a cobertura de código e o número de downloads deste pacote podem ser vistos nas imagens a seguir:
 
 .. image:: https://secure.travis-ci.org/plonegovbr/brasil.gov.temas.png?branch=master
     :alt: Travis CI badge

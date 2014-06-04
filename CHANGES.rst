@@ -1,5 +1,5 @@
-Changelog
----------
+Histórico de Alterações
+------------------------
 
 1.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
