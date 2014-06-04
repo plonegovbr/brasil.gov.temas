@@ -1,6 +1,6 @@
-***************************
-.gov.br: Temas Modelo
-***************************
+*************************************
+.gov.br: Temas para Portal Padrão
+*************************************
 
 .. contents:: Conteúdo
    :depth: 2
@@ -32,6 +32,10 @@ O estado atual dos testes pode ser visto na imagem a seguir:
 .. image:: https://coveralls.io/repos/plonegovbr/brasil.gov.temas/badge.png?branch=master
     :alt: Coveralls badge
     :target: https://coveralls.io/r/plonegovbr/brasil.gov.temas
+
+.. image:: https://pypip.in/d/brasil.gov.temas/badge.png
+    :target: https://pypi.python.org/pypi/brasil.gov.temas/
+    :alt: Downloads
 
 Instalação
 ----------
