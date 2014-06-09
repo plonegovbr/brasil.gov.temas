@@ -4,6 +4,8 @@ Histórico de Alterações
 1.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Acerta lupa de busca responsiva nos 4 temas.
+  [dbarbato]
 * Remove a marca do Governo Federal. (closes `#106`_)
   [ericof]
 * Adiciona testes funcionais.
