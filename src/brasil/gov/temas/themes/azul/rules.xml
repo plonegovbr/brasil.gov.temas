@@ -15,7 +15,7 @@
     <xsl:output method="html"/>
 
     <rules css:if-content="#visual-portal-wrapper">
-        <prepend css:content="div#barra-brasil" css:theme="body" />
+        <prepend css:content="div#barra-identidade" css:theme="body" />
         <!--Plone.app.toolbar-->
         <append theme="/html/body" content="//div[@data-iframe='toolbar']" />
 

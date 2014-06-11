@@ -4,7 +4,8 @@ Histórico de Alterações
 1.0.5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+* Corrige identificador da barra de identidade (agora usamos #barra-identidade, que engloba também o javascript)
+  [ericof]
 
 
 1.0.4 (2014-06-10)
