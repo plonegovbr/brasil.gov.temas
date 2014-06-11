@@ -1,7 +1,7 @@
 Histórico de Alterações
 ------------------------
 
-1.0.5 (unreleased)
+1.0.5 (2014-06-11)
 ^^^^^^^^^^^^^^^^^^
 
 * Corrige identificador da barra de identidade (agora usamos #barra-identidade, que engloba também o javascript)
