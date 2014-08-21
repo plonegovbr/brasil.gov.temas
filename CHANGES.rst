@@ -4,7 +4,8 @@ Histórico de Alterações
 1.0.6 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+* Acerto de 1px no icone de publicações do centrais de conteúdos do tema branco.
+  [dbarbato]
 
 
 1.0.5 (2014-06-11)
