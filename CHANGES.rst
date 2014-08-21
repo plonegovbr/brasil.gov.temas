@@ -4,6 +4,8 @@ Histórico de Alterações
 1.0.6 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Inverte ícones de publicações e infográficos de central de conteúdos.
+  [dbarbato]
 * Ajuste de largura de campo de upload múltiplo com duas colunas aplicadas.
   [dbarbato]
 * Acerto de 1px no icone de publicações do centrais de conteúdos do tema branco.

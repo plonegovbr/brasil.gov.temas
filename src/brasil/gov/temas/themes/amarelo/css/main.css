@@ -1182,11 +1182,11 @@ dl.portlet ul.navTreeLevel6 li a { padding: 0.55em 4.5em !important; }
 }
 
 .item-central .link-infograficos {
-    background: url("../img/sprite-icons.png") no-repeat -1px -207px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -247px;
 }
 
 .item-central .link-publicacoes {
-    background: url("../img/sprite-icons.png") no-repeat -1px -247px;
+    background: url("../img/sprite-icons.png") no-repeat -1px -207px;
 }
 
 .item-central .link-fotos {
