@@ -2627,6 +2627,19 @@ dl.portlet div.listingBar a:link {
 }
 
 /* ==========================================================================
+   Ajustes no Grid do Plone
+   ========================================================================== */
+
+/* Ajuste de largura de campos de upload múltiplo para 2 colunas */
+div.width-1\3a 2 #fileupload tr td.name input {
+    width: 180px !important;
+}
+
+div.width-1\3a 2 #fileupload tr.template-upload td .progress {
+    width: 50px;
+}
+
+/* ==========================================================================
    Especificação de estilos para Páginas
    ========================================================================== */
 
