@@ -4,6 +4,8 @@ Histórico de Alterações
 1.0.6 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Ajusta ícones de redes sociais para tema amarelo e branco.
+  [dbarbato]
 * Inverte ícones de publicações e infográficos de central de conteúdos.
   [dbarbato]
 * Ajuste de largura de campo de upload múltiplo com duas colunas aplicadas.
