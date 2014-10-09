@@ -163,6 +163,14 @@
 
 #footer .footer-logos { background: #00420c; }
 
+#footer #footer-brasil {
+    margin: 0 0 -20px;
+    background: none repeat scroll 0% 0% #00420c;
+    padding: 1em 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
 /* Doormat
    ========================================================================== */
 

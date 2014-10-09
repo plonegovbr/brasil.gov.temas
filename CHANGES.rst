@@ -12,7 +12,8 @@ Histórico de Alterações
   [dbarbato]
 * Acerto de 1px no icone de publicações do centrais de conteúdos do tema branco.
   [dbarbato]
-
+* Ajuste de id 'footer-brasil' para preparação para o rodapé dinâmico.
+  [caduvieira]
 
 1.0.5 (2014-06-11)
 ^^^^^^^^^^^^^^^^^^
