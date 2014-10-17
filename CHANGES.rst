@@ -14,6 +14,8 @@ Histórico de Alterações
   [dbarbato]
 * Ajuste de id 'footer-brasil' para preparação para o rodapé dinâmico.
   [caduvieira]
+* Ajuste dos temas para seguir padrão WCAG 2.0 para o primeiro link pular para o conteúdo.
+  [caduvieira]
 
 1.0.5 (2014-06-11)
 ^^^^^^^^^^^^^^^^^^
