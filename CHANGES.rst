@@ -1,7 +1,7 @@
 Histórico de Alterações
 ------------------------
 
-1.0.6 (unreleased)
+1.0.6 (2014-11-01)
 ^^^^^^^^^^^^^^^^^^
 
 * Ajusta ícones de redes sociais para tema amarelo e branco.
