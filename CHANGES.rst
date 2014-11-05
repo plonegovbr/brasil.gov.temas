@@ -4,7 +4,8 @@ Histórico de Alterações
 1.0.7 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+* Adiciona ícone de Dados Abertos para Centrais de Conteúdos nos quatro temas.
+  [dbarbato]
 
 
 1.0.6 (2014-11-01)

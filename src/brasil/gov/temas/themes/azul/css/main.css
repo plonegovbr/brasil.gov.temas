@@ -1197,6 +1197,10 @@ dl.portlet ul.navTreeLevel6 li a { padding: 0.55em 4.5em !important; }
     background: url("../img/sprite-icons.png") no-repeat -1px -287px;
 }
 
+.item-central .link-dadosabertos {
+    background: url("../img/sprite-icons.png") no-repeat -1px -376px;
+}
+
 /* Portlet de Lista
    ========================================================================== */
 

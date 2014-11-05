@@ -102,6 +102,7 @@
 .item-central .link-publicacoes,
 .item-central .link-fotos,
 .item-central .link-aplicativos,
+.item-central .link-dadosabertos,
 /* icone do botão de busca */
 #header input.searchButton { background-image: url("../img/sprite.png"); }
 /* icone do botão de relatar erros */
