@@ -131,6 +131,30 @@
    Collective Cover
    ========================================================================== */
 
+/* Tile Banner Rotativo
+   ========================================================================== */
+
+/* Cores dos botões */
+
+#tile_banner_rotativo li .button-nav,
+.orderTiles .button-nav {
+    border-right: 1px solid #254e8c;
+    background-color: #1659bf;
+}
+
+#tile_banner_rotativo .activeSlide .button-nav,
+#tile_banner_rotativo li .button-nav:hover,
+#tile_banner_rotativo li .button-nav:focus {
+    background-color: #edeff1;
+}
+
+/* ícone do botão */
+
+#content  #tile_banner_rotativo li .button-nav,
+.orderTiles .button-nav {
+    background-image: url("../img/bullet-banner-rotativo.gif");
+}
+
 /* Tiles
    ========================================================================== */
 

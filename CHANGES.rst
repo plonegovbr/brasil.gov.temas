@@ -4,6 +4,8 @@ Histórico de Alterações
 1.0.7 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Adiciona estilo nos quatro temas para botões do Banner Rotativo.
+  [dbarbato]
 * Adiciona ícone de Dados Abertos para Centrais de Conteúdos nos quatro temas.
   [dbarbato]
 
