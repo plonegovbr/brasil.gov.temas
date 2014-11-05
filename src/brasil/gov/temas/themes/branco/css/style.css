@@ -107,8 +107,8 @@
 /* Portlet de navegação
    ========================================================================== */
 
-#portal-column-one > .portletWrapper dl.portlet.first-item-nav a,
-#portal-column-one > .portletWrapper dl.portlet.first-item-nav a span {
+#portal-column-one > .nav-menu-de-relevancia .first-item-nav a,
+#portal-column-one > .nav-menu-de-relevancia .first-item-nav a span {
     color: #00500f !important;
 }
 
