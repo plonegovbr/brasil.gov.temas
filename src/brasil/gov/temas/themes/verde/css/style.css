@@ -126,6 +126,8 @@
     color: #2c67cd !important;
 }
 
+.portlet-static-contents-central .portletHeader,
+.portlet-static-centrales-del-contenido .portletHeader,
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
     border-top: 4px solid #00510f;
@@ -211,6 +213,8 @@
         background: #065116 url("../img/bg-menu-mobile.png") top right no-repeat;
     }
 
+    .portlet-static-contents-central .portletHeader,
+    .portlet-static-centrales-del-contenido .portletHeader,
     .portlet-static-centrais-de-conteudos .portletHeader,
     .portletNavigationTree .portletHeader {
         background: #edeff1 url("../img/portlet-header.gif") no-repeat 96% center;
