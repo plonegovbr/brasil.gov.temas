@@ -35,7 +35,7 @@ class TransformsTestCase(unittest.TestCase):
         self.assertIn("acesso-a-infornacao.png", browser.contents)
 
         # Removido logo do governo federal
-        self.assertNotIn("brasil.png", browser.contents)
+        self.assertIn("brasil.png", browser.contents)
 
     def test_tema_amarelo(self):
         theme = getTheme('amarelo')
@@ -50,7 +50,7 @@ class TransformsTestCase(unittest.TestCase):
         self.assertIn("acesso-a-infornacao.png", browser.contents)
 
         # Removido logo do governo federal
-        self.assertNotIn("brasil.png", browser.contents)
+        self.assertIn("brasil.png", browser.contents)
 
     def test_tema_branco(self):
         theme = getTheme('branco')
@@ -65,7 +65,7 @@ class TransformsTestCase(unittest.TestCase):
         self.assertIn("acesso-a-infornacao.png", browser.contents)
 
         # Removido logo do governo federal
-        self.assertNotIn("brasil.png", browser.contents)
+        self.assertIn("brasil.png", browser.contents)
 
     def test_tema_azul(self):
         theme = getTheme('azul')
@@ -80,4 +80,4 @@ class TransformsTestCase(unittest.TestCase):
         self.assertIn("acesso-a-infornacao.png", browser.contents)
 
         # Removido logo do governo federal
-        self.assertNotIn("brasil.png", browser.contents)
+        self.assertIn("brasil.png", browser.contents)
