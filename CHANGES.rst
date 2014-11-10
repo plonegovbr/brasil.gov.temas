@@ -4,6 +4,8 @@ Histórico de Alterações
 1.0.7 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Retorna a marca do Governo Federal no rodapé.
+  [dbarbato]
 * Adiciona estilos para portlet Centrais de Conteúdos em inglês e espanhol.
   [dbarbato]
 * Ajusta para alterar estilo da primeira navegação apenas quando título for
