@@ -127,6 +127,7 @@
 }
 
 .portlet-static-contents-central .portletHeader,
+.portlet-static-resource-center .portletHeader,
 .portlet-static-centrales-del-contenido .portletHeader,
 .portlet-static-centrais-de-conteudos .portletHeader,
 .portletNavigationTree .portletHeader {
@@ -214,6 +215,7 @@
     }
 
     .portlet-static-contents-central .portletHeader,
+    .portlet-static-resource-center .portletHeader,
     .portlet-static-centrales-del-contenido .portletHeader,
     .portlet-static-centrais-de-conteudos .portletHeader,
     .portletNavigationTree .portletHeader {
