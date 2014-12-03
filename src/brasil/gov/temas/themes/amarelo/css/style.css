@@ -189,7 +189,8 @@
 
 #footer a { color: #03316f; }
 
-#footer .footer-logos { background: #f28f00; }
+#wrapper #footer .footer-logos { background: #f28f00; }
+
 
 /* Doormat
    ========================================================================== */
