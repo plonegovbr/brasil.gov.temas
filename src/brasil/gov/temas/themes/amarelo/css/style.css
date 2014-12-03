@@ -188,6 +188,12 @@ button.context.reply-to-comment-button {
     font-size: 1.1em;
 }
 
+.discussion .reply {
+    clear: both;
+    color: #000000;
+    padding-top: 5px;
+}
+
 
 /* ==========================================================================
    Cabeçalho do portal
