@@ -4,6 +4,8 @@ Histórico de Alterações
 1.0.7 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Ajuste de id 'footer-brasil' para preparação para o rodapé dinâmico.
+  [caduvireira]
 * Adiciona estilo básico para comentários do Plone.
   [dbarbato]
 * Retorna a marca do Governo Federal no rodapé.

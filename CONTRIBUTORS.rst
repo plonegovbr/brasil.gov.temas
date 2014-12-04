@@ -5,6 +5,7 @@ O ``brasil.gov.temas`` não seria possível sem a contribuição das
 seguintes pessoas:
 
 - André Nogueira
+- Carlos Vieira
 - Danilo Barbato
 - Érico Andrei
 - Héctor Velarde
