@@ -1,7 +1,7 @@
 Histórico de Alterações
 ------------------------
 
-1.0.7 (unreleased)
+1.0.7 (2014-12-05)
 ^^^^^^^^^^^^^^^^^^
 
 * Ajuste de id 'footer-brasil' para preparação para o rodapé dinâmico.
