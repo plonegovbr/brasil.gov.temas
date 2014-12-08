@@ -25,7 +25,7 @@
    ========================================================================== */
 
 #header {
-    padding: 14px 0 0 0;
+    padding: 33px 0 0 0;
     background-color: #ebedf1;
     color: #2c66ce;
 }
@@ -35,7 +35,7 @@
 
 div#wrapper-barra-brasil {
     clear: both;
-    top: -15px;
+    top: -19px;
 }
 
 /* Menu de Acessibilidade
@@ -45,11 +45,8 @@ div#wrapper-barra-brasil {
     position: relative;
     margin: 0 auto;
     max-width: 960px;
-}
-
-#accessibility {
-    top: 43px;
-    position: absolute;
+    font-size: 1.2em;
+    top: 47px;
 }
 
 #accessibility a {
@@ -71,11 +68,6 @@ div#wrapper-barra-brasil {
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
    ========================================================================== */
 
-#portal-siteactions {
-    top: 43px;
-    position: relative;
-}
-
 #portal-siteactions,
 #portal-language { border-bottom: 1px dotted #2c66ce; }
 
@@ -84,7 +76,7 @@ div#wrapper-barra-brasil {
 #portal-language a,
 #portal-language a:hover { color: #2c66ce !important; }
 
-#portal-title-1 { top: 20px; }
+#portal-title-1 { top: 11px; }
 
 /* Menu sobre o portal
    ========================================================================== */
