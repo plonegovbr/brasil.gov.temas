@@ -59,6 +59,10 @@
         <replace css:content-children="#portal-footer" css:theme="#footer-info" />
         <after css:content="#portal-languageselector" css:theme="#logo" />
         <drop css:content="#viewlet-below-content-body" />
+        <!-- Essa regra só é renderizada em portais multilíngues que adicionem
+             uma div de línguas podendo ser via viewlets ou mesmos customizações
+             na ZMI. -->
+        <after css:content="#language" css:theme="#accessibility" />
         <after theme-children="/html/body" css:content-children="#plone-analytics" />
 
     </rules>
