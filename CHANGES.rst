@@ -4,7 +4,9 @@ Histórico de Alterações
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Adicionada nova regra permitindo a inserção de uma div de língua num produto
+  de policy ou numa customização da ZMI sem precisar customizar o tema.
+  [idgserpro]
 
 
 1.0.7 (2014-12-05)
