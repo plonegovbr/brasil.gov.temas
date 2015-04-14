@@ -59,10 +59,27 @@
         <replace css:content-children="#portal-footer" css:theme="#footer-info" />
         <after css:content="#portal-languageselector" css:theme="#logo" />
         <drop css:content="#viewlet-below-content-body" />
-        <!-- Essa regra só é renderizada em portais multilíngues que adicionem
-             uma div de línguas podendo ser via viewlets ou mesmos customizações
-             na ZMI. -->
-        <after css:content="#language" css:theme="#accessibility" />
+
+        <!-- UL DE LíNGUAS
+        É necessário cadastrar uma action em site_actions com o mesmo id de
+        língua que existe no css, ou seja, no padrão "language-LANGUADE_CODE",
+        para que as regras a seguir funcionem corretamente.-->
+
+        <!--Habilita a div de línguas novamente removendo o hidden, já que encontrou uma action de-->
+        <!--língua renderizada.-->
+        <drop if-content="//ul[@id='portal-siteactions']/li[contains(@id,'siteaction-language-')]" css:theme="#language" attributes="class" />
+
+        <!-- Inglês -->
+        <drop if-not-content="//ul[@id='portal-siteactions']/li[contains(@id,'siteaction-language-en')]" css:theme=".language-en" />
+        <copy attributes="href" css:content="#siteaction-language-en a" css:theme=".language-en a" />
+        <drop css:content="#siteaction-language-en" />
+
+        <!-- Espanhol -->
+        <drop if-not-content="//ul[@id='portal-siteactions']/li[contains(@id,'siteaction-language-es')]" css:theme=".language-es" />
+        <copy attributes="href" css:content="#siteaction-language-es a" css:theme=".language-es a" />
+        <drop css:content="#siteaction-language-es" />
+        <!-- UL DE LíNGUAS -->
+
         <after theme-children="/html/body" css:content-children="#plone-analytics" />
 
     </rules>

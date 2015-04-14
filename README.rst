@@ -85,3 +85,8 @@ buildout:
 
 4. Acesse o painel de controle e na opção **Temas** você verá os temas
 providos por este pacote listados.
+
+Links de línguas no topo (Internacionalização)
+----------------------------------------------
+
+Hoje nos arquivos css existem regras para mostrar links de línguas, como as classes ``language-en`` e ``language-es``. Para adicionar links dessas línguas sem precisar customizar o tema, adicione em ``site_actions`` actions com esse mesmo id e as regras do Diazo pegarão os links renderizados das actions posicionando corretamente na lista de línguas no tema.
