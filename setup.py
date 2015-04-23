@@ -43,6 +43,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'brasil.gov.portal',
         'Products.CMFPlone >=4.3',
         'setuptools',
         'plone.app.themingplugins',
@@ -51,7 +52,6 @@ setup(
     extras_require={
         'test': [
             'plone.app.testing',
-            'brasil.gov.portal',
         ]
     },
     entry_points="""
