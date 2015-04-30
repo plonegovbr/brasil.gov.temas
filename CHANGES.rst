@@ -4,12 +4,13 @@ Histórico de Alterações
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Adicionadas regras para inserir as traduções das viewlets de copyright do
+* Corrigi erro em que a tela de 'Preferências Pessoais' aparecia vazia. (closes `#113`_)
+  [idgserpro]
+* Adicionadas regras para inserir as traduções das viewlets de copyright do
   Plone, "Voltar para o topo" e seção de acessibilidade de brasil.gov.portal
   no tema.
   [idgserpro]
-
-- Adicionada estrutura nas regras de Diazo permitindo inserção de links de
+* Adicionada estrutura nas regras de Diazo permitindo inserção de links de
   línguas como actions em "site_actions": basta criar com o mesmo id hoje
   presente nas regras css (language-en e language-es). Dessa forma, evita-se
   customização do tema apenas para inserção desses links.
@@ -246,3 +247,4 @@ Histórico de Alterações
 .. _`#101`: https://github.com/plonegovbr/brasil.gov.temas/issues/101
 .. _`#103`: https://github.com/plonegovbr/brasil.gov.temas/issues/103
 .. _`#106`: https://github.com/plonegovbr/brasil.gov.temas/issues/106
+.. _`#113`: https://github.com/plonegovbr/brasil.gov.temas/issues/113
