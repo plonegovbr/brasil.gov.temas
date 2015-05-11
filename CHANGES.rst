@@ -4,6 +4,10 @@ Histórico de Alterações
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Adicionadas regras para inserir as traduções das viewlets de copyright do
+  Plone e do "Voltar para o topo" de brasil.gov.portal no tema.
+  [idgserpro]
+
 - Adicionada estrutura nas regras de Diazo permitindo inserção de links de
   línguas como actions em "site_actions": basta criar com o mesmo id hoje
   presente nas regras css (language-en e language-es). Dessa forma, evita-se
