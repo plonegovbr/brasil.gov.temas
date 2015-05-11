@@ -60,6 +60,7 @@
         <after css:content="#portal-languageselector" css:theme="#logo" />
         <replace css:theme="#voltar-topo" css:content="#voltar-topo" />
         <replace css:theme="#extra-footer" css:content="#extra-footer" />
+        <replace css:theme="#accessibility" css:content="#accessibility" />
         <drop css:content="#viewlet-below-content-body" />
 
         <!-- UL DE LíNGUAS
