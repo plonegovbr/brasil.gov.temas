@@ -4,6 +4,11 @@ Histórico de Alterações
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Adicionadas regras para inserir as traduções das viewlets de copyright do
+  Plone, "Voltar para o topo" e seção de acessibilidade de brasil.gov.portal
+  no tema.
+  [idgserpro]
+
 - Adicionada estrutura nas regras de Diazo permitindo inserção de links de
   línguas como actions em "site_actions": basta criar com o mesmo id hoje
   presente nas regras css (language-en e language-es). Dessa forma, evita-se
@@ -79,7 +84,7 @@ Histórico de Alterações
   [rodfersou][rennanrodrigues]
 * Ajusta estilo de Menu de idiomas em cada cor de tema.
   [taniaa]
-* Ajusta texto para atalho ao site de idiomas no topo de cada cor de tema. 
+* Ajusta texto para atalho ao site de idiomas no topo de cada cor de tema.
   [taniaa]
 * Corrige o nome dos temas para Portal Padrão.
   [dbarbato]
