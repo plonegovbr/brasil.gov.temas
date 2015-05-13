@@ -15,6 +15,8 @@ Histórico de Alterações
   customização do tema apenas para inserção desses links.
   [idgserpro]
 
+- Ajuste na ordem da barra e dos links de acessibilidade [caduvieira]
+
 
 1.0.7 (2014-12-05)
 ^^^^^^^^^^^^^^^^^^
