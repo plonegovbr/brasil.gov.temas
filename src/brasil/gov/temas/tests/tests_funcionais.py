@@ -9,7 +9,6 @@ from plone.registry.interfaces import IRegistry
 from plone.testing.z2 import Browser
 from zope.component import getUtility
 
-import base64
 import Globals
 import unittest
 
@@ -29,10 +28,7 @@ class TransformsTestCase(unittest.TestCase):
         """Autentica usuário de teste no browser"""
         browser.handleErrors = False
         basic_auth = 'Basic {0}'.format(
-            base64.encodestring('{0}:{1}'.format(
-                SITE_OWNER_NAME,
-                SITE_OWNER_PASSWORD)
-            )
+            '{0}:{1}'.format(SITE_OWNER_NAME, SITE_OWNER_PASSWORD)
         )
         browser.addHeader('Authorization', basic_auth)
 
