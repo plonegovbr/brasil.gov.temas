@@ -21,3 +21,4 @@ Makefile
 parts/
 src/collective.cover/
 var/
+/dist/
