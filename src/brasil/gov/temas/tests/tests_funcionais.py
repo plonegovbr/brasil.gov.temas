@@ -34,6 +34,10 @@ class TransformsTestCase(unittest.TestCase):
         # Acesso a Informacao deve estar disponivel
         self.assertIn("acesso-a-infornacao.png", browser.contents)
 
+        # Removido logo do governo federal
+        self.assertIn("brasil.png", browser.contents)
+
+
     def test_tema_amarelo(self):
         theme = getTheme('amarelo')
         applyTheme(theme)
@@ -45,6 +49,9 @@ class TransformsTestCase(unittest.TestCase):
 
         # Acesso a Informacao deve estar disponivel
         self.assertIn("acesso-a-infornacao.png", browser.contents)
+
+        # Removido logo do governo federal
+        self.assertIn("brasil.png", browser.contents)
 
     def test_tema_branco(self):
         theme = getTheme('branco')
@@ -58,6 +65,9 @@ class TransformsTestCase(unittest.TestCase):
         # Acesso a Informacao deve estar disponivel
         self.assertIn("acesso-a-infornacao.png", browser.contents)
 
+        # Removido logo do governo federal
+        self.assertIn("brasil.png", browser.contents)
+
     def test_tema_azul(self):
         theme = getTheme('azul')
         applyTheme(theme)
@@ -69,3 +79,6 @@ class TransformsTestCase(unittest.TestCase):
 
         # Acesso a Informacao deve estar disponivel
         self.assertIn("acesso-a-infornacao.png", browser.contents)
+
+        # Removido logo do governo federal
+        self.assertIn("brasil.png", browser.contents)
