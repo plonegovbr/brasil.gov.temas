@@ -37,7 +37,17 @@
 	    <copy attributes="role" css:content="content" css:theme="contentspace" />
         <replace css:content="#portal-column-one" css:theme="#portal-column-one" />
         <replace css:content="#viewlet-above-content" css:theme="#viewlet-above-content" />
-        <replace content="//*[@id='portal-column-content']/div[2]" theme="//*[@id='portal-column-content']/div[1]" />
+        <replace content="//*[@id='portal-column-content']/div[2]" css:theme="#main-content" />
+        
+        <!-- Devem ser selecionados os filhos imediátos do #portal-column-content do conteúdo, para
+        que não sejam aplicados em templates que não sejam de gestão de usuários. Se as regras abaixo
+        forem aplicadas em templates que não sejam de gestão de usuários, o conteúdo ficará duplicado uma vez que a regra:
+        <replace content="//*[@id='portal-column-content']/div[2]" css:theme="#main-content" />
+        já insere esses ids no tema.-->
+        <before css:theme="#viewlet-below-content" css:content="#portal-column-content > #kssPortalMessage" />
+        <before css:theme="#viewlet-below-content" css:content="#portal-column-content > #dashboard-info-message" />
+        <before css:theme="#viewlet-below-content" css:content="#portal-column-content > #content" />
+
         <copy attributes="class" css:content="#portal-column-content" css:theme="#portal-column-content" />
         <replace css:content="#portal-column-content > #viewlet-below-content" css:theme="#portal-column-content > #viewlet-below-content" />
         <replace css:content="#portal-column-two" css:theme="#portal-column-two" />

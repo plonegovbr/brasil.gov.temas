@@ -3,7 +3,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-version = '1.0.8.dev2'
+version = '1.0.8.dev3'
 long_description = (
     open('README.rst').read() + '\n' +
     open('CONTRIBUTORS.rst').read() + '\n' +
@@ -43,6 +43,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'brasil.gov.portal',
         'Products.CMFPlone >=4.3',
         'setuptools',
         'plone.app.themingplugins',
@@ -51,7 +52,6 @@ setup(
     extras_require={
         'test': [
             'plone.app.testing',
-            'brasil.gov.portal',
         ]
     },
     entry_points="""
