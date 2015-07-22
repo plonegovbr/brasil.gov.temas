@@ -1,8 +1,6 @@
 language: python
 python: 2.7
-env: PLONE_VERSION=4.3
 install:
-  - sed -ie "s#travis-4.x.cfg#travis-$PLONE_VERSION.x.cfg#" travis.cfg
   - python bootstrap.py
   - bin/buildout annotate
   - bin/buildout -Nq
@@ -15,7 +13,7 @@ after_success:
   - pip install -q coveralls
   - coveralls
 after_failure:
-  - bin/buildout annotate -c travis.cfg
+  - bin/buildout annotate
   - firefox -v
 notifications:
   irc: irc.freenode.org#plonegovbr
