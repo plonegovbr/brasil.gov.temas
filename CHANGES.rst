@@ -3,7 +3,8 @@ Histórico de Alterações
 
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
-
+* Adiciona cores nos links dos tiles e retira o azul dos chapéus.
+  [caduvieira]
 * Corrigi erro em que as telas de 'Preferências Pessoais', 'Informação Pessoal'
   e 'Painel Pessoal' apareciam vazias. (closes `#113`_)
   [idgserpro]
@@ -16,13 +17,14 @@ Histórico de Alterações
   presente nas regras css (language-en e language-es). Dessa forma, evita-se
   customização do tema apenas para inserção desses links.
   [idgserpro]
-
+* Ajuste na ordem da barra e dos links de acessibilidade
+  [caduvieira]
 
 1.0.7 (2014-12-05)
 ^^^^^^^^^^^^^^^^^^
 
 * Ajuste de id 'footer-brasil' para preparação para o rodapé dinâmico.
-  [caduvireira]
+  [caduvieira]
 * Adiciona estilo básico para comentários do Plone.
   [dbarbato]
 * Retorna a marca do Governo Federal no rodapé.

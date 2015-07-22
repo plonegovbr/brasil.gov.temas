@@ -309,8 +309,6 @@ div.position-10 { margin-left: -30.042%; }
     line-height: 1.1em;
 }
 
-#portal-title-1 { top: 30px; }
-
 #portal-description {
     bottom: 24px;
     text-transform: uppercase;
@@ -1385,7 +1383,6 @@ dl.portlet ol li { list-style: decimal outside; }
 
 .tile-subtitle {
     margin-bottom: 3px !important;
-    color: #2C67CD;
     text-transform: uppercase;
     font-weight: normal;
 }
@@ -3141,7 +3138,6 @@ body.contraste #accessibility span {
     color: #000 !important;
 }
 
-body.contraste a,
 body.contraste h1,
 body.contraste h2,
 body.contraste h3,
@@ -3154,6 +3150,11 @@ body.contraste #content .documentDescription,
 body.contraste #content #description,
 body.contraste .nitfByline,
 body.contraste p.section { color: #fff !important; }
+
+body.contraste a {
+   color: #ff0 !important;
+   text-decoration: underline !important;
+}
 
 body.contraste .portletHeader,
 body.contraste .portletHeader a,

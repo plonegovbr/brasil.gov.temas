@@ -25,7 +25,7 @@
    ========================================================================== */
 
 #header {
-    padding: 14px 0 0 0;
+    padding: 32px 0 0 0;
     background-color: #19882c;
     /* Old browsers */
     background-color: #0A5517;
@@ -45,8 +45,24 @@
     filter:progid: DXImageTransform.Microsoft.gradient( startColorstr="#19882c", endColorstr="#025310",GradientType=1);
 }
 
+/* Menu da Barra
+   ========================================================================== */
+
+div#wrapper-barra-brasil {
+    clear: both;
+    top: -18px;
+}
+
 /* Menu de Acessibilidade
    ========================================================================== */
+
+#accessibility-wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 960px;
+    font-size: 1.2em;
+    top: 47px;
+}
 
 #accessibility a {
     color: #fff;
@@ -62,6 +78,7 @@
 
 #portal-logo,
 #portal-title { color: #fff !important; }
+#portal-title-1 { top: 12px; }
 
 /* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
    ========================================================================== */
@@ -175,7 +192,7 @@
 /* Tiles
    ========================================================================== */
 
-.tile a { color: #162937 !important; }
+.tile a { color: #2c67cd !important; }
 
 
 /* ==========================================================================
