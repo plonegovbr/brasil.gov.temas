@@ -3,6 +3,9 @@ Histórico de Alterações
 
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
+
+* Atualiza a imagem do Brasil do rodapé para imagem 'Brasil Pátria Educadora' (closes `#109`_).
+  [caduvieira]
 * Adiciona cores nos links dos tiles e retira o azul dos chapéus.
   [caduvieira]
 * Corrigi erro em que as telas de 'Preferências Pessoais', 'Informação Pessoal'
@@ -250,4 +253,5 @@ Histórico de Alterações
 .. _`#101`: https://github.com/plonegovbr/brasil.gov.temas/issues/101
 .. _`#103`: https://github.com/plonegovbr/brasil.gov.temas/issues/103
 .. _`#106`: https://github.com/plonegovbr/brasil.gov.temas/issues/106
+.. _`#109`: https://github.com/plonegovbr/brasil.gov.temas/issues/109
 .. _`#113`: https://github.com/plonegovbr/brasil.gov.temas/issues/113
