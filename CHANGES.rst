@@ -4,6 +4,8 @@ Histórico de Alterações
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Reduzindo imagens pelo tinypng. Redução em 59% do total. 
+  [caduvieira]
 * Atualiza a imagem do Brasil do rodapé para imagem 'Brasil Pátria Educadora' (closes `#109`_).
   [caduvieira]
 * Adiciona cores nos links dos tiles e retira o azul dos chapéus.
