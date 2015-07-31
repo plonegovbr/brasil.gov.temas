@@ -38,7 +38,7 @@ class TransformsTestCase(unittest.TestCase):
         self.assertIn("acesso-a-infornacao.png", self.browser.contents)
 
         # Removido logo do governo federal
-        self.assertIn("brasil.png", self.browser.contents)
+        self.assertIn("brasil_patria.png", self.browser.contents)
 
     def test_tema_verde(self):
         self.base_test('verde')

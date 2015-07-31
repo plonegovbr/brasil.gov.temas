@@ -4,7 +4,9 @@ Histórico de Alterações
 1.0.8 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-* Reduzindo imagens pelo tinypng. Redução em 59% do total. 
+* Reduzindo imagens pelo tinypng. Redução em 59% do total.
+  [caduvieira]
+* Muda o nome de brasil.png para forçar envio de nova imagem (closes `#121`_).
   [caduvieira]
 * Atualiza a imagem do Brasil do rodapé para imagem 'Brasil Pátria Educadora' (closes `#109`_).
   [caduvieira]
@@ -257,3 +259,4 @@ Histórico de Alterações
 .. _`#106`: https://github.com/plonegovbr/brasil.gov.temas/issues/106
 .. _`#109`: https://github.com/plonegovbr/brasil.gov.temas/issues/109
 .. _`#113`: https://github.com/plonegovbr/brasil.gov.temas/issues/113
+.. _`#121`: https://github.com/plonegovbr/brasil.gov.temas/issues/121
