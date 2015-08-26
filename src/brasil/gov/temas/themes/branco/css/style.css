@@ -70,12 +70,15 @@ div#wrapper-barra-brasil {
    ========================================================================== */
 
 #portal-siteactions,
-#portal-language { border-bottom: 1px dotted #2c66ce; }
+#portal-language,
+ul#language { border-bottom: 1px dotted #2c66ce; }
 
 #portal-siteactions a,
 #portal-siteactions a:hover,
 #portal-language a,
-#portal-language a:hover { color: #2c66ce !important; }
+#portal-language a:hover,
+ul#language a,
+ul#language a:hover { color: #2c66ce !important; }
 
 /* Menu sobre o portal
    ========================================================================== */
