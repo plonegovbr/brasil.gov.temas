@@ -43,7 +43,6 @@ class TransformsTestCase(unittest.TestCase):
     def test_tema_verde(self):
         self.base_test('verde')
 
-
     def test_tema_amarelo(self):
         self.base_test('amarelo')
 
