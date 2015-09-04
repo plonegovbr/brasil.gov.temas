@@ -1,7 +1,7 @@
 Histórico de Alterações
 ------------------------
 
-1.0.8 (unreleased)
+1.1 (2015-09-03)
 ^^^^^^^^^^^^^^^^^^
 
 * Reduzindo imagens pelo tinypng. Redução em 59% do total.
