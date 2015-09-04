@@ -52,17 +52,14 @@ código os testes são executados pelo serviço `Travis <https://travis-ci.org/>
 
 O estado atual dos testes, a cobertura de código e o número de downloads deste pacote podem ser vistos nas imagens a seguir:
 
-.. image:: https://secure.travis-ci.org/plonegovbr/brasil.gov.temas.png?branch=master
-    :alt: Travis CI badge
+.. image:: http://img.shields.io/pypi/v/brasil.gov.temas.svg
+    :target: https://pypi.python.org/pypi/brasil.gov.temas
+
+.. image:: https://img.shields.io/travis/plonegovbr/brasil.gov.temas/master.svg
     :target: http://travis-ci.org/plonegovbr/brasil.gov.temas
 
-.. image:: https://coveralls.io/repos/plonegovbr/brasil.gov.temas/badge.png?branch=master
-    :alt: Coveralls badge
+.. image:: https://img.shields.io/coveralls/plonegovbr/brasil.gov.temas/master.svg
     :target: https://coveralls.io/r/plonegovbr/brasil.gov.temas
-
-.. image:: https://pypip.in/d/brasil.gov.temas/badge.png
-    :target: https://pypi.python.org/pypi/brasil.gov.temas/
-    :alt: Downloads
 
 Instalação
 ----------
