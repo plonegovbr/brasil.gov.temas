@@ -171,14 +171,8 @@ Histórico de Alterações
 * Revisão de estilos da capa de editoria (closes `#25`_). [rennanrodrigues]
 * Correção de layout / css no rodapé da pagina  (closes `#19`_).
   [felipeduardo]
-* Realizado diversas alterações no estilo do tipo NITF, entre elas:
-
-  * Alterações de fonte.
-  * Alterações de espaçamento.
-  * Alterações de alinhamento.
-  * Alterações de tamanho de quebra de linha.
-
-  (closes `#18`_). [rennanrodrigues] [rodfersou]
+* Realizado diversas alterações no estilo do tipo NITF (fonte, espaçamento, alinhamento e tamanho de quebra de linha) (closes `#18`_).
+  [rennanrodrigues, rodfersou]
 * Correções de layout para o cabecalho do portal.  (closes `#17`_).
   [felipeduardo]
 * Correção do bug no click dos links para Firefox.  (closes `#11`_).
