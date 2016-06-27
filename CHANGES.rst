@@ -18,7 +18,7 @@ Histórico de Alterações
   [caduvieira]
 * Adiciona cores nos links dos tiles e retira o azul dos chapéus.
   [caduvieira]
-* Corrigi erro em que as telas de 'Preferências Pessoais', 'Informação Pessoal'
+* Corrige erro em que as telas de 'Preferências Pessoais', 'Informação Pessoal'
   e 'Painel Pessoal' apareciam vazias. (closes `#113`_)
   [idgserpro]
 * Adicionadas regras para inserir as traduções das viewlets de copyright do
