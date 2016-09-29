@@ -1,9 +1,18 @@
 language: python
 python: 2.7
+env:
+  matrix:
+    - MASTER=true
+    - PENDING_RELEASE=true
+matrix:
+  allow_failures:
+    - env: MASTER=true
+  fast_finish: true
 install:
-  - python bootstrap.py
-  - bin/buildout annotate
-  - bin/buildout -Nq
+- test $MASTER && sed -ie '/https:\/\/raw\.githubusercontent\.com\/plonegovbr\/portal\.buildout\/master\/buildout\.d\/versions\.cfg/d' buildout.cfg || true
+- python bootstrap.py
+- bin/buildout annotate
+- bin/buildout -Nq
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
