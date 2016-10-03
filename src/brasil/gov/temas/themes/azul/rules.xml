@@ -10,8 +10,7 @@
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
     <notheme if-path="@@manage-viewlets" />
-    <notheme if="$ajax_load" />
-
+    
     <xsl:output method="html"/>
 
     <rules css:if-content="#visual-portal-wrapper">
