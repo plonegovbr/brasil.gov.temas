@@ -1,5 +1,10 @@
 language: python
 python: 2.7
+sudo: false
+cache:
+  directories:
+  - eggs
+  - parts/node
 env:
   matrix:
     - MASTER=true
@@ -12,19 +17,18 @@ install:
 - test $MASTER && sed -ie '/https:\/\/raw\.githubusercontent\.com\/plonegovbr\/portal\.buildout\/master\/buildout\.d\/versions\.cfg/d' buildout.cfg || true
 - python bootstrap.py
 - bin/buildout annotate
-- bin/buildout -Nq
+- bin/buildout
 before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
+- firefox -v
 script:
 - bin/code-analysis
 - bin/test
 after_success:
-  - bin/coverage.sh
-  - pip install -q coveralls
-  - coveralls
-after_failure:
-  - bin/buildout annotate
-  - firefox -v
+- bin/createcoverage -t "--layer=!Acceptance"
+- pip install -q coveralls
+- coveralls
 notifications:
   irc: irc.freenode.org#plonegovbr
+
