@@ -4,7 +4,9 @@ Histórico de Alterações
 1.2 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Prepara pacote para esperar uma div de id "barra_brasil_js", que conterá a
+  chamada em javascript para a barra brasil na nova versão de brasil.gov.barra.
+  [idgserpro]
 
 
 1.1 (2015-09-03)
