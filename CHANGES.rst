@@ -4,6 +4,12 @@ Histórico de Alterações
 1.2 (unreleased)
 ^^^^^^^^^^^^^^^^
 
+- Remove imagem de "fallback" do rodapé uma vez que a barra de governo gera o
+  rodapé de forma dinâmica. Se por algum motivo não conseguir usar a barra
+  remota e precisar da imagem do rodapé, favor utilizar o
+  brasil.gov.barra >= 1.1.2 e marcar a opção "Usar barra local" (closes `#130`_)
+  [idgserpro]
+
 - Prepara pacote para esperar uma div de id "barra_brasil_js", que conterá a
   chamada em javascript para a barra brasil na nova versão de brasil.gov.barra.
   [idgserpro]
@@ -262,3 +268,4 @@ Histórico de Alterações
 .. _`#109`: https://github.com/plonegovbr/brasil.gov.temas/issues/109
 .. _`#113`: https://github.com/plonegovbr/brasil.gov.temas/issues/113
 .. _`#121`: https://github.com/plonegovbr/brasil.gov.temas/issues/121
+.. _`#130`: https://github.com/plonegovbr/brasil.gov.temas/issues/130
