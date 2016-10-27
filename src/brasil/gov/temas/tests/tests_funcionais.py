@@ -22,6 +22,8 @@ class TransformsTestCase(unittest.TestCase):
         self.portal = self.layer['portal']
         self.settings = getUtility(IRegistry).forInterface(IThemeSettings)
         self.browser = Browser(self.layer['app'])
+        self.touch_icon = '<link rel="apple-touch-icon" href="/plone/++theme++{0}/img/touch_icon.png">'
+        self.style = '<link media="all" href="/plone/++theme++{0}/css/style.css" type="text/css" rel="stylesheet">'
         import transaction
         transaction.commit()
 
@@ -33,24 +35,26 @@ class TransformsTestCase(unittest.TestCase):
         import transaction
         transaction.commit()
         self.browser.open(self.portal.absolute_url())
-
-        # Acesso a Informacao deve estar disponivel
-        self.assertIn("acesso-a-infornacao.png", self.browser.contents)
-
-        # Removido logo do governo federal
-        self.assertIn("brasil_patria.png", self.browser.contents)
+        self.assertIn(
+            '<div id="footer-brasil" class="footer-logos"></div>',
+            self.browser.contents
+        )
 
     def test_tema_verde(self):
         self.base_test('verde')
+        self.assertIn(self.touch_icon.format('verde'), self.browser.contents)
 
     def test_tema_amarelo(self):
         self.base_test('amarelo')
+        self.assertIn(self.touch_icon.format('amarelo'), self.browser.contents)
 
     def test_tema_branco(self):
         self.base_test('branco')
+        self.assertIn(self.touch_icon.format('branco'), self.browser.contents)
 
     def test_tema_azul(self):
         self.base_test('azul')
+        self.assertIn(self.touch_icon.format('azul'), self.browser.contents)
 
 
 class AuthenticatedTestCase(unittest.TestCase):
