@@ -1,7 +1,7 @@
 Histórico de Alterações
 ------------------------
 
-1.2 (unreleased)
+1.2 (2016-11-07)
 ^^^^^^^^^^^^^^^^
 
 - Remove imagem de "fallback" do rodapé uma vez que a barra de governo gera o
