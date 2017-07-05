@@ -13,7 +13,7 @@ long_description = (
 setup(
     name='brasil.gov.temas',
     version=version,
-    description="Temas para o Portal PadrÄĹo do Governo Federal",
+    description="Temas para o Portal Padrão do Governo Federal",
     long_description=long_description,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -47,7 +47,6 @@ setup(
         'Products.CMFPlone >=4.3',
         'setuptools',
         'plone.app.themingplugins',
-        'plone.app.contenttypes<1.1a1',
     ],
     extras_require={
         'test': [
