@@ -1,8 +1,8 @@
 Histórico de Alterações
-------------------------
+-----------------------
 
-1.3 (unreleased)
-^^^^^^^^^^^^^^^^
+1.2.1 (2017-07-05)
+^^^^^^^^^^^^^^^^^^
 
 - Remove dependência desnecessária no plone.app.contenttypes.
   [idgserpro]
@@ -23,7 +23,7 @@ Histórico de Alterações
 
 
 1.1 (2015-09-03)
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 * Reduzindo imagens pelo tinypng. Redução em 59% do total.
   [caduvieira]
