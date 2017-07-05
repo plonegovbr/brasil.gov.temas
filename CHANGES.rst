@@ -4,7 +4,7 @@ Histórico de Alterações
 1.3 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Remove plone.app.contenttypes de dependência.
+- Remove dependência desnecessária no plone.app.contenttypes.
   [idgserpro]
 
 
