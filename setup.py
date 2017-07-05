@@ -3,7 +3,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-version = '1.2.1'
+version = '1.2.2.dev0'
 long_description = (
     open('README.rst').read() + '\n' +
     open('CONTRIBUTORS.rst').read() + '\n' +
@@ -13,7 +13,7 @@ long_description = (
 setup(
     name='brasil.gov.temas',
     version=version,
-    description="Temas para o Portal PadrĂŁo do Governo Federal",
+    description="Temas para o Portal PadrÄĹo do Governo Federal",
     long_description=long_description,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
