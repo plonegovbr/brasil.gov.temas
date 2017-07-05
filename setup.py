@@ -13,7 +13,7 @@ long_description = (
 setup(
     name='brasil.gov.temas',
     version=version,
-    description="Temas para o Portal PadrÄĹo do Governo Federal",
+    description='Temas para o Portal Padrao do Governo Federal',
     long_description=long_description,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
