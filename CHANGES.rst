@@ -4,7 +4,8 @@ Histórico de Alterações
 1.3 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Remove plone.app.contenttypes de dependência.
+  [idgserpro]
 
 
 1.2 (2016-11-07)
