@@ -1,6 +1,13 @@
 Histórico de Alterações
 -----------------------
 
+unreleased
+
+- Adiciona regra diazzo para obter a tradução dos links de id acontent, afooter e anavigation.
+
+- Adiciona css ocultar os links de id acontent, afooter e anavigation.
+
+
 1.2.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
