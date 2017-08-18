@@ -8,6 +8,7 @@ from plone.testing.z2 import Browser
 from zope.component import getUtility
 
 import Globals
+import transaction
 import unittest
 
 
@@ -20,7 +21,6 @@ class LinksAcessibilidadeTestCase(unittest.TestCase):
         self.portal = self.layer['portal']
         self.settings = getUtility(IRegistry).forInterface(IThemeSettings)
         self.browser = Browser(self.layer['app'])
-        import transaction
         transaction.commit()
 
     def base_test(self, cor):
@@ -28,7 +28,6 @@ class LinksAcessibilidadeTestCase(unittest.TestCase):
         theme = getTheme(cor)
         applyTheme(theme)
         self.settings.enabled = True
-        import transaction
         transaction.commit()
 
         self.browser.open(self.portal.absolute_url())

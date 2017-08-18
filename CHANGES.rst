@@ -1,17 +1,15 @@
 Histórico de Alterações
 -----------------------
 
-unreleased
-
-- Adiciona regra diazzo para obter a tradução dos links de id acontent, afooter e anavigation.
-
-- Adiciona css ocultar os links de id acontent, afooter e anavigation.
-
-
 1.2.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Adiciona css ocultar os links de id acontent, afooter e anavigation.
+  [idgserpro]
+
+- Adiciona regra diazo para obter a tradução dos links de id acontent, afooter
+  e anavigation.
+  [idgserpro]
 
 
 1.2.1 (2017-07-05)
