@@ -4,11 +4,10 @@ Histórico de Alterações
 1.2.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Adiciona css ocultar os links de id acontent, afooter e anavigation.
+- Adiciona CSS para ocultar os links de id acontent, afooter e anavigation.
   [idgserpro]
 
-- Adiciona regra diazo para obter a tradução dos links de id acontent, afooter
-  e anavigation.
+- Adiciona regra Diazo para obter a tradução dos links de id acontent, afooter e anavigation que são gerados via viewlet em brasil.gov.portal.
   [idgserpro]
 
 

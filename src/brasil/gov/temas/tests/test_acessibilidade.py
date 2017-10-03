@@ -24,7 +24,7 @@ class LinksAcessibilidadeTestCase(unittest.TestCase):
         transaction.commit()
 
     def base_test(self, cor):
-        """Teste base dos temas"""
+        """Teste base dos temas."""
         theme = getTheme(cor)
         applyTheme(theme)
         self.settings.enabled = True
