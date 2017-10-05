@@ -1,7 +1,7 @@
 Histórico de Alterações
 -----------------------
 
-1.2.2 (unreleased)
+1.2.2 (2017-10-05)
 ^^^^^^^^^^^^^^^^^^
 
 - Adiciona CSS para ocultar os links de id acontent, afooter e anavigation.
