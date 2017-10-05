@@ -35,25 +35,25 @@ class LinksAcessibilidadeTestCase(unittest.TestCase):
         # Testa se a âncora para o conteúdo aparece.
         self.assertIn(
             '<a name="acontent" id="acontent" class="anchor">',
-            self.browser.contents
+            self.browser.contents,
         )
 
         # Testa se a âncora para o menu aparece.
         self.assertIn(
             '<a name="anavigation" id="anavigation" class="anchor">',
-            self.browser.contents
+            self.browser.contents,
         )
 
         # Testa se o input para a busca aparece.
         self.assertIn(
             'name="SearchableText"',
-            self.browser.contents
+            self.browser.contents,
         )
 
         # Testa se a âncora para o rodapé aparece.
         self.assertIn(
             '<a name="afooter" id="afooter" class="anchor">',
-            self.browser.contents
+            self.browser.contents,
         )
 
     def test_link_para_conteudo_tema_amarelo(self):
