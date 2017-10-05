@@ -59,6 +59,13 @@ div#wrapper-barra-brasil {
     padding: 0 3px;
 }
 
+.anchor {
+    display: block;
+    font-size: 0;
+    height: 0;
+    width: 0;
+}
+
 /* Titulo do portal
    ========================================================================== */
 
