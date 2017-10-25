@@ -4,7 +4,8 @@ Histórico de Alterações
 1.2.3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige a quebra de layout na tela de resultado de login  (closes `#131`_)
+  [agnogueira]
 
 
 1.2.2 (2017-10-05)
@@ -292,3 +293,4 @@ Histórico de Alterações
 .. _`#113`: https://github.com/plonegovbr/brasil.gov.temas/issues/113
 .. _`#121`: https://github.com/plonegovbr/brasil.gov.temas/issues/121
 .. _`#130`: https://github.com/plonegovbr/brasil.gov.temas/issues/130
+.. _`#131`: https://github.com/plonegovbr/brasil.gov.temas/issues/131
