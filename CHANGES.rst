@@ -1,10 +1,10 @@
 Histórico de Alterações
 -----------------------
 
-1.2.3 (unreleased)
+1.2.3 (2017-10-31)
 ^^^^^^^^^^^^^^^^^^
 
-- Corrige a quebra de layout na tela de resultado de login  (closes `#131`_)
+- Corrige a quebra de layout na tela de resultado de login (closes `#131`_).
   [agnogueira]
 
 
