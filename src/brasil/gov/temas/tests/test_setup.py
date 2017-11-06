@@ -28,7 +28,7 @@ class InstallTestCase(unittest.TestCase):
                          'Tema para Portal Padrão do Governo Federal')
         self.assertEqual(theme.rules, '/++theme++verde/rules.xml')
         self.assertEqual(theme.absolutePrefix, '/++theme++verde')
-        self.assertEqual(theme.doctype, "<!DOCTYPE html>")
+        self.assertEqual(theme.doctype, '<!DOCTYPE html>')
 
     def test_tema_amarelo_disponivel(self):
         theme = getTheme('amarelo')
@@ -39,7 +39,7 @@ class InstallTestCase(unittest.TestCase):
                          'Tema para Portal Padrão do Governo Federal')
         self.assertEqual(theme.rules, '/++theme++amarelo/rules.xml')
         self.assertEqual(theme.absolutePrefix, '/++theme++amarelo')
-        self.assertEqual(theme.doctype, "<!DOCTYPE html>")
+        self.assertEqual(theme.doctype, '<!DOCTYPE html>')
 
     def test_tema_branco_disponivel(self):
         theme = getTheme('branco')
@@ -50,7 +50,7 @@ class InstallTestCase(unittest.TestCase):
                          'Tema para Portal Padrão do Governo Federal')
         self.assertEqual(theme.rules, '/++theme++branco/rules.xml')
         self.assertEqual(theme.absolutePrefix, '/++theme++branco')
-        self.assertEqual(theme.doctype, "<!DOCTYPE html>")
+        self.assertEqual(theme.doctype, '<!DOCTYPE html>')
 
     def test_tema_azul_disponivel(self):
         theme = getTheme('azul')
@@ -61,4 +61,4 @@ class InstallTestCase(unittest.TestCase):
                          'Tema para Portal Padrão do Governo Federal')
         self.assertEqual(theme.rules, '/++theme++azul/rules.xml')
         self.assertEqual(theme.absolutePrefix, '/++theme++azul')
-        self.assertEqual(theme.doctype, "<!DOCTYPE html>")
+        self.assertEqual(theme.doctype, '<!DOCTYPE html>')
