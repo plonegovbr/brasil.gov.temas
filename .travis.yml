@@ -9,13 +9,7 @@ addons:
   # XXX: use an older Firefox ESR as we are stuck with selenium = 2.53.5
   #      https://github.com/SeleniumHQ/selenium/issues/2739#issuecomment-249482533
   firefox: 45.9.0esr
-env:
-  matrix:
-  - MASTER=true
-  - LAST_RELEASE=true
 matrix:
-  allow_failures:
-    - env: LAST_RELEASE=true
   fast_finish: true
 install:
 - python bootstrap.py
@@ -33,4 +27,3 @@ after_success:
 - coveralls
 notifications:
   irc: irc.freenode.org#plonegovbr
-
