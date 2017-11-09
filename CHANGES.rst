@@ -4,7 +4,8 @@ Histórico de Alterações
 1.2.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige o tamanho das fontes dos popups padrões do editor TynyMCE (closes `#144` _)
+  [claytonc]
 
 
 1.2.3 (2017-10-31)
