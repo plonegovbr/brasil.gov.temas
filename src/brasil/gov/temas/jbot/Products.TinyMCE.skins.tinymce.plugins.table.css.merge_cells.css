@@ -1,0 +1,20 @@
+#content.dialog-wrapper {
+    font-size: 95%;
+}
+
+.col-row {
+    display:inline-block;
+    *display: inline;
+    zoom:1;
+}
+
+.mceActionPanel {
+    margin-top: 0;
+}
+.mceActionPanel #insert {
+    width: 100px;
+}
+
+fieldset {
+    margin-bottom: 0;
+}

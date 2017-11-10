@@ -1,10 +1,11 @@
-Histórico de Alterações
------------------------
+Changelog
+---------
 
 1.2.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige o tamanho das fontes dos popups padrões do editor TynyMCE (closes `#144 <https://github.com/plonegovbr/brasil.gov.temas/issues/144>`_).
+  [claytonc]
 
 
 1.2.3 (2017-10-31)

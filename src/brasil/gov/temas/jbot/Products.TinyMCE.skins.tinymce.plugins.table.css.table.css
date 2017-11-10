@@ -1,0 +1,29 @@
+/* CSS file for table dialog in the table plugin */
+
+#table #content.dialog-wrapper {
+    font-size: 125%;
+}
+
+.panel_wrapper div.current {
+    height: 160px;
+}
+
+.advfield {
+    width: 200px;
+}
+
+#class {
+    width: 150px;
+}
+
+.hiddenset { display: none; }
+
+.col-row {
+    display:inline-block;
+    *display: inline;
+    zoom:1;
+}
+
+#summary {
+    width:100%;
+}
