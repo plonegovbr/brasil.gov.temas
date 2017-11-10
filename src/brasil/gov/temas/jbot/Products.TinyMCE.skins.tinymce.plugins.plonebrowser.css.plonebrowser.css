@@ -12,7 +12,8 @@
 #details_panel, #addimage_panel { border-left: 1px solid #CCC; padding-left: 6px; margin-left: -24.87%; }
 #details_panel h2 { color: #CCC; line-height: 1; margin-bottom: 10px; margin-left: 4px; }
 #details_panel .field { padding-bottom: 5px; }
-#details_panel #titledetails { line-height: 1; padding-bottom: 2px; }
+#details_panel .field label { font-size: 1.3em; }
+#details_panel #titledetails { line-height: 1; padding-bottom: 2px; font-size: 1.3em; }
 #addimage_panel h2 { margin-bottom: 6px; }
 #addimage_panel .field { margin-bottom: 10px; }
 #addimage_panel #uploadtitle { height: 20px; margin-bottom: 2px;}
