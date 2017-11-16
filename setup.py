@@ -3,7 +3,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-version = '1.2.5.dev0'
+version = '2.0a1.dev0'
 long_description = (
     open('README.rst').read() + '\n' +
     open('CONTRIBUTORS.rst').read() + '\n' +
@@ -16,7 +16,7 @@ setup(
     description='Temas para o Portal Padrao do Governo Federal',
     long_description=long_description,
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        'Development Status :: 2 - Pre-Alpha',
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: 4.3",
@@ -24,15 +24,13 @@ setup(
         "Intended Audience :: System Administrators",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
         "Operating System :: OS Independent",
-        "Programming Language :: JavaScript",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
-        "Topic :: Multimedia",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    keywords='plone .gov.br temas diazo',
+    keywords='diazo theme ',
     author='PloneGov.BR',
     author_email='gov@plone.org.br',
     url='https://github.com/plonegovbr/brasil.gov.temas',
@@ -44,13 +42,19 @@ setup(
     zip_safe=False,
     install_requires=[
         'brasil.gov.portal',
+        'plone.app.themingplugins',
+        'plone.resource',
         'Products.CMFPlone >=4.3',
         'setuptools',
-        'plone.app.themingplugins',
     ],
     extras_require={
         'test': [
             'plone.app.testing',
+            'plone.app.theming',
+            'plone.registry',
+            'plone.testing',
+            'transaction',
+            'zope.component',
         ]
     },
     entry_points="""
