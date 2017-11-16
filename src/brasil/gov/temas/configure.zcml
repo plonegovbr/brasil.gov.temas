@@ -7,38 +7,16 @@
   <include package="plone.app.themingplugins" />
   <include package="plone.resource" />
 
-  <!-- Temas -->
-  <plone:static
-      type="theme"
-      name="verde"
-      directory="themes/verde"
-      />
-
-  <!-- Temas -->
-  <plone:static
-      type="theme"
-      name="amarelo"
-      directory="themes/amarelo"
-      />
-
-  <!-- Temas -->
-  <plone:static
-      type="theme"
-      name="branco"
-      directory="themes/branco"
-      />
-
-  <!-- Temas -->
-  <plone:static
-      type="theme"
-      name="azul"
-      directory="themes/azul"
-      />
+  <!--plone:static type="theme" name="base" directory="themes/amarelo" /-->
+  <!--plone:static type="theme" name="base" directory="themes/azul" /-->
+  <!--plone:static type="theme" name="base" directory="themes/branco" /-->
+  <!--plone:static type="theme" name="base" directory="themes/verde" /-->
 
   <include package="z3c.jbot" file="meta.zcml" />
 
-  <browser:jbot
+  <!--browser:jbot
       directory="jbot"
-      layer="brasil.gov.portal.interfaces.IBrasilGov" />
+      layer="brasil.gov.portal.interfaces.IBrasilGov"
+      /-->
 
 </configure>
