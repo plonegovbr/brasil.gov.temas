@@ -1,18 +1,10 @@
 Changelog
 ---------
 
-1.2.6 (unreleased)
-2.0a1 (unreleased)
+1.2.5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
 - Nothing changed yet.
-
-
-1.2.5 (2017-11-30)
-^^^^^^^^^^^^^^^^^^
-
-- Corrige a quebra de layout na tela após login (refs. `#131`_).
-  [brunobbbs]
 
 
 1.2.4 (2017-11-13)
@@ -315,4 +307,3 @@ Changelog
 .. _`#121`: https://github.com/plonegovbr/brasil.gov.temas/issues/121
 .. _`#130`: https://github.com/plonegovbr/brasil.gov.temas/issues/130
 .. _`#131`: https://github.com/plonegovbr/brasil.gov.temas/issues/131
-Previous entries can be found in the HISTORY.rst file.
