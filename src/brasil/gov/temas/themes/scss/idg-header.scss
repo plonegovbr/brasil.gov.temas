@@ -1,0 +1,167 @@
+/********** Top **********/
+
+header#main-header {
+  color: $top-text;
+  background-color: $top-color;
+
+  a:link,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+    color: $top-link;
+  }
+
+  .header-wrapper {
+    @extend .ct-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.2);
+  }
+
+/********** Navegacao **********/
+  nav {
+    background-color: $nav-color;
+    color: $nav-link;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 12px 0;
+    display: none;
+
+    ul:before {
+      content: "\25B2";
+      position: absolute;
+      top: -50px;
+      left: 15px;
+      color: #fff;
+      font-size: 36px;
+    }
+    ul {
+      @extend .ct-width;
+      position: relative;
+    }
+
+    a:link,
+    a:hover,
+    a:visited {
+      color: $nav-link;
+    }
+  }
+}
+
+/********** Icones **********/
+.header-icons {
+  width: 90px;
+  border-right: 1px solid rgba(256, 256, 256, 0.2);
+
+  .ico-navegacao {
+    display: inline-block;
+    width: 30px;
+    height: 26px;
+    margin-right: 10px;
+    text-indent: -3000px;
+    background: url(../../img/nav-branco.png) no-repeat;
+  }
+  .ico-busca {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    text-indent: -3000px;
+    background: url(../../img/busca-branco.png) no-repeat;
+  }
+}
+/********** Links do topo **********/
+.header-links {
+  width: 230px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 70%;
+
+  .link-contraste {
+    background: url(../../img/contraste-branco.png) no-repeat left;
+    padding: 0 20px 0 20px;
+    border-right: 1px solid rgba(256, 256, 256, 0.2);
+  }
+  .link-vlibras {
+    background: url(../../img/vlibras-branco.png) no-repeat left;
+    padding: 0 0 0 20px;
+    margin-left: 20px;
+  }
+}
+
+/********** Logo **********/
+#logo {
+  flex-grow: 1;
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0 20px;
+
+  h1 {
+    display: inline;
+    color: $top-link;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  #portal-description {
+    font-size: 16px;
+  }
+}
+
+
+/********** Busca **********/
+#search {
+  @extend .ct-width;
+  text-align: center;
+  padding: 140px 0;
+  display: none;
+
+  h2 {
+    color: $top-text;
+  }
+
+  form {
+    background: $top-text;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .searchField {
+    border: none;
+    width: 87%;
+    padding: 15px 0;
+    color: #ccc;
+  }
+  .searchButton {
+    background: transparent url(../../img/botao-busca-preto.png) no-repeat right;
+    border: none;
+    text-indent: -3000px;
+    width: 10%;
+  }
+}
+
+/********** Breadcrumb **********/
+#portal-breadcrumbs {
+  @extend .ct-width;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  margin-bottom: 30px;
+  font-size: 90%;
+
+  #breadcrumbs-you-are-here {
+    display: none;
+  }
+  #breadcrumbs-home a {
+    text-indent: -3000px;
+    background: url(../../img/casinha.png) no-repeat left;
+    display: inline-block;
+    width: 20px;
+  }
+  a,
+  a:hover {
+    text-decoration: none;
+    color: $txt-color;
+  }
+  #breadcrumbs-current {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+/********** Variaveis principais **********/
+
+$bg-color: #fff;
+$main-font: 'Titillium Web', sans-serif;
+$main-fontsize: 18px;
+$main-width: 100%;
+$coluna-1: 300px;
+$coluna-2: 300px;
+$grid-gutter: 30px;
+$content-width: 1060px;
+
+$top-color: #0094ff;
+$top-text: #fff;
+$top-link: #fff;
+
+$nav-color: #fff;
+$nav-link: #000;
+
+$txt-color: #282828;
+$link-color: #0094ff;
+$header-color: #363636;
+$description-color: #a6a6a6;
+$byline-color: #a6a6a6;
+
+$footer-color: #f1f1f1;
+$footer-text: #272727;
+$footer-link: #272727;
+
+
+/********** Estilos Básicos do IDG **********/
+
+@import '../../scss/idg-grid.scss';
+@import '../../scss/idg-basic.scss';
+@import '../../scss/idg-header.scss';
+@import '../../scss/idg-tiles.scss';
+@import '../../scss/idg-portlets.scss';
+@import '../../scss/idg-footer.scss';
+@import '../../scss/idg-responsive.scss';
