@@ -1,0 +1,52 @@
+    <!--Head-->
+    <prepend css:theme="body" css:content="div#barra-identidade" />
+    <copy css:content="html" css:theme="html" attributes="lang dir" />
+    <prepend css:content-children="head" css:theme="head" />
+    <drop css:content="head link[rel='shortcut icon']" />
+    <drop css:content="head link[rel='apple-touch-icon']" />
+    <drop css:content="head meta[name='viewport']" />
+    <drop css:theme="head title" />
+    <drop css:theme="body.userrole-anonymous #portal-personaltools" />
+
+    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+    <drop attributes="placeholder" css:content=".searchField" />
+
+    <!-- Header -->
+    <append css:content="#portal-siteactions" css:theme="#identity-bar" />
+    <replace css:content="#portal-personaltools" css:theme="#user" />
+    <replace css:content-children="#portal-globalnav" css:theme-children="nav ul" />
+    <drop css:content=".searchSection" />
+    <replace css:content="#portal-searchbox" css:theme="#search" />
+    <drop css:content="#portaltab-index_html" />
+
+    <!--Content -->
+    <merge attributes="class" css:content="body" css:theme="body" />
+    <copy attributes="id dir" css:content="body" css:theme="body" />
+
+    <drop css:content="p.section" />
+
+    <replace css:theme="#barra_brasil_js" css:content-children="#barra_brasil_js" />
+
+    <copy css:content=".relatedItems" css:theme=".conteudo-relacionado" method="raw" />
+    <drop css:content="#content .relatedItems" />
+
+    <replace css:content=".top_embedded" css:theme=".video" mode="raw" />
+    <drop css:content="article .top_embedded" />
+
+    <replace css:content=".top_image" css:theme=".image" mode="raw" />
+    <drop css:content="article .top_image" />
+
+    <!-- Columns -->
+    <replace css:content-children="#portal-column-content" css:theme-children="#main-content" />
+    <replace css:content-children="#portal-column-one" css:theme-children="#column-one" />
+    <rules if-content="not(//*[@id='portal-column-one'])">
+      <drop css:theme="#column-one" />
+    </rules>
+    <replace css:content-children="#portal-column-two" css:theme-children="#column-two" />
+    <rules if-content="not(//*[@id='portal-column-two'])">
+      <drop css:theme="#column-two" />
+    </rules>
+    <!-- Footer -->
+    <drop css:content="#portal-siteactions" />
+    <copy attributes="href title" css:content="#portal-logo" css:theme=".footer-logo a" />
+    <replace css:content-children="#portal-globalnav" css:theme-children=".coluna-menu ul" />

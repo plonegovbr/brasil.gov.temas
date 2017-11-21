@@ -1,0 +1,105 @@
+.ct-width {
+  width: $content-width;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  font-family: $main-font;
+  font-size: $main-fontsize;
+  color: $txt-color;
+  background: $bg-color;
+  margin: 0
+}
+
+a:link, a:visited {
+    color: $link-color;
+}
+
+#content a:link,
+dl.portlet a:link {
+    color: $link-color;
+    border-bottom: none;
+}
+
+#content a:visited,
+dl.portlet a:visited {
+    color: $link-color;
+    border-bottom: none;
+}
+#content a:hover,
+dl.portlet a:hover {
+    color: $link-color !important; 
+}
+
+/* text styles */
+
+#content-core p {
+  font-size: 120%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $main-font;
+  font-weight: bold;
+  color: $header-color;
+  letter-spacing: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  border: none;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: .6em;
+  
+}
+
+h2 {
+  font-size: 30px; 
+
+  margin-bottom: .3em;
+
+}
+
+h3 {
+  font-size: 22px;
+
+  margin-bottom: .5em;
+}
+h4 {
+  font-size: 18px;
+}
+
+p.section {
+  color: $link-color;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.documentDescription {
+  color: $description-color;
+  text-align: center;
+  font-size: 22px;
+}
+
+.documentByLine {
+  padding: 25px 0;
+  margin: 40px 0;
+  color: $byline-color;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

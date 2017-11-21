@@ -1,0 +1,20 @@
+/***** Footer *****/
+
+footer {
+	clear: both;
+	color: $footer-text;
+	background-color: $footer-color;
+	padding: 90px 20px 300px 20px;
+	font-size: 75%;
+
+	.footer-logo {
+	  padding-bottom: 20px;
+	}
+	.footer-wrapper {
+	  @extend .ct-width;
+	}
+
+	a, a:hover {
+	  color: $footer-link !important;
+	}
+}
