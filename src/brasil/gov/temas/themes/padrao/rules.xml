@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+  xmlns="http://namespaces.plone.org/diazo"
+  xmlns:css="http://namespaces.plone.org/diazo/css"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:esi="http://www.edge-delivery.org/esi/1.0"
+  xmlns:str="http://exslt.org/strings"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <theme href="index.html" css:if-content="#visual-portal-wrapper" />
+  <notheme if-path="source_editor.htm" />
+  <notheme if-path="@@manage-viewlets" />
+  <notheme if-path="ploneimage.htm" />
+  <notheme if="$ajax_load" />
+  <rules css:if-content="#visual-portal-wrapper">
+
+    <xi:include href="../../xml/basic-rules.xml" />
+
+  </rules>
+</rules>
