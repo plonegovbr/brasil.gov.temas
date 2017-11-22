@@ -22,3 +22,5 @@ parts/
 src/collective.cover/
 var/
 /dist/
+src/brasil/gov/temas/themes/brasilgovtemas.js
+src/brasil/gov/temas/themes/padrao/brasilgovtemas.css

@@ -80,6 +80,35 @@ Para habilitar a instalação deste produto em um ambiente que utilize o buildou
 
 4. Acesse o painel de controle e na opção **Temas** você verá os temas providos por este pacote listados.
 
+Desenvolvimento
+---------------
+
+Este pacote adiciona os seguintes comandos na pasta bin do buildout para processar automaticamente os recursos estáticos:
+
+.. code-block:: bash
+
+    $ bin/env-brasilgovtemas
+
+Este comando adiciona no terminal o node do buildout no PATH do sistema, dessa forma voce pode trabalhar com webpack conforme a documentação oficial.
+
+.. code-block:: bash
+
+    $ bin/watch-brasilgovtemas
+
+Este comando instrui ao Webpack para esperar por qualquer mudança nos arquivos SASS e gera a versão minificada do CSS para a aplicação.
+
+.. code-block:: bash
+
+    $ bin/dev-brasilgovtemas
+
+Este comando faz o mesmo que o comando watch, mas não minifica o CSS final.  Utilizado para debugar a geração do CSS.
+
+.. code-block:: bash
+
+    $ bin/build-brasilgovtemas
+
+Este comando cria o CSS minificado, mas não espera por mudanças.
+
 Links de línguas no topo (Internacionalização)
 ----------------------------------------------
 
