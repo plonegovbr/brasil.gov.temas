@@ -1,3 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+  xmlns="http://namespaces.plone.org/diazo"
+  xmlns:css="http://namespaces.plone.org/diazo/css"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:esi="http://www.edge-delivery.org/esi/1.0"
+  xmlns:str="http://exslt.org/strings"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <theme href="index.html" css:if-content="#visual-portal-wrapper" />
+  <notheme if-path="source_editor.htm" />
+  <notheme if-path="@@manage-viewlets" />
+  <notheme if-path="ploneimage.htm" />
+  <notheme if="$ajax_load" />
+  <rules css:if-content="#visual-portal-wrapper">
     <!--Head-->
     <prepend css:theme="body" css:content="div#barra-identidade" />
     <copy css:content="html" css:theme="html" attributes="lang dir" />
@@ -50,3 +65,5 @@
     <drop css:content="#portal-siteactions" />
     <copy attributes="href title" css:content="#portal-logo" css:theme=".footer-logo a" />
     <replace css:content-children="#portal-globalnav" css:theme-children=".coluna-menu ul" />
+  </rules>
+</rules>

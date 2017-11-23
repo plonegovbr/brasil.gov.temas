@@ -56,18 +56,14 @@ header#main-header {
 
   .ico-navegacao {
     display: inline-block;
-    width: 30px;
-    height: 26px;
     margin-right: 10px;
     text-indent: -3000px;
-    background: url(../../img/nav-branco.png) no-repeat;
+	@include sprite($nav);
   }
   .ico-busca {
     display: inline-block;
-    width: 26px;
-    height: 26px;
     text-indent: -3000px;
-    background: url(../../img/busca-branco.png) no-repeat;
+	@include sprite($busca);
   }
 }
 /********** Links do topo **********/
@@ -78,14 +74,30 @@ header#main-header {
   font-size: 70%;
 
   .link-contraste {
-    background: url(../../img/contraste-branco.png) no-repeat left;
+	display: inline-block;
+	position: relative;
     padding: 0 20px 0 20px;
     border-right: 1px solid rgba(256, 256, 256, 0.2);
   }
+  .link-contraste:before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	@include sprite($contraste);
+  }
   .link-vlibras {
-    background: url(../../img/vlibras-branco.png) no-repeat left;
+	display: inline-block;
+	position: relative;
     padding: 0 0 0 20px;
     margin-left: 20px;
+  }
+  .link-vlibras:before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	@include sprite($vlibras);
   }
 }
 
@@ -127,15 +139,14 @@ header#main-header {
 
   .searchField {
     border: none;
-    width: 87%;
+    width: 92%;
     padding: 15px 0;
     color: #ccc;
   }
   .searchButton {
-    background: transparent url(../../img/botao-busca-preto.png) no-repeat right;
     border: none;
     text-indent: -3000px;
-    width: 10%;
+	@include sprite($botao-busca);
   }
 }
 
@@ -152,9 +163,16 @@ header#main-header {
   }
   #breadcrumbs-home a {
     text-indent: -3000px;
-    background: url(../../img/casinha.png) no-repeat left;
     display: inline-block;
-    width: 20px;
+	position: relative;
+	width: 20px;
+  }
+  #breadcrumbs-home a:before {
+	content: "";
+	position: absolute;
+	top: 6px;
+	left: 0;
+	@include sprite($casinha);
   }
   a,
   a:hover {

@@ -1,0 +1,26 @@
+{
+  "name": "brasilgovtemas",
+  "version": "0.0.1",
+  "main": "app/brasilgovtemas.js",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack --watch",
+    "watch": "webpack -p --watch"
+  },
+  "repository": {},
+  "license": "GPLv2",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.2.1",
+    "css-loader": "^0.28.7",
+    "extract-loader": "^1.0.1",
+    "file-loader": "^1.1.5",
+    "image-webpack-loader": "^3.1.0",
+    "node-sass": "^4.5.3",
+    "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6",
+    "svg-url-loader": "^2.0.1",
+    "webpack-spritesmith": "^0.3.3"
+  }
+}
