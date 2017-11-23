@@ -7,6 +7,7 @@
   <include package="plone.app.themingplugins" />
   <include package="plone.resource" />
 
+  <plone:static type="theme" name="padrao" directory="themes/padrao" />
   <!--plone:static type="theme" name="base" directory="themes/amarelo" /-->
   <!--plone:static type="theme" name="base" directory="themes/azul" /-->
   <!--plone:static type="theme" name="base" directory="themes/branco" /-->
