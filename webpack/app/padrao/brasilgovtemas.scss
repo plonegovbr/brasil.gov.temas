@@ -31,10 +31,11 @@ $footer-link: #272727;
 
 /********** Estilos Básicos do IDG **********/
 
-@import '../../scss/idg-grid.scss';
-@import '../../scss/idg-basic.scss';
-@import '../../scss/idg-header.scss';
-@import '../../scss/idg-tiles.scss';
-@import '../../scss/idg-portlets.scss';
-@import '../../scss/idg-footer.scss';
-@import '../../scss/idg-responsive.scss';
+@import 'sprite';
+@import '../scss/grid';
+@import '../scss/basic';
+@import '../scss/header';
+@import '../scss/tiles';
+@import '../scss/portlets';
+@import '../scss/footer';
+@import '../scss/responsive';
