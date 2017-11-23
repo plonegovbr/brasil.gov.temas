@@ -83,27 +83,72 @@ Para habilitar a instalação deste produto em um ambiente que utilize o buildou
 Desenvolvimento
 ---------------
 
+Utilizamos `Webpack <https://webpack.js.org/>`_ para gerenciar o conteúdo estático do tema, tomando vantagem das diversas ferramentas e plugins disponíveis para suprir toda nossa necessidade de gerenciar a criação das variações de temas.
+
+Para integrar Webpack com Plone, utilizamos o pacote `sc.recipe.staticresources <https://github.com/simplesconsultoria/sc.recipe.staticresources>`_, esta receita de buildout facilita a integração entre Plone e Webpack, precisando escrever menos linhas de código no ``buildout.cfg``, além de prover um bom template para início de projeto.
+
+Normalmente, ao desenvolver os temas, iniciamos o ``watcher`` do Webpack e trabalhamos somente na pasta ``webpack`` alterando os arquivos, e o ``webpack`` se encarrega de processar e gerar os arquivos em seu endereço final.  Segue uma lista dos principais arquivos:
+
+.. code-block:: console
+
+    $ tree webpack/app
+    webpack/app
+    ├── index.html
+    ├── padrao
+    │   ├── brasilgovtemas.scss
+    │   ├── img
+    │   │   └── sprite.png
+    │   ├── manifest.cfg
+    │   ├── preview.png
+    │   ├── sprite
+    │   │   ├── botao-busca.png
+    │   │   ├── busca.png
+    │   │   ├── casinha.png
+    │   │   ├── contraste.png
+    │   │   ├── nav.png
+    │   │   └── vlibras.png
+    │   └── _sprite.scss
+    ├── rules.xml
+    └── scss
+        ├── _basic.scss
+        ├── _footer.scss
+        ├── _grid.scss
+        ├── _header.scss
+        ├── _portlets.scss
+        ├── _responsive.scss
+        └── _tiles.scss
+
+Os arquivos ``index.html`` e ``rules.xml`` säo copiados para cada tema, a princípio são iguais para todos os temas.
+
+Existe um arquivo ``brasilgovtemas.scss`` para cada tema, que são transformados em ``brasilgovtemas.css`` após processamento.  Neles existem definições de variáveis do que muda em cada tema, fontes, tamanhos e cores, e importa os arquivos da pasta ``scss`` para processar cada tema.
+
+Na pasta ``scss`` existem os arquivos de estilos propriamente dito, é la que devemos alterar alguma estrutura de CSScompartilhada por todos os temas, e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do ``webpack``.
+
+Existem ainda os arquivos ``manifest.cfg`` e ``preview.png`` que são únicos para cada tema, e são necessários pelo Diazo.
+
+Cada tema ainda possui uma pasta ``sprite``, onde são adicionados os ícones utilizados no tema;  Esses ícones são processados, e é então gerado os arquivos ``_sprite.scss`` e ``img/sprite.png`` no tema.  O primeiro arquivo cria mixins utilizados no tema para facilitar a inserção de regras do sprite, e o seguindo arquivo é o sprite propriamente dito, que junta todas as imagens existens na pasta ``sprite``.
+
 Este pacote adiciona os seguintes comandos na pasta bin do buildout para processar automaticamente os recursos estáticos:
 
-.. code-block:: bash
+.. code-block:: console
 
     $ bin/env-brasilgovtemas
 
 Este comando adiciona no terminal o node do buildout no PATH do sistema, dessa forma voce pode trabalhar com webpack conforme a documentação oficial.
 
-.. code-block:: bash
+.. code-block:: console
 
     $ bin/watch-brasilgovtemas
 
 Este comando instrui ao Webpack para esperar por qualquer mudança nos arquivos SASS e gera a versão minificada do CSS para a aplicação.
 
-.. code-block:: bash
+.. code-block:: console
 
     $ bin/dev-brasilgovtemas
 
 Este comando faz o mesmo que o comando watch, mas não minifica o CSS final.  Utilizado para debugar a geração do CSS.
 
-.. code-block:: bash
+.. code-block:: console
 
     $ bin/build-brasilgovtemas
 
