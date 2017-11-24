@@ -58,33 +58,33 @@ header#main-header {
     display: inline-block;
     margin-right: 10px;
     text-indent: -3000px;
-	@include sprite($nav);
+    @include sprite($nav);
   }
   .ico-busca {
     display: inline-block;
     text-indent: -3000px;
-	@include sprite($busca);
+    @include sprite($busca);
   }
 }
 /********** Links do topo **********/
 .header-links {
-  width: 230px;
-  text-align: right;
-  text-transform: uppercase;
-  font-size: 70%;
+    width: 280px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 70%;
 
-  .link-contraste {
-	display: inline-block;
-	position: relative;
+  #siteaction-contraste {
+	  display: inline-block;
+	  position: relative;
     padding: 0 20px 0 20px;
     border-right: 1px solid rgba(256, 256, 256, 0.2);
   }
-  .link-contraste:before {
-	content: "";
-	position: absolute;
-	top: 3px;
-	left: 0;
-	@include sprite($contraste);
+  #siteaction-contraste:before {
+  	content: "";
+  	position: absolute;
+  	top: 3px;
+  	left: 0;
+  	@include sprite($contraste);
   }
   .link-vlibras {
 	display: inline-block;
@@ -102,6 +102,9 @@ header#main-header {
 }
 
 /********** Logo **********/
+#portal-logo {
+  margin: 0;
+}
 #logo {
   flex-grow: 1;
   font-size: 28px;
@@ -121,7 +124,7 @@ header#main-header {
 
 
 /********** Busca **********/
-#search {
+#search, #portal-searchbox {
   @extend .ct-width;
   text-align: center;
   padding: 140px 0;

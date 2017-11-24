@@ -27,7 +27,7 @@
     <drop attributes="placeholder" css:content=".searchField" />
 
     <!-- Header -->
-    <append css:content="#portal-siteactions" css:theme="#identity-bar" />
+    <replace css:content-children="#portal-siteactions" css:theme-children=".header-links ul" method="raw" />
     <replace css:content="#portal-personaltools" css:theme="#user" />
     <replace css:content-children="#portal-globalnav" css:theme-children="nav ul" />
     <drop css:content=".searchSection" />
@@ -38,7 +38,7 @@
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
 
-    <drop css:content="p.section" />
+    <drop css:theme="#portal-breadcrumbs" />
 
     <replace css:theme="#barra_brasil_js" css:content-children="#barra_brasil_js" />
 
@@ -50,6 +50,9 @@
 
     <replace css:content=".top_image" css:theme=".image" mode="raw" />
     <drop css:content="article .top_image" />
+
+    <!--Footer -->
+    <copy css:content="#portal-redes" css:theme=".coluna-redes ul" />
 
     <!-- Columns -->
     <replace css:content-children="#portal-column-content" css:theme-children="#main-content" />
@@ -63,7 +66,6 @@
     </rules>
     <!-- Footer -->
     <drop css:content="#portal-siteactions" />
-    <copy attributes="href title" css:content="#portal-logo" css:theme=".footer-logo a" />
     <replace css:content-children="#portal-globalnav" css:theme-children=".coluna-menu ul" />
   </rules>
 </rules>

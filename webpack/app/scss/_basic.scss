@@ -103,3 +103,14 @@ p.section {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/* icones */
+#portalredes-twitter {
+  @include sprite($rede-twitter);
+}
+#portalredes-youtube {
+  @include sprite($rede-youtube);
+}
+#portalredes-facebook {
+  @include sprite($rede-facebook);
+}
