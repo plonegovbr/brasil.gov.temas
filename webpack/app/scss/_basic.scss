@@ -105,6 +105,10 @@ p.section {
 }
 
 /* icones */
+#portal-redes > li {
+  display: inline-block;
+  text-indent: -3000px;
+}
 #portalredes-twitter {
   @include sprite($rede-twitter);
 }
@@ -113,4 +117,7 @@ p.section {
 }
 #portalredes-facebook {
   @include sprite($rede-facebook);
+}
+#portal-redes > #portalredes-flickr {
+  text-indent: 0;
 }
