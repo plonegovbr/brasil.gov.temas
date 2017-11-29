@@ -4,7 +4,8 @@ Changelog
 1.2.5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige a quebra de layout na tela após login (closes `#131`_).
+  [brunobbbs]
 
 
 1.2.4 (2017-11-13)
