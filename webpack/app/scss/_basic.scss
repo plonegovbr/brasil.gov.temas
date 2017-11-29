@@ -103,3 +103,21 @@ p.section {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/* icones */
+#portal-redes > li {
+  display: inline-block;
+  text-indent: -3000px;
+}
+#portalredes-twitter {
+  @include sprite($rede-twitter);
+}
+#portalredes-youtube {
+  @include sprite($rede-youtube);
+}
+#portalredes-facebook {
+  @include sprite($rede-facebook);
+}
+#portal-redes > #portalredes-flickr {
+  text-indent: 0;
+}

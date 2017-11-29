@@ -17,4 +17,17 @@ footer {
 	a, a:hover {
 	  color: $footer-link !important;
 	}
+	.coluna-governo ul {
+		display: flex;
+	}
+	.logo-governo {
+		@include sprite($gg);
+		display: block;
+		text-indent: -3000px;
+	}
+	.logo-acesso {
+		@include sprite($ai);
+		display: block;
+		text-indent: -3000px;
+	}
 }
