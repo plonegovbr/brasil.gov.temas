@@ -17,7 +17,7 @@ class InstallTestCase(unittest.TestCase):
     def test_temas_disponiveis(self):
         themes = getAvailableThemes()
         # Nosso tema + os dois do Plone
-        self.assertEqual(len(themes), 3)
+        self.assertEqual(len(themes), 5)
 
     @unittest.expectedFailure
     def test_tema_verde_disponivel(self):
