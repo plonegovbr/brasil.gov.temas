@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.2.5 (unreleased)
+1.2.5 (2017-11-30)
 ^^^^^^^^^^^^^^^^^^
 
 - Corrige a quebra de layout na tela após login (refs. `#131`_).
