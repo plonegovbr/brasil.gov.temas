@@ -1,35 +1,34 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var SpritesmithPlugin = require('webpack-spritesmith');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const SpritesmithPlugin = require('webpack-spritesmith');
 
 
-var createTheme = function(color) {
+let createTheme = (color) => {
   return {
     entry: [
       './app/brasilgovtemas.js',
-      './app/' + color + '/brasilgovtemas.scss',
-      './app/' + color + '/preview.png',
+      `./app/${color}/brasilgovtemas.scss`,
+      `./app/${color}/preview.png`
     ],
     output: {
-      filename: color + '/brasilgovtemas.[hash].js',
+      filename: `${color}/brasilgovtemas.[hash].js`,
       library: 'leitrabalhista',
       libraryTarget: 'umd',
-      path: __dirname + '/../src/brasil/gov/temas/themes',
-      publicPath: '/++theme++' + color + '/'
+      path: `${__dirname}/../src/brasil/gov/temas/themes`,
+      publicPath: `/++theme++${color}/`
     },
     plugins: [
       new CopyWebpackPlugin([
-        { from: 'app/rules.xml', to: color + '/rules.xml' },
-        { from: 'app/' + color + '/manifest.cfg', to: color + '/manifest.cfg' },
+        { from: 'app/rules.xml', to: `${color}/rules.xml` },
+        { from: `app/${color}/manifest.cfg`, to: `${color}/manifest.cfg` },
       ], {
       }),
       new HtmlWebpackPlugin({
-        filename: color + '/index.html',
+        filename: `${color}/index.html`,
         template: 'app/index.html'
       }),
       new ExtractTextPlugin({
-        // filename: color + '/brasilgovtemas.[hash].css',
         filename: (getPath) => {
           return getPath('brasilgovtemas.[hash].css')
         },
@@ -37,12 +36,12 @@ var createTheme = function(color) {
       }),
       new SpritesmithPlugin({
         src: {
-          cwd: 'app/' + color + '/sprite',
+          cwd: `app/${color}/sprite`,
           glob: '*.png'
         },
         target: {
-          image: 'app/' + color + '/img/sprite.png',
-          css: 'app/' + color + '/_sprite.scss'
+          image: `app/${color}/img/sprite.png`,
+          css: `app/${color}/_sprite.scss`
         },
         apiOptions: {
           cssImageRef: './img/sprite.png'
@@ -55,8 +54,6 @@ var createTheme = function(color) {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          // publicPath: '/++theme++',
-          publicPath: '',
           use: [
             'css-loader',
             'postcss-loader',
@@ -71,8 +68,8 @@ var createTheme = function(color) {
             options: {
               name: '[path][name].[ext]',
               context: 'app/',
-              publicPath: function(url) {
-                return '/++theme++' + url;
+              publicPath: (url) => {
+                return `/++theme++${url}`;
               }
             }
           },
