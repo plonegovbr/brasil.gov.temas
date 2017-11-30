@@ -4,28 +4,28 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const SpritesmithPlugin = require('webpack-spritesmith');
 
 
-let createTheme = (color) => {
+let createTheme = (theme) => {
   return {
     entry: [
       './app/brasilgovtemas.js',
-      `./app/${color}/brasilgovtemas.scss`,
-      `./app/${color}/preview.png`
+      `./app/${theme}/brasilgovtemas.scss`,
+      `./app/${theme}/preview.png`
     ],
     output: {
-      filename: `${color}/brasilgovtemas.[hash].js`,
+      filename: `${theme}/brasilgovtemas.[hash].js`,
       library: 'leitrabalhista',
       libraryTarget: 'umd',
       path: `${__dirname}/../src/brasil/gov/temas/themes`,
-      publicPath: `/++theme++${color}/`
+      publicPath: `/++theme++${theme}/`
     },
     plugins: [
       new CopyWebpackPlugin([
-        { from: 'app/rules.xml', to: `${color}/rules.xml` },
-        { from: `app/${color}/manifest.cfg`, to: `${color}/manifest.cfg` },
+        { from: 'app/rules.xml', to: `${theme}/rules.xml` },
+        { from: `app/${theme}/manifest.cfg`, to: `${theme}/manifest.cfg` },
       ], {
       }),
       new HtmlWebpackPlugin({
-        filename: `${color}/index.html`,
+        filename: `${theme}/index.html`,
         template: 'app/index.html'
       }),
       new ExtractTextPlugin({
@@ -36,12 +36,12 @@ let createTheme = (color) => {
       }),
       new SpritesmithPlugin({
         src: {
-          cwd: `app/${color}/sprite`,
+          cwd: `app/${theme}/sprite`,
           glob: '*.png'
         },
         target: {
-          image: `app/${color}/img/sprite.png`,
-          css: `app/${color}/_sprite.scss`
+          image: `app/${theme}/img/sprite.png`,
+          css: `app/${theme}/_sprite.scss`
         },
         apiOptions: {
           cssImageRef: './img/sprite.png'
