@@ -22,12 +22,5 @@ parts/
 src/collective.cover/
 var/
 /dist/
-src/brasil/gov/temas/themes/padrao/brasilgovtemas.js
-src/brasil/gov/temas/themes/padrao/brasilgovtemas.js.map
-src/brasil/gov/temas/themes/padrao/brasilgovtemas.css
-src/brasil/gov/temas/themes/azul/brasilgovtemas.js
-src/brasil/gov/temas/themes/azul/brasilgovtemas.js.map
-src/brasil/gov/temas/themes/azul/brasilgovtemas.css
-src/brasil/gov/temas/themes/verde/brasilgovtemas.js
-src/brasil/gov/temas/themes/verde/brasilgovtemas.js.map
-src/brasil/gov/temas/themes/verde/brasilgovtemas.css
+src/brasil/gov/temas/themes/**/index.html
+src/brasil/gov/temas/themes/**/brasilgovtemas*

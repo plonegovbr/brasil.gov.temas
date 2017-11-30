@@ -1,4 +1,6 @@
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var SpritesmithPlugin = require('webpack-spritesmith');
 
 
@@ -10,7 +12,7 @@ var createTheme = function(color) {
       './app/' + color + '/preview.png',
     ],
     output: {
-      filename: color + '/brasilgovtemas.js',
+      filename: color + '/brasilgovtemas.[hash].js',
       library: 'leitrabalhista',
       libraryTarget: 'umd',
       path: __dirname + '/../src/brasil/gov/temas/themes',
@@ -18,10 +20,20 @@ var createTheme = function(color) {
     },
     plugins: [
       new CopyWebpackPlugin([
-        { from: 'app/index.html', to: color + '/index.html' },
         { from: 'app/rules.xml', to: color + '/rules.xml' },
         { from: 'app/' + color + '/manifest.cfg', to: color + '/manifest.cfg' },
       ], {
+      }),
+      new HtmlWebpackPlugin({
+        filename: color + '/index.html',
+        template: 'app/index.html'
+      }),
+      new ExtractTextPlugin({
+        // filename: color + '/brasilgovtemas.[hash].css',
+        filename: (getPath) => {
+          return getPath('brasilgovtemas.[hash].css')
+        },
+        allChunks: true
       }),
       new SpritesmithPlugin({
         src: {
@@ -41,19 +53,16 @@ var createTheme = function(color) {
     module: {
       rules: [{
         test: /\.scss$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[path][name].css',
-              context: 'app/'
-            }
-          },
-          'extract-loader',
-          'css-loader',
-          'postcss-loader',
-          'sass-loader'
-        ]
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          // publicPath: '/++theme++',
+          publicPath: '',
+          use: [
+            'css-loader',
+            'postcss-loader',
+            'sass-loader'
+          ]
+        })
       }, {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: [
