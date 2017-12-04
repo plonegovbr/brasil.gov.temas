@@ -1,6 +1,6 @@
 /***** Footer *****/
 
-footer {
+#portal-footer {
 	clear: both;
 	color: $footer-text;
 	background-color: $footer-color;
@@ -14,11 +14,32 @@ footer {
 	  @extend .ct-width;
 	}
 
+	.colunas-rodape {
+      display: flex;
+      flex-wrap: wrap;
+	}
+	.coluna-redes {
+	  width: 100%;
+	  padding-bottom: 30px;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 30px;
+	}
+
 	a, a:hover {
 	  color: $footer-link !important;
 	}
-	.coluna-governo ul {
+	.coluna-menu {
+	  width: 30%;
+	}
+	.coluna-links {
+	  width: 30%;
+	}
+	.coluna-governo {
+	  width: 30%;
+	  ul {
 		display: flex;
+		justify-content: space-between;
+	  }
 	}
 	.logo-governo {
 		@include sprite($gg);
