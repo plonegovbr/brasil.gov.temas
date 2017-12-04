@@ -8,6 +8,10 @@
   clear: both;
 }
 
+.ativo {
+  display: block !important;
+}
+
 body {
   font-family: $main-font;
   font-size: $main-fontsize;

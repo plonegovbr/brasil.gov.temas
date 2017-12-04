@@ -125,10 +125,13 @@ header#main-header {
 
 /********** Busca **********/
 #search, #portal-searchbox {
-  @extend .ct-width;
+  width: 100%;
+  background-color: $top-color;
   text-align: center;
   padding: 140px 0;
+  margin: 0;
   display: none;
+  border-bottom: 1px solid #f1f1f1;
 
   h2 {
     color: $top-text;
@@ -185,4 +188,11 @@ header#main-header {
   #breadcrumbs-current {
     font-weight: bold;
   }
+}
+.section-pagina-inicial #portal-breadcrumbs {
+  display: none;
+}
+
+#portal-personaltools {
+  position: fixed;
 }
