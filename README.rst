@@ -8,7 +8,7 @@
 Introdução
 ----------
 
-Este pacote provê quatro temas (Diazo) modelo do Governo Federal para uso em sites Plone do Governo da República Federativa do Brasil.
+Este pacote provê quatro temas (``Diazo``) modelo do Governo Federal para uso em sites Plone do Governo da República Federativa do Brasil.
 
 O desenvolvimento deste pacote foi feito como parte da iniciativa `Portal Padrão <http://portalpadrao.plone.org.br>`_ da comunidade `PloneGov.Br <http://www.softwarelivre.gov.br/plone>`_.
 
@@ -93,6 +93,7 @@ Normalmente, ao desenvolver os temas, iniciamos o ``watcher`` do Webpack e traba
 
     $ tree webpack/app
     webpack/app
+    ├── brasilgovtemas.js
     ├── index.html
     ├── padrao
     │   ├── brasilgovtemas.scss
@@ -118,13 +119,21 @@ Normalmente, ao desenvolver os temas, iniciamos o ``watcher`` do Webpack e traba
         ├── _responsive.scss
         └── _tiles.scss
 
-Os arquivos ``index.html`` e ``rules.xml`` säo copiados para cada tema, a princípio são iguais para todos os temas.
+Foi adotada a estratégia pouco comum ao Plone de não registrar os arquivos ``CSS`` e ``JS`` no ``portal_css`` e ``portal_javascripts``;  Ao invés disso, deixamos o trabalho de gerar um novo nome desses arquivos para o ``Webpack``.
 
-Existe um arquivo ``brasilgovtemas.scss`` para cada tema, que são transformados em ``brasilgovtemas.css`` após processamento.  Neles existem definições de variáveis do que muda em cada tema, fontes, tamanhos e cores, e importa os arquivos da pasta ``scss`` para processar cada tema.
+Essa decisão foi tomada por que cada tema tem seu próprio ``CSS`` e ``JS``, e a solução ficaria muito mais complexa registrando todos os arquivos no ``portal_css`` e ``portal_javascripts``;  Dessa forma seria necessário adicionar condições especiais para carregar somente o arquivo do tema ativo.
 
-Na pasta ``scss`` existem os arquivos de estilos propriamente dito, é la que devemos alterar alguma estrutura de CSScompartilhada por todos os temas, e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do ``webpack``.
+O arquivo ``brasilgovtemas.js`` é escrito em ``ES6`` e ao processar, cria um arquivo ``brasilgovtemas.[hash].js`` transformado em ``ES5`` através do compilador `Babel <https://babeljs.io/>`_, e é criada uma cópia por tema desse arquivo.
 
-Existem ainda os arquivos ``manifest.cfg`` e ``preview.png`` que são únicos para cada tema, e são necessários pelo Diazo.
+Sendo assim, o arquivo ``index.html`` da pasta do ``Diazo`` não está no controlador de versões.  Ao invés disso, existe um ``index.html`` na pasta do ``Webpack`` que é processado a cada execução do buildout ou do ``Webpack``, e gera arquivos ``JS``, ``CSS`` e ``index.html`` na pasta do ``Diazo``.  Os arquivos ``JS`` e ``CSS`` possuem nomes especiais com uma hashe que e renovados a cada execução do buildout.
+
+O arquivo ``rules.xml`` é copiado para cada tema, e a princípio é igual para todos os temas.
+
+Existe um arquivo ``brasilgovtemas.scss`` para cada tema, que são transformados em ``brasilgovtemas.[hash].css`` após processamento.  Neles existem definições de variáveis do que muda em cada tema, fontes, tamanhos e cores, e importa os arquivos da pasta ``scss`` para processar cada tema.
+
+Na pasta ``scss`` existem os arquivos de estilos propriamente dito, é la que devemos alterar alguma estrutura de CSS compartilhada por todos os temas, e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do ``webpack``.
+
+Existem ainda os arquivos ``manifest.cfg`` e ``preview.png`` que são únicos para cada tema, e são necessários pelo ``Diazo``.
 
 Cada tema ainda possui uma pasta ``sprite``, onde são adicionados os ícones utilizados no tema;  Esses ícones são processados, e é então gerado os arquivos ``_sprite.scss`` e ``img/sprite.png`` no tema.  O primeiro arquivo cria mixins utilizados no tema para facilitar a inserção de regras do sprite, e o seguindo arquivo é o sprite propriamente dito, que junta todas as imagens existens na pasta ``sprite``.
 
@@ -160,4 +169,4 @@ Links de línguas no topo (Internacionalização)
 Hoje nos arquivos CSS existem regras para mostrar links de línguas,
 como as classes ``language-en`` e ``language-es``.
 Para adicionar links dessas línguas sem precisar customizar o tema,
-adicione em ``site_actions`` actions com esse mesmo id e as regras do Diazo pegarão os links renderizados das actions posicionando corretamente na lista de línguas no tema.
+adicione em ``site_actions`` actions com esse mesmo id e as regras do ``Diazo`` pegarão os links renderizados das actions posicionando corretamente na lista de línguas no tema.
