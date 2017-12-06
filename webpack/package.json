@@ -8,7 +8,7 @@
     "watch": "webpack -p --watch"
   },
   "repository": {},
-  "license": "GPLv2",
+  "license": "GPL-2.0",
   "devDependencies": {
     "copy-webpack-plugin": "^4.2.1",
     "css-loader": "^0.28.7",
