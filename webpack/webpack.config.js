@@ -12,26 +12,24 @@ let createTheme = (theme) => {
       `./app/${theme}/preview.png`
     ],
     output: {
-      filename: `${theme}/brasilgovtemas.[hash].js`,
+      filename: `brasilgovtemas-[hash].js`,
       library: 'leitrabalhista',
       libraryTarget: 'umd',
-      path: `${__dirname}/../src/brasil/gov/temas/themes`,
+      path: `${__dirname}/../src/brasil/gov/temas/themes/${theme}`,
       publicPath: `/++theme++${theme}/`
     },
     plugins: [
       new CopyWebpackPlugin([
-        { from: 'app/rules.xml', to: `${theme}/rules.xml` },
-        { from: `app/${theme}/manifest.cfg`, to: `${theme}/manifest.cfg` },
+        { from: 'app/rules.xml', to: 'rules.xml' },
+        { from: `app/${theme}/manifest.cfg`, to: 'manifest.cfg' },
       ], {
       }),
       new HtmlWebpackPlugin({
-        filename: `${theme}/index.html`,
+        filename: 'index.html',
         template: 'app/index.html'
       }),
       new ExtractTextPlugin({
-        filename: (getPath) => {
-          return getPath('brasilgovtemas.[hash].css')
-        },
+        filename: 'brasilgovtemas-[hash].css',
         allChunks: true
       }),
       new SpritesmithPlugin({
@@ -67,10 +65,7 @@ let createTheme = (theme) => {
             loader: 'file-loader',
             options: {
               name: '[path][name].[ext]',
-              context: 'app/',
-              publicPath: (url) => {
-                return `/++theme++${url}`;
-              }
+              context: `app/${theme}/`
             }
           },
           {
