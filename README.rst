@@ -95,7 +95,8 @@ Passo a passo
 Mais detalhes
 ^^^^^^^^^^^^^
 
-Utilizamos `Webpack <https://webpack.js.org/>`_ para gerenciar o conteúdo estático do tema, tomando vantagem das diversas ferramentas e plugins disponíveis para suprir toda nossa necessidade de gerenciar a criação das variações de temas.
+Utilizamos `webpack <https://webpack.js.org/>`_ para gerenciar o conteúdo estático do tema,
+tomando vantagem das diversas ferramentas e plugins disponíveis para suprir nossas necessidades.
 
 Utilizamos a receita de buildout `sc.recipe.staticresources <https://github.com/simplesconsultoria/sc.recipe.staticresources>`_ para integrar o `webpack`_ no Plone.
 

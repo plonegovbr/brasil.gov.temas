@@ -8,6 +8,7 @@
 .mr.developer.cfg
 .settings
 .python-version
+/dist/
 bin/
 coverage/
 develop-eggs/
@@ -19,7 +20,6 @@ lib/
 local.cfg
 Makefile
 parts/
+src/brasil/gov/temas/themes/*/
 src/collective.cover/
 var/
-/dist/
-src/brasil/gov/temas/themes/
