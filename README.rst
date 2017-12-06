@@ -8,7 +8,7 @@
 Introdução
 ----------
 
-Este pacote provê quatro temas (``Diazo``) modelo do Governo Federal para uso em sites Plone do Governo da República Federativa do Brasil.
+Este pacote provê quatro temas (Diazo) modelo do Governo Federal para uso em sites Plone do Governo da República Federativa do Brasil.
 
 O desenvolvimento deste pacote foi feito como parte da iniciativa `Portal Padrão <http://portalpadrao.plone.org.br>`_ da comunidade `PloneGov.Br <http://www.softwarelivre.gov.br/plone>`_.
 
@@ -83,11 +83,15 @@ Para habilitar a instalação deste produto em um ambiente que utilize o buildou
 Desenvolvimento
 ---------------
 
-Utilizamos `Webpack <https://webpack.js.org/>`_ para gerenciar o conteúdo estático do tema, tomando vantagem das diversas ferramentas e plugins disponíveis para suprir toda nossa necessidade de gerenciar a criação das variações de temas.
+Utilizamos `webpack <https://webpack.js.org/>`_ para gerenciar o conteúdo estático do tema,
+tomando vantagem das diversas ferramentas e plugins disponíveis para suprir nossas necessidades.
 
-Para integrar Webpack com Plone, utilizamos o pacote `sc.recipe.staticresources <https://github.com/simplesconsultoria/sc.recipe.staticresources>`_, esta receita de buildout facilita a integração entre Plone e Webpack, precisando escrever menos linhas de código no ``buildout.cfg``, além de prover um bom template para início de projeto.
+Utilizamos a receita de buildout `sc.recipe.staticresources <https://github.com/simplesconsultoria/sc.recipe.staticresources>`_ para integrar o `webpack`_ no Plone.
 
-Normalmente, ao desenvolver os temas, iniciamos o ``watcher`` do Webpack e trabalhamos somente na pasta ``webpack`` alterando os arquivos, e o ``webpack`` se encarrega de processar e gerar os arquivos em seu endereço final.  Segue uma lista dos principais arquivos:
+Ao desenvolver os temas iniciamos o watcher do `webpack`_ e trabalhamos somente na pasta "webpack" alterando os arquivos;
+o `webpack`_ se encarrega de processar e gerar os arquivos em seu endereço final.
+
+Segue uma lista dos principais arquivos:
 
 .. code-block:: console
 
@@ -119,23 +123,37 @@ Normalmente, ao desenvolver os temas, iniciamos o ``watcher`` do Webpack e traba
         ├── _responsive.scss
         └── _tiles.scss
 
-Foi adotada a estratégia pouco comum ao Plone de não registrar os arquivos ``CSS`` e ``JS`` no ``portal_css`` e ``portal_javascripts``;  Ao invés disso, deixamos o trabalho de gerar um novo nome desses arquivos para o ``Webpack``.
+Foi adotada a estratégia pouco comum ao Plone de não registrar os arquivos CSS e JS no ``portal_css`` e ``portal_javascripts``;
+Ao invés disso, deixamos o trabalho de gerar um novo nome desses arquivos para o `webpack`_.
 
-Essa decisão foi tomada por que cada tema tem seu próprio ``CSS`` e ``JS``, e a solução ficaria muito mais complexa registrando todos os arquivos no ``portal_css`` e ``portal_javascripts``;  Dessa forma seria necessário adicionar condições especiais para carregar somente o arquivo do tema ativo.
-
-O arquivo ``brasilgovtemas.js`` é escrito em ``ES6`` e ao processar, cria um arquivo ``brasilgovtemas.[hash].js`` transformado em ``ES5`` através do compilador `Babel <https://babeljs.io/>`_, e é criada uma cópia por tema desse arquivo.
-
-Sendo assim, o arquivo ``index.html`` da pasta do ``Diazo`` não está no controlador de versões.  Ao invés disso, existe um ``index.html`` na pasta do ``Webpack`` que é processado a cada execução do buildout ou do ``Webpack``, e gera arquivos ``JS``, ``CSS`` e ``index.html`` na pasta do ``Diazo``.  Os arquivos ``JS`` e ``CSS`` possuem nomes especiais com uma hashe que e renovados a cada execução do buildout.
+O arquivo ``index.html`` da pasta do Diazo não está no controlador de versões.
+Ao invés disso, existe um ``index.html`` na pasta "webpack" que é processado a cada execução do buildout ou do `webpack`_, e gera arquivos JS, CSS e ``index.html`` na pasta do Diazo.
+Os arquivos JS e CSS possuem nomes especiais com um hash que é renovados a cada execução do buildout.
 
 O arquivo ``rules.xml`` é copiado para cada tema, e a princípio é igual para todos os temas.
 
-Existe um arquivo ``brasilgovtemas.scss`` para cada tema, que são transformados em ``brasilgovtemas.[hash].css`` após processamento.  Neles existem definições de variáveis do que muda em cada tema, fontes, tamanhos e cores, e importa os arquivos da pasta ``scss`` para processar cada tema.
+Existe um arquivo ``brasilgovtemas.scss`` para cada tema;
+nele existem definições de variáveis do que muda em cada tema, fontes, tamanhos e cores,
+e importa os arquivos da pasta "scss" para processar cada tema.
+Esse arquivo é transformado em ``brasilgovtemas-[hash].css`` após processamento.
 
-Na pasta ``scss`` existem os arquivos de estilos propriamente dito, é la que devemos alterar alguma estrutura de CSS compartilhada por todos os temas, e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do ``webpack``.
+O arquivo ``brasilgovtemas.js`` é escrito em ES6 e,
+ao processar,
+cria um arquivo ``brasilgovtemas-[hash].js`` transformado em ES5 através do compilador `Babel <https://babeljs.io/>`_,
+e é criada uma cópia por tema desse arquivo.
 
-Existem ainda os arquivos ``manifest.cfg`` e ``preview.png`` que são únicos para cada tema, e são necessários pelo ``Diazo``.
+Na pasta "scss" existem os arquivos de estilos propriamente dito,
+é la que devemos alterar alguma estrutura de CSS compartilhada por todos os temas,
+e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do `webpack`_.
 
-Cada tema ainda possui uma pasta ``sprite``, onde são adicionados os ícones utilizados no tema;  Esses ícones são processados, e é então gerado os arquivos ``_sprite.scss`` e ``img/sprite.png`` no tema.  O primeiro arquivo cria mixins utilizados no tema para facilitar a inserção de regras do sprite, e o seguindo arquivo é o sprite propriamente dito, que junta todas as imagens existens na pasta ``sprite``.
+Existem ainda os arquivos ``manifest.cfg`` e ``preview.png`` que são únicos para cada tema, e são necessários pelo Diazo.
+
+Cada tema ainda possui uma pasta "sprite",
+onde são adicionados os ícones utilizados no tema.
+Esses ícones são processados gerando os arquivos ``_sprite.scss`` e ``img/sprite.png`` no tema.
+O primeiro arquivo cria mixins utilizados no tema para facilitar a inserção de regras do sprite,
+e o segundo arquivo é o sprite propriamente dito,
+que junta todas as imagens existens na pasta "sprite".
 
 Este pacote adiciona os seguintes comandos na pasta bin do buildout para processar automaticamente os recursos estáticos:
 
@@ -169,4 +187,4 @@ Links de línguas no topo (Internacionalização)
 Hoje nos arquivos CSS existem regras para mostrar links de línguas,
 como as classes ``language-en`` e ``language-es``.
 Para adicionar links dessas línguas sem precisar customizar o tema,
-adicione em ``site_actions`` actions com esse mesmo id e as regras do ``Diazo`` pegarão os links renderizados das actions posicionando corretamente na lista de línguas no tema.
+adicione em ``site_actions`` actions com esse mesmo id e as regras do Diazo pegarão os links renderizados das actions posicionando corretamente na lista de línguas no tema.
