@@ -22,5 +22,4 @@ parts/
 src/collective.cover/
 var/
 /dist/
-src/brasil/gov/temas/themes/*/index.html
-src/brasil/gov/temas/themes/*/brasilgovtemas-*
+src/brasil/gov/temas/themes/
