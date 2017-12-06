@@ -83,8 +83,19 @@ Para habilitar a instalação deste produto em um ambiente que utilize o buildou
 Desenvolvimento
 ---------------
 
-Utilizamos `webpack <https://webpack.js.org/>`_ para gerenciar o conteúdo estático do tema,
-tomando vantagem das diversas ferramentas e plugins disponíveis para suprir nossas necessidades.
+Passo a passo
+^^^^^^^^^^^^^
+
+1. Abrir um terminal, entrar na pasta do projeto, rodar buildout e iniciar a instancia;
+
+2. Abrir outro terminal, entrar na pasta do projeto, iniciar o comando ``bin/watch-brasilgovtemas``;
+
+3. Alterar os arquivos na pasta ``webpack``.
+
+Mais detalhes
+^^^^^^^^^^^^^
+
+Utilizamos `Webpack <https://webpack.js.org/>`_ para gerenciar o conteúdo estático do tema, tomando vantagem das diversas ferramentas e plugins disponíveis para suprir toda nossa necessidade de gerenciar a criação das variações de temas.
 
 Utilizamos a receita de buildout `sc.recipe.staticresources <https://github.com/simplesconsultoria/sc.recipe.staticresources>`_ para integrar o `webpack`_ no Plone.
 
