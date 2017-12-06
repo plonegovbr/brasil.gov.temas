@@ -95,6 +95,7 @@
 
 #main {
   @extend .ct-width;
+  overflow-x: hidden;
   display: flex; 
 }
 #column-one {
@@ -104,4 +105,25 @@
 #column-two {
   width: $coluna-2;
   margin-left: $grid-gutter;
+}
+
+/* variacao das linhas */
+.portaltype-collective-cover-content {
+  #main {
+    width: 100% !important;
+  }
+  div.row {
+    width: 1090px !important;
+    margin: 0 auto;
+  }
+  #content div.linha-100 {
+    width: 100% !important;
+  }
+  #edit-bar, .layout, #sidebar, .navbar {
+    @extend .ct-width;
+    float: none;
+  }
+  #sidebar.fixed {
+    width: 100% !important;
+  }
 }
