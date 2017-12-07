@@ -9,9 +9,9 @@
 
   <plone:static type="theme" name="padrao" directory="themes/padrao" />
   <!--plone:static type="theme" name="amarelo" directory="themes/amarelo" /-->
-  <plone:static type="theme" name="azul" directory="themes/azul" />
+  <!--plone:static type="theme" name="azul" directory="themes/azul" /-->
   <!--plone:static type="theme" name="branco" directory="themes/branco" /-->
-  <plone:static type="theme" name="verde" directory="themes/verde" />
+  <!--plone:static type="theme" name="verde" directory="themes/verde" /-->
 
   <include package="z3c.jbot" file="meta.zcml" />
 
