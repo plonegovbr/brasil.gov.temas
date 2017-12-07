@@ -18,24 +18,27 @@
       display: flex;
       flex-wrap: wrap;
 	}
+	.colunas-rodape>div {
+	  width: 20%;
+	}
+	ul li  {
+		display: block;
+	}
 	.coluna-redes {
-	  width: 100%;
+	  width: 100% !important;
 	  padding-bottom: 30px;
       border-bottom: 1px solid #ccc;
       margin-bottom: 30px;
+      ul li  {
+		display: inline-block;
+	}
 	}
 
 	a, a:hover {
 	  color: $footer-link !important;
 	}
-	.coluna-menu {
-	  width: 30%;
-	}
-	.coluna-links {
-	  width: 30%;
-	}
+
 	.coluna-governo {
-	  width: 30%;
 	  ul {
 		display: flex;
 		justify-content: space-between;

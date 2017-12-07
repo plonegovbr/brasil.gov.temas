@@ -27,12 +27,12 @@
     <drop attributes="placeholder" css:content=".searchField" />
 
     <!-- Header -->
-    <replace css:content-children="#portal-siteactions" css:theme-children=".header-links ul" method="raw" />
     <replace css:content="#portal-personaltools" css:theme="#user" />
     <replace css:content-children="#portal-globalnav" css:theme-children="nav ul" />
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <drop css:content="#portaltab-index_html" />
+    <copy css:content="#portal-redes" css:theme=".navigation-redes ul" />
 
     <!--Content -->
     <merge attributes="class" css:content="body" css:theme="body" />
@@ -65,7 +65,7 @@
       <drop css:theme="#column-two" />
     </rules>
     <!-- Footer -->
-    <drop css:content="#portal-siteactions" />
+    <replace css:content-children="#portal-siteactions" css:theme-children=".coluna-navegacao ul" method="raw" />
     <replace css:content-children="#portal-globalnav" css:theme-children=".coluna-menu ul" />
   </rules>
 </rules>
