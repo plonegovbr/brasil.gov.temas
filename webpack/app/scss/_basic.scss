@@ -1,5 +1,5 @@
 .ct-width {
-  width: $content-width;
+  width: $content-width !important;
   margin: 0 auto;
   max-width: 100%;
 }
@@ -8,7 +8,7 @@
   clear: both;
 }
 
-.ativo {
+.show {
   display: block !important;
 }
 
@@ -61,7 +61,7 @@ h6 {
   border: none;
 }
 
-h1 {
+h1.documentFirstHeading {
   font-size: 48px;
   text-align: center;
 
@@ -124,4 +124,16 @@ p.section {
 }
 #portal-redes > #portalredes-flickr {
   text-indent: 0;
+}
+
+.navigation-redes {
+  #portalredes-twitter {
+    @include sprite($rede-twitter-topo);
+  }
+  #portalredes-youtube {
+    @include sprite($rede-youtube-topo);
+  }
+  #portalredes-facebook {
+    @include sprite($rede-facebook-topo);
+  }
 }
