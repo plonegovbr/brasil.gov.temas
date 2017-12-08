@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $(".ico-navegacao").click(function(){
-        $(".navigation-wrapper").toggleClass("show");
+        $(".navigation-wrapper").toggleClass("ativo");
     });
     $(".ico-busca").click(function(){
-        $("#portal-searchbox").toggleClass("show");
+        $("#portal-searchbox").toggleClass("ativo");
     });
 });
