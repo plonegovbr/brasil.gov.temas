@@ -4,11 +4,15 @@
   max-width: 100%;
 }
 
+img, iframe {
+  max-width: 100%;
+}
+
 .clear {
   clear: both;
 }
 
-.show {
+.ativo {
   display: block !important;
 }
 
@@ -42,8 +46,8 @@ dl.portlet a:hover {
 
 /* text styles */
 
-#content-core p {
-  font-size: 120%;
+#content {
+  font-size: 100%;
 }
 
 h1,
@@ -61,8 +65,22 @@ h6 {
   border: none;
 }
 
+.portaltype-collective-nitf-content article {
+  padding: 0 90px;
+}
+
+div[property="rnews:articleBody"]::first-letter {
+  color: $main-color !important;
+  font-size: 5rem;
+  display: block;
+  font-weight: bold;
+  float: left;
+  line-height: 4rem;
+  margin-right: 10px;
+}
+
 h1.documentFirstHeading {
-  font-size: 48px;
+  font-size: 44px;
   text-align: center;
 
   margin-top: 0;
@@ -93,19 +111,53 @@ p.section {
   text-transform: uppercase;
   text-align: center;
 }
-
-.documentDescription {
+#content .documentDescription, #content #description {
   color: $description-color;
+  font: normal 1.25rem $main-font;
   text-align: center;
-  font-size: 22px;
+  margin-bottom: 2rem;
 }
 
 .documentByLine {
   padding: 25px 0;
   margin: 40px 0;
   color: $byline-color;
+  font-family: $main-font !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+#category {
+  font-size: 100%;
+  padding: 0 90px;
+  text-align: left;
+
+  a.link-category, a.link-category:hover {
+    background: $main-color;
+    border-color: $main-color;
+    padding: 0.5em 0.8em;
+    color: #fff;
+    border-radius: 1.2em;
+  }
+}
+#content .pullquote, .portletStaticText .pullquote {
+  margin: 0 1em 0.5em -90px;
+  float: left;
+  width: 45%;
+  clear: left;
+  font-size: 1.5rem;
+  letter-spacing: -0.08em !important;
+  border-top: 3px solid $main-color;
+  padding: 2rem 0;
+}
+dd.image-caption {
+  text-align: center;
+  padding: 0;
+  margin: 0 !important;
+}
+
+/* estilos de texto */
+.box-recuado {
+  margin: 1rem -90px;
 }
 
 /* icones */
