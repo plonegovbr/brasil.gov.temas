@@ -43,10 +43,11 @@ header#main-header {
   .navigation-content:before {
     content: "\25B2";
     position: absolute;
-    top: -62px;
+    top: -40px;
     left: -4px;
     color: #fff;
     font-size: 36px;
+    line-height: 1rem;
   }
   .navigation-content {
     @extend .ct-width;
@@ -229,6 +230,9 @@ header#main-header {
   }
   #breadcrumbs-current {
     font-weight: bold;
+  }
+  .breadcrumbSeparator {
+    padding: 0 10px;
   }
 }
 .section-pagina-inicial #portal-breadcrumbs {
