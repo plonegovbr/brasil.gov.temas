@@ -13,8 +13,8 @@ addons:
 matrix:
   fast_finish: true
 before_install:
-- pip install coveralls pylint
-- pip install mccabe==0.3.1  # XXX: remove after updating flake8
+# FIXME: I have no idea how and why six==1.11.0 is being installed
+- pip uninstall -y six
 install:
 - python bootstrap.py
 - bin/buildout annotate
@@ -25,9 +25,10 @@ before_script:
 script:
 - bin/code-analysis
 - bin/test
-- pylint --py3k --disable=no-absolute-import src/brasil/gov/temas
+- bin/pylint --py3k --disable=no-absolute-import src/brasil/gov/temas
 after_success:
 - bin/createcoverage --output-dir=htmlcov -t "--layer=!Acceptance"
+- pip install coveralls
 - coveralls
 notifications:
   irc: irc.freenode.org#plonegovbr
