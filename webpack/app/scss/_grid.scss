@@ -87,6 +87,7 @@
 }
 #main-content {
   flex: auto;
+  max-width: 100%;
 }
 
 #content {
@@ -95,7 +96,6 @@
 
 #main {
   @extend .ct-width;
-  overflow-x: hidden;
   display: flex; 
 }
 #column-one {
