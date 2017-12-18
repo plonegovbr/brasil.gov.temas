@@ -3,6 +3,7 @@
 header#main-header {
   color: $top-text;
   background-color: $top-color;
+  margin-bottom: 30px;
 
   a:link,
   a:hover,
@@ -228,7 +229,7 @@ header#main-header {
   #breadcrumbs-home a:before {
   content: "";
   position: absolute;
-  top: 6px;
+  top: 3px;
   left: 0;
   @include sprite($casinha);
   }
@@ -244,10 +245,28 @@ header#main-header {
     padding: 0 10px;
   }
 }
+
 .section-pagina-inicial #portal-breadcrumbs {
   display: none;
 }
 
 #portal-personaltools {
   position: fixed;
+}
+
+/* inversão de cores para casos especiais */
+header.inverter {
+  background-color: transparent !important;
+  margin-bottom: 0 !important
+}
+.inverter #portal-breadcrumbs {
+  border: none;
+  color: #fff;
+  margin-bottom: 0;
+  a, .breadcrumbSeparator {
+    color: #fff !important;
+  }
+  #breadcrumbs-home a:before {
+    @include sprite($casinha-branca);
+  }
 }

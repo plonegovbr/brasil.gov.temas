@@ -34,6 +34,11 @@
     <drop css:content="#portaltab-index_html" />
     <copy css:content="#portal-redes" css:theme=".navigation-redes ul" />
 
+    <rules css:if-not-content=".linha-destaquetopo">
+      <drop attributes="class" css:theme="#main-header" />
+      <drop attributes="class" css:theme="#wrapper" />
+    </rules>
+
     <!--Content -->
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
