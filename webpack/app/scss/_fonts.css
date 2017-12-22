@@ -1,0 +1,44 @@
+/* === Raleway - regular */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Raleway-Regular.eot");
+	src: local("Raleway"),
+		local("Raleway-Regular"),
+		url("../fonts/Raleway-Regular.eot") format("embedded-opentype"),
+		url("../fonts/Raleway-Regular.woff2") format("woff2"),
+		url("../fonts/Raleway-Regular.woff") format("woff"),
+		url("../fonts/Raleway-Regular.ttf") format("truetype"),
+		url("../fonts/Raleway-Regular.svg") format("svg");
+}
+
+/* === Raleway - 700 */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/Raleway-Bold.eot");
+	src: local("Raleway Bold"),
+		local("Raleway-Bold"),
+		url("../fonts/Raleway-Bold.eot") format("embedded-opentype"),
+		url("../fonts/Raleway-Bold.woff2") format("woff2"),
+		url("../fonts/Raleway-Bold.woff") format("woff"),
+		url("../fonts/Raleway-Bold.ttf") format("truetype"),
+		url("../fonts/Raleway-Bold.svg") format("svg");
+}
+
+/* === Raleway - 900 */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 900;
+	src: url("../fonts/Raleway-Black.eot");
+	src: local("Raleway Black"),
+		local("Raleway-Black"),
+		url("../fonts/Raleway-Black.eot") format("embedded-opentype"),
+		url("../fonts/Raleway-Black.woff2") format("woff2"),
+		url("../fonts/Raleway-Black.woff") format("woff"),
+		url("../fonts/Raleway-Black.ttf") format("truetype"),
+		url("../fonts/Raleway-Black.svg") format("svg");
+}
