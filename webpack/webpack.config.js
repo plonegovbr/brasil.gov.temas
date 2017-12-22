@@ -59,6 +59,15 @@ let createTheme = (theme) => {
           ]
         })
       }, {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[path][name].[ext]',
+            context: 'app/'
+          }
+        }
+      }, {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: [
           {
