@@ -28,7 +28,7 @@
 
     <!-- Header -->
     <replace css:content="#portal-personaltools" css:theme="#user" />
-    <replace css:content-children="#portal-globalnav" css:theme-children="nav ul" />
+    <replace css:content-children="#portal-globalnav" css:theme-children="nav ul.list-navigation" />
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <drop css:content="#portaltab-index_html" />
