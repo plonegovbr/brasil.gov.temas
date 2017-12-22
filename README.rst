@@ -154,6 +154,8 @@ ao processar,
 cria um arquivo ``brasilgovtemas-[hash].js`` transformado em ES5 através do compilador `Babel <https://babeljs.io/>`_,
 e é criada uma cópia por tema desse arquivo.
 
+Foi adicionado um plugin para remover os arquivos antigos gerados com hash, para não acumular arquivos CSS e JS na pasta.
+
 Na pasta "scss" existem os arquivos de estilos propriamente dito,
 é la que devemos alterar alguma estrutura de CSS compartilhada por todos os temas,
 e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do `webpack`_.

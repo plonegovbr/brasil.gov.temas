@@ -1,5 +1,6 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CleanObsoleteChunks = require('webpack-clean-obsolete-chunks');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const SpritesmithPlugin = require('webpack-spritesmith');
 
@@ -19,18 +20,22 @@ let createTheme = (theme) => {
       publicPath: `/++theme++${theme}/`
     },
     plugins: [
+      new CleanObsoleteChunks({
+        verbose: true,
+        deep: true,
+      }),
       new CopyWebpackPlugin([
         { from: 'app/rules.xml', to: 'rules.xml' },
         { from: `app/${theme}/manifest.cfg`, to: 'manifest.cfg' },
       ], {
       }),
-      new HtmlWebpackPlugin({
-        filename: 'index.html',
-        template: 'app/index.html'
-      }),
       new ExtractTextPlugin({
         filename: 'brasilgovtemas-[hash].css',
         allChunks: true
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'index.html',
+        template: 'app/index.html'
       }),
       new SpritesmithPlugin({
         src: {
@@ -58,6 +63,15 @@ let createTheme = (theme) => {
             'sass-loader'
           ]
         })
+      }, {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[path][name].[ext]',
+            context: 'app/'
+          }
+        }
       }, {
         test: /.*\.(gif|png|jpe?g)$/i,
         use: [

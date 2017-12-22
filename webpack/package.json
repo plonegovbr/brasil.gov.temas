@@ -23,6 +23,7 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
     "svg-url-loader": "^2.0.1",
+    "webpack-clean-obsolete-chunks": "^0.3.0",
     "webpack-spritesmith": "^0.3.3"
   }
 }
