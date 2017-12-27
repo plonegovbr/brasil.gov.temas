@@ -23,7 +23,7 @@
     <drop css:theme="head title" />
     <drop css:theme="body.userrole-anonymous #portal-personaltools" />
 
-    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+    <replace css:content-children="#portal-logo" css:theme-children="#logo" />
     <drop attributes="placeholder" css:content=".searchField" />
 
     <!-- Header -->
