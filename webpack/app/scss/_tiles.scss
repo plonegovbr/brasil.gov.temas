@@ -32,11 +32,11 @@
 
     h2 {
         font-size: 2.25rem;
-        font-weight: 900;
+        font-weight: 900 !important;
         color: #333333;
     }
 }
-.tile .outstanding-link {
+.tile a.outstanding-link {
     right: auto;
     display: inline-block;
     float: none;
@@ -45,5 +45,11 @@
     text-transform: uppercase;
     padding: 15px 40px;
     font-size: 1rem;
+    line-height: 1rem;
     font-weight: bold !important;
+}
+#content a.outstanding-link:hover {
+	background: #06ACFF;
+	border-color: #06ACFF !important;
+	color: #fff !important;
 }

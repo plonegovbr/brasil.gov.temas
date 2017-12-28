@@ -193,7 +193,7 @@ ul.submenu {
 
   legend {
     height: inherit;
-    width: 50%;
+    width: 780px;
     margin: auto;
     overflow: visible;
     color: #fff;
@@ -201,7 +201,7 @@ ul.submenu {
     position: absolute;
     font-size: 30px;
     top: 100px;
-    font-weight: bold;
+    font-weight: 900;
   }
 
   fieldset {
@@ -212,7 +212,7 @@ ul.submenu {
 
   form {
     background: $top-text;
-    width: 50%;
+    width: 780px !important;
     margin: 0 auto;
   }
 
@@ -220,6 +220,7 @@ ul.submenu {
     border: none;
     width: 92%;
     padding: 15px 0;
+    height: 30px;
     color: #ccc;
   }
   .searchButton {
@@ -228,6 +229,7 @@ ul.submenu {
   @include sprite($botao-busca);
   }
 }
+
 
 /********** Breadcrumb **********/
 #portal-breadcrumbs {
