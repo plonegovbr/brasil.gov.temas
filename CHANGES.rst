@@ -4,7 +4,8 @@ Changelog
 2.0a2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige funcionamento do contraste.
+  [rodfersou, agnogueira]
 
 
 2.0a1 (2017-12-27)
