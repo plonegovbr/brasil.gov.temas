@@ -56,6 +56,18 @@
     <replace css:content=".top_image" css:theme=".image" mode="raw" />
     <drop css:content="article .top_image" />
 
+    <before css:content-children="#viewlet-below-content" method="raw">
+      <div class="voltar-topo">
+        <a href="#wrapper">Voltar ao Topo</a>
+      </div>
+    </before>
+
+    <after css:content-children="#viewlet-below-content" method="raw">
+      <div class="texto-copyright">
+        Todo o conteúdo deste site está publicado sob a licença creative commons cc by nd 3.0 brasil
+      </div>
+    </after>
+
     <!--Footer -->
     <copy css:content="#portal-redes" css:theme=".coluna-redes ul" />
 
