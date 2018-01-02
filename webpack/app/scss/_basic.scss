@@ -160,32 +160,54 @@ dd.image-caption {
   margin: 1rem -90px;
 }
 
-/* icones */
+/* icones sociais */
 #portal-redes > li {
   display: inline-block;
   text-indent: -3000px;
-}
-#portalredes-twitter {
-  @include sprite($rede-twitter);
-}
-#portalredes-youtube {
-  @include sprite($rede-youtube);
-}
-#portalredes-facebook {
-  @include sprite($rede-facebook);
-}
-#portal-redes > #portalredes-flickr {
-  text-indent: 0;
+  cursor: pointer;
 }
 
-.navigation-redes {
+/* icones do topo */
+#portalredes-twitter {
+  @include sprite($rede-twitter-topo);
+}
+#portalredes-youtube {
+  @include sprite($rede-youtube-topo);
+}
+#portalredes-flickr {
+  @include sprite($rede-flickr-topo);
+}
+#portalredes-facebook {
+  @include sprite($rede-facebook-topo);
+}
+#portalredes-googleplus {
+  @include sprite($rede-googleplus-topo);
+}
+#portalredes-slideshare {
+  @include sprite($rede-slideshare-topo);
+}
+#portalredes-soundcloud {
+  @include sprite($rede-soundcloud-topo);
+}
+#portalredes-rss {
+  @include sprite($rede-rss-topo);
+}
+#portalredes-instagram {
+  @include sprite($rede-instagram-topo);
+}
+#portalredes-tumblr {
+  @include sprite($rede-tumblr-topo);
+}
+
+/* Icones do Rodape */
+footer {
   #portalredes-twitter {
-    @include sprite($rede-twitter-topo);
+  @include sprite($rede-twitter);
   }
   #portalredes-youtube {
-    @include sprite($rede-youtube-topo);
+    @include sprite($rede-youtube);
   }
   #portalredes-facebook {
-    @include sprite($rede-facebook-topo);
+    @include sprite($rede-facebook);
   }
 }
