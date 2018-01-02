@@ -1,4 +1,4 @@
-import Contraste from './js/contraste.js';
+import Contraste from './js/contrast.js';
 
 
 $(document).ready(function(){
