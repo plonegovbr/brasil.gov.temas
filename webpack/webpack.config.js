@@ -34,7 +34,12 @@ let createTheme = (theme) => {
         filename: 'brasilgovtemas-[hash].css',
         allChunks: true
       }),
-      new FaviconsWebpackPlugin(`./app/${theme}/img/favicon-idg.png`),
+      new FaviconsWebpackPlugin({
+        logo: `./app/${theme}/img/favicon-idg.png`,
+        icons: {
+          appleStartup: false,
+        }
+      }),
       new HtmlWebpackPlugin({
         filename: 'index.html',
         template: 'app/index.html'
