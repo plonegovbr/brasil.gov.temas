@@ -1,3 +1,6 @@
+import Contraste from './js/contrast.js';
+
+
 $(document).ready(function(){
     $(".ico-navegacao").click(function(){
         $(".navigation-wrapper").toggleClass("ativo");

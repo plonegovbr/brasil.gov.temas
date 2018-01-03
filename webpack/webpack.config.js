@@ -19,6 +19,9 @@ let createTheme = (theme) => {
       path: `${__dirname}/../src/brasil/gov/temas/themes/${theme}`,
       publicPath: `/++theme++${theme}/`
     },
+    externals: {
+      jquery: 'jQuery'
+    },
     plugins: [
       new CleanObsoleteChunks({
         verbose: true,
