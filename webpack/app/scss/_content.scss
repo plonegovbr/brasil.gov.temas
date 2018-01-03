@@ -106,10 +106,9 @@ dd.image-caption {
       font-weight: 700;
       margin-top: 1rem;
       display: inline-block;
-      line-height: .8rem;
     }
 }
-.voltar-topo:after {
+.voltar-topo a:after {
   content: "\005e";
   background: #222;
   color: #fff;
@@ -121,7 +120,7 @@ dd.image-caption {
   height: 20px;
   text-align: center;
   font-size: 1.4em;
-  margin-left: 10px;
+  margin: -10px 0 0 10px;
   font-weight: bold;
 }
 
