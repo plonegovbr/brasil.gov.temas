@@ -4,7 +4,7 @@
   "main": "app/brasilgovtemas.js",
   "scripts": {
     "build": "webpack -p",
-    "dev": "webpack --watch",
+    "debug": "webpack --watch",
     "watch": "webpack -p --watch"
   },
   "repository": {},
