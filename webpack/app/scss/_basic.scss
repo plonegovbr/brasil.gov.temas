@@ -123,12 +123,33 @@ h4 {
 /* Icones do Rodape */
 footer {
   #portalredes-twitter {
-  @include sprite($rede-twitter);
+    @include sprite($rede-twitter);
   }
   #portalredes-youtube {
     @include sprite($rede-youtube);
   }
+  #portalredes-flickr {
+    @include sprite($rede-flickr);
+  }
   #portalredes-facebook {
     @include sprite($rede-facebook);
+  }
+  #portalredes-googleplus {
+    @include sprite($rede-googleplus);
+  }
+  #portalredes-slideshare {
+    @include sprite($rede-slideshare);
+  }
+  #portalredes-soundcloud {
+    @include sprite($rede-soundcloud);
+  }
+  #portalredes-rss {
+    @include sprite($rede-rss);
+  }
+  #portalredes-instagram {
+    @include sprite($rede-instagram);
+  }
+  #portalredes-tumblr {
+    @include sprite($rede-tumblr);
   }
 }
