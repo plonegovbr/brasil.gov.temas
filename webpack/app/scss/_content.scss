@@ -130,3 +130,44 @@ dd.image-caption {
   border-bottom: solid 0.5px #ccc;
   padding: 20px 0;
 }
+
+/* relacionados */
+
+#relatedItemBox {
+  @extend .ct-width;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 90px;
+
+  dt {
+    width: 100%;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 900;
+    padding: 90px 0 50px 0;
+  }
+  dd {
+    width: 31%;
+  }
+  p {
+    color: $link-color;
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  a, a:hover {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: $header-color !important;
+    line-height: 1.39;
+  }
+  img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    float: left;
+    margin-right: 15px;
+  }
+}
