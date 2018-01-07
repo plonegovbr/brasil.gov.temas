@@ -24,7 +24,6 @@
     <drop css:theme="body.userrole-anonymous #portal-personaltools" />
 
     <replace css:content-children="#logo" css:theme-children="#logo" />
-    <drop attributes="placeholder" css:content=".searchField" />
 
     <!-- Header -->
     <replace css:content="#portal-personaltools" css:theme="#user" />
