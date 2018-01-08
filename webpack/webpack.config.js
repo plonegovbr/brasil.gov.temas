@@ -1,6 +1,7 @@
 const CleanObsoleteChunks = require('webpack-clean-obsolete-chunks');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const SpritesmithPlugin = require('webpack-spritesmith');
 
@@ -35,6 +36,12 @@ let createTheme = (theme) => {
       new ExtractTextPlugin({
         filename: 'brasilgovtemas-[hash].css',
         allChunks: true
+      }),
+      new FaviconsWebpackPlugin({
+        logo: `./app/${theme}/img/favicon-idg.png`,
+        icons: {
+          appleStartup: false,
+        }
       }),
       new HtmlWebpackPlugin({
         filename: 'index.html',
