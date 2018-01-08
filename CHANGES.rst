@@ -4,6 +4,9 @@ Changelog
 2.0a2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Adiciona favicon.
+  [rodfersou]
+
 - Corrige funcionamento do contraste.
   [rodfersou, agnogueira]
 
