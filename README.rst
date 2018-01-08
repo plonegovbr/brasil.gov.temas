@@ -110,64 +110,75 @@ Segue uma lista dos principais arquivos:
     $ tree webpack/app
     webpack/app
     ├── brasilgovtemas.js
+    ├── favicons
+    │   └── Lista de imagens para o Favicon
+    ├── fonts
+    │   └── Lista de Fontes utilizadas no site
     ├── index.html
-    ├── padrao
+    ├── js
+    │   └── Lista de módulos Javascript
+    ├── rules.xml
+    ├── scss
+    │   └── Lista de módulos Scss
+    ├── tema-1
     │   ├── brasilgovtemas.scss
+    │   ├── favicons
+    │   │   ├── browserconfig.xml
+    │   │   └── manifest.json
     │   ├── img
     │   │   └── sprite.png
     │   ├── manifest.cfg
     │   ├── preview.png
     │   ├── sprite
-    │   │   ├── botao-busca.png
-    │   │   ├── busca.png
-    │   │   ├── casinha.png
-    │   │   ├── contraste.png
-    │   │   ├── nav.png
-    │   │   └── vlibras.png
+    │   │   └── Lista de Imagens para criação do sprite
     │   └── _sprite.scss
-    ├── rules.xml
-    └── scss
-        ├── _basic.scss
-        ├── _footer.scss
-        ├── _grid.scss
-        ├── _header.scss
-        ├── _portlets.scss
-        ├── _responsive.scss
-        └── _tiles.scss
+    ├── tema-2
+    │   └── Arquivos do tema 2
+    └── tema-3
+        └── Arquivos do tema 3
+
+
+Na estrutura atual, existem alguns arquivos comuns a todos os temas e alguns arquivos diferentes para cada tema.
+Os arquivos globais ficam na pasta ``webpack/app`` enquanto os demais arquivos ficam dentro da pasta de cada tema.
 
 Foi adotada a estratégia pouco comum ao Plone de não registrar os arquivos CSS e JS no ``portal_css`` e ``portal_javascripts``;
 Ao invés disso, deixamos o trabalho de gerar um novo nome desses arquivos para o `webpack`_.
 
+O arquivo ``brasilgovtemas.js`` é escrito em ES6 e, ao processar,
+cria um arquivo ``brasilgovtemas-[hash].js`` transformado em ES5 através do compilador `Babel <https://babeljs.io/>`_,
+e é criada uma cópia por tema desse arquivo.
+
+Na pasta ``favicons`` existem as imagens necessárias para incluir o favicon do site para todas as plataformas.
+
+Na pasta ``fonts`` possui as web fontes utilizadas nos temas deste pacote.
+
 O arquivo ``index.html`` da pasta do Diazo não está no controlador de versões.
-Ao invés disso, existe um ``index.html`` na pasta "webpack" que é processado a cada execução do buildout ou do `webpack`_, e gera arquivos JS, CSS e ``index.html`` na pasta do Diazo.
+Ao invés disso, existe um ``index.html`` na pasta "webpack" que é processado a cada execução do buildout ou do `webpack`_,
+e gera arquivos JS, CSS e ``index.html`` na pasta do Diazo.
 Os arquivos JS e CSS possuem nomes especiais com um hash que é renovados a cada execução do buildout.
 
 O arquivo ``rules.xml`` é copiado para cada tema, e a princípio é igual para todos os temas.
+
+Na pasta ``scss`` existem os arquivos de estilos propriamente dito,
+é la que devemos alterar alguma estrutura de CSS compartilhada por todos os temas,
+e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do `webpack`_.
 
 Existe um arquivo ``brasilgovtemas.scss`` para cada tema;
 nele existem definições de variáveis do que muda em cada tema, fontes, tamanhos e cores,
 e importa os arquivos da pasta "scss" para processar cada tema.
 Esse arquivo é transformado em ``brasilgovtemas-[hash].css`` após processamento.
 
-O arquivo ``brasilgovtemas.js`` é escrito em ES6 e,
-ao processar,
-cria um arquivo ``brasilgovtemas-[hash].js`` transformado em ES5 através do compilador `Babel <https://babeljs.io/>`_,
-e é criada uma cópia por tema desse arquivo.
-
-Foi adicionado um plugin para remover os arquivos antigos gerados com hash, para não acumular arquivos CSS e JS na pasta.
-
-Na pasta "scss" existem os arquivos de estilos propriamente dito,
-é la que devemos alterar alguma estrutura de CSS compartilhada por todos os temas,
-e uma alteração nessa pasta repercurte em alteração me todos os temas após execução do `webpack`_.
+Na pasta ``favicons`` dentro do tema possui arquivos de configuração relacionados ao favicon para algumas plataformas.
+Estes arquivos foram criados um para cada tema pois precisam ser alterados em cada tema.
 
 Existem ainda os arquivos ``manifest.cfg`` e ``preview.png`` que são únicos para cada tema, e são necessários pelo Diazo.
 
-Cada tema ainda possui uma pasta "sprite",
-onde são adicionados os ícones utilizados no tema.
+Cada tema ainda possui uma pasta "sprite", onde são adicionados os ícones utilizados no tema.
 Esses ícones são processados gerando os arquivos ``_sprite.scss`` e ``img/sprite.png`` no tema.
 O primeiro arquivo cria mixins utilizados no tema para facilitar a inserção de regras do sprite,
-e o segundo arquivo é o sprite propriamente dito,
-que junta todas as imagens existens na pasta "sprite".
+e o segundo arquivo é o sprite propriamente dito, que junta todas as imagens existens na pasta "sprite".
+
+Foi adicionado um plugin para remover os arquivos antigos gerados com hash, para não acumular arquivos CSS e JS na pasta.
 
 Este pacote adiciona os seguintes comandos na pasta bin do buildout para processar automaticamente os recursos estáticos:
 
