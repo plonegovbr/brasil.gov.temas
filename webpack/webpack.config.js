@@ -29,6 +29,15 @@ let createTheme = (theme) => {
       }),
       new CopyWebpackPlugin([
         { from: 'app/rules.xml', to: 'rules.xml' },
+        { from: 'app/favicons/android-chrome-192x192.png', to: 'favicons/android-chrome-192x192.png' },
+        { from: 'app/favicons/android-chrome-512x512.png', to: 'favicons/android-chrome-512x512.png' },
+        { from: 'app/favicons/apple-touch-icon.png', to: 'favicons/apple-touch-icon.png' },
+        { from: 'app/favicons/favicon-16x16.png', to: 'favicons/favicon-16x16.png' },
+        { from: 'app/favicons/favicon-32x32.png', to: 'favicons/favicon-32x32.png' },
+        { from: 'app/favicons/mstile-150x150.png', to: 'favicons/mstile-150x150.png' },
+        { from: 'app/favicons/safari-pinned-tab.svg', to: 'favicons/safari-pinned-tab.svg' },
+        { from: `app/${theme}/favicons/browserconfig.xml`, to: 'favicons/browserconfig.xml' },
+        { from: `app/${theme}/favicons/manifest.json`, to: 'favicons/manifest.json' },
         { from: `app/${theme}/manifest.cfg`, to: 'manifest.cfg' },
       ], {
       }),
@@ -38,7 +47,8 @@ let createTheme = (theme) => {
       }),
       new HtmlWebpackPlugin({
         filename: 'index.html',
-        template: 'app/index.html'
+        template: 'app/index.html',
+        publicPath: `/++theme++${theme}/`
       }),
       new SpritesmithPlugin({
         src: {
