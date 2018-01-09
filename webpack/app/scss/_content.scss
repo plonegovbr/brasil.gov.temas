@@ -130,6 +130,13 @@ dd.image-caption {
   padding: 20px 0;
 }
 
+
+/* embedder videos */
+.top_embedded iframe {
+    height: 90vh;
+    width: 100%;
+}
+
 /* relacionados */
 
 #relatedItemBox {
