@@ -49,12 +49,6 @@
     <copy css:content=".relatedItems" css:theme=".conteudo-relacionado" method="raw" />
     <drop css:content="#content .relatedItems" />
 
-    <replace css:content=".top_embedded" css:theme=".video" mode="raw" />
-    <drop css:content="article .top_embedded" />
-
-    <replace css:content=".top_image" css:theme=".image" mode="raw" />
-    <drop css:content="article .top_image" />
-
     <before css:content-children="#viewlet-below-content" method="raw">
       <div class="voltar-topo">
         <a href="#wrapper">Voltar ao Topo</a>
