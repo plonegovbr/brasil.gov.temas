@@ -42,12 +42,19 @@
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
 
-    <drop css:theme="#portal-breadcrumbs" />
+    <replace css:content="#portal-breadcrumbs" css:theme="#portal-breadcrumbs" method="raw" />
+    <drop css:content="#portal-breadcrumbs" />
 
     <replace css:theme="#barra_brasil_js" css:content-children="#barra_brasil_js" />
 
     <copy css:content=".relatedItems" css:theme=".conteudo-relacionado" method="raw" />
     <drop css:content="#content .relatedItems" />
+
+    <replace css:content=".top_embedded" css:theme=".video" mode="raw" />
+    <drop css:content="article .top_embedded" />
+
+    <replace css:content=".top_image" css:theme=".image" mode="raw" />
+    <drop css:content="article .top_image" />
 
     <before css:content-children="#viewlet-below-content" method="raw">
       <div class="voltar-topo">

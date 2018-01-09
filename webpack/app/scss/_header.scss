@@ -3,7 +3,6 @@
 header#main-header {
   color: $top-text;
   background-color: $top-color;
-  margin-bottom: 30px;
 
   a:link,
   a:hover,
@@ -284,13 +283,11 @@ header#main-header.busca-ativa {
   }
 }
 
-
 /********** Breadcrumb **********/
 #portal-breadcrumbs {
   @extend .ct-width;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 15px 0;
-  margin-bottom: 30px;
   font-size: 90%;
 
   #breadcrumbs-you-are-here {
