@@ -176,7 +176,7 @@ ul.submenu {
 
 
 /********** Busca **********/
-#search, #portal-searchbox {
+#portal-searchbox {
   background-color: transparent;
   float: none;
   width: 100%;
@@ -227,6 +227,60 @@ ul.submenu {
     border: none;
     text-indent: -3000px;
   @include sprite($botao-busca);
+  }
+}
+
+/* variacao de cores do header na busca ativa */
+#portal-searchbox.ativo {
+    background-color: #fff !important;
+    display: block !important;
+    color: #333;
+
+    legend {
+        color: #222 !important;
+    }
+    form {
+        border: solid 1px #e4e4e4;
+    }
+    form:before {
+        content: "+";
+        transform: rotate(-45deg);
+        font-size: 3.5rem;
+        color: #222;
+        position: absolute;
+        top: 20px;
+        margin-left: 540px;
+        cursor: pointer;
+    }
+}
+
+header#main-header.busca-ativa {
+  color: #222 !important;
+  background-color: $top-text;
+
+  a, a:link, #logo #portal-title, #logo h1 {
+    color: #222 !important;
+  }
+  .header-wrapper {
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .header-icons {
+    border-right: 1px solid #e4e4e4;
+  }
+  .ico-navegacao {
+    @include sprite($nav-escuro);
+  }
+  .ico-busca {
+    @include sprite($busca-escuro);
+  }
+  .link-contraste:before {
+    @include sprite($contraste-escuro);
+  }
+  .link-vlibras:before {
+    @include sprite($vlibras-escuro);
+  }
+  .header-accessibility .link-contraste {
+    border-right: 1px solid #e4e4e4;
   }
 }
 
