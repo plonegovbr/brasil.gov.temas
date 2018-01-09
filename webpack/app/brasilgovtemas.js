@@ -6,6 +6,7 @@ $(document).ready(function(){
         $(".navigation-wrapper").toggleClass("ativo");
     });
     $(".ico-busca").click(function(){
+        $("#main-header").toggleClass("busca-ativa");
         $("#portal-searchbox").toggleClass("ativo");
     });
 });
