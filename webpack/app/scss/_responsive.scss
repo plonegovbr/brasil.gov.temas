@@ -128,6 +128,46 @@
   .section-fale-conosco.portaltype-formfolder div[id^=parent-fieldname-formEpilogue] {
     width: 100%;
   }
+  .lista-blocos .list-item {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .brasil-carousel-tile .swiper-slide, .brasil-carousel-tile .carousel-item {
+    display: block;
+  }
+  .template-centrais-de-conteudo {
+    background: #fff;
+  }
+  .template-centrais-de-conteudo form fieldset input[type=text] {
+    width: 80%;
+  }
+  .template-centrais-de-conteudo form fieldset {
+    border: 1px solid #ccc!important;
+    border-bottom: 1px solid #ccc!important;
+  }
+  #results-bar .actionMenuHeader {
+    width: 100%;
+    float: none;
+    border-left: 0;
+    margin-top: 0;
+  }
+  #results-bar #filters {
+    flex-flow: column;
+  }
+  #results-bar {
+    border: 0;
+  }
+  #results ul:first-child {
+    flex-flow: column;
+
+    li {
+      z-index: 0;
+    }
+  }
+  .paginacao li {
+    font-size: 10px;
+  }
 }
 
 /* Landscape phones and down */
