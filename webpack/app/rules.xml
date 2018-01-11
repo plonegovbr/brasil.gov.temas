@@ -35,7 +35,7 @@
 
     <rules css:if-not-content=".linha-destaquetopo">
       <drop attributes="class" css:theme="#main-header" />
-      <drop attributes="class" css:theme="#wrapper" />
+      <drop attributes="class" css:theme="#portal-breadcrumbs" />
     </rules>
 
     <!--Content -->
