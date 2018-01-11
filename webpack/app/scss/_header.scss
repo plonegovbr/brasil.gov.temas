@@ -255,7 +255,7 @@ ul.submenu {
 
 header#main-header.busca-ativa {
   color: #222 !important;
-  background-color: $top-text;
+  background-color: $top-text !important;
 
   a, a:link, #logo #portal-title, #logo h1 {
     color: #222 !important;
