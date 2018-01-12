@@ -332,8 +332,8 @@ header.inverter {
   background-color: transparent !important;
   margin-bottom: 0 !important
 }
-.inverter #portal-breadcrumbs {
-  border: none;
+#portal-breadcrumbs.inverter {
+  border-bottom: 1px solid hsla(0,0%,100%,.2);
   color: #fff;
   margin-bottom: 0;
   a, .breadcrumbSeparator {
