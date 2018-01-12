@@ -4,7 +4,8 @@ Changelog
 2.0a3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige release quebrado.
+  [hvelarde]
 
 
 2.0a2 (2018-01-11)
