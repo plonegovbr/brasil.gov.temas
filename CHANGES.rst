@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0a2 (unreleased)
+2.0a2 (2018-01-11)
 ^^^^^^^^^^^^^^^^^^
 
 - Ajustes do responsivo.
