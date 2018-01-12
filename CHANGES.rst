@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0a3 (unreleased)
+2.0a3 (2018-01-11)
 ^^^^^^^^^^^^^^^^^^
 
 - Corrige release quebrado.
