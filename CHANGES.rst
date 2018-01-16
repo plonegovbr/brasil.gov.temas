@@ -4,7 +4,8 @@ Changelog
 2.0a4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Não esconde o titulo do portal para dispositivos móveis.
+  [rodfersou]
 
 
 2.0a3 (2018-01-11)
