@@ -175,6 +175,9 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  #portal-logo {
+      display: inline-block;
+  }
   div.cell {
     float: none;
 
