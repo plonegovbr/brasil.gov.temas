@@ -6,6 +6,7 @@ const SpritesmithPlugin = require('webpack-spritesmith');
 
 
 let createTheme = (theme) => {
+  let publicPath = `++theme++${theme}/`;
   return {
     entry: [
       './app/brasilgovtemas.js',
@@ -17,7 +18,7 @@ let createTheme = (theme) => {
       library: 'leitrabalhista',
       libraryTarget: 'umd',
       path: `${__dirname}/../src/brasil/gov/temas/themes/${theme}`,
-      publicPath: `/++theme++${theme}/`
+      publicPath: publicPath,
     },
     externals: {
       jquery: 'jQuery'
@@ -48,7 +49,7 @@ let createTheme = (theme) => {
       new HtmlWebpackPlugin({
         filename: 'index.html',
         template: 'app/index.html',
-        publicPath: `/++theme++${theme}/`
+        publicPath: publicPath,
       }),
       new SpritesmithPlugin({
         src: {

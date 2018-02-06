@@ -4,6 +4,9 @@ Changelog
 2.0a4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige o path padrão do tema para não iniciar com "/".
+  [rodfersou]
+
 - Não esconde o titulo do portal para dispositivos móveis.
   [rodfersou]
 
