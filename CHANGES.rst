@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0a4 (unreleased)
+2.0a4 (2018-02-08)
 ^^^^^^^^^^^^^^^^^^
 
 - Corrige o path padrão do tema para não iniciar com "/".
