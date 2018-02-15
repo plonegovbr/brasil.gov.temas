@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "main": "app/brasilgovtemas.js",
   "scripts": {
-    "build": "webpack -p",
-    "dev": "webpack --watch",
-    "watch": "webpack -p --watch"
+    "build": "./node_modules/.bin/webpack -p",
+    "debug": "./node_modules/.bin/webpack --watch",
+    "watch": "./node_modules/.bin/webpack -p --watch"
   },
   "repository": {},
   "license": "GPL-2.0",
@@ -24,6 +24,7 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
     "svg-url-loader": "^2.0.1",
+    "webpack": "^3",
     "webpack-clean-obsolete-chunks": "^0.3.0",
     "webpack-spritesmith": "^0.3.3"
   }
