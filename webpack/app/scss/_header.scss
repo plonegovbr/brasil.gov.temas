@@ -99,8 +99,7 @@ ul.submenu {
 
 /********** Icones **********/
 .header-icons {
-  width: 90px;
-  border-right: 1px solid rgba(256, 256, 256, 0.2);
+  margin: 15px 20px 15px 0;
 
   .ico-navegacao {
     display: inline-block;
@@ -121,8 +120,9 @@ ul.submenu {
     width: 280px;
     text-align: right;
     text-transform: uppercase;
-    font-size: 70%;
+    font-size: 0.6875rem;
     line-height: 1.2rem;
+    font-weight: bold;
 
   .link-contraste {
     display: inline-block;
@@ -155,71 +155,65 @@ ul.submenu {
 /********** Logo **********/
 #portal-logo {
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 #logo {
   flex-grow: 1;
   font-size: 28px;
   font-weight: normal;
-  margin: 0 20px;
+  margin: 0 20px 0 0;
 
   h1, #portal-title {
     display: inline;
     color: $top-link;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 1.875rem;
+    font-weight: 900;
+  }
+  #portal-title-1 {
+    margin-right: 0.5rem;
   }
   #portal-description {
-    font-size: 16px;
+    font-size: 1rem;
+    width: 100%;
+    order: -2;
+    opacity: 0.6;
+  }
+}
+/********** Segunda linha  **********/
+
+.search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  @extend .ct-width;
+}
+
+.links-destaque {
+  flex-grow: 1;
+  margin-top: 18px;
+
+  li {
+    margin-right: 20px;
   }
 }
 
-
 /********** Busca **********/
 #portal-searchbox {
-  background-color: transparent;
   float: none;
-  width: 100%;
-  text-align: center;
-  padding: 140px 0;
-  margin: 0;
-  display: none;
-  border-bottom: 1px solid #f1f1f1;
-  position: relative;
-
-  h2 {
-    color: $top-text;
-  }
-
-  legend {
-    height: inherit;
-    width: 780px;
-    margin: auto;
-    overflow: visible;
-    color: #fff;
-    background-color: transparent;
-    position: absolute;
-    font-size: 30px;
-    top: 100px;
-    font-weight: 900;
-  }
+  width: 408px;
+  margin: 9px 0;
 
   fieldset {
-    border: none;
-    padding: 0;
     margin: 0;
+    padding: 0 10px 0 30px;
+    border: 0;
+    background: #fff;
+    border-radius: 30px;
   }
-
-  form {
-    background: $top-text;
-    width: 780px !important;
-    margin: 0 auto;
-  }
-
   .searchField {
     border: none;
     width: 92%;
-    padding: 15px 0;
-    height: 30px;
+    padding: 12px 0;
     color: #ccc;
   }
   .searchButton {
@@ -229,29 +223,7 @@ ul.submenu {
   }
 }
 
-/* variacao de cores do header na busca ativa */
-#portal-searchbox.ativo {
-    background-color: #fff !important;
-    display: block !important;
-    color: #333;
 
-    legend {
-        color: #222 !important;
-    }
-    form {
-        border: solid 1px #e4e4e4;
-    }
-    form:before {
-        content: "+";
-        transform: rotate(-45deg);
-        font-size: 3.5rem;
-        color: #222;
-        position: absolute;
-        top: 20px;
-        margin-left: 540px;
-        cursor: pointer;
-    }
-}
 
 header#main-header.busca-ativa {
   color: #222 !important;

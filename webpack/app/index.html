@@ -26,16 +26,11 @@
     <!-- Header -->
     <header id="main-header" role="banner" class="inverter">
       <div class="header-wrapper">
-          <div class="header-icons">
-            <a class="ico-navegacao">Navegação</a>
-            <a class="ico-busca">Busca</a>
-          </div>
-
           <div id="logo">
               <a id="portal-logo" title="Todas as informações sobre a Presidência da República do Brasil e as atividades diárias do presidente Michel Temer." href="http://www2.planalto.gov.br">
-                      <span id="portal-title-1">Governo do</span>
-                      <h1 id="portal-title" class="corto">Brasil</h1>
-                      <span id="portal-description">portal do governo brasileiro</span>
+                <span id="portal-title-1">Governo do</span>
+                <h1 id="portal-title" class="corto">Brasil</h1>
+                <span id="portal-description">portal do governo brasileiro</span>
               </a>
           </div>
 
@@ -44,10 +39,48 @@
               <li><a href="#" class="link-contraste">Alto Contraste</a></li>
               <li><a href="http://www.vlibras.gov.br/" class="link-vlibras">Vlibras</a></li>
             </ul>
+            <ul id="language" class="hidden">
+              <li class="language-es">
+                  <a href="#">Espa&#241;ol</a>
+              </li>
+              <li class="language-en">
+                  <a href="#">English</a>
+              </li>
+            </ul>
+          </div>
+
+      </div>
+      <!-- Segunda linha do header -->
+      <div class="search-wrapper">
+          <!-- icones -->
+          <div class="header-icons">
+            <a class="ico-navegacao">Navegação</a>
+          </div>
+          <div class="links-destaque">
+            <ul>
+              <li><a href="#">link 1</a></li>
+              <li><a href="#">link 2</a></li>
+              <li><a href="#">link 3</a></li>
+              <li><a href="#">link 4</a></li>
+            </ul>
+          </div>
+
+          <!-- Search -->
+          <div id="search" role="search">
+            <h2>O que você está procurando?</h2>
+            <form>
+              <div class="LSBox">
+                <input name="SearchableText" type="text" size="18" title="Buscar no Site" placeholder="Buscar no Site" accesskey="4" class="searchField" id="searchGadget" autocomplete="off"><input class="searchButton" type="submit" value="Buscar">
+                <div class="LSResult" id="LSResult" style="display: none;">
+                  <div class="LSShadow" id="LSShadow"></div>
+                </div>
+              </div>
+            </form>
           </div>
       </div>
       <!-- Main Menu -->
       <div class="navigation-wrapper">
+
         <div class="navigation-content">
 
           <nav id="main-navigation" role="navigation" class="navigation-cell">
@@ -69,19 +102,6 @@
 
         </div>
       </div>
-      <!-- Search -->
-      <div id="search" role="search">
-        <h2>O que você está procurando?</h2>
-        <form>
-          <div class="LSBox">
-            <input name="SearchableText" type="text" size="18" title="Buscar no Site" placeholder="Buscar no Site" accesskey="4" class="searchField" id="searchGadget" autocomplete="off"><input class="searchButton" type="submit" value="Buscar">
-            <div class="LSResult" id="LSResult" style="display: none;">
-              <div class="LSShadow" id="LSShadow"></div>
-            </div>
-          </div>
-        </form>
-      </div>
-
     </header>
 
     <div id="portal-breadcrumbs" class="inverter">

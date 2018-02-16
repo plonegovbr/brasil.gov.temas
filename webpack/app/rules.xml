@@ -68,6 +68,31 @@
       </div>
     </after>
 
+
+    <!-- UL DE LíNGUAS
+    É necessário cadastrar uma action em site_actions com o mesmo id de
+    língua que existe no css, ou seja, no padrão "language-LANGUADE_CODE",
+    para que as regras a seguir funcionem corretamente.-->
+
+    <!--Habilita a div de línguas novamente removendo o hidden, já que encontrou uma action de-->
+    <!--língua renderizada.-->
+    <drop if-content="//ul[@id='portal-siteactions']/li[contains(@id,'siteaction-language-')]" css:theme="#language" attributes="class" />
+
+    <!-- Inglês -->
+    <drop if-not-content="//ul[@id='portal-siteactions']/li[contains(@id,'siteaction-language-en')]" css:theme=".language-en" />
+    <copy attributes="href" css:content="#siteaction-language-en a" css:theme=".language-en a" />
+    <drop css:content="#siteaction-language-en" />
+
+    <!-- Espanhol -->
+    <drop if-not-content="//ul[@id='portal-siteactions']/li[contains(@id,'siteaction-language-es')]" css:theme=".language-es" />
+    <copy attributes="href" css:content="#siteaction-language-es a" css:theme=".language-es a" />
+    <drop css:content="#siteaction-language-es" />
+
+    <!--Se não vier nenhuma action de língua, é necessário remover por completo-->
+    <!--a ul de línguas do tema pois ela estará vazia. -->
+    <drop if-not-content="//ul[@id='portal-siteactions']/li[contains(@id,'siteaction-language-')]" css:theme="ul#language" />
+    <!-- UL DE LíNGUAS -->
+
     <!--Footer -->
     <copy css:content="#portal-redes" css:theme=".coluna-redes ul" />
 
