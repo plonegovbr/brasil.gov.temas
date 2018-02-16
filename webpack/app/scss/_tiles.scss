@@ -4,6 +4,8 @@
 	}
 }
 .tile {
+	width: 100%;
+
 	.tile-section {
 	  color: $main-color;
 	  font-weight: bold;
@@ -52,4 +54,106 @@
 	background: #06ACFF;
 	border-color: #06ACFF !important;
 	color: #fff !important;
+}
+
+/* box branco */
+.tile.box-branco>div {
+    align-self: flex-end;
+}
+
+/* box colorido */
+.tile.box-colorido {
+    display: flex;
+    >div {
+        background: #56c75f;
+        padding: 20px 40px;
+        color: #fff !important;
+        font-size: 1.3rem;
+        line-height: 120%;
+        align-self: inherit !important;
+        align-self: flex-end;
+    }
+    a {
+        color: #00d6d1 !important;
+        background: #fff;
+        border-radius: 30px;
+        display: inline-block;
+        padding: 11px 29px;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    h1 {
+        color: #fff;
+        font-size: 3.75rem;
+        line-height: 3.063rem;
+        letter-spacing: -0.0625rem;
+    }
+    p {    
+        font-size: 120%;
+        margin-top: 10px;
+    }
+}
+
+/* tile de foto sobreposta */
+.tile.foto-sobreposta {
+    position: relative;
+    height: 400px;
+    display: flex;
+
+    .tile-content {
+        align-self: flex-end;
+    }
+    img {
+        object-fit: cover;
+        height: 400px !important;
+        position: absolute;
+        top: 0;
+        z-index: -2;
+    }
+    h1,
+    h2,
+    h3 {
+        padding: 0 100px 20px 20px;
+        margin: 0 !important;
+
+    }
+    h2 {
+        font-size: 1.75rem;
+        line-height: 2.188rem;
+    }
+    h2 a, h1 a, h3 a,
+    h2 a:hover, h1 a:hover, h3 a:hover {
+        color: #fff !important;
+    }
+
+    .tile-section {
+        color: #0094ff;
+        left: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 0 100px 10px 20px;
+    }
+    >div:before {
+        background-color: transparent;
+        background-image:
+        linear-gradient(
+          transparent, #000
+        );
+        content: ".";
+        display: block;
+        height: 400px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        opacity: .8;
+        z-index: -1;
+        text-indent: -3000px;
+    }
+}
+#content .tile.foto-sobreposta p {
+    padding: 0 20px;
+    color: #fff;
+    line-height: 1.563rem !important;
 }
