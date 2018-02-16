@@ -95,10 +95,17 @@
     }
 }
 
+/* box branco */
+.tile.box-branco>div {
+    align-self: flex-end;
+    margin-bottom: 12px;
+}
+
+
 /* tile de foto sobreposta */
 .tile.foto-sobreposta {
     position: relative;
-    height: 400px;
+    height: 370px;
     display: flex;
 
     .tile-content {
