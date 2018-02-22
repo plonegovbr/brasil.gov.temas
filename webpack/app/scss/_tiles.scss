@@ -56,6 +56,12 @@
 	color: #fff !important;
 }
 
+.tile {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
 /* box branco */
 .tile.box-branco>div {
     align-self: flex-end;
