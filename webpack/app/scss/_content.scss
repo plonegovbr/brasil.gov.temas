@@ -1,7 +1,55 @@
-.portaltype-collective-nitf-content article {
-  padding: 0 90px;
+/* largura da area de texto de alguns tipos de conteúdo */
+.portaltype-document,
+.portaltype-collective-nitf-content {
+  #main {
+    width: 100% !important;
+  }
+  h1.documentFirstHeading,
+  #viewlet-below-content-title,
+  .documentDescription,
+  .documentByLine {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #content-core p {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image-right {
+    margin-right: 10vw;
+  }
+  .image-left {
+    margin-left: 10vw;
+  }
+  .image-inline {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    dd {
+      max-width: 100%;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
 }
 
+
+/* ordem dos campos de conteudo */
+#content, #viewlet-below-content-title, article {
+    display: flex;
+    flex-direction: column;
+}
+p.nitfSubtitle {order: -5;}
+h1.documentFirstHeading {order: -5;}
+#content .documentDescription, #content #description {order: -4;}
+
+
+/* estilos dos campos de conteúdo */
+#parent-fieldname-text::first-letter, 
 div[property="rnews:articleBody"]::first-letter {
   color: $main-color !important;
   font-size: 5rem;
@@ -13,45 +61,53 @@ div[property="rnews:articleBody"]::first-letter {
 }
 
 h1.documentFirstHeading {
-  font-size: 44px;
+  font-size: 3rem;
   text-align: center;
 
   margin-top: 0;
   margin-bottom: .6em;
   
 }
-
-
-
 p.section {
   display: none;
 }
 
 p.nitfSubtitle {
   color: $link-color;
-  font-size: 22px;
+  font-size: 1.25rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
 }
 #content .documentDescription, #content #description {
   color: $description-color;
-  font: normal 1.25rem $main-font;
+  font: normal 1.125rem $main-font;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
 }
 
 .documentByLine {
   padding: 25px 0;
-  margin: 40px 0;
+  margin: 0 0 2rem 0;
   color: $byline-color;
   font-family: $main-font !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+#viewlet-social-like.vertical {
+  float: left;
+  position: absolute;
+  margin-top: 110px;
+}
+
+#content p {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
 }
 
 #content .pullquote, .portletStaticText .pullquote {
-  margin: 0 1em 0.5em -90px;
+  margin: .5em 1em 0.5em 10vw;
   float: left;
   width: 45%;
   clear: left;
@@ -64,6 +120,36 @@ dd.image-caption {
   text-align: center;
   padding: 0;
   margin: 0 !important;
+}
+
+/* imagem de conteudo no topo */
+.linha-destaquetopo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  height: 680px;
+
+  img {
+    height: 680px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+  }
+  h1, h2, h3, p {
+    width: 1140px !important;
+    margin: 0 auto 1rem auto;
+    color: #fff !important;
+  }
+  h1, h2, h3 {
+    margin-top: 300px !important;
+  }
+}
+#portal-breadcrumbs.inverter {
+  margin-bottom: 400px !important;
 }
 
 /* estilos de texto */
