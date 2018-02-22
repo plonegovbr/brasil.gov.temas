@@ -124,18 +124,19 @@ dd.image-caption {
 
 /* imagem de conteudo no topo */
 .linha-destaquetopo {
-  position: absolute;
+  position: absolute !important;
   top: 0;
   left: 0;
   right: 0;
   z-index: -2;
   height: 680px;
+  width: 100% !important;
 
   img {
     height: 680px;
     width: 100%;
     object-fit: cover;
-    position: absolute;
+    position: absolute !important;
     top: 0;
     z-index: -2;
   }
@@ -146,10 +147,33 @@ dd.image-caption {
   }
   h1, h2, h3 {
     margin-top: 300px !important;
+    a {
+      color: #fff !important;
+    }
   }
 }
 #portal-breadcrumbs.inverter {
   margin-bottom: 400px !important;
+}
+/* estilo para uso na linha do cover */
+.portaltype-collective-cover-content.template-view div.row.linha-destaquetopo {
+    width: 100% !important;
+    margin: 0 !important;
+    .column {
+      padding: 0;
+    }
+    .tile-content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+}
+.template-compose div.row.linha-destaquetopo {
+  position: relative !important;
+}
+.portaltype-collective-cover-content.template-view.section-pagina-inicial header.inverter {
+    margin-bottom: 460px !important;
 }
 
 /* estilos de texto */
