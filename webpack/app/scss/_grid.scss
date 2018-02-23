@@ -8,6 +8,7 @@
     margin-right: -$grid-gutter;
     margin-left: -$grid-gutter;
     margin-bottom: $grid-gutter;
+    margin-top: $grid-gutter;
     width: inherit !important;
   }
   .column {
@@ -115,7 +116,7 @@
   }
   div.row {
     width: 1176px !important; /* todo: utilizar variavel */
-    margin: 0 auto 30px auto;
+    margin: 20px auto;
   }
   #content {
     margin: 0;
