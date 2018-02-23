@@ -122,15 +122,17 @@ dd.image-caption {
   margin: 0 !important;
 }
 
-/* imagem de conteudo no topo */
-.linha-destaquetopo {
+/* imagem de pagina no topo */
+.portaltype-document .linha-destaquetopo {
   position: absolute !important;
   top: 0;
   left: 0;
   right: 0;
-  z-index: -2;
   height: 680px;
   width: 100% !important;
+  display: flex;
+  flex-flow: column;
+  padding-top: 300px;
 
   img {
     height: 680px;
@@ -146,35 +148,16 @@ dd.image-caption {
     color: #fff !important;
   }
   h1, h2, h3 {
-    margin-top: 300px !important;
     a {
       color: #fff !important;
     }
   }
 }
-#portal-breadcrumbs.inverter {
+
+.portaltype-document  #portal-breadcrumbs.inverter {
   margin-bottom: 400px !important;
 }
-/* estilo para uso na linha do cover */
-.portaltype-collective-cover-content.template-view div.row.linha-destaquetopo {
-    width: 100% !important;
-    margin: 0 !important;
-    .column {
-      padding: 0;
-    }
-    .tile-content {
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-    }
-}
-.template-compose div.row.linha-destaquetopo {
-  position: relative !important;
-}
-.portaltype-collective-cover-content.template-view.section-pagina-inicial header.inverter {
-    margin-bottom: 460px !important;
-}
+
 
 /* estilos de texto */
 .box-recuado {
@@ -285,5 +268,91 @@ dd.image-caption {
     object-fit: cover;
     float: left;
     margin-right: 15px;
+  }
+}
+
+/* social like */
+#viewlet-social-like {
+  position: absolute;
+
+  display: block;
+  float: none;
+  margin: 0;
+
+  width: 100px;
+
+  &.vertical {
+    min-height: 7em !important;
+    width: 73px;
+    float: left;
+    transform: translateX(-80px);
+  }
+  dl.image-right {
+    margin-right: -10%;
+  }
+  dl.image-left {
+    margin-left: -10%;
+  }
+  > div {
+    cursor: pointer;
+    position: relative;
+
+    float: none;
+    overflow: hidden;
+
+    margin: 0;
+
+    cursor: pointer;
+    border: 1px solid #979797;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  > div::before {
+    content: '';
+    display: block;
+  }
+  > div:hover::before {
+    filter: invert(100%);
+  }
+  > div > * {
+    position: absolute !important;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+
+    transform: scale(5);
+    transform-origin: left top;
+
+    opacity: 0;
+  }
+  .sociallike-network-facebook::before {
+    @include sprite($rede-facebook-topo);
+  }
+  .sociallike-network-facebook:hover {
+    background: #3b5999;
+  }
+  .sociallike-network-twitter::before {
+    @include sprite($rede-twitter-topo);
+  }
+  .sociallike-network-twitter:hover {
+    background: #55acee;
+  }
+  .sociallike-network-gplus::before {
+    @include sprite($rede-googleplus-topo);
+  }
+  .sociallike-network-gplus:hover {
+    background: #dd4b39;
+  }
+  .sociallike-network-linkedin::before {
+    @include sprite($rede-linkedin);
+  }
+  .sociallike-network-linkedin:hover {
+    background: #0077b5;
   }
 }

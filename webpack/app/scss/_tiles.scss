@@ -62,11 +62,6 @@
     margin-bottom: 12px;
 }
 
-/* box branco */
-.tile.box-branco>div {
-    align-self: flex-end;
-}
-
 /* box colorido */
 .tile.box-colorido {
     display: flex;
@@ -101,7 +96,7 @@
     }
 }
 
-/* box branco */
+/* tile box branco */
 .tile.box-branco>div {
     align-self: flex-end;
     margin-bottom: 12px;
@@ -119,7 +114,7 @@
     }
     img {
         object-fit: cover;
-        height: 400px !important;
+        height: 375px !important;
         position: absolute;
         top: 0;
         z-index: -2;
@@ -155,7 +150,7 @@
         );
         content: ".";
         display: block;
-        height: 400px;
+        height: 375px;
         position: absolute;
         left: 0;
         top: 0;
@@ -169,4 +164,78 @@
     padding: 0 20px;
     color: #fff;
     line-height: 1.563rem !important;
+}
+
+/*linha destacada */
+.portaltype-collective-cover-content div.row.linha-destacada {
+    width: 100%!important;
+    justify-content: center;
+    background: #244a7c;
+    padding: 0 0 20px 0;
+    margin-bottom: 0;
+
+    .tile {
+        background: #fff;
+        padding:10px 20px;
+        box-sizing:border-box;
+        display: block;
+        h1, h2, h3 {
+            color: #244a7c;
+        }
+
+    }
+    .col-md-3 {flex-basis: 285px;}
+    .col-md-4 {flex-basis: 335px;}
+    .col-md-5 {flex-basis: 475px;}
+    .col-md-6 {flex-basis: 570px;}
+    .col-md-12 {flex-basis: 1110px;}
+    .tile-transparente {
+        background: transparent !important;
+        color: #fff !important;
+        h1, h2, h3 {
+            color: #fff;
+        }
+    }
+}
+
+/* estilo para uso na linha do cover  */
+.portaltype-collective-cover-content.template-view div.row.linha-destaquetopo {
+    width: 100% !important;
+    margin: 0 !important;
+    position: inherit;
+    img {
+        height: 680px;
+        width: 100%;
+        object-fit: cover;
+        position: absolute !important;
+        top: 0;
+        z-index: -2;
+    }
+    .column {
+      padding: 0;
+    }
+    .tile-content {
+        height: 500px;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+    h1, h2, h3, p {
+        width: 1140px;
+        padding-right: 300px;
+        box-sizing:border-box;
+        margin: 0 auto 10px auto;
+        color: #fff;
+        a {
+            color: #fff !important;
+        }
+    }
+}
+.template-compose div.row.linha-destaquetopo {
+  position: relative !important;
+}
+
+header.inverter .search-wrapper {
+  border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
