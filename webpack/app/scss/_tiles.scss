@@ -249,3 +249,54 @@ p.tile-description {
 header.inverter .search-wrapper {
   border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
+
+/* TOP SUBJECTS */
+#content .tile-em-alta {
+    margin: 100px auto 30px auto;
+    display: inline-block;
+
+    .cover-list-tile {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tile-header {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    a {
+        border-radius: 30px;
+        border: solid 2px #222 !important;
+        padding: 15px 23px;
+        margin: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+        white-space: nowrap;
+        display: inline-block;
+        text-transform: uppercase;
+    } 
+    a:hover {
+        background: #0094ff;
+        color: #fff !important;
+        border: solid 2px #0094ff !important;
+    }
+    .tile-header h2 {
+        justify-content: center;
+        font-weight: normal !important;
+        text-transform: uppercase;
+        white-space: nowrap;
+        color: #222 !important;
+    }
+    .tile-header:before, .tile-header:after {
+        content: "linha";
+        background: #ccc;
+        width: 30%;
+        height: 1px;
+        text-indent: -3000px;
+        margin: 13px;
+    }
+}
