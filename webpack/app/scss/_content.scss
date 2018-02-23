@@ -133,6 +133,7 @@ dd.image-caption {
   display: flex;
   flex-flow: column;
   padding-top: 300px;
+  z-index: -1;
 
   img {
     height: 680px;
