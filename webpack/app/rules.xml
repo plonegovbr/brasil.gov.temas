@@ -56,6 +56,8 @@
     <replace css:content=".top_image" css:theme=".image" mode="raw" />
     <drop css:content="article .top_image" />
 
+
+  <rules css:if-not-content=".portaltype-collective-cover-content">
     <before css:content-children="#viewlet-below-content" method="raw">
       <div class="voltar-topo">
         <a href="#wrapper">Voltar ao Topo</a>
@@ -67,6 +69,7 @@
         Todo o conteúdo deste site está publicado sob a licença creative commons cc by nd 3.0 brasil
       </div>
     </after>
+  </rules>
 
 
     <!-- UL DE LíNGUAS
