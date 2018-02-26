@@ -1,0 +1,226 @@
+/* busca */
+.template-busca {
+    form h1.documentFirstHeading {
+        display: none;
+        font-size: 2,25rem !important;
+    }
+    #content h1.documentFirstHeading {
+        margin-top: 20px;
+    }
+    #search-field {
+        border: 1px solid #ccc !important;
+        border-bottom: 0;
+        margin: 0 13px -16px 12px;
+        padding: 10px;
+        text-align: left;
+
+        legend {
+            display: none;
+        }
+    }
+    input.searchPage {
+        border: none;
+        font-size: 1rem !important;
+        font-weight: 600;
+        margin-left: 15px;
+    }
+    input[type="text"] {
+        width: 800px;
+        line-height: 2.2em;
+    }
+    input[type="text"]:focus {
+        background-color: transparent;
+    }
+    input.searchButton {
+        @include sprite($botao-busca);
+        text-indent: -5000px;
+        background-color: transparent;
+    }
+    .actionMenuHeader {
+        position: absolute;
+        top: -50px;
+        right: 40px;
+        border-left: 1px solid #ccc;
+        padding-left: 30px;
+    }
+}
+#search-results-wrapper {
+    position: initial;
+}
+#search-results-bar {
+    border-top: 0;
+    border-bottom: 0;
+    padding: 1em;
+    box-sizing: border-box;
+
+    dl {
+        float: none;
+    }
+
+    dl.open {
+        border-top: 2px solid #ccc;
+    }
+
+    #searchResultsSort {
+        float: none;
+        display: none;
+    }
+}
+#search-results-bar.open {
+    border: 1px solid #ccc;
+    margin-bottom: 70px;
+}
+#search-results-bar>span:first-child {
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #f1f1f1;
+    left: 0;
+}
+#search-results-bar.open>span:first-child {
+    bottom: -65px;
+}
+
+#search-filter {
+    background: transparent;
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+
+    .field {
+        background: transparent;
+        padding: 0 40px 0 0;
+    }
+    div {
+        float: none !important;
+    }
+    legend {
+        padding: 20px 40px 20px 0 !important;
+        text-transform: uppercase;
+        font-size: 0.83rem;
+    }
+    .optionsToggle {
+        background: transparent;
+        border: none;
+
+        label {
+            font-weight: bold;
+            font-size: 100%;
+        }
+    }
+    label {
+        font-size: 90% !important;
+    }
+    .anyPeriod {
+        font-weight: bold !important;
+    }
+}
+
+#search-results {
+    margin-top: 37px;
+    padding: 0;
+
+    dd {
+      margin-left: 0;
+      border-bottom: 1px solid #f1f1f1;
+      padding-bottom: 20px;
+    }
+    dt a {
+        color: #333 !important;
+        font-size: 1.375rem;
+    }
+    a.link-category, a.link-category:hover {
+        background: transparent;
+        border: 2px solid #222 !important;
+        padding: .1em .8em;
+        color: #222 !important;
+        border-radius: 1.2em;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: 8px;
+    }
+    .documentPublished,
+    .documentModified {
+        font-size: 0.83rem;
+        color: #b1b1b1;
+    }
+
+    .documentModified:after {
+        content: " ";
+        display: block;
+    }
+    .list-category {
+        margin-top: 15px;
+    }
+    .nitfSubtitle {
+        color: #0094ff;
+        font-size: 22px;
+        font-weight: 700;
+        text-align: left;
+        text-transform: none;
+        margin-bottom: 0;
+        font-size: 1em;
+    }
+}
+
+#search-filter-toggle {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#search-filter-toggle:after {
+    @include sprite($ico-filtrar-fechado);
+    content: " ";
+    white-space: nowrap;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#search-filter-toggle.open:after {
+    @include sprite($ico-filtrar);
+}
+
+#searchButtonBottom{
+    float: right;
+
+    .searchPage {
+        background: #000;
+        border-radius: 20px;
+        padding: 10px 22px;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: .875rem !important;
+        color: #fff;
+    }
+}
+
+.template-sitemap #content h1.documentFirstHeading {
+    margin-top: 50px;
+}
+#portal-sitemap {
+    margin-bottom: 90px;
+}
+#portal-sitemap #portal-breadcrumbs {
+    display: none;
+}
+#portal-sitemap > li {
+    border: 0;
+}
+#portal-sitemap .navTreeLevel3 {
+    display: none;
+}
+#portal-sitemap .navTreeLevel2 li {
+    list-style-type: disc;
+    font-size: 14px;
+    line-height: 20px;
+}
+#portal-sitemap .navTreeLevel2 li a {
+    font-size: 16px;
+}
+#portal-sitemap li a {
+    color: #222 !important;
+}
