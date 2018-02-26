@@ -40,6 +40,10 @@
   header#main-header {
     padding: 0 20px;
   }
+  .portaltype-document header.inverter,
+  .portaltype-collective-nitf-content header.inverter {
+    margin-bottom: 400px !important;
+  }
   .header-wrapper {
     flex-wrap: wrap;
   }
@@ -195,6 +199,10 @@
   }
   .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo .tile-content {
     height: 150px;
+  }
+  .portaltype-collective-nitf-content #content-core p, .portaltype-document #content-core p {
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 }
 
