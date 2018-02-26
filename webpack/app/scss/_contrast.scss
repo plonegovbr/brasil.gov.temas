@@ -1,13 +1,15 @@
 /* contraste */
+// referenciar melhor os elementos a serem invetidos para evitar comportamentos inesperados.
 body.contraste,
 body.folder_contraste {
   header,
   footer,
-  a,
+  //a,
+  .actionMenu.deactivated
   h1,
   h2,
   h3,
-  h4,
+  //h4,
   h5,
   h6,
   dl.portlet a:hover,

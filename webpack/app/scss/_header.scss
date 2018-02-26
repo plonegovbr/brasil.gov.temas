@@ -133,8 +133,8 @@ ul.submenu {
   .link-contraste:before {
     content: "";
     position: absolute;
-    top: 3px;
-    left: 0;
+    top: 0px;
+    left: -5px;
     @include sprite($contraste);
   }
   .link-vlibras {
@@ -146,8 +146,8 @@ ul.submenu {
   .link-vlibras:before {
     content: "";
     position: absolute;
-    top: 3px;
-    left: 0;
+    top: -2px;
+    left: -1px;
     @include sprite($vlibras);
   }
 }
@@ -177,7 +177,7 @@ ul.submenu {
     font-size: 1rem;
     width: 100%;
     order: -2;
-    opacity: 0.6;
+    opacity: 1;
   }
 }
 /********** Segunda linha  **********/
@@ -258,6 +258,9 @@ header#main-header.busca-ativa {
 /********** Breadcrumb **********/
 #portal-breadcrumbs {
   @extend .ct-width;
+
+  margin-top: 5px;
+
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 15px 0;
   font-size: 90%;
@@ -268,8 +271,8 @@ header#main-header.busca-ativa {
   #breadcrumbs-home a {
     text-indent: -3000px;
     display: inline-block;
-  position: relative;
-  width: 20px;
+    position: relative;
+    width: 20px;
   }
   #breadcrumbs-home a:before {
   content: "";
@@ -304,7 +307,23 @@ header.inverter {
   background-color: transparent !important;
   margin-bottom: 0 !important
 }
+
+body.inverter {
+  background-color: black;
+
+  border-bottom: 1px solid hsla(0,0%,100%,.2);
+  color: #fff;
+  margin-bottom: 0;
+  a, .breadcrumbSeparator {
+    color: #fff !important;
+  }
+  #breadcrumbs-home a:before {
+    @include sprite($casinha-branca);
+  }
+}
 #portal-breadcrumbs.inverter {
+  background-color: black;
+  margin-top: 5px;
   border-bottom: 1px solid hsla(0,0%,100%,.2);
   color: #fff;
   margin-bottom: 0;

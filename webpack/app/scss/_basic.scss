@@ -125,23 +125,44 @@ footer {
   #portalredes-twitter {
     @include sprite($rede-twitter);
   }
+  #portalredes-twitter.inverter {
+    @include sprite($twitter-branco);
+  }
   #portalredes-youtube {
     @include sprite($rede-youtube);
+  }
+  #portalredes-youtube.inverter {
+    @include sprite($youtube-branco);
   }
   #portalredes-flickr {
     @include sprite($rede-flickr);
   }
+  #portalredes-flickr.inverter {
+    @include sprite($flickr-branco);
+  }
   #portalredes-facebook {
     @include sprite($rede-facebook);
+  }
+  #portalredes-facebook.inverter {
+    @include sprite($facebook-branco);
   }
   #portalredes-googleplus {
     @include sprite($rede-googleplus);
   }
+  #portalredes-googleplus.inverter {
+    @include sprite($gplus-branco);
+  }
   #portalredes-slideshare {
     @include sprite($rede-slideshare);
   }
+  #portalredes-slideshare.inverter {
+    @include sprite($slideshare-branco);
+  }
   #portalredes-soundcloud {
     @include sprite($rede-soundcloud);
+  }
+  #portalredes-soundcloud.inverter {
+    @include sprite($soundcloud-branco);
   }
   #portalredes-rss {
     @include sprite($rede-rss);

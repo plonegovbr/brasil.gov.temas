@@ -124,6 +124,22 @@ dd.image-caption {
   font-weight: bold;
 }
 
+.voltar-topo.inverter a:after {
+  content: "\005e";
+  background: #fff;
+  color: #222;
+  border-radius: 50%;
+  padding: 11px 10px 8px 10px;
+  display: block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 1.4em;
+  margin: -10px 0 0 10px;
+  font-weight: bold;
+}
+
 .texto-copyright {
   border-top: solid 0.5px #ccc;
   border-bottom: solid 0.5px #ccc;

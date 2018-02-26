@@ -86,6 +86,19 @@
   max-width: 100%;
   padding-top: 40px;
 }
+
+.documentFirstHeading.inverter {
+  color: white !important;
+}
+
+#wrapper.inverter {
+  width: $main-width;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 40px;
+
+  background-color: black;
+}
 #main-content {
   flex: auto;
   max-width: 100%;
@@ -107,6 +120,24 @@
   width: $coluna-2;
   margin-left: $grid-gutter;
 }
+
+p.discreet {
+  color: #666 !important;
+  font-size: 85%;
+  font-weight: normal
+}
+
+p.discreet.inverter {
+  color: white !important;
+  font-size: 85%;
+  font-weight: normal
+}
+
+h4.redes-sociais {
+  background-color: white !important;
+}
+
+
 
 /* variacao das linhas */
 .portaltype-collective-cover-content {

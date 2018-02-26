@@ -41,15 +41,25 @@
 		justify-content: space-between;
 	  }
 	}
-	.logo-governo {
+	#logo-governo.logo-governo {
 		@include sprite($gg);
 		display: block;
 		text-indent: -3000px;
 	}
-	.logo-acesso {
+	#logo-governo.logo-governo-inverter {
+	  @include sprite($gg-branco);
+	  display: block;
+	  text-indent: -3000px;
+	}
+	#logo-acesso.logo-acesso {
 		@include sprite($ai);
 		display: block;
 		text-indent: -3000px;
+	}
+	#logo-acesso.logo-acesso-inverter {
+	  @include sprite($ai-branco);
+	  display: block;
+	  text-indent: -3000px;
 	}
 }
 
