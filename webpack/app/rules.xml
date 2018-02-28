@@ -56,20 +56,26 @@
     <replace css:content=".top_image" css:theme=".image" mode="raw" />
     <drop css:content="article .top_image" />
 
+    <!-- Remove campos das páginas -->
+    <rules css:if-content=".portaltype-document.userrole-anonymous">
+      <drop css:content=".documentByLine .documentAuthor" />
+      <drop css:content=".documentByLine .documentPublished" />
+      <drop css:content=".documentByLine .documentModified" />
+    </rules>
 
-  <rules css:if-not-content=".portaltype-collective-cover-content">
-    <before css:content-children="#viewlet-below-content" method="raw">
-      <div class="voltar-topo">
-        <a href="#wrapper">Voltar ao Topo</a>
-      </div>
-    </before>
+    <rules css:if-not-content=".portaltype-collective-cover-content">
+      <before css:content-children="#viewlet-below-content" method="raw">
+        <div class="voltar-topo">
+          <a href="#wrapper">Voltar ao Topo</a>
+        </div>
+      </before>
 
-    <after css:content-children="#viewlet-below-content" method="raw">
-      <div class="texto-copyright">
-        Todo o conteúdo deste site está publicado sob a licença creative commons cc by nd 3.0 brasil
-      </div>
-    </after>
-  </rules>
+      <after css:content-children="#viewlet-below-content" method="raw">
+        <div class="texto-copyright">
+          Todo o conteúdo deste site está publicado sob a licença creative commons cc by nd 3.0 brasil
+        </div>
+      </after>
+    </rules>
 
 
     <!-- UL DE LíNGUAS
