@@ -296,6 +296,9 @@ p.tile-description {
 .portaltype-collective-cover-content div.row.linha-recuada {
     width: 100%!important;
     margin: 0;
+    .col-md-12 {
+        padding: 0;
+    }
 }
 
 /* estilo para uso na linha do cover  */
