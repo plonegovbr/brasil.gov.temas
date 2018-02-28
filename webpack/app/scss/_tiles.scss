@@ -24,6 +24,9 @@
 	  font-size: 18px;
 	  line-height: 1.3em;
 	}
+    .tile-content {
+        width: 100%;
+    }
 }
 
 .template-compose .tile-container {
@@ -336,7 +339,7 @@ p.tile-description {
         }
     }
     .botao-texto {
-        border: 2px solid #fff;
+        border: 2px solid #fff !important;
         padding: 10px 20px;
         border-radius: 20px;
     }

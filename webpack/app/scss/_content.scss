@@ -362,3 +362,62 @@ dd.image-caption {
     background: #0077b5;
   }
 }
+
+/* colecao */
+.portaltype-collection {
+  .subtitle {
+    font-size: 0.875rem;
+    color: #069cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  h2.tileHeadline {
+    font-size: 1.375rem;
+    a {
+      color: #333333 !important;
+    }
+  }
+  .tileItem {
+    margin-bottom: 60px;
+    .documentByLine {
+      padding: 0;
+      margin: 0;
+      color: #a6a6a6;
+      font-family: inherit !important;
+      border: none;
+      text-align: left;
+    }
+  }
+}
+
+/* paginacao */
+ul.paginacao {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 30px 0;
+
+    li {
+      display: inline-flex;
+      margin: 5px;
+      list-style: none;
+    }
+    li a {
+      padding: 3px 10px;
+      color: #333 !important;
+    }
+    li a.proximo, li a.anterior {
+        font-weight: bold;
+    }
+    li span {
+      padding: 3px 10px;
+      background: #333;
+      color: #fff;
+      font-weight: bold;
+    }
+    li span.reticencias {
+        background: transparent;
+        color: #333;
+    }
+}
