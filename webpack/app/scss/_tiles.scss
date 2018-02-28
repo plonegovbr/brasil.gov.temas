@@ -404,8 +404,10 @@ header.inverter .search-wrapper {
     a {
         border-radius: 30px;
         border: solid 2px #222 !important;
-        padding: 15px 23px;
+        padding: 10px 23px;
         margin: 5px;
+        height: 50px;
+        box-sizing: border-box;
         font-size: 1rem;
         font-weight: bold;
         white-space: nowrap;
