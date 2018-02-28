@@ -265,6 +265,40 @@ p.tile-description {
     }
 }
 
+/*linha discreta */
+.portaltype-collective-cover-content div.row.linha-discreta {
+    width: 100%!important;
+    justify-content: center;
+    background: #F9F9F9;
+    padding: 0 0 10px 0;
+    margin: 0;
+
+    .tile {
+        background: #fff;
+        padding:10px 20px;
+        box-sizing:border-box;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        h1, h2, h3 {
+            color: #244a7c;
+        }
+
+    }
+    .col-md-3 {flex-basis: 285px;}
+    .col-md-4 {flex-basis: 335px;}
+    .col-md-5 {flex-basis: 475px;}
+    .col-md-6 {flex-basis: 570px;}
+    .col-md-12 {flex-basis: 1110px;}
+    }
+}
+
+/* linha recuada */
+.portaltype-collective-cover-content div.row.linha-recuada {
+    width: 100%!important;
+    margin: 0;
+}
+
 /* estilo para uso na linha do cover  */
 .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo {
     width: 100% !important;
@@ -276,6 +310,7 @@ p.tile-description {
         object-fit: cover;
         position: absolute !important;
         top: 0;
+        left: 0;
         z-index: -2;
     }
     .column {
@@ -297,6 +332,11 @@ p.tile-description {
         a {
             color: #fff !important;
         }
+    }
+    .botao-texto {
+        border: 2px solid #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
     }
 }
 .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo::before {
