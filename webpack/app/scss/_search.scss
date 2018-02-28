@@ -24,7 +24,7 @@
         font-weight: 600;
         margin-left: 15px;
     }
-    input[type="text"] {
+    #content-core input[type="text"] {
         width: 800px;
         line-height: 2.2em;
     }
@@ -42,6 +42,10 @@
         right: 40px;
         border-left: 1px solid #ccc;
         padding-left: 30px;
+    }
+    .cell.width-full.position-0 {
+        width: auto;
+        margin-left: auto;
     }
 }
 #search-results-wrapper {
