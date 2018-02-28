@@ -299,6 +299,23 @@ p.tile-description {
         }
     }
 }
+.portaltype-collective-cover-content.template-view div.row.linha-destaquetopo::before {
+    background-color: transparent;
+    background-image:
+    linear-gradient(
+      transparent, #000
+    );
+    content: "1111111";
+    display: block;
+    height: 680px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    opacity: .8;
+    z-index: -1;
+    text-indent: -3000px;
+}
 .template-compose div.row.linha-destaquetopo {
   position: relative !important;
 }
@@ -325,7 +342,7 @@ header.inverter .search-wrapper {
 
 /* TOP SUBJECTS */
 .template-view #content .tile-em-alta {
-    margin: 100px auto 30px auto;
+    margin: 10px auto 30px auto;
     display: inline-block;
 
     .cover-list-tile {
