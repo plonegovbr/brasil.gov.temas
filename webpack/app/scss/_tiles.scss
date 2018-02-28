@@ -344,10 +344,11 @@ p.tile-description {
 .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo::before {
     background-color: transparent;
     background-image:
-    linear-gradient(
+    radial-gradient(
       transparent, #000
     );
-    content: "1111111";
+    content: " ";
+    white-space: nowrap;
     display: block;
     height: 680px;
     position: absolute;
