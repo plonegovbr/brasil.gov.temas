@@ -8,17 +8,7 @@ jQuery(function($) {
       if($.cookie('contraste') === null) {
         $.cookie('contraste', 'on');
 
-        $('body').addClass('contraste').addClass('inverter');
-        $('#portal-breadcrumbs').addClass('inverter');
-        $('.voltar-topo').addClass('inverter');
-        $('.discreet').addClass('inverter');
-
-        $('.portalredes-item').addClass('inverter');
-
-        $('.documentFirstHeading').addClass('inverter');
-
-        $('#logo-governo').removeClass('logo-governo').addClass('logo-governo-inverter');
-        $('#logo-acesso').removeClass('logo-acesso').addClass('logo-acesso-inverter');
+        $('body').addClass('contraste');
 
         e.preventDefault();
         return false;
@@ -26,34 +16,14 @@ jQuery(function($) {
         if($.cookie('contraste') == 'on'){
           $.cookie('contraste', 'off');
 
-          $('body').removeClass('contraste').removeClass('inverter');
-          $('#portal-breadcrumbs').removeClass('inverter');
-          $('.voltar-topo').removeClass('inverter');
-          $('.discreet').removeClass('inverter');
-
-          $('.portalredes-item').removeClass('inverter');
-
-          $('.documentFirstHeading').removeClass('inverter');
-
-          $('#logo-governo').removeClass('logo-governo-inverter').addClass('logo-governo');
-          $('#logo-acesso').removeClass('logo-acesso-inverter').addClass('logo-acesso');
+          $('body').removeClass('contraste');
 
           e.preventDefault();
           return false;
         }else{
           $.cookie('contraste', 'on');
 
-          $('body').addClass('contraste').addClass('inverter');
-          $('#portal-breadcrumbs').addClass('inverter');
-          $('.voltar-topo').addClass('inverter');
-          $('.discreet').addClass('inverter');
-
-          $('.documentFirstHeading').addClass('inverter');
-
-          $('.portalredes-item').addClass('inverter');
-
-          $('#logo-governo').addClass('logo-governo-inverter').removeClass('logo-governo');
-          $('#logo-acesso').addClass('logo-acesso-inverter').removeClass('logo-acesso');
+          $('body').addClass('contraste');
 
           e.preventDefault();
           return false;
@@ -64,16 +34,6 @@ jQuery(function($) {
   if($.cookie('contraste') == 'on') {
 
     $('body').addClass('contraste').addClass('inverter');
-    $('#portal-breadcrumbs').addClass('inverter');
-    $('.voltar-topo').addClass('inverter');
-    $('.discreet').addClass('inverter');
-
-    $('.portalredes-item').addClass('inverter');
-
-    $('.documentFirstHeading').addClass('inverter');
-
-    $('#logo-governo').addClass('logo-governo-inverter').removeClass('logo-governo');
-    $('#logo-acesso').addClass('logo-acesso-inverter').removeClass('logo-acesso');
 
     return false;
   }

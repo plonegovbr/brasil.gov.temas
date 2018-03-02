@@ -301,36 +301,3 @@ header#main-header.busca-ativa {
 #portal-personaltools {
   position: fixed;
 }
-
-/* inversão de cores para casos especiais */
-header.inverter {
-  background-color: transparent !important;
-  margin-bottom: 0 !important
-}
-
-body.inverter {
-  background-color: black;
-
-  border-bottom: 1px solid hsla(0,0%,100%,.2);
-  color: #fff;
-  margin-bottom: 0;
-  a, .breadcrumbSeparator {
-    color: #fff !important;
-  }
-  #breadcrumbs-home a:before {
-    @include sprite($casinha-branca);
-  }
-}
-#portal-breadcrumbs.inverter {
-  background-color: black;
-  margin-top: 5px;
-  border-bottom: 1px solid hsla(0,0%,100%,.2);
-  color: #fff;
-  margin-bottom: 0;
-  a, .breadcrumbSeparator {
-    color: #fff !important;
-  }
-  #breadcrumbs-home a:before {
-    @include sprite($casinha-branca);
-  }
-}

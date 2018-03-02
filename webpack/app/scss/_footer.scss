@@ -46,20 +46,10 @@
 		display: block;
 		text-indent: -3000px;
 	}
-	#logo-governo.logo-governo-inverter {
-	  @include sprite($gg-branco);
-	  display: block;
-	  text-indent: -3000px;
-	}
 	#logo-acesso.logo-acesso {
 		@include sprite($ai);
 		display: block;
 		text-indent: -3000px;
-	}
-	#logo-acesso.logo-acesso-inverter {
-	  @include sprite($ai-branco);
-	  display: block;
-	  text-indent: -3000px;
 	}
 }
 
@@ -93,4 +83,38 @@ ul.submenu {
   display: block;
   position: relative;
   top: 25px;
+}
+
+/* Icones do Rodape */
+footer {
+  #portalredes-twitter {
+	@include sprite($rede-twitter);
+  }
+  #portalredes-youtube {
+	@include sprite($rede-youtube);
+  }
+  #portalredes-flickr {
+	@include sprite($rede-flickr);
+  }
+  #portalredes-facebook {
+	@include sprite($rede-facebook);
+  }
+  #portalredes-googleplus {
+	@include sprite($rede-googleplus);
+  }
+  #portalredes-slideshare {
+	@include sprite($rede-slideshare);
+  }
+  #portalredes-soundcloud {
+	@include sprite($rede-soundcloud);
+  }
+  #portalredes-rss {
+	@include sprite($rede-rss);
+  }
+  #portalredes-instagram {
+	@include sprite($rede-instagram);
+  }
+  #portalredes-tumblr {
+	@include sprite($rede-tumblr);
+  }
 }
