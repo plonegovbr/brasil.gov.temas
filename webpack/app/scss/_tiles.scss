@@ -13,15 +13,15 @@
 	  text-transform: uppercase;
 	}
 	h1 {
-	  font-size: 30px;
+	  font-size: 2rem;
 	  line-height: 1.3em;
 	}
 	h2 {
-	  font-size: 22px;
+	  font-size: 1.375rem;
 	  line-height: 1.3em;
 	}
 	h3 {
-	  font-size: 18px;
+	  font-size: 1.125rem;
 	  line-height: 1.3em;
 	}
     .tile-content {
@@ -328,7 +328,7 @@ p.tile-description {
         display: flex;
         flex-flow: column;
     }
-    h1, h2, h3, p {
+    h1, h2, h3, p, time {
         width: 1140px;
         padding-right: 300px;
         box-sizing:border-box;
@@ -337,6 +337,9 @@ p.tile-description {
         a {
             color: #fff !important;
         }
+    }
+    p.tile-description {
+        font-size: 1.375rem !important;
     }
     .botao-texto {
         border: 2px solid #fff !important;
