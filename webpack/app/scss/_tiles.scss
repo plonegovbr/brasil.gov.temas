@@ -341,10 +341,17 @@ p.tile-description {
     p.tile-description {
         font-size: 1.375rem !important;
     }
-    .botao-texto {
+    .botao-texto, .botao-texto-icone {
         border: 2px solid #fff !important;
         padding: 10px 20px;
         border-radius: 20px;
+    }
+    .botao-texto-icone::before {
+        @include sprite($botao-com-icone);
+        content: " ";
+        white-space: nowrap;
+        display: inline-block;
+        margin-right: 10px;
     }
 }
 .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo::before {
