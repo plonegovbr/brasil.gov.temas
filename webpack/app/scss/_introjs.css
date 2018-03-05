@@ -1,166 +1,9 @@
-.ct-width {
-  width: $content-width !important;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-img, iframe {
-  max-width: 100%;
-}
-
-.clear {
-  clear: both;
-}
-
-.ativo {
-  display: block !important;
-}
-
-body {
-  font-family: $main-font;
-  font-size: $main-fontsize;
-  color: $txt-color;
-  background: $bg-color;
-  margin: 0
-}
-
-a:link, a:visited {
-    color: $link-color;
-}
-
-#content a:link,
-dl.portlet a:link {
-    color: $link-color;
-    border-bottom: none;
-}
-
-#content a:visited,
-dl.portlet a:visited {
-    color: $link-color;
-    border-bottom: none;
-}
-#content a:hover,
-dl.portlet a:hover {
-    color: $link-color !important; 
-}
-
-/* text styles */
-
-#content {
-  font-size: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $main-font;
-  font-weight: 900;
-  color: $header-color;
-  letter-spacing: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  border: none;
-}
-
-h2 {
-  font-size: 30px; 
-
-  margin-bottom: .3em;
-
-}
-
-h3 {
-  font-size: 22px;
-
-  margin-bottom: .5em;
-}
-h4 {
-  font-size: 18px;
-}
-
-/* icones sociais */
-#portal-redes > li {
-  display: inline-block;
-  text-indent: -3000px;
-  cursor: pointer;
-}
-
-/* icones do topo */
-#portalredes-twitter {
-  @include sprite($rede-twitter-topo);
-}
-#portalredes-youtube {
-  @include sprite($rede-youtube-topo);
-}
-#portalredes-flickr {
-  @include sprite($rede-flickr-topo);
-}
-#portalredes-facebook {
-  @include sprite($rede-facebook-topo);
-}
-#portalredes-googleplus {
-  @include sprite($rede-googleplus-topo);
-}
-#portalredes-slideshare {
-  @include sprite($rede-slideshare-topo);
-}
-#portalredes-soundcloud {
-  @include sprite($rede-soundcloud-topo);
-}
-#portalredes-rss {
-  @include sprite($rede-rss-topo);
-}
-#portalredes-instagram {
-  @include sprite($rede-instagram-topo);
-}
-#portalredes-tumblr {
-  @include sprite($rede-tumblr-topo);
-}
-
-/* Icones do Rodape */
-footer {
-  #portalredes-twitter {
-    @include sprite($rede-twitter);
-  }
-  #portalredes-youtube {
-    @include sprite($rede-youtube);
-  }
-  #portalredes-flickr {
-    @include sprite($rede-flickr);
-  }
-  #portalredes-facebook {
-    @include sprite($rede-facebook);
-  }
-  #portalredes-googleplus {
-    @include sprite($rede-googleplus);
-  }
-  #portalredes-slideshare {
-    @include sprite($rede-slideshare);
-  }
-  #portalredes-soundcloud {
-    @include sprite($rede-soundcloud);
-  }
-  #portalredes-rss {
-    @include sprite($rede-rss);
-  }
-  #portalredes-instagram {
-    @include sprite($rede-instagram);
-  }
-  #portalredes-tumblr {
-    @include sprite($rede-tumblr);
-  }
-}
-
-// TODO: carregar isso do _intro.js
 .introjs-overlay {
   position: absolute !important;
   box-sizing: content-box !important;
   z-index: 999999 !important;
   background-color: #000 !important;
-  // opacity: 0 !important;
+  opacity: 0 !important;
   background: -moz-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
   background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.4)),color-stop(100%,rgba(0,0,0,0.9))) !important;
   background: -webkit-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
@@ -171,20 +14,20 @@ footer {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
   filter: alpha(opacity=50) !important;
   -webkit-transition: all 0.3s ease-out !important;
-  -moz-transition: all 0.3s ease-out !important;
-  -ms-transition: all 0.3s ease-out !important;
-  -o-transition: all 0.3s ease-out !important;
-  transition: all 0.3s ease-out !important;
+     -moz-transition: all 0.3s ease-out !important;
+      -ms-transition: all 0.3s ease-out !important;
+       -o-transition: all 0.3s ease-out !important;
+          transition: all 0.3s ease-out !important;
 }
 
 .introjs-fixParent {
   z-index: auto !important !important;
   opacity: 1.0 !important !important;
   -webkit-transform: none !important !important;
-  -moz-transform: none !important !important;
-  -ms-transform: none !important !important;
-  -o-transform: none !important !important;
-  transform: none !important !important;
+     -moz-transform: none !important !important;
+      -ms-transform: none !important !important;
+       -o-transform: none !important !important;
+          transform: none !important !important;
 }
 
 .introjs-showElement,
@@ -218,10 +61,10 @@ tr.introjs-showElement > th {
   border-radius: 4px !important;
   box-shadow: 0 2px 15px rgba(0,0,0,.4) !important;
   -webkit-transition: all 0.3s ease-out !important;
-  -moz-transition: all 0.3s ease-out !important;
-  -ms-transition: all 0.3s ease-out !important;
-  -o-transition: all 0.3s ease-out !important;
-  transition: all 0.3s ease-out !important;
+     -moz-transition: all 0.3s ease-out !important;
+      -ms-transition: all 0.3s ease-out !important;
+       -o-transition: all 0.3s ease-out !important;
+          transition: all 0.3s ease-out !important;
 }
 
 .introjs-tooltipReferenceLayer {
@@ -231,20 +74,20 @@ tr.introjs-showElement > th {
   z-index: 100000000 !important;
   background-color: transparent !important;
   -webkit-transition: all 0.3s ease-out !important;
-  -moz-transition: all 0.3s ease-out !important;
-  -ms-transition: all 0.3s ease-out !important;
-  -o-transition: all 0.3s ease-out !important;
-  transition: all 0.3s ease-out !important;
+     -moz-transition: all 0.3s ease-out !important;
+      -ms-transition: all 0.3s ease-out !important;
+       -o-transition: all 0.3s ease-out !important;
+          transition: all 0.3s ease-out !important;
 }
 
 .introjs-helperLayer *,
 .introjs-helperLayer *:before,
 .introjs-helperLayer *:after {
   -webkit-box-sizing: content-box !important;
-  -moz-box-sizing: content-box !important;
-  -ms-box-sizing: content-box !important;
-  -o-box-sizing: content-box !important;
-  box-sizing: content-box !important;
+     -moz-box-sizing: content-box !important;
+      -ms-box-sizing: content-box !important;
+       -o-box-sizing: content-box !important;
+          box-sizing: content-box !important;
 }
 
 .introjs-helperNumberLayer {
@@ -345,10 +188,10 @@ tr.introjs-showElement > th {
   border-radius: 3px !important;
   box-shadow: 0 1px 10px rgba(0,0,0,.4) !important;
   -webkit-transition: opacity 0.1s ease-out !important;
-  -moz-transition: opacity 0.1s ease-out !important;
-  -ms-transition: opacity 0.1s ease-out !important;
-  -o-transition: opacity 0.1s ease-out !important;
-  transition: opacity 0.1s ease-out !important;
+     -moz-transition: opacity 0.1s ease-out !important;
+      -ms-transition: opacity 0.1s ease-out !important;
+       -o-transition: opacity 0.1s ease-out !important;
+          transition: opacity 0.1s ease-out !important;
 }
 
 .introjs-tooltipbuttons {
@@ -456,7 +299,7 @@ tr.introjs-showElement > th {
 }
 
 .introjs-hidden {
-  display: none !important;
+     display: none !important;
 }
 
 .introjs-bullets {
@@ -534,8 +377,8 @@ tr.introjs-showElement > th {
   cursor: pointer !important;
 }
 .introjs-hint:focus {
-  border: 0 !important;
-  outline: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
 }
 .introjs-hidehint {
   display: none !important;
@@ -561,10 +404,10 @@ tr.introjs-showElement > th {
   z-index: 10 !important;
   position: absolute !important;
   -webkit-transition: all 0.2s ease-out !important;
-  -moz-transition: all 0.2s ease-out !important;
-  -ms-transition: all 0.2s ease-out !important;
-  -o-transition: all 0.2s ease-out !important;
-  transition: all 0.2s ease-out !important;
+     -moz-transition: all 0.2s ease-out !important;
+      -ms-transition: all 0.2s ease-out !important;
+       -o-transition: all 0.2s ease-out !important;
+          transition: all 0.2s ease-out !important;
 }
 .introjs-hint-no-anim .introjs-hint-dot {
   -webkit-animation: none !important;
@@ -594,70 +437,70 @@ tr.introjs-showElement > th {
 }
 
 @-webkit-keyframes introjspulse {
-  0% {
-    -webkit-transform: scale(0) !important;
-    opacity: 0.0 !important;
-  }
-  25% {
-    -webkit-transform: scale(0) !important;
-    opacity: 0.1 !important;
-  }
-  50% {
-    -webkit-transform: scale(0.1) !important;
-    opacity: 0.3 !important;
-  }
-  75% {
-    -webkit-transform: scale(0.5) !important;
-    opacity: 0.5 !important;
-  }
-  100% {
-    -webkit-transform: scale(1) !important;
-    opacity: 0.0 !important;
-  }
+    0% {
+        -webkit-transform: scale(0) !important;
+        opacity: 0.0 !important;
+    }
+    25% {
+        -webkit-transform: scale(0) !important;
+        opacity: 0.1 !important;
+    }
+    50% {
+        -webkit-transform: scale(0.1) !important;
+        opacity: 0.3 !important;
+    }
+    75% {
+        -webkit-transform: scale(0.5) !important;
+        opacity: 0.5 !important;
+    }
+    100% {
+        -webkit-transform: scale(1) !important;
+        opacity: 0.0 !important;
+    }
 }
 
 @-moz-keyframes introjspulse {
-  0% {
-    -moz-transform: scale(0) !important;
-    opacity: 0.0 !important;
-  }
-  25% {
-    -moz-transform: scale(0) !important;
-    opacity: 0.1 !important;
-  }
-  50% {
-    -moz-transform: scale(0.1) !important;
-    opacity: 0.3 !important;
-  }
-  75% {
-    -moz-transform: scale(0.5) !important;
-    opacity: 0.5 !important;
-  }
-  100% {
-    -moz-transform: scale(1) !important;
-    opacity: 0.0 !important;
-  }
+    0% {
+        -moz-transform: scale(0) !important;
+        opacity: 0.0 !important;
+    }
+    25% {
+        -moz-transform: scale(0) !important;
+        opacity: 0.1 !important;
+    }
+    50% {
+        -moz-transform: scale(0.1) !important;
+        opacity: 0.3 !important;
+    }
+    75% {
+        -moz-transform: scale(0.5) !important;
+        opacity: 0.5 !important;
+    }
+    100% {
+        -moz-transform: scale(1) !important;
+        opacity: 0.0 !important;
+    }
 }
 
 @keyframes introjspulse {
-  0% {
-    transform: scale(0) !important;
-    opacity: 0.0 !important;
-  }
-  25% {
-    transform: scale(0) !important;
-    opacity: 0.1 !important;
-  }
-  50% {
-    transform: scale(0.1) !important;
-    opacity: 0.3 !important;
-  }
-  75% {
-    transform: scale(0.5) !important;
-    opacity: 0.5 !important;
-  }
-  100% {
-    transform: scale(1) !important;
-    opacity: 0.0 !important;
-  }
+    0% {
+        transform: scale(0) !important;
+        opacity: 0.0 !important;
+    }
+    25% {
+        transform: scale(0) !important;
+        opacity: 0.1 !important;
+    }
+    50% {
+        transform: scale(0.1) !important;
+        opacity: 0.3 !important;
+    }
+    75% {
+        transform: scale(0.5) !important;
+        opacity: 0.5 !important;
+    }
+    100% {
+        transform: scale(1) !important;
+        opacity: 0.0 !important;
+    }
 }
