@@ -345,6 +345,7 @@ p.tile-description {
         border: 2px solid #fff !important;
         padding: 10px 20px;
         border-radius: 20px;
+        font-size: 0.875rem !important;
     }
     .botao-texto-icone::before {
         @include sprite($botao-com-icone);
