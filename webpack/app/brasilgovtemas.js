@@ -9,4 +9,9 @@ $(document).ready(function(){
         $("#main-header").toggleClass("busca-ativa");
         $("#portal-searchbox").toggleClass("ativo");
     });
+    $('.tile-faq dt').on('click', function () {
+            $(this).next("dd").slideToggle();
+            $(this).toggleClass("aberto");
+        });
 });
+

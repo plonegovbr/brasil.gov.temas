@@ -488,3 +488,43 @@ header.inverter .search-wrapper {
     background: #2969bd !important;
     color: #fff !important;
 }
+
+/* tile de faq */
+.tile-faq {
+    h2 {
+        text-align: center;
+    }
+    p {
+        color: #fff;
+    }
+    dl {
+        margin: 0 0 50px 0;
+    }
+    dt {
+        font-size: 1.2rem;
+        margin-bottom: 6px !important;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    dt:hover {
+        cursor: pointer;
+        background: #f7f7f7;
+    }
+    dt:before {
+        content: "+";
+        color: #1360bc;
+        white-space: nowrap;
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 2rem;
+        float: left;
+    }
+    dt.aberto:before{
+        content: "-";
+    }
+    dd {
+        margin: 0 0 20px 29px;
+        padding-bottom: 10px;
+        display:none;
+    }
+}
