@@ -1,0 +1,126 @@
+.template-galeria_de_fotos {
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+
+    img {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  }
+
+  .text-body {
+    top: 40%;
+    position: absolute;
+    margin-left: 30px;
+    color: #fff;
+    width: 35%;
+
+    h2 {
+      color: #fff !important;
+      font-size: 2.25rem;
+      margin-bottom: 0;
+    }
+    p {
+      color: #fff;
+      font-size: 1.375rem !important;
+    }
+
+  }
+
+  .zoom-icon {
+    @include sprite($image-zoom);
+    text-indent: -5000px;
+  }
+
+  .download-icon {
+    @include sprite($image-download);
+    text-indent: -5000px;
+  }
+
+  .bottom-bar {
+    position: relative;
+    background: #ccc;
+    top: 91%;
+    padding: 15px 0;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    margin-top: -58px;
+
+    .tile-credits {
+      font-size: 0.875rem;
+      font-weight: 800;
+      margin-left: 30px;
+      color: #fff;
+    }
+
+    .tile-credits:before {
+      content: "foto: ";
+    }
+
+    a {
+      float: right;
+      margin-right: 30px;
+      color: #fff !important;
+    }
+  }
+
+  .gallery-title {
+    text-align: center;
+  }
+
+  .container-bar {
+    position: absolute;
+    background: #ccc;
+    bottom: 0;
+    padding: 15px 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    margin-top: -63px;
+    height: 30px;
+
+    .text-bottom {
+      .credits, .description {
+	margin-bottom: 0 !important;
+	line-height: 1.2em !important;
+	margin-left: 30px;
+	color: #fff;
+	font-size: 0.875rem !important;
+      }
+      .credits{
+	font-weight: 800;
+      }
+      .credits:before {
+	content: "foto: ";
+      }
+    }
+
+    .links-bottom {
+      .zoom-icon, .download-icon {
+	top: 15px;
+	position: absolute;
+	right: 0;
+	margin-right: 30px;
+      }
+      .zoom-icon {
+	margin-right: 80px;
+      }
+    }
+  }
+
+  .swiper-button-prev.swiper-button-white,
+  .swiper-container-rtl .swiper-button-next.swiper-button-white,
+  .swiper-button-next.swiper-button-white,
+  .swiper-container-rtl .swiper-button-prev.swiper-button-white {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 47px;
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+    background-size: 30%;
+  }
+}
+
+

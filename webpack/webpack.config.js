@@ -68,6 +68,10 @@ let createTheme = (theme) => {
     devtool: 'source-map',
     module: {
       rules: [{
+        test: /\.js$/,
+        exclude: /(\/node_modules\/|test\.js$|\.spec\.js$)/,
+        use: 'babel-loader',
+      }, {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
