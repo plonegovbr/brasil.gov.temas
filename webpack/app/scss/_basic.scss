@@ -159,8 +159,8 @@ footer {
   // position: absolute !important;
   box-sizing: content-box !important;
   z-index: 999999 !important;
-  // background-color: #ffffff !important;
-  //opacity: 0 !important;
+  background-color: #ffffff !important;
+  opacity: 0.5 !important;
   background: -moz-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
   background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.4)),color-stop(100%,rgba(0,0,0,0.9))) !important;
   background: -webkit-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
@@ -250,7 +250,7 @@ tr.introjs-showElement > th {
 .introjs-helperNumberLayer {
   box-sizing: content-box !important;
   position: absolute !important;
-  visibility: visible !important;
+  // visibility: visible !important;
   top: -16px !important;
   left: -16px !important;
   z-index: 9999999999 !important !important;
@@ -338,11 +338,11 @@ tr.introjs-showElement > th {
   box-sizing: content-box !important;
   position: absolute !important;
   visibility: visible !important;
-  padding: 10px !important;
+  padding: 20px !important;
   background-color: white !important;
   min-width: 400px !important;
   max-width: 600px !important;
-  border-radius: 3px !important;
+  border-radius: 5px !important;
   box-shadow: 0 1px 10px rgba(0,0,0,.4) !important;
   -webkit-transition: opacity 0.1s ease-out !important;
   -moz-transition: opacity 0.1s ease-out !important;

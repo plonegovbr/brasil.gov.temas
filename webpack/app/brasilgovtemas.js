@@ -11,7 +11,8 @@ $(document).ready(function(){
     });
 
     // TODO: criar um arquivo separado para
-    // Tour pelo site
+
+    // Configurações de texto e elemento para realizar o Tour pelo site
     $(".documentFirstHeading").attr(
         'data-intro',
         '<h3 style="color: blue; text-allign: center">O Portal Planalto Mudou</h3><br>' +
@@ -46,14 +47,37 @@ $(document).ready(function(){
     $(".coluna-redes").attr(
         'data-intro',
         '<h3 style="color: blue; text-allign: center">Ficou mais fácil compartilhar</h3><br>' +
-        'Clique no botão da rede social que vc usa para publicar os conteúdos no seu perfil.'
+        'Clique no botão da rede social que você usa para publicar os conteúdos no seu perfil.'
     ).attr(
         'data-step', 5
     );
-    // $(".documentFirstHeading").attr('data-intro', 'comece aqui a sua leitura super empolgante!').attr('data-step', 6);
 
-    introJs().start();
+    // TODO: mudar esse elemento para o elemento do plano de governo quando o conteúdo estiver pronto!
+    $("div#content").attr(
+        'data-intro',
+        '<h3 style="color: blue; text-allign: center">Conheça o programa de governo do Brasil</h3><br>' +
+        'Acompanhe as metas da gestão do Presidente Michel Temer e saiba o que já foi feito.'
+    ).attr(
+        'data-step', 6
+    );
 
-    // remover alguns botões do introjs
-    $('.introjs-button.introjs-skipbutton').remove();
+    // inicia o tour
+    if($.cookie('tour') === undefined) {
+        introJs().start();
+    };
+
+    // classe clicável para iniciar o TOUR manualmente
+    $('.tour').click(function() {
+        introJs().start();
+    });
+
+    // seta cookie quando se clica em pular e/ou se termina o tour
+    $('.introjs-button.introjs-skipbutton').click(function() {
+        $('.introjs-overlay').trigger('click');
+        $.cookie('tour', 'done');
+    });
+    $('.introjs-button.introjs-skipbutton.introjs-donebutton').click(function() {
+        $('.introjs-overlay').trigger('click');
+        $.cookie('tour', 'done');
+    });
 });

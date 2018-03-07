@@ -124,10 +124,15 @@ ul.submenu {
     line-height: 1.2rem;
     font-weight: bold;
 
+  .tour {
+    border-right: 1px solid rgba(256, 256, 256, 0.2);
+  }
+
   .link-contraste {
     display: inline-block;
     position: relative;
     padding: 0 20px 0 20px;
+    margin-left: 20px;
     border-right: 1px solid rgba(256, 256, 256, 0.2);
   }
   .link-contraste:before {
