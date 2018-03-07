@@ -4,6 +4,9 @@ Changelog
 2.0a5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Atualiza ícone do tema padrão.
+  [rodfersou]
+
 - Revisa view de Galleria de Fotos.
   [rodfersou]
 
