@@ -277,7 +277,6 @@ p.tile-description {
     margin: 0;
 
     .tile {
-        background: #fff;
         padding:10px 20px;
         box-sizing:border-box;
         display: flex;
@@ -286,13 +285,29 @@ p.tile-description {
         h1, h2, h3 {
             color: #244a7c;
         }
-
     }
+    .collection-item {
+        background: #fff;
+    }
+
     .col-md-3 {flex-basis: 285px;}
     .col-md-4 {flex-basis: 335px;}
     .col-md-5 {flex-basis: 475px;}
     .col-md-6 {flex-basis: 570px;}
     .col-md-12 {flex-basis: 1110px;}
+}
+
+/* colecao lada a lado */
+.tile-ladoalado {
+    .cover-collection-tile {
+        display: flex;
+        flex-grow: 1;
+    }
+    .collection-item {
+        width: 20%;
+        padding: 10px;
+        margin: 20px 10px 10px 10px;
+    }
 }
 
 /* linha recuada */
