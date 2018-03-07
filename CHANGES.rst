@@ -4,7 +4,8 @@ Changelog
 2.0a5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Revisa view de Galleria de Fotos.
+  [rodfersou]
 
 
 2.0a4 (2018-02-08)
