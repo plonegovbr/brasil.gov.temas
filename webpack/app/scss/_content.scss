@@ -364,7 +364,8 @@ dd.image-caption {
 }
 
 /* colecao */
-.portaltype-collection {
+.portaltype-collection,
+.template-filter-results {
   .subtitle {
     font-size: 0.875rem;
     color: #069cff;
@@ -388,6 +389,21 @@ dd.image-caption {
       border: none;
       text-align: left;
     }
+  }
+  .tileImage img {
+    float: right;
+    margin: 0 1em 0.5em 1em;
+  }
+  .keywords a {
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #333 !important;
+    font-weight: bold;
+    margin-right: 10px;
+    border: 2px solid #333 !important;
+  }
+  #results article {
+    margin-bottom: 40px;
   }
 }
 

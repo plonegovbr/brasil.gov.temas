@@ -1,5 +1,6 @@
 /* busca */
-.template-busca {
+.template-busca,
+.template-filter-results {
     form h1.documentFirstHeading {
         display: none;
         font-size: 2,25rem !important;
@@ -55,6 +56,8 @@
     border-bottom: 0;
     padding: 1em;
     box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: -1px 0 30px 12px;
 
     dl {
         float: none;
