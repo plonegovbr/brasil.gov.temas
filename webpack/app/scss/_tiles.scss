@@ -235,7 +235,7 @@ p.tile-description {
 
 
 /*linha destacada */
-.portaltype-collective-cover-content div.row.linha-destacada {
+.portaltype-collective-cover-content #content div.row.linha-destacada {
     width: 100%!important;
     justify-content: center;
     background: #244a7c;
@@ -249,7 +249,7 @@ p.tile-description {
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        h1, h2, h3 {
+        h1, h2, h3, a:link, a:visited, a:hover {
             color: #244a7c;
         }
 
