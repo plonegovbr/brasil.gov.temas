@@ -45,7 +45,7 @@
 
     this._options = {
       /* Next button label in tooltip box */
-      nextLabel: 'Próximo &rarr;',
+      nextLabel: 'Próximo',
       /* Previous button label in tooltip box */
       prevLabel: '&larr; Anterior',
       /* Skip button label in tooltip box */

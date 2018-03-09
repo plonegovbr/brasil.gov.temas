@@ -155,6 +155,66 @@ footer {
 }
 
 // TODO: carregar isso do _intro.js
+/* The Modal (background) */
+
+#init-tour {
+  color: black;
+  width: 194px;
+  height: 40px;
+  border-radius: 30px;
+  border: solid 2px #333333;
+  background-color: white;
+}
+
+#init-tour.alternative {
+  color: white;
+  width: 194px;
+  height: 40px;
+  border-radius: 30px;
+  border: solid 2px blue;
+  background-color: blue;
+}
+
+.intro-modal {
+  text-align: center;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.intro-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  min-height: 500px;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.intro-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.intro-close:hover,
+.intro-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .introjs-overlay {
   // position: absolute !important;
   box-sizing: content-box !important;
