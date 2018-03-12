@@ -2,6 +2,14 @@
 // referenciar melhor os elementos a serem invetidos para evitar comportamentos inesperados.
 body.contraste,
 body.folder_contraste {
+  #wrapper a:after {
+    background: white;
+    color: black;
+  }
+  .documentFirstHeading, .discreet, .plain {
+    margin-top: 0;
+    color: white !important;
+  }
   footer {
     #portalredes-twitter {
       @include sprite($rede-twitter-topo);
@@ -19,19 +27,18 @@ body.folder_contraste {
       @include sprite($rede-flickr-topo);
       filter: invert(100%);
     }
-  }
-  #portal-footer {
-    #logo-acesso.logo-acesso {
+    .logo-acesso {
       filter: invert(100%);
       display: block;
       text-indent: -3000px;
     }
-    #logo-governo.logo-governo {
+    .logo-governo {
       filter: invert(100%);
       display: block;
       text-indent: -3000px;
     }
   }
+
   background-color: black;
   border-bottom: 1px solid hsla(0,0%,100%,.2);
   color: #fff;
@@ -44,12 +51,10 @@ body.folder_contraste {
   }
   header,
   footer,
-  //a,
   .actionMenu.deactivated
   h1,
   h2,
   h3,
-  //h4,
   h5,
   h6,
   dl.portlet a:hover,
