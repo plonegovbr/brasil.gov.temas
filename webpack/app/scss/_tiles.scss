@@ -84,6 +84,14 @@ p.tile-description {
     margin-bottom: 12px;
 }
 
+/* header com fio separador */
+.tile.fio-separador {
+    margin-bottom: 2.4em;
+    .outstanding-header {
+        border-top: 1px solid #ddd;
+    }
+}
+
 /* box colorido */
 .tile.box-colorido {
     display: flex;
@@ -187,7 +195,6 @@ p.tile-description {
     color: #fff;
     line-height: 1.563rem !important;
 }
-
 
 
 /* tile de foto sobreposta grande */
