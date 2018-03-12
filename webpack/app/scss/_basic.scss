@@ -216,10 +216,10 @@ footer {
 }
 
 .introjs-overlay {
-  // position: absolute !important;
+  position: fixed !important;
   box-sizing: content-box !important;
   z-index: 999999 !important;
-  background-color: #ffffff !important;
+  background-color: #ffffff;
   opacity: 0.5 !important;
   background: -moz-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
   background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.4)),color-stop(100%,rgba(0,0,0,0.9))) !important;

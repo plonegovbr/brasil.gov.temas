@@ -74,7 +74,7 @@ window.webTour = function webTour() {
     ).attr(
         'data-step', 3
     );
-    $(".documentFirstHeading").attr(
+    $(".daypicker-wrapper").attr(
         'data-intro',
         '<h3 style="color: blue; text-allign: center">Agenda do Presidente da República</h3><br>' +
         'Fique por dentro dos compromissos oficiais do Presidente da República. Agora está' +
@@ -82,21 +82,21 @@ window.webTour = function webTour() {
     ).attr(
         'data-step', 4
     );
+    $('.tile.foto-sobreposta-grande').parent().parent().attr(
+        'data-intro',
+        '<h3 style="color: blue; text-allign: center">Conheça o programa de governo do Brasil</h3><br>' +
+        'Acompanhe as metas da gestão do Presidente Michel Temer e saiba o que já foi feito.'
+    ).attr(
+        'data-step', 5
+    );
     $(".coluna-redes").attr(
         'data-intro',
         '<h3 style="color: blue; text-allign: center">Ficou mais fácil compartilhar</h3><br>' +
         'Clique no botão da rede social que você usa para publicar os conteúdos no seu perfil.'
     ).attr(
-        'data-step', 5
-    );
-    // TODO: mudar esse elemento para o elemento do plano de governo quando o conteúdo estiver pronto!
-    $("div#content").attr(
-        'data-intro',
-        '<h3 style="color: blue; text-allign: center">Conheça o programa de governo do Brasil</h3><br>' +
-        'Acompanhe as metas da gestão do Presidente Michel Temer e saiba o que já foi feito.'
-    ).attr(
         'data-step', 6
     );
+
 
     // inicia o tour
     if($.cookie('tour') === undefined) {
