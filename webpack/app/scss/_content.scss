@@ -43,13 +43,13 @@
   }
   .invisible-left {
     float: left;
-    width: auto;
-    margin-left: 10vh;
+    width: auto !important;
+    margin-left: 10vh !important;
   }
   .invisible-right {
     float: right;
-    width: auto;
-    margin-right: 10vh;
+    width: auto !important;
+    margin-right: 10vh !important;
   }
 }
 
