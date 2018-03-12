@@ -7,6 +7,30 @@ Changelog
 - Revisa view de Galleria de Fotos.
   [rodfersou]
 
+- Revisão dos estilos para o topo do portal.
+  [agnogueira]
+
+- Criação de estilos para os tiles do portal
+  [agnogueira]
+
+- Criação de estilos para os tiles destacados no topo do portal
+  [agnogueira]
+
+- Adiciona comportamento Flex por padrao aos tiles
+  [agnogueira]
+
+- Variação na cor do header para seções específicas
+  [agnogueira]
+
+- Evolução de estilos para o responsivo
+  [agnogueira]
+
+- Variações visuais para linhas e colunas
+  [agnogueira]
+
+- Estilos gerais para texto em notícias e páginas
+  [agnogueira]
+
 
 2.0a4 (2018-02-08)
 ^^^^^^^^^^^^^^^^^^

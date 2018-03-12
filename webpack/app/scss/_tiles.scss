@@ -267,6 +267,9 @@ p.tile-description {
         h1, h2, h3, {
             color: #244a7c;
         }
+        a:link, a:visited, a:hover {
+            color: #244a7c !important;
+        }
     }
     .col-md-3 {flex-basis: 285px;}
     .col-md-4 {flex-basis: 335px;}
