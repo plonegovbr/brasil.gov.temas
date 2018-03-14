@@ -2,13 +2,27 @@
 // referenciar melhor os elementos a serem invetidos para evitar comportamentos inesperados.
 body.contraste,
 body.folder_contraste {
+  #edit-bar a {
+    color: black;
+  }
+  .link-overlay a:hover {
+    color: #ff0 !important;
+    text-decoration: underline;
+  }
   #wrapper a:after {
     background: white;
     color: black;
   }
-  .documentFirstHeading, .discreet, .plain {
+  .documentFirstHeading, .discreet, .plain, .outstanding-title {
     margin-top: 0;
     color: white !important;
+  }
+  div[property="rnews:articleBody"]::first-letter {
+    color: white !important;
+  }
+  .managePortletsFallback {
+    background: white;
+    color: black !important;
   }
   footer {
     #portalredes-twitter {
