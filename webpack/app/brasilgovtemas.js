@@ -9,4 +9,8 @@ $(document).ready(function(){
         $("#main-header").toggleClass("busca-ativa");
         $("#portal-searchbox").toggleClass("ativo");
     });
+
+    if($.cookie('contraste') !== undefined) {
+        $('body').addClass('contraste');
+    }
 });

@@ -4,13 +4,14 @@ import 'jquery.cookie';
 jQuery(function($) {
   $('.link-contraste').click(
     function(e){
-      if($.cookie('contraste') != 'on') {
-        $.cookie('contraste', 'on');
-        $('body').addClass('contraste');
-      } else {
-        $.cookie('contraste', 'off');
+      if($('body').hasClass('contraste')) {
         $('body').removeClass('contraste');
+        $.removeCookie('contraste');
+      } else {
+        $('body').addClass('contraste');
+        $.cookie('contraste', 'on');
       }
+
       e.preventDefault();
       return false;
     });
