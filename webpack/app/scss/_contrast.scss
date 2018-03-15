@@ -74,6 +74,8 @@ body.folder_contraste {
   dl.portlet a:hover,
   p.section,
   #category,
+  #main-header,
+  #portal-footer,
   #category-vcge,
   #content #description,
   #content #tile_banner_rotativo .credito,
@@ -137,6 +139,6 @@ body.folder_contraste {
   &.template-summary_view #content .tileItem .subtitle,
   &.template-summary_view #content .tileItem .documentByLine {
     color: #FFF;
-    background: black !important;
+    background: black;
   }
 }
