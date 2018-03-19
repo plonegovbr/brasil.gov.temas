@@ -1,5 +1,7 @@
 /* busca */
-.template-busca {
+.template-busca,
+.template-filter-results,
+.document-finder-tile {
     form h1.documentFirstHeading {
         display: none;
         font-size: 2,25rem !important;
@@ -55,6 +57,8 @@
     border-bottom: 0;
     padding: 1em;
     box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: -1px 0 30px 12px;
 
     dl {
         float: none;
@@ -67,6 +71,19 @@
     #searchResultsSort {
         float: none;
         display: none;
+    }
+    #filters .filter-button {
+        height: 50px;
+        border-radius: 30px;
+        border: 0;
+        padding: 10px 20px;
+        background: #333;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
     }
 }
 #search-results-bar.open {

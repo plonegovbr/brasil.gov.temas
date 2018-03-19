@@ -84,8 +84,13 @@ h4 {
 /* icones sociais */
 #portal-redes > li {
   display: inline-block;
-  text-indent: -3000px;
   cursor: pointer;
+  a {
+    text-indent: -3000px;
+    display: inline-block;
+    width: 34px;
+    height: 33px;
+  }
 }
 
 /* icones do topo */

@@ -12,16 +12,22 @@
     margin-left: auto;
     margin-right: auto;
   }
-  #content-core p {
+  #content-core p,
+  #content-core h2,
+  #content-core h3,
+  #content-core ul,
+  #content-core ol,
+  #content-core dl,
+  #content-core table {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
   }
   .image-right {
-    margin-right: 10vw;
+    margin-right: -120px;
   }
   .image-left {
-    margin-left: 10vw;
+    margin-left: -120px;
   }
   .image-inline {
     max-width: 100%;
@@ -34,6 +40,16 @@
       max-width: 100%;
       height: auto;
     }
+  }
+  .invisible-left {
+    float: left;
+    width: auto !important;
+    margin-left: 10vh !important;
+  }
+  .invisible-right {
+    float: right;
+    width: auto !important;
+    margin-right: 10vh !important;
   }
 }
 
@@ -114,7 +130,7 @@ p.nitfSubtitle {
 #content .pullquote, .portletStaticText .pullquote {
   margin: .5em 1em 0.5em 10vw;
   float: left;
-  width: 45%;
+  width: 30%;
   clear: left;
   font-size: 1.5rem;
   letter-spacing: -0.08em !important;
@@ -364,7 +380,8 @@ dd.image-caption {
 }
 
 /* colecao */
-.portaltype-collection {
+.portaltype-collection,
+.template-filter-results {
   .subtitle {
     font-size: 0.875rem;
     color: #069cff;
@@ -388,6 +405,21 @@ dd.image-caption {
       border: none;
       text-align: left;
     }
+  }
+  .tileImage img {
+    float: right;
+    margin: 0 1em 0.5em 1em;
+  }
+  .keywords a {
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #333 !important;
+    font-weight: bold;
+    margin-right: 10px;
+    border: 2px solid #333 !important;
+  }
+  #results article {
+    margin-bottom: 40px;
   }
 }
 
