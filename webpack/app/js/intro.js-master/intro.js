@@ -45,9 +45,9 @@
 
     this._options = {
       /* Next button label in tooltip box */
-      nextLabel: 'Próximo',
+      nextLabel: ' | Próximo',
       /* Previous button label in tooltip box */
-      prevLabel: '&larr; Anterior',
+      prevLabel: ' | Anterior',
       /* Skip button label in tooltip box */
       skipLabel: 'Pular',
       /* Done button label in tooltip box */
@@ -521,7 +521,7 @@
     if (!force && continueExit === false) return;
 
     //remove overlay layers from the page
-    var overlayLayers = targetElement.querySelectorAll('.introjs-overlay');
+    var overlayLayers = targetElement.querySelectorAll('.introjs-helperLayer');
 
     if (overlayLayers && overlayLayers.length) {
       _forEach(overlayLayers, function (overlayLayer) {
@@ -1263,7 +1263,11 @@
           self._introExitCallback.call(self);
         }
 
-        self._introSkipCallback.call(self);
+        $('.introjs-overlay').trigger('click');
+        $('.introjs-overlay').remove();
+        $.cookie('tour', 'done');
+
+        //self._introSkipCallback.call(self);
         _exitIntro.call(self, self._targetElement);
       };
 

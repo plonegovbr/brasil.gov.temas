@@ -8,9 +8,9 @@ window.webTour = function webTour() {
                 '<span class="intro-close">&times;</span>' +
                 '<h1 style="color: blue; margin-top: 100px; margin-bottom: 50px">O site do governo do Brasil mudou</h1>' +
                 '<br>' +
-                '<p>A plataforma evoluiu para facilitar o acesso dos brasileiros a informações sobre a atuação' +
-                'do Presidente da República e do Executivo Federal. É o Governo do Brasil mais moderno e' +
-                'transparente.</p>' +
+                '<p>A plataforma evoluiu para facilitar o acesso dos brasileiros a informações sobre a atuação</p>' +
+                '<p>do Presidente da República e do Executivo Federal. É o Governo do Brasil mais moderno e</p>' +
+                '<p>transparente.</p>' +
                 '<br>' +
                 '<br>' +
                 '<br>' +
@@ -74,7 +74,8 @@ window.webTour = function webTour() {
     ).attr(
         'data-step', 3
     );
-    $(".daypicker-wrapper").attr(
+    //$(".daypicker-wrapper").attr(
+    $(".logo-acesso").attr(
         'data-intro',
         '<h3 style="color: blue; text-allign: center">Agenda do Presidente da República</h3><br>' +
         'Fique por dentro dos compromissos oficiais do Presidente da República. Agora está' +
@@ -82,21 +83,21 @@ window.webTour = function webTour() {
     ).attr(
         'data-step', 4
     );
-    $('.tile.foto-sobreposta-grande').parent().parent().attr(
+    //$('.tile.foto-sobreposta-grande').parent().parent().attr(
+    $('.logo-governo').attr(
         'data-intro',
         '<h3 style="color: blue; text-allign: center">Conheça o programa de governo do Brasil</h3><br>' +
         'Acompanhe as metas da gestão do Presidente Michel Temer e saiba o que já foi feito.'
     ).attr(
         'data-step', 5
     );
-    $(".coluna-redes").attr(
+    $('ul#portal-redes').attr(
         'data-intro',
         '<h3 style="color: blue; text-allign: center">Ficou mais fácil compartilhar</h3><br>' +
         'Clique no botão da rede social que você usa para publicar os conteúdos no seu perfil.'
     ).attr(
         'data-step', 6
     );
-
 
     // inicia o tour
     if($.cookie('tour') === undefined) {
@@ -116,9 +117,10 @@ window.webTour = function webTour() {
 
         introJs().start();
 
-        $('.introjs-nextbutton').attr('href', '#').removeClass('introjs-nextbutton').removeClass('introjs-button');
-        $('.introjs-prevbutton').remove();
-        $('.introjs-skipbutton').remove();
+        $('.introjs-nextbutton').attr('href', '#');
+        $('.introjs-prevbutton').attr('href', '#');
+        $('.introjs-skipbutton').attr('href', '#');
+        $('.introjs-donebutton').attr('href', '#');
     });
 
     $('#close-tour').click(function () {
@@ -126,14 +128,4 @@ window.webTour = function webTour() {
 
         $.cookie('tour', 'done');
     });
-
-    // seta cookie quando se clica em pular e/ou se termina o tour
-    $('.introjs-button.introjs-skipbutton').click(function() {
-        $('.introjs-overlay').trigger('click');
-        $.cookie('tour', 'done');
-    });
-    $('.introjs-button.introjs-skipbutton.introjs-donebutton').click(function() {
-        $('.introjs-overlay').trigger('click');
-        $.cookie('tour', 'done');
-    });
-}
+};

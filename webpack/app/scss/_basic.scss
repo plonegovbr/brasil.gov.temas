@@ -220,46 +220,14 @@ footer {
   cursor: pointer;
 }
 
-.introjs-overlay {
-  position: fixed !important;
-  box-sizing: content-box !important;
-  z-index: 999999 !important;
-  background-color: #ffffff;
-  opacity: 0.5 !important;
-  background: -moz-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
-  background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.4)),color-stop(100%,rgba(0,0,0,0.9))) !important;
-  background: -webkit-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
-  background: -o-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
-  background: -ms-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
-  background: radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,0.4) 0,rgba(0,0,0,0.9) 100%) !important;
-  filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000',endColorstr='#e6000000',GradientType=1)" !important;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
-  filter: alpha(opacity=50) !important;
-  -webkit-transition: all 0.3s ease-out !important;
-  -moz-transition: all 0.3s ease-out !important;
-  -ms-transition: all 0.3s ease-out !important;
-  -o-transition: all 0.3s ease-out !important;
-  transition: all 0.3s ease-out !important;
-}
-
-.introjs-fixParent {
-  z-index: auto !important !important;
-  opacity: 1.0 !important !important;
-  -webkit-transform: none !important !important;
-  -moz-transform: none !important !important;
-  -ms-transform: none !important !important;
-  -o-transform: none !important !important;
-  transform: none !important !important;
-}
-
 .introjs-showElement,
 tr.introjs-showElement > td,
 tr.introjs-showElement > th {
-  z-index: 9999999 !important !important;
+  z-index: 9999999 !important;
 }
 
 .introjs-disableInteraction {
-  z-index: 99999999 !important !important;
+  z-index: 99999999 !important;
   position: absolute !important;
   background-color: white !important;
   opacity: 0 !important;
@@ -273,6 +241,7 @@ tr.introjs-showElement > th {
 }
 
 .introjs-helperLayer {
+  background: transparent;
   box-sizing: content-box !important;
   position: absolute !important;
   z-index: 9999998 !important;
@@ -302,14 +271,34 @@ tr.introjs-showElement > th {
   transition: all 0.3s ease-out !important;
 }
 
-.introjs-helperLayer *,
-.introjs-helperLayer *:before,
-.introjs-helperLayer *:after {
+.introjs-helperLayer * {
   -webkit-box-sizing: content-box !important;
   -moz-box-sizing: content-box !important;
   -ms-box-sizing: content-box !important;
   -o-box-sizing: content-box !important;
   box-sizing: content-box !important;
+}
+
+.introjs-helperLayer:before {
+  opacity: 0;
+  content: '';
+  position: fixed;
+  width: inherit;
+  height: inherit;
+  border-radius: 0.5em;
+  //border: .2em solid rgba(255, 217, 68, 0.8);
+  box-shadow: 0 0 0 1000em rgba(0,0,0, .7);
+  opacity: 1;
+}
+
+.introjs-helperLayer:after {
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
 }
 
 .introjs-helperNumberLayer {
@@ -318,7 +307,7 @@ tr.introjs-showElement > th {
   // visibility: visible !important;
   top: -16px !important;
   left: -16px !important;
-  z-index: 9999999999 !important !important;
+  z-index: 9999999999 !important;
   padding: 2px !important;
   font-family: Arial, verdana, tahoma !important;
   font-size: 13px !important;
@@ -421,43 +410,6 @@ tr.introjs-showElement > th {
   white-space: nowrap !important;
 }
 
-/*
- Buttons style by http://nicolasgallagher.com/lab/css3-github-buttons/
- Changed by Afshin Mehrabani
-*/
-.introjs-button {
-  box-sizing: content-box !important;
-  position: relative !important;
-  overflow: visible !important;
-  display: inline-block !important;
-  padding: 0.3em 0.8em !important;
-  border: 1px solid #d4d4d4 !important;
-  margin: 0 !important;
-  text-decoration: none !important;
-  text-shadow: 1px 1px 0 #fff !important;
-  font: 11px/normal sans-serif !important;
-  color: #333 !important;
-  white-space: nowrap !important;
-  cursor: pointer !important;
-  outline: none !important;
-  background-color: #ececec !important;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec)) !important;
-  background-image: -moz-linear-gradient(#f4f4f4, #ececec) !important;
-  background-image: -o-linear-gradient(#f4f4f4, #ececec) !important;
-  background-image: linear-gradient(#f4f4f4, #ececec) !important;
-  -webkit-background-clip: padding !important;
-  -moz-background-clip: padding !important;
-  -o-background-clip: padding-box !important;
-  /*background-clip: padding-box !important;*/ /* commented out due to Opera 11.10 bug */
-  -webkit-border-radius: 0.2em !important;
-  -moz-border-radius: 0.2em !important;
-  border-radius: 0.2em !important;
-  /* IE hacks */
-  zoom: 1 !important;
-  *display: inline !important;
-  margin-top: 10px !important;
-}
-
 .introjs-button:hover {
   border-color: #bcbcbc !important;
   text-decoration: none !important;
@@ -478,30 +430,11 @@ tr.introjs-showElement > th {
   border: 0 !important;
 }
 
-.introjs-skipbutton {
-  box-sizing: content-box !important;
-  margin-right: 5px !important;
-  color: #7a7a7a !important;
-}
-
-.introjs-prevbutton {
-  -webkit-border-radius: 0.2em 0 0 0.2em !important;
-  -moz-border-radius: 0.2em 0 0 0.2em !important;
-  border-radius: 0.2em 0 0 0.2em !important;
-  border-right: none !important;
-}
-
 .introjs-prevbutton.introjs-fullbutton {
   border: 1px solid #d4d4d4 !important;
   -webkit-border-radius: 0.2em !important;
   -moz-border-radius: 0.2em !important;
   border-radius: 0.2em !important;
-}
-
-.introjs-nextbutton {
-  -webkit-border-radius: 0 0.2em 0.2em 0 !important;
-  -moz-border-radius: 0 0.2em 0.2em 0 !important;
-  border-radius: 0 0.2em 0.2em 0 !important;
 }
 
 .introjs-nextbutton.introjs-fullbutton {
@@ -726,3 +659,4 @@ tr.introjs-showElement > th {
     opacity: 0.0 !important;
   }
 }
+
