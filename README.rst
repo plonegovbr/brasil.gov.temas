@@ -196,7 +196,7 @@ Este comando instrui ao Webpack para esperar por qualquer mudança nos arquivos 
 
 .. code-block:: console
 
-    $ bin/dev-brasilgovtemas
+    $ bin/debug-brasilgovtemas
 
 Este comando faz o mesmo que o comando watch, mas não minifica o CSS final.  Utilizado para debugar a geração do CSS.
 

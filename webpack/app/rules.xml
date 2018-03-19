@@ -32,6 +32,8 @@
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <drop css:content="#portaltab-index_html" />
     <copy css:content="#portal-redes" css:theme=".navigation-redes ul" />
+    <replace css:content="#portal-services" css:theme=".links-destaque ul" />
+
 
     <rules css:if-not-content=".linha-destaquetopo">
       <drop attributes="class" css:theme="#main-header" />
@@ -56,17 +58,26 @@
     <replace css:content=".top_image" css:theme=".image" mode="raw" />
     <drop css:content="article .top_image" />
 
-    <before css:content-children="#viewlet-below-content" method="raw">
-      <div class="voltar-topo">
-        <a href="#wrapper">Voltar ao Topo</a>
-      </div>
-    </before>
+    <!-- Remove campos das páginas -->
+    <rules css:if-content=".portaltype-document.userrole-anonymous">
+      <drop css:content=".documentByLine .documentAuthor" />
+      <drop css:content=".documentByLine .documentPublished" />
+      <drop css:content=".documentByLine .documentModified" />
+    </rules>
 
-    <after css:content-children="#viewlet-below-content" method="raw">
-      <div class="texto-copyright">
-        Todo o conteúdo deste site está publicado sob a licença creative commons cc by nd 3.0 brasil
-      </div>
-    </after>
+    <rules css:if-not-content=".portaltype-collective-cover-content">
+      <before css:content-children="#viewlet-below-content" method="raw">
+        <div class="voltar-topo">
+          <a href="#wrapper">Voltar ao Topo</a>
+        </div>
+      </before>
+
+      <after css:content-children="#viewlet-below-content" method="raw">
+        <div class="texto-copyright">
+          Todo o conteúdo deste site está publicado sob a licença creative commons cc by nd 3.0 brasil
+        </div>
+      </after>
+    </rules>
 
 
     <!-- UL DE LíNGUAS

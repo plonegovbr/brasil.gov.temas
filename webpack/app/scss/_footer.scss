@@ -28,6 +28,12 @@
 		margin-bottom: 30px;
 		ul li  {
 			display: inline-block;
+			margin-right: 40px;
+		}
+		h3 {
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			margin-bottom: 20px;
 		}
 	}
 
@@ -36,9 +42,15 @@
 	}
 
 	.coluna-governo {
+	  width: 100%;
+	  margin-top: 60px;
+
 	  ul {
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
+	  }
+	  li {
+	  	margin-left: 50px;
 	  }
 	}
 	#logo-governo.logo-governo {
@@ -63,6 +75,8 @@
       display: block;
       margin-right: 25px;
       padding-right: 20px;
+      font-size: 1rem;
+      text-transform: uppercase;
     }
   }
   a:link,
@@ -76,6 +90,7 @@
       font-weight: normal;
       margin-right: 0;
       font-size: 0.875rem;
+      text-transform: none;
     }
   }
 }
