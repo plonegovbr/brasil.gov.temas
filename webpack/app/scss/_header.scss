@@ -241,14 +241,13 @@ ul.submenu {
     form {
         border: solid 1px #e4e4e4;
     }
-    form:before {
-        content: "+";
+    .close {
         transform: rotate(-45deg);
         font-size: 3.5rem;
         color: #222;
         position: absolute;
         top: 20px;
-        margin-left: 540px;
+        right: 50px;
         cursor: pointer;
     }
 }

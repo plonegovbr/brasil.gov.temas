@@ -4,6 +4,9 @@ Changelog
 2.0a4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige botão de fechar na busca.
+  [rodfersou]
+
 - Não esconde o titulo do portal para dispositivos móveis.
   [rodfersou]
 
