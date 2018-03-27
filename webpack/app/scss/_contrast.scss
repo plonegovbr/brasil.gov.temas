@@ -91,3 +91,10 @@ body.folder_contraste {
     display: none;
   }
 }
+
+body.contraste,
+body.folder_contraste {
+  #portal-breadcrumbs #breadcrumbs-home a:before {
+      @include sprite($casinha-branca);
+  }
+}

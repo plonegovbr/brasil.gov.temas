@@ -244,3 +244,252 @@
 #portal-sitemap li a {
     color: #222 !important;
 }
+
+/* central de conteúdo */
+.template-centrais-de-conteudo,
+.portaltype-sc-embedder {
+    background-color: #111111;
+
+    header#main-header {
+        background-color: #111111;
+    }
+    #wrapper {
+        background: #fff;
+    }
+    #portal-breadcrumbs, 
+    #portal-breadcrumbs a, 
+    #portal-breadcrumbs a:hover,
+    .breadcrumbSeparator {
+        color: #fff !important;
+    }
+    #portal-breadcrumbs #breadcrumbs-home a:before {
+        @include sprite($casinha-branca);
+    }
+}
+.top_embedded {
+    margin-bottom: -4px;
+}
+
+.portaltype-sc-embedder article {
+    display: flex;
+    flex-direction: column;
+}
+.portaltype-sc-embedder article .documentByLine {
+    order: -1;
+    color: #222 !important;
+    text-align: center;
+    border-top: 0;
+    font-size: 0.875rem;
+    padding: 0 0 15px 0;
+    margin: 0 0 40px 0;
+}
+
+
+
+/* filtro */
+.template-centrais-de-conteudo #content-core form fieldset {
+        border: 1px solid #ccc !important;
+        border-bottom: none !important;
+        margin: 14px 13px 0;
+        padding-bottom: 0;
+
+        input[type="text"] {
+            height: 30px;
+            margin: 5px 0 0 14px;
+            border: none;
+            width: 800px;
+        }
+        input[type="submit"] {
+            @include sprite($filtro-busca);
+            border: none;
+            background-color: transparent;
+            text-indent: -3000px;
+        }
+    }
+#results-bar {
+    border: 1px solid #ccc;
+    border-top: 0;
+    margin-bottom: 40px;
+    padding: 10px 30px;
+
+    fieldset {
+        border: 0 !important;   
+    }
+
+    label[for="Image"] {
+        @include sprite($filtro-imagem);
+        padding-left: 25px;
+    }
+    label[for="Audio"] {
+        @include sprite($filtro-audio);
+        padding-left: 25px;
+    }
+    label[for="sc.embedder"] {
+        @include sprite($filtro-video);
+        padding-left: 25px;
+    }
+    label[for="Infographic"] {
+        @include sprite($filtro-infografico);
+        padding-left: 25px;
+    }
+    dl {
+        margin-bottom: 0;
+    }
+    dd {
+        margin: 0;
+        border-top: 1px solid #ccc;
+    }
+    #filters {
+      display: flex;
+      padding-top: 30px;
+
+        fieldset {
+            padding: 0;
+            margin-right: 40px;
+        }
+        legend {
+            padding: 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        label {
+            font-weight: normal;
+        }
+        .filter-button {
+            height: 50px;
+            border-radius: 30px;
+            border: 0;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 81px;
+            margin-left: 46%;
+        }
+    }
+    .actionMenuHeader {
+        width: 180px;
+        float: right;
+        border-left: 1px solid #ccc;
+        margin-top: -36px;
+        text-align: right;
+        text-transform: uppercase;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .actionMenuContent.closed {
+      display: block;
+    }
+    .actionMenuContent.closed {
+      display: none;
+    }
+    #filter-toggle:after {
+        content: " ";
+        display: inline-block;
+        margin: -4px 8px;
+        @include sprite($ico-filtrar);
+    }
+    #filter-toggle.closed:after {
+        transform: rotate(180deg);
+    }
+}
+
+/* resultado */
+fieldset.noborder {
+    border: none !important;
+}
+#results ul:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+
+    li {
+        margin-bottom: 15px;
+        line-height: 1.5em;
+        display: list-item;
+        width: 264px;
+        height: 264px;
+        position: relative;
+        z-index: 0;
+        flex: 0 0 23.5%;
+        margin-left: 2%;
+    }
+    li:after {
+        background: #222;
+        border-radius: 40px;
+        float: right;
+        color: #fff;
+        text-indent: -3000px;
+        margin: 16px;
+    }
+    li.contenttype-image:after {
+        content: "Imagem";
+        @include sprite($ico-imagem);
+    }
+    li.contenttype-sc-embedder:after {
+        content: "Multimidia";
+        @include sprite($ico-video);
+    }
+    li.contenttype-sc-audio:after {
+        content: "Áudio";
+        @include sprite($ico-audio);
+    }
+    li.contenttype-infographic:after {
+        content: "Infográfico";
+        @include sprite($ico-infografico);
+    }
+    h3 {
+        margin-bottom: .5em;
+        font-size: 1.125rem !important;
+        color: #fff !important;
+        vertical-align: bottom;
+        font-weight: bold;
+    }
+    a {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding: 100px 10px 20px 30px;
+        display: block;
+        color: #fff !important;
+        background-image:
+            linear-gradient(
+              transparent, #000
+            );
+    }
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        object-fit: cover;
+        height: 264px;
+        min-width: 100%;
+    }
+    div, span {
+        display: none;
+    }
+    li.contenttype-infographic img {
+        display: none;
+    }
+    li.contenttype-infographic h3 {
+        font-size: 1.8rem !important;
+    }
+    li.contenttype-infographic h3 a {
+        background-image: none;
+    }
+}
+/* variacao de cores */
+#results ul:first-child li:nth-child(5n-4) {background: #ef6331 !important;}
+#results ul:first-child li:nth-child(5n-3) {background: #4e6e51 !important;}
+#results ul:first-child li:nth-child(5n-2) {background: #ffbc09 !important;}
+#results ul:first-child li:nth-child(5n-1) {background: #56c75f !important;}
+#results ul:first-child li:nth-child(5n-0) {background: #53cfd0 !important;}
+
+#results ul:first-child li:nth-child(4n-3) {margin-left: 0;}
+
