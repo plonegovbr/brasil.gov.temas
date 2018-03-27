@@ -155,6 +155,20 @@ p.tile-description {
     margin-bottom: 12px;
 }
 
+.tile.box-branco {
+    margin-left: 30px;
+    width: 80%;
+
+    .tile-subtitle {
+        font-size: 0.875rem !important;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+        font-weight: 800 !important;
+    }
+}
+
 
 /* tile de foto sobreposta */
 .tile.foto-sobreposta {
@@ -470,10 +484,15 @@ header.inverter .search-wrapper {
     box-sizing: border-box;
 }
 /* coluna quadrada */
+.row.colunas-quadradas {
+    flex-wrap: nowrap;
+}
 .colunas-quadradas .column,
 .column.colunas-quadradas {
-    padding: 50px 50px;
+    padding: 50px;
     box-sizing: border-box;
+    background: #f7f7f7;
+    margin: 10px;
 }
 
 /* box escuro */
