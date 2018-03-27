@@ -474,7 +474,14 @@ header.inverter .search-wrapper {
   border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
 
-
+/* coluna discretas */
+.colunas-discretas .column,
+.column.colunas-discretas {
+    outline: 20px solid #fff;
+    background-color: #f7f7f7;
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
 /* coluna destacada */
 .colunas-destacadas .column,
 .column.colunas-destacadas {
