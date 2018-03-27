@@ -1,6 +1,8 @@
 /* contraste */
 body.contraste,
 body.folder_contraste {
+  color: #FFF;
+  background-color: #000 !important;
   header,
   footer,
   a,
@@ -39,6 +41,8 @@ body.folder_contraste {
   #logo #portal-logo,
   #logo #portal-title,
   #plone-document-byline,
+  header#main-header .navigation-wrapper,
+  header#main-header .header-wrapper,
   #portal-breadcrumbs > span > span.breadcrumbSeparator,
   #portal-breadcrumbs a,
   #portal-breadcrumbs span,
@@ -76,6 +80,14 @@ body.folder_contraste {
   &.template-summary_view #content .tileItem .subtitle,
   &.template-summary_view #content .tileItem .documentByLine {
     color: #FFF;
-    background: #000 !important;
+    background-color: #000 !important;
+    border-color: #fff !important;
+  }
+}
+
+body.contraste,
+body.folder_contraste {
+  header#main-header .navigation-content:before {
+    display: none;
   }
 }
