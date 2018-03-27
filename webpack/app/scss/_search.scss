@@ -38,7 +38,7 @@
         text-indent: -5000px;
         background-color: transparent;
     }
-    .actionMenuHeader {
+    form .actionMenuHeader {
         position: absolute;
         top: -50px;
         right: 40px;
@@ -72,7 +72,8 @@
         float: none;
         display: none;
     }
-    #filters .filter-button {
+    #filters .filter-button,
+    #search-filter .filter-button {
         height: 50px;
         border-radius: 30px;
         border: 0;
