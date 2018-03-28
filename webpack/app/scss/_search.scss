@@ -289,29 +289,32 @@
 
 /* filtro */
 .template-centrais-de-conteudo #content-core form fieldset {
-        border: 1px solid #ccc !important;
-        border-bottom: none !important;
-        margin: 14px 13px 0;
-        padding-bottom: 0;
+    border: 1px solid #ccc !important;
+    border-bottom: none !important;
+    margin: 14px 13px 0;
+    padding-bottom: 0;
 
-        input[type="text"] {
-            height: 30px;
-            margin: 5px 0 0 14px;
-            border: none;
-            width: 800px;
-        }
-        input[type="submit"] {
-            @include sprite($filtro-busca);
-            border: none;
-            background-color: transparent;
-            text-indent: -3000px;
-        }
+    input[type="text"] {
+        height: 30px;
+        margin: 5px 0 0 14px;
+        border: none;
+        width: 800px;
     }
+    input[type="submit"] {
+        @include sprite($filtro-busca);
+        border: none;
+        background-color: transparent;
+        text-indent: -3000px;
+    }
+}
+.template-centrais-de-conteudo #content-core form #filters fieldset.noborder {
+    border: none !important;
+}
 #results-bar {
     border: 1px solid #ccc;
     border-top: 0;
     margin-bottom: 40px;
-    padding: 10px 30px;
+    padding: 10px 0;
 
     fieldset {
         border: 0 !important;   
