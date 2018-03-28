@@ -645,3 +645,71 @@ header.inverter .search-wrapper {
         display:none;
     }
 }
+
+/* document finder */
+.document-finder-tile {
+    h1, h2 {
+        color: #333 !important;
+    }
+    form .actionMenuHeader {
+        top: -37px !important;
+    }
+    fieldset.search-field {
+        border: 1px solid #ccc !important;
+        margin-bottom: 0;
+        padding: 5px 10px;
+        background-color: #fff;
+    }
+    fieldset.search-field .searchButton {
+        border: none;
+    }
+
+    .filter-button {
+        height: 50px;
+        border-radius: 30px;
+        border: 0;
+        padding: 10px 20px;
+        background: #333;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    #search-results-wrapper {
+        margin-top: -1px;
+        width: 100%;
+    }
+    #search-results-wrapper ul {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    #search-results-wrapper li {
+        margin-right: 1%;
+    }
+    #search-results-bar {
+        background-color: #fff;
+        margin: 0;
+    }
+    .tile-footer {
+        text-align: center;
+    }
+    .tile-footer a {
+        display: inline-block;
+        border-radius: 30px;
+        border: 2px solid #222!important;
+        text-transform: uppercase;
+        padding: 15px 40px;
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 700!important;
+        background-color: #fff;
+    }
+    .tile-footer a:hover {
+        background: #06acff;
+        border-color: #06acff!important;
+        color: #fff!important;    
+    }
+}
