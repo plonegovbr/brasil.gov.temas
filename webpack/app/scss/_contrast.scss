@@ -1,18 +1,16 @@
 /* contraste */
 body.contraste,
 body.folder_contraste {
-  color: #FFF;
+  color: #fff;
   background-color: #000 !important;
   header,
   footer,
-  a,
   h1,
   h2,
   h3,
   h4,
   h5,
   h6,
-  dl.portlet a:hover,
   p.section,
   #category,
   #category-vcge,
@@ -20,18 +18,14 @@ body.folder_contraste {
   #content #tile_banner_rotativo .credito,
   #content #tile_banner_rotativo .descr,
   #content #tile_banner_rotativo .title,
+  #content .tile-em-alta .tile-header h2,
   #content .documentByLine .summary-view-icon,
   #content .documentDescription,
   #content .gallery-element-metadata .title,
-  #content .gallery-footer a,
-  #content .gallery-footer a:hover,
-  #content .outstanding-header .outstanding-link:hover,
   #content .poll-tile .poll-tile-header > .header,
   #content .poll-tile .tile-content-wrapper > form > input[type=radio]+span,
   #content .pullquote,
   #content .subtitle,
-  #content a:hover,
-  #content article #viewlet-below-content-title .contentHistory a,
   #content article #viewlet-below-content-title .documentModified,
   #content article #viewlet-below-content-title .documentPublished,
   #content article div[property*='articleBody'] p,
@@ -44,43 +38,69 @@ body.folder_contraste {
   header#main-header .navigation-wrapper,
   header#main-header .header-wrapper,
   #portal-breadcrumbs > span > span.breadcrumbSeparator,
-  #portal-breadcrumbs a,
   #portal-breadcrumbs span,
-  #portal-column-one > .nav-menu-de-relevancia .first-item-nav a span,
-  #portal-column-one > .nav-menu-de-relevancia .first-item-nav a,
-  #portal-siteactions a,
-  #portal-siteactions a:hover,
   .cover-collection-tile .tile-header span,
   .cover-collection-tile p,
   .cycle-player .cycle-overlay,
   .galeria_container,
   .galleria-info-description,
   .galleria-info-text .rights,
-  .galleria-info-title a,
-  .galleria-info-title a:hover,
   .item-central .link-central,
   .lista-vertical .tile-header h3,
   .lista-vertical .tile-header span,
   .nitfByline,
-  .outstanding-header .outstanding-link,
-  .portletNavigationTree > .portletItem a span,
-  .tile a,
   .tile p,
   .tile-content p,
   .tile-subtitle,
   .videogallery-tile .description,
   .videogallery-tile .subtitle,
+  p.nitfSubtitle,
+  #parent-fieldname-text:first-letter,
+  div[property="rnews:articleBody"]:first-letter,
   &.template-facetednavigation_view #content .tileItem .keywords,
   &.template-folder_summary_view #content .tileItem .keywords,
   &.template-summary_view #content .tileItem .keywords,
   &.template-summary_view #content .tileItem .subtitle,
-  &.template-summary_view #content .tileItem .tileHeadline a,
   &.template-summary_view #content .tileItem .description,
   &.template-summary_view #content .tileItem .keywords,
   &.template-summary_view #content .tileItem .subtitle,
-  &.template-summary_view #content .tileItem .documentByLine {
-    color: #FFF;
+  &.template-summary_view #content .tileItem .documentByLine,
+  &.portaltype-collective-cover-content div.row.linha-discreta,
+  &.portaltype-collective-cover-content div.row.linha-destacada {
+    color: #fff !important;
     background-color: #000 !important;
+    border-color: #fff !important;
+  }
+}
+
+/* LINKS */
+body.contraste,
+body.folder_contraste {
+  a,
+  #main-navigation a:hover, 
+  #main-navigation a:link, 
+  #main-navigation a:visited,
+  dl.portlet a:hover,
+  #content .gallery-footer a,
+  #content .gallery-footer a:hover,
+  #content a:hover,
+  #content article #viewlet-below-content-title .contentHistory a,
+  #portal-breadcrumbs a,
+  #portal-column-one > .nav-menu-de-relevancia .first-item-nav a span,
+  #portal-column-one > .nav-menu-de-relevancia .first-item-nav a,
+  #portal-siteactions a,
+  #portal-siteactions a:hover,
+  .galleria-info-title a,
+  .galleria-info-title a:hover,
+  .portletNavigationTree > .portletItem a span,
+  .tile a,
+  .outstanding-header .outstanding-link,
+  #content .outstanding-header .outstanding-link:hover,
+  #portal-footer a, #portal-footer a:hover,
+  &.template-summary_view #content .tileItem .tileHeadline a,
+  &.template-view #content .tile-em-alta a {
+    color: yellow !important;
+    text-decoration: underline !important;
     border-color: #fff !important;
   }
 }
@@ -96,5 +116,45 @@ body.contraste,
 body.folder_contraste {
   #portal-breadcrumbs #breadcrumbs-home a:before {
       @include sprite($casinha-branca);
+  }
+}
+
+#viewlet-social-like>div:before,
+ {
+    filter: invert(100%);
+}
+
+/* contraste dos icones */
+body.contraste,
+body.folder_contraste {
+  #portalredes-twitter {
+    @include sprite($rede-twitter-branco);
+  }
+  #portalredes-youtube {
+    @include sprite($rede-youtube-branco);
+  }
+  #portalredes-flickr {
+    @include sprite($rede-flickr-branco);
+  }
+  #portalredes-facebook {
+    @include sprite($rede-facebook-branco);
+  }
+  #portalredes-googleplus {
+    @include sprite($rede-googleplus-branco);
+  }
+  #portalredes-slideshare {
+    @include sprite($rede-slideshare-branco);
+  }
+  #portalredes-soundcloud {
+    @include sprite($rede-soundcloud-branco);
+  }
+  #portalredes-rss {
+    @include sprite($rede-rss-branco);
+  }
+  #portalredes-instagram {
+    @include sprite($rede-instagram-branco);
+  }
+  #portalredes-tumblr {
+    @include sprite($rede-tumblr-branco);
   }
 }
