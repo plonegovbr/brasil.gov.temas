@@ -491,7 +491,7 @@ a#error-reporting-toggle.open::after {
 
   h1.documentFirstHeading,
   .documentByLine {
-    display: none;
+    display: none !important;
   }
 
   #content {
