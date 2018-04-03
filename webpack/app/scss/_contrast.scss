@@ -2,11 +2,18 @@
 // referenciar melhor os elementos a serem invetidos para evitar comportamentos inesperados.
 body.contraste,
 body.folder_contraste {
+  #content a.outstanding-link {
+    color: #ff0!important;
+    border: none!important;
+  }
+  #content a.outstanding-link:hover {
+    color: #ff0!important;
+  }
   #edit-bar a {
     color: black;
   }
-  .link-overlay a:hover {
-    color: #ff0 !important;
+  a:hover {
+    color: #ff0!important;
     text-decoration: underline;
   }
   #wrapper a:after {
@@ -86,7 +93,7 @@ body.folder_contraste {
   #content .gallery-element-metadata .title,
   #content .gallery-footer a,
   #content .gallery-footer a:hover,
-  #content .outstanding-header .outstanding-link:hover,
+  #content .outstanding-header,
   #content .poll-tile .poll-tile-header > .header,
   #content .poll-tile .tile-content-wrapper > form > input[type=radio]+span,
   #content .pullquote,
@@ -121,7 +128,7 @@ body.folder_contraste {
   .lista-vertical .tile-header h3,
   .lista-vertical .tile-header span,
   .nitfByline,
-  .outstanding-header .outstanding-link,
+  .outstanding-header,
   .portletNavigationTree > .portletItem a span,
   .tile a,
   .tile p,
@@ -138,7 +145,7 @@ body.folder_contraste {
   &.template-summary_view #content .tileItem .keywords,
   &.template-summary_view #content .tileItem .subtitle,
   &.template-summary_view #content .tileItem .documentByLine {
-    color: #FFF;
+    color: #fff;
     background: black;
   }
 }
