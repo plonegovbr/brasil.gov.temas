@@ -66,7 +66,8 @@ body.folder_contraste {
   &.template-summary_view #content .tileItem .subtitle,
   &.template-summary_view #content .tileItem .documentByLine,
   &.portaltype-collective-cover-content div.row.linha-discreta,
-  &.portaltype-collective-cover-content div.row.linha-destacada {
+  &.portaltype-collective-cover-content div.row.linha-destacada,
+  #error-reporting .formControls input {
     color: #fff !important;
     background-color: #000 !important;
     border-color: #fff !important;
@@ -98,12 +99,33 @@ body.folder_contraste {
   #content .outstanding-header .outstanding-link:hover,
   #portal-footer a, #portal-footer a:hover,
   &.template-summary_view #content .tileItem .tileHeadline a,
-  &.template-view #content .tile-em-alta a {
+  &.template-view #content .tile-em-alta a,
+  &.portaltype-collective-cover-content #content div.row.linha-destacada .box-branco .tile a:hover, 
+  &.portaltype-collective-cover-content #content div.row.linha-destacada .box-branco .tile a:link, 
+  &.portaltype-collective-cover-content #content div.row.linha-destacada .box-branco .tile a:visited,
+  &.portaltype-collection h2.tileHeadline a, 
+  &.template-filter-results h2.tileHeadline a,
+  &.portaltype-collection .keywords a, .template-filter-results .keywords a,
+  ul.paginacao li a {
     color: yellow !important;
     text-decoration: underline !important;
     border-color: #fff !important;
   }
 }
+
+body.contraste,
+body.folder_contraste {
+  .column.colunas-destacadas,
+  .column.colunas-discretas,
+  .colunas-destacadas .column,
+  .colunas-discretas .column,
+  &.portaltype-collective-cover-content #content div.row.linha-destacada .box-branco .tile,
+  #error-reporting {
+    background-color: transparent !important;
+    outline: none !important;
+  }
+}
+
 
 body.contraste,
 body.folder_contraste {
