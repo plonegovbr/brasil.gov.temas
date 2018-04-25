@@ -40,13 +40,17 @@
     }
     form .actionMenuHeader {
         position: absolute;
-        top: -50px;
+        top: -40px;
         right: 40px;
         border-left: 1px solid #ccc;
         padding-left: 30px;
     }
     .cell.width-full.position-0 {
         margin-left: auto;
+    }
+    #results {
+        width: 100%;
+        margin-left: 12px;
     }
 }
 #search-results-wrapper {
@@ -74,7 +78,7 @@
     }
     #filters .filter-button,
     #search-filter .filter-button {
-        height: 50px;
+        height: 40px;
         border-radius: 30px;
         border: 0;
         padding: 10px 20px;
