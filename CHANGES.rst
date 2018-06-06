@@ -1,7 +1,13 @@
 Changelog
 ---------
 
-2.0a5 (unreleased)
+2.0a6 (unreleased)
+^^^^^^^^^^^^^^^^^^
+
+- Nothing changed yet.
+
+
+2.0a5 (2018-06-06)
 ^^^^^^^^^^^^^^^^^^
 
 - Revisa view de Galleria de Fotos.
