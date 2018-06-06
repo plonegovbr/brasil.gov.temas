@@ -227,4 +227,4 @@ Se você está fazendo release usando o zest.releaser, você precisa fazer `uplo
 * crie os arquivos da distribuição usando ``python setup.py sdist bdist_wheel``, como de costume
 * faça o upload manual dos arquivos usando ``twine upload dist/*``
 
-Caso de erro você terá que criar um novo release pois o PyPI Warehouse `não permite reutilizar um nome de arquivo <https://upload.pypi.org/help/#file-name-reuse>`_.
+Em caso de erro você terá que criar um novo release pois o PyPI Warehouse `não permite reutilizar um nome de arquivo <https://upload.pypi.org/help/#file-name-reuse>`_.
