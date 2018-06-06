@@ -141,6 +141,11 @@ body.folder_contraste {
   }
 }
 
+body.contraste #viewlet-social-like>div:before,
+ {
+    filter: invert(100%);
+}
+
 /* contraste dos icones */
 body.contraste,
 body.folder_contraste {
