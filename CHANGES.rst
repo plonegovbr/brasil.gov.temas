@@ -4,7 +4,8 @@ Changelog
 2.0a6 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Revisa estilos para brasil.gov.agenda.
+  [agnogueira]
 
 
 2.0a5 (2018-06-06)
