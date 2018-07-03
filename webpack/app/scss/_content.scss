@@ -456,15 +456,11 @@ ul.paginacao {
 /* agenda */
 .ui-widget {
   font-family: Raleway, sans-serif;
-  font-size: 0.9em;
 }
 #content .ui-datepicker .ui-datepicker-month, 
 body .ui-datepicker .ui-datepicker-month {
   font-family: Raleway, sans-serif;
   font-size: 0.875rem;
-}
-.portaltype-agendadiaria .ui-datepicker-group-middle .ui-datepicker-title::after {
-  display: none !important;
 }
 .portaltype-agenda #content .search-form .searchField, 
 .portaltype-agendadiaria #content .search-form .searchField {
