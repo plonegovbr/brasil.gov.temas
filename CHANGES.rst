@@ -7,6 +7,9 @@ Changelog
 - Revisa estilos para brasil.gov.agenda.
   [agnogueira]
 
+- Revisa as fontes do topo do Portal.
+  [agnogueira]
+
 
 2.0a5 (2018-06-06)
 ^^^^^^^^^^^^^^^^^^

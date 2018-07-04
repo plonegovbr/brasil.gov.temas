@@ -160,21 +160,22 @@ ul.submenu {
 }
 #logo {
   flex-grow: 1;
-  font-size: 28px;
+  font-size: 1.625rem;
   font-weight: normal;
   margin: 0 20px 0 0;
 
   h1, #portal-title {
     display: inline;
     color: $top-link;
-    font-size: 1.875rem;
+    font-size: 1.625rem;
     font-weight: 900;
   }
   #portal-title-1 {
     margin-right: 0.5rem;
   }
   #portal-description {
-    font-size: 1rem;
+    font-size: 0.625rem;
+    font-weight: bold;
     width: 100%;
     order: -2;
     opacity: 0.6;
@@ -194,6 +195,7 @@ ul.submenu {
 
   li {
     margin-right: 20px;
+    font-size: 0.875rem;
   }
 }
 
@@ -214,7 +216,8 @@ ul.submenu {
     border: none;
     width: 92%;
     padding: 12px 0;
-    color: #ccc;
+    color: #222;
+    font-size: 0.75rem;
   }
   .searchButton {
     border: none;
