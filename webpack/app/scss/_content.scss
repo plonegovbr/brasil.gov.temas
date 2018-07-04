@@ -454,13 +454,39 @@ ul.paginacao {
 }
 
 /* agenda */
+
+body.portaltype-agenda,
+body.portaltype-agendadiaria {
+  background: #f9f9f9;
+}
+.portaltype-agenda, 
+.portaltype-agendadiaria {
+  #main {
+    width: 100% !important;
+  }
+  #wrapper {
+    padding-top: 0;
+  }
+  #content .documentFirstHeading {
+    padding-top: 40px;
+  }
+  .portalMessage {
+    margin: 0 auto 2rem auto;
+    width: 1110px;
+  }
+  #content .search-form .LSBox {
+    width: 1020px !important;
+  }
+}
 .ui-widget {
   font-family: Raleway, sans-serif;
 }
 #content .ui-datepicker .ui-datepicker-month, 
 body .ui-datepicker .ui-datepicker-month,
 .portaltype-agenda #content .search-form .searchField, 
-.portaltype-agendadiaria #content .search-form .searchField {
+.portaltype-agendadiaria #content .search-form .searchField,
+#content .ui-datepicker .ui-datepicker-year, 
+body .ui-datepicker .ui-datepicker-year {
   font-family: Raleway, sans-serif;
   font-size: 0.875rem;
 }
