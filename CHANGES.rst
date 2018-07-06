@@ -4,10 +4,13 @@ Changelog
 2.0a6 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Revisa estilos para brasil.gov.agenda.
+- Ajusta a largura da página, cor de fundo e fontes.
   [agnogueira]
 
-- Revisa as fontes do topo do Portal.
+- Revisa as fontes do topo do portal.
+  [agnogueira]
+
+- Revisa estilos para brasil.gov.agenda.
   [agnogueira]
 
 
