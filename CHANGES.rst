@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0a6 (unreleased)
+2.0a6 (2018-07-06)
 ^^^^^^^^^^^^^^^^^^
 
 - Ajusta a largura da página, cor de fundo e fontes.
