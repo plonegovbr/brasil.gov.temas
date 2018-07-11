@@ -4,8 +4,8 @@ Changelog
 2.0a7 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Ajusta a exibição dos scripts do painel de controle
-  [agnogueira] 
+- Corrige a exibição dos scripts para suporte a estatísticas web (fecha `#188 <https://github.com/plonegovbr/brasil.gov.temas/issues/188>`_).
+  [agnogueira]
 
 
 2.0a6 (2018-07-06)
