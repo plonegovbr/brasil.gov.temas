@@ -4,7 +4,8 @@ Changelog
 2.0a7 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Ajusta a exibição dos scripts do painel de controle
+  [agnogueira] 
 
 
 2.0a6 (2018-07-06)
