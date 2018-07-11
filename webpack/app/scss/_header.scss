@@ -40,7 +40,7 @@ header#main-header {
 
     ul li {
       display: list-item;
-      margin-bottom: .8rem;
+      margin-bottom: 1.25rem;
     }
     #portal-redes li {
       display: inline-block;
@@ -80,7 +80,7 @@ header#main-header {
   a:link,
   a:hover,
   a:visited {
-    color: #333 !important;
+    color: $nav-link !important;
   }
   .submenu {
     li {
@@ -88,6 +88,10 @@ header#main-header {
       font-weight: normal;
       margin-right: 0;
       font-size: 0.875rem;
+    }
+    li a {
+      font-weight: 500;
+      color: #222 !important;
     }
   }
 }
@@ -196,6 +200,7 @@ ul.submenu {
   li {
     margin-right: 20px;
     font-size: 0.875rem;
+    font-weight: 500;
   }
 }
 
@@ -263,7 +268,7 @@ header#main-header.busca-ativa {
   @extend .ct-width;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 15px 0;
-  font-size: 90%;
+  font-size: 1rem;
 
   #breadcrumbs-you-are-here {
     display: none;
@@ -285,9 +290,10 @@ header#main-header.busca-ativa {
   a:hover {
     text-decoration: none;
     color: $txt-color;
+    font-weight: 500;
   }
   #breadcrumbs-current {
-    font-weight: bold;
+    font-weight: 800;
   }
   .breadcrumbSeparator {
     padding: 0 10px;
@@ -321,11 +327,11 @@ header.inverter {
 
 /* variacao de cor do header */
 .section-fale-conosco header#main-header {
-  background-color: #244a7c;
+  background-color: $fale-conosco;
 }
 .portaltype-collective-nitf-content header#main-header {
-  background-color: #06acff;
+  background-color: $noticias;
 }
 .section-centrais-de-conteudo header#main-header {
-  background-color: #000;
+  background-color: $central-conteudo;
 }

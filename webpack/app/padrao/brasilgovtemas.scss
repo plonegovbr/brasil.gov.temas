@@ -4,7 +4,7 @@
 
 $bg-color: #fff;
 $main-font: 'Raleway', sans-serif;
-$main-fontsize: 1em;
+$main-fontsize: 1rem;
 $main-width: 100%;
 $main-color: #2969bd;
 $coluna-1: 300px;
@@ -17,7 +17,7 @@ $top-text: #fff;
 $top-link: #fff;
 
 $nav-color: #fff;
-$nav-link: #000;
+$nav-link: #333;
 
 $txt-color: #282828;
 $link-color: #0094ff;
@@ -28,8 +28,14 @@ $byline-color: #a6a6a6;
 $tile-link: #333;
 
 $footer-color: #f1f1f1;
-$footer-text: #272727;
-$footer-link: #272727;
+$footer-text: #222222;
+$footer-link: #222222;
+
+
+/* variacao de cor do header */
+$fale-conosco: #244a7c;
+$noticias: #06acff;
+$central-conteudo: #000;
 
 
 /********** Estilos Básicos do IDG **********/

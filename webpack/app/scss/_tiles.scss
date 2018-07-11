@@ -409,11 +409,13 @@ p.tile-description {
       padding: 0;
     }
     .tile-content {
-        height: 500px;
-        justify-content: center;
+        height: 470px;
+        justify-content: flex-end;
         width: 100%;
         display: flex;
         flex-flow: column;
+        padding-bottom: 60px;
+        box-sizing: border-box;
     }
     h1, h2, h3, p, time {
         width: 1140px;
@@ -496,10 +498,14 @@ header.inverter .search-wrapper {
 }
 .colunas-quadradas .column,
 .column.colunas-quadradas {
-    padding: 50px;
+    padding: 100px 50px 60px 50px;
     box-sizing: border-box;
     background: #f7f7f7;
     margin: 10px;
+    h2 {
+        font-size: 1.5rem;
+        color: #222;
+    }
 }
 
 /* box escuro */
