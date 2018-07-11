@@ -105,7 +105,7 @@
     <!--Footer -->
     <copy css:content="#portal-redes" css:theme=".coluna-redes ul" />
     <append css:theme="body" css:content="#plone-analytics" />
-
+    
     <!-- Columns -->
     <replace css:content-children="#portal-column-content" css:theme-children="#main-content" />
     <replace css:content-children="#portal-column-one" css:theme-children="#column-one" />
