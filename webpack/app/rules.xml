@@ -65,19 +65,17 @@
       <drop css:content=".documentByLine .documentModified" />
     </rules>
 
-    <rules css:if-not-content=".portaltype-collective-cover-content">
-      <before css:content-children="#viewlet-below-content" method="raw">
-        <div class="voltar-topo">
-          <a href="#wrapper">Voltar ao Topo</a>
-        </div>
-      </before>
+    <before css:content-children="#viewlet-below-content" method="raw">
+      <div class="voltar-topo">
+        <a href="#wrapper">Voltar ao Topo</a>
+      </div>
+    </before>
 
-      <after css:content-children="#viewlet-below-content" method="raw">
-        <div class="texto-copyright">
-          Todo o conteúdo deste site está publicado sob a Licença <a rel="license" href="https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR">Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>.
-        </div>
-      </after>
-    </rules>
+    <after css:content-children="#viewlet-below-content" method="raw">
+      <div class="texto-copyright">
+        Todo o conteúdo deste site está publicado sob a Licença <a rel="license" href="https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR">Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>.
+      </div>
+    </after>
 
 
     <!-- UL DE LíNGUAS
