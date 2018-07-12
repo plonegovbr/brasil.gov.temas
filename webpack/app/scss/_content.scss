@@ -1,4 +1,9 @@
 /* largura da area de texto de alguns tipos de conteúdo */
+#edit-bar {
+    max-width: $content-width;
+    margin: 0 auto 1em auto;
+}
+
 .portaltype-document,
 .portaltype-collective-nitf-content {
   #main {
@@ -8,7 +13,7 @@
   #viewlet-below-content-title,
   .documentDescription,
   .documentByLine {
-    width: 1140px;
+    width: $content-width;
     margin-left: auto;
     margin-right: auto;
   }
@@ -19,7 +24,7 @@
   #content-core ol,
   #content-core dl,
   #content-core table {
-    width: 900px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -116,7 +121,7 @@ p.nitfSubtitle {
   position: absolute;
 }
 #media {
-    width: 1140px;
+    width: $content-width;
     margin: 0 auto;
     text-align: center;
 }
@@ -164,7 +169,7 @@ dd.image-caption {
     z-index: -2;
   }
   h1, h2, h3, p {
-    width: 1140px !important;
+    width: $content-width !important;
     margin: 0 auto 1rem auto;
     color: #fff !important;
   }
@@ -186,10 +191,11 @@ dd.image-caption {
 }
 
 #viewlet-below-content {
-  margin: 0 90px;
+  margin: 0 auto;
   padding: 20px 0;
   border-top: solid 0.5px #ccc;
   position: relative;
+  width: $content-width;
 }
 
 #category {
