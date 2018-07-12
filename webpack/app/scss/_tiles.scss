@@ -91,6 +91,10 @@ p.tile-description {
         border-top: 1px solid #ddd;
     }
 }
+/* Texto rico */
+.cover-richtext-tile {
+    
+}
 
 /* lista-blocos */
 
@@ -306,6 +310,10 @@ p.tile-description {
         }
         a:link, a:visited, a:hover {
             color: #244a7c !important;
+        }
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 800;
         }
     }
     .col-md-3 {flex-basis: 285px;}

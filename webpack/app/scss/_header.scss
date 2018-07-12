@@ -296,7 +296,10 @@ header#main-header.busca-ativa {
     font-weight: 800;
   }
   .breadcrumbSeparator {
-    padding: 0 10px;
+    padding: 0;
+    text-indent: -1000px;
+    display: inline-block;
+    @include sprite($seta-breadcrumb);
   }
 }
 
@@ -319,6 +322,9 @@ header.inverter {
   margin-bottom: 0;
   a, .breadcrumbSeparator {
     color: #fff !important;
+  }
+  .breadcrumbSeparator {
+    @include sprite($seta-breadcrumb-branca);
   }
   #breadcrumbs-home a:before {
     @include sprite($casinha-branca);
