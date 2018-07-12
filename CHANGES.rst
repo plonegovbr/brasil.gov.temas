@@ -4,6 +4,9 @@ Changelog
 2.0a7 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige o texto da licença do site (ref. `#190 <https://github.com/plonegovbr/brasil.gov.temas/issues/190>`_).
+  [hvelarde]
+
 - Corrige a exibição dos scripts para suporte a estatísticas web (fecha `#188 <https://github.com/plonegovbr/brasil.gov.temas/issues/188>`_).
   [agnogueira]
 
