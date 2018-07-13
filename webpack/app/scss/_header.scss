@@ -131,13 +131,12 @@ ul.submenu {
   .link-contraste {
     display: inline-block;
     position: relative;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 25px;
     border-right: 1px solid rgba(256, 256, 256, 0.2);
   }
   .link-contraste:before {
     content: "";
     position: absolute;
-    top: 3px;
     left: 0;
     @include sprite($contraste);
   }
