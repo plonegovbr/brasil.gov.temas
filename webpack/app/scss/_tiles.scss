@@ -334,6 +334,7 @@ p.tile-description {
         padding: 10px 20px;
         border-radius: 20px;
         font-size: 0.875rem !important;
+        font-weight: 700;
     }
     .botao-texto-icone a::before,
     a.botao-texto-icone::before{
@@ -417,13 +418,14 @@ p.tile-description {
       padding: 0;
     }
     .tile-content {
-        height: 470px;
+        height: 420px;
         justify-content: flex-end;
         width: 100%;
         display: flex;
         flex-flow: column;
         padding-bottom: 60px;
         box-sizing: border-box;
+        margin-bottom: 50px;
     }
     h1, h2, h3, p, time {
         width: 1140px;
