@@ -1,7 +1,25 @@
 /* largura da area de texto de alguns tipos de conteúdo */
 #edit-bar {
-    max-width: $content-width;
-    margin: 0 auto 1em auto;
+  max-width: $content-width;
+  margin: 0 auto 1em auto;
+}
+body.template-edit #main,
+body.template-image #main {
+  width: $content-width !important;
+  max-width: 100%;
+}
+dl.portalMessage, 
+div.attention, 
+div.caution, 
+div.danger, 
+div.error, 
+div.hint, 
+div.important, 
+div.note, 
+div.tip, 
+div.warning {
+    max-width: 1160px;
+    margin: 1em auto;
 }
 
 .portaltype-document,
@@ -12,18 +30,14 @@
   h1.documentFirstHeading,
   #viewlet-below-content-title,
   .documentDescription,
-  .documentByLine {
-    width: $content-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #content-core p,
-  #content-core h2,
-  #content-core h3,
-  #content-core ul,
-  #content-core ol,
-  #content-core dl,
-  #content-core table {
+  .documentByLine,
+  #content-core #parent-fieldname-text p,
+  #content-core #parent-fieldname-text h2,
+  #content-core #parent-fieldname-text h3,
+  #content-core #parent-fieldname-text ul,
+  #content-core #parent-fieldname-text ol,
+  #content-core #parent-fieldname-text dl,
+  #content-core #parent-fieldname-text table {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -197,21 +211,27 @@ dd.image-caption {
   position: relative;
   width: $content-width;
 }
+.portaltype-collective-nitf-content #viewlet-below-content {
+  width: 960px;
+}
 
 #category {
   font-size: 100%;
   text-align: left;
   padding-bottom: 20px;
+  color: #fff;
 
   a.link-category, a.link-category:hover {
-    background: transparent;
-    border: solid 2px #222;
-    padding: 0.5em 0.8em;
+    background: #eee;
+    padding: 8px 15px;
     color: #222;
-    border-radius: 1.2em;
+    border-radius: 30px;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 5px;
+    margin: 0 10px 10px 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    float: left;
   }
 }
 
