@@ -146,7 +146,9 @@ body.folder_contraste {
     background-color: transparent !important;
   }
 }
-
+body.contraste #viewlet-social-like>div {
+  background: transparent; 
+}
 body.contraste #viewlet-social-like>div:before,
  {
     filter: invert(100%);

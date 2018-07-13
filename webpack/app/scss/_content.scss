@@ -321,7 +321,7 @@ dd.image-caption {
 
 /* social like */
 #viewlet-social-like {
-  position: absolute;
+  position: fixed;
 
   display: block;
   float: none;
@@ -355,6 +355,7 @@ dd.image-caption {
     height: 48px;
     border-radius: 100%;
     margin-bottom: 20px;
+    background: #fff;
 
     display: flex;
     align-items: center;
