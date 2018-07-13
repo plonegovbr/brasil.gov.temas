@@ -436,12 +436,15 @@ dd.image-caption {
     margin: 0 1em 0.5em 1em;
   }
   .keywords a {
-    border-radius: 20px;
-    padding: 5px 10px;
-    color: #333 !important;
-    font-weight: bold;
-    margin-right: 10px;
-    border: 2px solid #333 !important;
+    background: #eee;
+    padding: 8px 15px;
+    color: #222 !important;
+    border-radius: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    font-size: 0.75rem;
+    font-weight: 600;
   }
   #results article {
     margin-bottom: 40px;
