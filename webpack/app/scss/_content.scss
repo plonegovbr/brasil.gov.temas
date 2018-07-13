@@ -325,7 +325,7 @@ dd.image-caption {
 
   display: block;
   float: none;
-  margin: 0;
+  margin: 0 0 0 -80px;
 
   width: 100px;
 
@@ -403,6 +403,9 @@ dd.image-caption {
   .sociallike-network-linkedin:hover {
     background: #0077b5;
   }
+}
+.portaltype-collective-nitf-content #viewlet-social-like {
+  margin: 0;
 }
 
 /* colecao */
