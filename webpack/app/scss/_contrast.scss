@@ -139,8 +139,16 @@ body.folder_contraste {
   #portal-breadcrumbs #breadcrumbs-home a:before {
       @include sprite($casinha-branca);
   }
+  #portal-breadcrumbs .breadcrumbSeparator {
+    @include sprite($seta-breadcrumb-branca);
+  }
+  #portal-breadcrumbs>span>span.breadcrumbSeparator, #portal-breadcrumbs span {
+    background-color: transparent !important;
+  }
 }
-
+body.contraste #viewlet-social-like>div {
+  background: transparent; 
+}
 body.contraste #viewlet-social-like>div:before,
  {
     filter: invert(100%);

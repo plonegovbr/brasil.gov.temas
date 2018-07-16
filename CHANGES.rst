@@ -2,7 +2,24 @@ Changelog
 ---------
 
 2.0a7 (unreleased)
-^^^^^^^^^^^^^^^^^^
+
+- Adiciona novas variações da fonte principal.
+  [agnogueira]
+
+- Revisão geral de fontes no header, footer, conteúdo e tiles.
+  [agnogueira]
+
+- Altera a largura geral do Portal.
+  [agnogueira]
+
+- Novo estilo para as tags.
+  [agnogueira]
+
+- Ajustes visuais para as visões de coleção e filtro.
+  [agnogueira]
+
+- Altera o ícone de contraste.
+  [agnogueira]
 
 - Corrige o texto da licença do site e exibe em todas as páginas (ref. `#190 <https://github.com/plonegovbr/brasil.gov.temas/issues/190>`_).
   [hvelarde, agnogueira]

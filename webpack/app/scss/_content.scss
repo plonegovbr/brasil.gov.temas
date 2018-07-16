@@ -1,4 +1,27 @@
 /* largura da area de texto de alguns tipos de conteúdo */
+#edit-bar {
+  max-width: $content-width;
+  margin: 0 auto 1em auto;
+}
+body.template-edit #main,
+body.template-image #main {
+  width: $content-width !important;
+  max-width: 100%;
+}
+dl.portalMessage, 
+div.attention, 
+div.caution, 
+div.danger, 
+div.error, 
+div.hint, 
+div.important, 
+div.note, 
+div.tip, 
+div.warning {
+    max-width: 1160px;
+    margin: 1em auto;
+}
+
 .portaltype-document,
 .portaltype-collective-nitf-content {
   #main {
@@ -7,19 +30,15 @@
   h1.documentFirstHeading,
   #viewlet-below-content-title,
   .documentDescription,
-  .documentByLine {
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #content-core p,
-  #content-core h2,
-  #content-core h3,
-  #content-core ul,
-  #content-core ol,
-  #content-core dl,
-  #content-core table {
-    width: 900px;
+  .documentByLine,
+  #content-core #parent-fieldname-text p,
+  #content-core #parent-fieldname-text h2,
+  #content-core #parent-fieldname-text h3,
+  #content-core #parent-fieldname-text ul,
+  #content-core #parent-fieldname-text ol,
+  #content-core #parent-fieldname-text dl,
+  #content-core #parent-fieldname-text table {
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -73,7 +92,7 @@ div[property="rnews:articleBody"]::first-letter {
   font-weight: bold;
   float: left;
   line-height: 4rem;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 h1.documentFirstHeading {
@@ -116,7 +135,7 @@ p.nitfSubtitle {
   position: absolute;
 }
 #media {
-    width: 1140px;
+    width: $content-width;
     margin: 0 auto;
     text-align: center;
 }
@@ -164,7 +183,7 @@ dd.image-caption {
     z-index: -2;
   }
   h1, h2, h3, p {
-    width: 1140px !important;
+    width: $content-width !important;
     margin: 0 auto 1rem auto;
     color: #fff !important;
   }
@@ -186,26 +205,33 @@ dd.image-caption {
 }
 
 #viewlet-below-content {
-  margin: 0 90px;
+  margin: 0 auto;
   padding: 20px 0;
   border-top: solid 0.5px #ccc;
   position: relative;
+  width: $content-width;
+}
+.portaltype-collective-nitf-content #viewlet-below-content {
+  width: 960px;
 }
 
 #category {
   font-size: 100%;
   text-align: left;
   padding-bottom: 20px;
+  color: #fff;
 
   a.link-category, a.link-category:hover {
-    background: transparent;
-    border: solid 2px #222;
-    padding: 0.5em 0.8em;
+    background: #eee;
+    padding: 8px 15px;
     color: #222;
-    border-radius: 1.2em;
+    border-radius: 30px;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 5px;
+    margin: 0 10px 10px 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    float: left;
   }
 }
 
@@ -295,11 +321,11 @@ dd.image-caption {
 
 /* social like */
 #viewlet-social-like {
-  position: absolute;
+  position: fixed;
 
   display: block;
   float: none;
-  margin: 0;
+  margin: 0 0 0 -80px;
 
   width: 100px;
 
@@ -329,6 +355,7 @@ dd.image-caption {
     height: 48px;
     border-radius: 100%;
     margin-bottom: 20px;
+    background: #fff;
 
     display: flex;
     align-items: center;
@@ -377,6 +404,9 @@ dd.image-caption {
     background: #0077b5;
   }
 }
+.portaltype-collective-nitf-content #viewlet-social-like {
+  margin: 0;
+}
 
 /* colecao */
 .portaltype-collection,
@@ -403,6 +433,8 @@ dd.image-caption {
       font-family: inherit !important;
       border: none;
       text-align: left;
+      font-size: 0.875rem;
+      font-weight: 500;
     }
   }
   .tileImage img {
@@ -410,12 +442,15 @@ dd.image-caption {
     margin: 0 1em 0.5em 1em;
   }
   .keywords a {
-    border-radius: 20px;
-    padding: 5px 10px;
-    color: #333 !important;
-    font-weight: bold;
-    margin-right: 10px;
-    border: 2px solid #333 !important;
+    background: #eee;
+    padding: 8px 15px;
+    color: #222 !important;
+    border-radius: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    font-size: 0.75rem;
+    font-weight: 600;
   }
   #results article {
     margin-bottom: 40px;

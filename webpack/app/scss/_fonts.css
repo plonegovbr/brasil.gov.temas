@@ -1,4 +1,4 @@
-/* === Raleway - regular */
+/* === Raleway - Regular - 400 */
 @font-face {
 	font-family: 'Raleway';
 	font-style: normal;
@@ -13,7 +13,37 @@
 		url("../fonts/Raleway-Regular.svg") format("svg");
 }
 
-/* === Raleway - 700 */
+/* === Raleway - Medium - 500 */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/Raleway-Medium.eot");
+	src: local("Raleway"),
+		local("Raleway-Medium"),
+		url("../fonts/Raleway-Medium.eot") format("embedded-opentype"),
+		url("../fonts/Raleway-Medium.woff2") format("woff2"),
+		url("../fonts/Raleway-Medium.woff") format("woff"),
+		url("../fonts/Raleway-Medium.ttf") format("truetype"),
+		url("../fonts/Raleway-Medium.svg") format("svg");
+}
+
+/* === Raleway - Semibold - 600 */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/Raleway-Semibold.eot");
+	src: local("Raleway"),
+		local("Raleway-Semibold"),
+		url("../fonts/Raleway-Semibold.eot") format("embedded-opentype"),
+		url("../fonts/Raleway-Semibold.woff2") format("woff2"),
+		url("../fonts/Raleway-Semibold.woff") format("woff"),
+		url("../fonts/Raleway-Semibold.ttf") format("truetype"),
+		url("../fonts/Raleway-Semibold.svg") format("svg");
+}
+
+/* === Raleway - Bold - 700 */
 @font-face {
 	font-family: 'Raleway';
 	font-style: normal;
@@ -28,7 +58,22 @@
 		url("../fonts/Raleway-Bold.svg") format("svg");
 }
 
-/* === Raleway - 900 */
+/* === Raleway - Extrabold - 800 */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	src: url("../fonts/Raleway-Extrabold.eot");
+	src: local("Raleway Bold"),
+		local("Raleway-Bold"),
+		url("../fonts/Raleway-Extrabold.eot") format("embedded-opentype"),
+		url("../fonts/Raleway-Extrabold.woff2") format("woff2"),
+		url("../fonts/Raleway-Extrabold.woff") format("woff"),
+		url("../fonts/Raleway-Extrabold.ttf") format("truetype"),
+		url("../fonts/Raleway-Extrabold.svg") format("svg");
+}
+
+/* === Raleway - Black - 900 */
 @font-face {
 	font-family: 'Raleway';
 	font-style: normal;

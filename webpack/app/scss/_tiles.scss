@@ -91,6 +91,10 @@ p.tile-description {
         border-top: 1px solid #ddd;
     }
 }
+/* Texto rico */
+.cover-richtext-tile {
+    
+}
 
 /* lista-blocos */
 
@@ -307,6 +311,10 @@ p.tile-description {
         a:link, a:visited, a:hover {
             color: #244a7c !important;
         }
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 800;
+        }
     }
     .col-md-3 {flex-basis: 285px;}
     .col-md-4 {flex-basis: 335px;}
@@ -326,6 +334,7 @@ p.tile-description {
         padding: 10px 20px;
         border-radius: 20px;
         font-size: 0.875rem !important;
+        font-weight: 700;
     }
     .botao-texto-icone a::before,
     a.botao-texto-icone::before{
@@ -409,11 +418,14 @@ p.tile-description {
       padding: 0;
     }
     .tile-content {
-        height: 500px;
-        justify-content: center;
+        height: 420px;
+        justify-content: flex-end;
         width: 100%;
         display: flex;
         flex-flow: column;
+        padding-bottom: 60px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
     }
     h1, h2, h3, p, time {
         width: 1140px;
@@ -496,10 +508,20 @@ header.inverter .search-wrapper {
 }
 .colunas-quadradas .column,
 .column.colunas-quadradas {
-    padding: 50px;
+    padding: 100px 50px 60px 50px;
     box-sizing: border-box;
     background: #f7f7f7;
     margin: 10px;
+    h2 {
+        font-size: 1.5rem;
+        color: #222;
+    }
+    p {
+        color: #222;
+        font-weight: 500;
+        font-size: 1rem !important;
+        line-height: 1.6rem !important;
+    }
 }
 
 /* box escuro */
