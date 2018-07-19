@@ -16,7 +16,8 @@ header#main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
+    padding: 0;
+    height: 80px;
     border-bottom: 1px solid rgba(256, 256, 256, 0.2);
   }
 
@@ -182,6 +183,7 @@ ul.submenu {
     width: 100%;
     order: -2;
     opacity: 0.6;
+    text-transform: uppercase;
   }
 }
 /********** Segunda linha  **********/
@@ -189,6 +191,8 @@ ul.submenu {
 .search-wrapper {
   display: flex;
   justify-content: space-between;
+  height: 60px;
+  align-items: center;
   @extend .ct-width;
 }
 
@@ -211,7 +215,7 @@ ul.submenu {
 
   fieldset {
     margin: 0;
-    padding: 0 10px 0 30px;
+    padding: 0 15px 0 20px;
     border: 0;
     background: #fff;
     border-radius: 30px;

@@ -4,7 +4,7 @@
 	clear: both;
 	color: $footer-text;
 	background-color: $footer-color;
-	padding: 90px 20px 300px 20px;
+	padding: 60px 20px 90px 20px;
 	font-size: 75%;
 
 	.footer-logo {
@@ -40,29 +40,6 @@
 	a, a:hover {
 	  color: $footer-link !important;
 	  font-size: 1rem;
-	}
-
-	.coluna-governo {
-	  width: 100%;
-	  margin-top: 60px;
-
-	  ul {
-		display: flex;
-		justify-content: flex-end;
-	  }
-	  li {
-	  	margin-left: 50px;
-	  }
-	}
-	.logo-governo {
-		@include sprite($gg);
-		display: block;
-		text-indent: -3000px;
-	}
-	.logo-acesso {
-		@include sprite($ai);
-		display: block;
-		text-indent: -3000px;
 	}
 }
 
