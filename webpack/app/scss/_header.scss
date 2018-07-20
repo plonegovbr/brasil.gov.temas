@@ -119,6 +119,51 @@ ul.submenu {
     @include sprite($busca);
   }
 }
+.header-wrapper {
+  .header-icons {
+    border-right: 1px solid hsla(0,0%,100%,.2);
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  .ico-navegacao {
+    margin-right: 10px;
+  }
+}
+
+/**** Busca expandida ****/
+.busca-expandida {
+  width: 100%;
+  #portal-searchbox {
+    display: none;
+    width: 780px!important;
+    margin: 0 auto;
+    padding: 140px 0;
+    position: relative;
+
+    form {
+      border: 1px solid #e4e4e4;
+    }
+    legend {
+      height: inherit;
+      width: 780px;
+      margin: auto;
+      overflow: visible;
+      background-color: transparent;
+      position: absolute;
+      top: 100px;
+      font-weight: 900;
+      color: #222;
+      font-size: 2.25rem;
+      text-align: center;
+    }
+    .searchField {
+      width: 92%;
+      padding: 15px 0;
+      height: 30px;
+    }
+  }
+}
+
 /********** Links do topo **********/
 .header-accessibility {
     width: 280px;
@@ -232,8 +277,6 @@ ul.submenu {
   }
 }
 
-
-
 header#main-header.busca-ativa {
   color: #222 !important;
   background-color: $top-text !important;
@@ -263,6 +306,7 @@ header#main-header.busca-ativa {
     border-right: 1px solid #e4e4e4;
   }
 }
+
 
 /********** Breadcrumb **********/
 #portal-breadcrumbs {
