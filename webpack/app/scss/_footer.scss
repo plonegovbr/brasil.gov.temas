@@ -4,7 +4,8 @@
 	clear: both;
 	color: $footer-text;
 	background-color: $footer-color;
-	padding: 60px 20px 90px 20px;
+	padding: 60px 20px;
+	margin-bottom: 0; 
 	font-size: 75%;
 
 	.footer-logo {
@@ -40,6 +41,14 @@
 	a, a:hover {
 	  color: $footer-link !important;
 	  font-size: 1rem;
+	}
+
+	/*logos do footer vindos da barra */
+	#wrapper-footer-brasil {
+		max-width: $content-width;
+	}
+	#wrapper-footer-brasil .logo-acesso-footer {
+		float: right;
 	}
 }
 
