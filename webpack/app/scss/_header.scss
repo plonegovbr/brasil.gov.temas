@@ -109,7 +109,6 @@ ul.submenu {
   .ico-navegacao {
     display: inline-block;
     cursor: pointer;
-    margin-right: 10px;
     text-indent: -3000px;
     @include sprite($nav);
   }
@@ -198,7 +197,6 @@ ul.submenu {
 
 .links-destaque {
   flex-grow: 1;
-  margin-top: 18px;
 
   li {
     margin-right: 20px;
