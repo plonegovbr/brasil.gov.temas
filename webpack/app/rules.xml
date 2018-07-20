@@ -31,7 +31,7 @@
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <drop css:content="#portaltab-index_html" />
-    <copy css:content="#portal-redes" css:theme=".navigation-redes ul" />
+    <replace css:content=".portal-redes" css:theme=".navigation-redes ul" />
     <replace css:content="#portal-services" css:theme=".links-destaque ul" />
 
 
@@ -103,7 +103,7 @@
     <!-- UL DE LíNGUAS -->
 
     <!--Footer -->
-    <copy css:content="#portal-redes" css:theme=".coluna-redes ul" />
+    <replace css:content=".portal-redes" css:theme=".coluna-redes ul" />
     <append css:theme="body" css:content="#plone-analytics" />
     
     <!-- Columns -->
