@@ -82,7 +82,7 @@ h4 {
 }
 
 /* icones sociais */
-#portal-redes > li {
+.portal-redes > li {
   display: inline-block;
   cursor: pointer;
   a {
@@ -94,67 +94,67 @@ h4 {
 }
 
 /* icones do topo */
-#portalredes-twitter {
+.portalredes-twitter {
   @include sprite($rede-twitter-topo);
 }
-#portalredes-youtube {
+.portalredes-youtube {
   @include sprite($rede-youtube-topo);
 }
-#portalredes-flickr {
+.portalredes-flickr {
   @include sprite($rede-flickr-topo);
 }
-#portalredes-facebook {
+.portalredes-facebook {
   @include sprite($rede-facebook-topo);
 }
-#portalredes-googleplus {
+.portalredes-googleplus {
   @include sprite($rede-googleplus-topo);
 }
-#portalredes-slideshare {
+.portalredes-slideshare {
   @include sprite($rede-slideshare-topo);
 }
-#portalredes-soundcloud {
+.portalredes-soundcloud {
   @include sprite($rede-soundcloud-topo);
 }
-#portalredes-rss {
+.portalredes-rss {
   @include sprite($rede-rss-topo);
 }
-#portalredes-instagram {
+.portalredes-instagram {
   @include sprite($rede-instagram-topo);
 }
-#portalredes-tumblr {
+.portalredes-tumblr {
   @include sprite($rede-tumblr-topo);
 }
 
 /* Icones do Rodape */
 footer {
-  #portalredes-twitter {
+  .portalredes-twitter {
     @include sprite($rede-twitter);
   }
-  #portalredes-youtube {
+  .portalredes-youtube {
     @include sprite($rede-youtube);
   }
-  #portalredes-flickr {
+  .portalredes-flickr {
     @include sprite($rede-flickr);
   }
-  #portalredes-facebook {
+  .portalredes-facebook {
     @include sprite($rede-facebook);
   }
-  #portalredes-googleplus {
+  .portalredes-googleplus {
     @include sprite($rede-googleplus);
   }
-  #portalredes-slideshare {
+  .portalredes-slideshare {
     @include sprite($rede-slideshare);
   }
-  #portalredes-soundcloud {
+  .portalredes-soundcloud {
     @include sprite($rede-soundcloud);
   }
-  #portalredes-rss {
+  .portalredes-rss {
     @include sprite($rede-rss);
   }
-  #portalredes-instagram {
+  .portalredes-instagram {
     @include sprite($rede-instagram);
   }
-  #portalredes-tumblr {
+  .portalredes-tumblr {
     @include sprite($rede-tumblr);
   }
 }
