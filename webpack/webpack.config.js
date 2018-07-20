@@ -51,6 +51,11 @@ let createTheme = (theme) => {
         template: 'app/index.html',
         publicPath: publicPath,
       }),
+      new HtmlWebpackPlugin({
+        filename: 'index-minimalista.html',
+        template: 'app/index-minimalista.html',
+        publicPath: publicPath,
+      }),
       new SpritesmithPlugin({
         src: {
           cwd: `app/${theme}/sprite`,
