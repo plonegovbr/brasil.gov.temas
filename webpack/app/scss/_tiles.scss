@@ -97,6 +97,21 @@ p.tile-description {
     
 }
 
+
+/* tile multimidia */
+.tile.com-multimidia h1:after,
+.tile.com-multimidia h2:after,
+.tile.com-multimidia h3:after,
+.tile.com-multimidia h4:after {
+    content: "- Conteúdo com Multimidia";
+    @include sprite($multimidia);
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    text-indent: -5000px;
+}
+
+
 /* lista-blocos */
 
 .lista-blocos .cover-collection-tile {
