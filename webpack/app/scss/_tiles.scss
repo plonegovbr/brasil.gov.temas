@@ -45,6 +45,7 @@
     margin-bottom: 0 !important;
     text-transform: uppercase;
 }
+
 p.tile-description {
     line-height: 1.875rem !important;
 }
@@ -98,6 +99,14 @@ p.tile-description {
     
 }
 
+/* tile NITF basico sem estilo */
+.tile-default .nitf-basic-tile,
+.tile-vinculada .nitf-basic-tile {
+    h1, h2, h3, h4, p {
+        padding: 0 20px;
+    }
+}
+
 
 /* tile multimidia */
 .tile.com-multimidia h1:after,
@@ -110,6 +119,16 @@ p.tile-description {
     display: inline-block;
     margin-left: 5px;
     text-indent: -5000px;
+}
+
+/* Noticia vinculada */
+.tile-vinculada {
+    h1:before, h2:before, h3:before, h4:before {
+        content: "-";
+        @include sprite($vinculada);
+        display: inline-block;
+        text-indent: -3000px;
+    }
 }
 
 /* tile centralizado */
