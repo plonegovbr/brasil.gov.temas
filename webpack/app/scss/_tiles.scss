@@ -43,6 +43,7 @@
     font-size: 0.875rem !important;
     font-weight: bold;
     margin-bottom: 0 !important;
+    text-transform: uppercase;
 }
 p.tile-description {
     line-height: 1.875rem !important;
@@ -186,8 +187,9 @@ p.tile-description {
 }
 
 .tile.box-branco {
-    margin-left: 30px;
-    width: 80%;
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
 
     .tile-subtitle {
         font-size: 0.875rem !important;
@@ -197,6 +199,9 @@ p.tile-description {
         font-size: 1.75rem;
         font-weight: 800 !important;
     }
+}
+.col-md-4 .tile.box-branco {
+    padding-right: 123px;
 }
 
 
