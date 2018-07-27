@@ -60,6 +60,9 @@ O estado atual dos testes, a cobertura de código e o número de downloads deste
 .. image:: https://img.shields.io/coveralls/plonegovbr/brasil.gov.temas/master.svg
     :target: https://coveralls.io/r/plonegovbr/brasil.gov.temas
 
+.. image:: https://img.shields.io/codacy/grade/ec7cc947f31640b39078c4e153098d36.svg
+    :target: https://www.codacy.com/project/plonegovbr/brasil.gov.temas/dashboard
+
 Instalação
 ----------
 
