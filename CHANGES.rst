@@ -3,6 +3,18 @@ Changelog
 
 2.0a7 (unreleased)
 
+- Novos estilos para os tiles
+  [agnogueira]
+
+- Adiciona template adicional ao diazo para variação do header
+  [agnogueira]
+
+- Remove duplicidade de ID nos icones de redes sociais
+  [agnogueira]
+
+- Utiliza logos do rodapé a partir da barra
+  [agnogueira]
+
 - Adiciona novas variações da fonte principal.
   [agnogueira]
 

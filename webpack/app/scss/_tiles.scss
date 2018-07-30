@@ -131,6 +131,13 @@ p.tile-description {
         text-indent: -3000px;
     }
 }
+/* Noticia com etiqueta */
+.tile-etiqueta .tile-subtitle {
+    background-color: $secondary-color;
+    display: inline-block;
+    padding: 2px 10px 0 10px;
+    margin: 0 0 0 20px;
+}
 
 /* tile centralizado */
 .tile-centralizado {
@@ -237,6 +244,7 @@ p.tile-description {
     img {
         object-fit: cover;
         height: 375px !important;
+        width: 100%;
         position: absolute;
         top: 0;
         z-index: -2;
@@ -245,7 +253,7 @@ p.tile-description {
     h2,
     h3 {
         padding: 0 100px 20px 20px;
-        margin: 0 !important;
+        margin: 20px 0 0 0 !important;
 
     }
     h2 {
