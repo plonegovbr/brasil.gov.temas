@@ -134,6 +134,10 @@ ul.submenu {
 /**** Busca expandida ****/
 .busca-expandida {
   width: 100%;
+  z-index: 1;
+  background: #fff;
+  position: absolute;
+  
   #portal-searchbox {
     display: none;
     width: 780px!important;
@@ -161,6 +165,9 @@ ul.submenu {
       width: 92%;
       padding: 15px 0;
       height: 30px;
+    }
+    fieldset {
+      border: none;
     }
   }
 }
@@ -282,7 +289,7 @@ ul.submenu {
 
 header#main-header.busca-ativa {
   color: #222 !important;
-  background-color: $top-text !important;
+  background-color: $top-busca-ativa !important;
 
   a, a:link, #logo #portal-title, #logo h1 {
     color: #222 !important;
@@ -295,15 +302,19 @@ header#main-header.busca-ativa {
   }
   .ico-navegacao {
     @include sprite($nav-escuro);
+    filter: none;
   }
   .ico-busca {
     @include sprite($busca-escuro);
+    filter: none;
   }
   .link-contraste:before {
     @include sprite($contraste-escuro);
+    filter: none;
   }
   .link-vlibras:before {
     @include sprite($vlibras-escuro);
+    filter: none;
   }
   .header-accessibility .link-contraste {
     border-right: 1px solid #e4e4e4;
