@@ -16,9 +16,8 @@ header#main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-    height: 80px;
-    border-bottom: 1px solid rgba(256, 256, 256, 0.2);
+    padding: 12px 0;
+    border-bottom: 1px solid $top-border-color;
   }
 
 /********** Navegacao **********/
@@ -111,12 +110,14 @@ ul.submenu {
     cursor: pointer;
     text-indent: -3000px;
     @include sprite($nav);
+    filter: $top-icons;
   }
   .ico-busca {
     display: inline-block;
     cursor: pointer;
     text-indent: -3000px;
     @include sprite($busca);
+    filter: $top-icons;
   }
 }
 .header-wrapper {
@@ -133,6 +134,10 @@ ul.submenu {
 /**** Busca expandida ****/
 .busca-expandida {
   width: 100%;
+  z-index: 1;
+  background: #fff;
+  position: absolute;
+  
   #portal-searchbox {
     display: none;
     width: 780px!important;
@@ -161,6 +166,9 @@ ul.submenu {
       padding: 15px 0;
       height: 30px;
     }
+    fieldset {
+      border: none;
+    }
   }
 }
 
@@ -184,6 +192,7 @@ ul.submenu {
     position: absolute;
     left: 0;
     @include sprite($contraste);
+    filter: $top-icons;
   }
   .link-vlibras {
     display: inline-block;
@@ -197,6 +206,7 @@ ul.submenu {
     top: 3px;
     left: 0;
     @include sprite($vlibras);
+    filter: $top-icons;
   }
 }
 
@@ -214,7 +224,6 @@ ul.submenu {
 
   h1, #portal-title {
     display: inline;
-    color: $top-link;
     font-size: 1.625rem;
     font-weight: 900;
   }
@@ -262,6 +271,7 @@ ul.submenu {
     border: 0;
     background: #fff;
     border-radius: 30px;
+    border: 1px solid $top-border-color;
   }
   .searchField {
     border: none;
@@ -279,7 +289,7 @@ ul.submenu {
 
 header#main-header.busca-ativa {
   color: #222 !important;
-  background-color: $top-text !important;
+  background-color: $top-busca-ativa !important;
 
   a, a:link, #logo #portal-title, #logo h1 {
     color: #222 !important;
@@ -292,15 +302,19 @@ header#main-header.busca-ativa {
   }
   .ico-navegacao {
     @include sprite($nav-escuro);
+    filter: none;
   }
   .ico-busca {
     @include sprite($busca-escuro);
+    filter: none;
   }
   .link-contraste:before {
     @include sprite($contraste-escuro);
+    filter: none;
   }
   .link-vlibras:before {
     @include sprite($vlibras-escuro);
+    filter: none;
   }
   .header-accessibility .link-contraste {
     border-right: 1px solid #e4e4e4;
@@ -379,10 +393,64 @@ header.inverter {
 /* variacao de cor do header */
 .section-fale-conosco header#main-header {
   background-color: $fale-conosco;
+  color: $fale-conosco-text;
+  a:link,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+    color: $fale-conosco-link;
+  }
+  .header-icons .ico-navegacao,
+  .header-accessibility .link-contraste:before,
+  .header-accessibility .link-vlibras:before {
+    filter: $fale-conosco-icons;
+  }
+  #portal-searchbox fieldset  {
+    border: 1px solid $fale-conosco-border-color;
+  }
+  .header-wrapper {
+    border-bottom-color: $fale-conosco-border-color;
+  }
 }
 .portaltype-collective-nitf-content header#main-header {
   background-color: $noticias;
+  color: $noticias-text;
+  a:link,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+    color: $noticias-link;
+  }
+  .header-icons .ico-navegacao,
+  .header-accessibility .link-contraste:before,
+  .header-accessibility .link-vlibras:before {
+    filter: $noticias-icons;
+  }
+  #portal-searchbox fieldset {
+    border: 1px solid $noticias-border-color;
+  }
+  .header-wrapper {
+    border-bottom-color: $noticias-border-color;
+  }
 }
 .section-centrais-de-conteudo header#main-header {
   background-color: $central-conteudo;
+  color: $central-conteudo-text;
+  a:link,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+    color: $central-conteudo-link;
+  }
+  .header-icons .ico-navegacao,
+  .header-accessibility .link-contraste:before,
+  .header-accessibility .link-vlibras:before {
+    filter: $central-conteudo-icons;
+  }
+  #portal-searchbox fieldset {
+    border: 1px solid $central-conteudo-border-color;
+  }
+  .header-wrapper {
+    border-bottom-color: $central-conteudo-border-color;
+  }
 }

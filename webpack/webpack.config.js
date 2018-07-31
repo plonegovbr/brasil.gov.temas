@@ -135,6 +135,5 @@ let createTheme = (theme) => {
 
 module.exports = [
   createTheme('padrao'),
-  // createTheme('azul'),
-  // createTheme('verde'),
+  createTheme('branco'),
 ];

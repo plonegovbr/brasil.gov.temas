@@ -3,6 +3,12 @@ Changelog
 
 2.0a7 (unreleased)
 
+- Adiciona novo tema branco.
+  [agnogueira, rodfersou]
+
+- Corrige SCSS para que o tema funcione a partir de variáveis.
+  [agnogueira, rodfersou]
+
 - Novos estilos para os tiles
   [agnogueira]
 
@@ -14,7 +20,6 @@ Changelog
 
 - Utiliza logos do rodapé a partir da barra
   [agnogueira]
-
 - Adiciona novas variações da fonte principal.
   [agnogueira]
 
