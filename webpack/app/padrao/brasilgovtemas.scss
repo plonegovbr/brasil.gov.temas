@@ -13,9 +13,11 @@ $coluna-2: 300px;
 $grid-gutter: 10px;
 $content-width: 1150px;
 
-$top-color: $main-color;
+$top-color: #2969bd;
 $top-text: #fff;
 $top-link: #fff;
+$top-icons: none;
+$top-border-color: rgba(256, 256, 256, 0.2);
 
 $nav-color: #fff;
 $nav-link: #333;
@@ -35,8 +37,22 @@ $footer-link: #222222;
 
 /* variacao de cor do header */
 $fale-conosco: #244a7c;
+$fale-conosco-text: #fff;
+$fale-conosco-link: #fff;
+$fale-conosco-icons: none;
+$fale-conosco-border-color: rgba(256, 256, 256, 0.2);
+
 $noticias: #06acff;
+$noticias-text: #fff;
+$noticias-link: #fff;
+$noticias-icons: none;
+$noticias-border-color: rgba(256, 256, 256, 0.2);
+
 $central-conteudo: #000;
+$central-conteudo-text: #fff;
+$central-conteudo-link: #fff;
+$central-conteudo-icons: none;
+$central-conteudo-border-color: rgba(256, 256, 256, 0.2);
 
 
 /********** Estilos Básicos do IDG **********/

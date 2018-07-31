@@ -6,22 +6,24 @@ $bg-color: #fff;
 $main-font: 'Raleway', sans-serif;
 $main-fontsize: 1rem;
 $main-width: 100%;
-$main-color: #fbfbfb;
+$main-color: #ff6d26;
 $secondary-color: #06acff;
 $coluna-1: 300px;
 $coluna-2: 300px;
 $grid-gutter: 10px;
 $content-width: 1150px;
 
-$top-color: $main-color;
-$top-text: #fff;
-$top-link: #fff;
+$top-color: #fbfbfb;
+$top-text: #222;
+$top-link: #222;
+$top-icons: invert(100%);
+$top-border-color: rgba(0, 0, 0, 0.1);
 
 $nav-color: #fff;
 $nav-link: #333;
 
 $txt-color: #282828;
-$link-color: #0094ff;
+$link-color: #ff6d26;
 $header-color: #333333;
 $description-color: #a6a6a6;
 $byline-color: #a6a6a6;
@@ -35,8 +37,22 @@ $footer-link: #222222;
 
 /* variacao de cor do header */
 $fale-conosco: #244a7c;
+$fale-conosco-text: #fff;
+$fale-conosco-link: #fff;
+$fale-conosco-icons: none;
+$fale-conosco-border-color: rgba(256, 256, 256, 0.2);
+
 $noticias: #ff6d26;
+$noticias-text: #fff;
+$noticias-link: #fff;
+$noticias-icons: none;
+$noticias-border-color: rgba(256, 256, 256, 0.2);
+
 $central-conteudo: #000;
+$central-conteudo-text: #fff;
+$central-conteudo-link: #fff;
+$central-conteudo-icons: none;
+$central-conteudo-border-color: rgba(256, 256, 256, 0.2);
 
 
 /********** Estilos Básicos do IDG **********/
