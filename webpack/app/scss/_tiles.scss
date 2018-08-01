@@ -133,7 +133,7 @@ p.tile-description {
 }
 /* Noticia com etiqueta */
 .tile-etiqueta .tile-subtitle {
-    background-color: $secondary-color;
+    background-color: $tile-etiqueta;
     display: inline-block;
     padding: 2px 10px 0 10px;
     margin: 0 0 0 20px;
@@ -255,7 +255,7 @@ p.tile-description {
 .tile.box-colorido {
     display: flex;
     >div {
-        background: $box-colorido;
+        background: $tile-box-colorido;
         padding: 20px 40px;
         color: #fff !important;
         font-size: 1.3rem;
