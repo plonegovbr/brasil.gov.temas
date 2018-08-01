@@ -373,7 +373,18 @@ header#main-header.busca-ativa {
 /* inversão de cores para casos especiais */
 header.inverter {
   background-color: transparent !important;
-  margin-bottom: 0 !important
+  margin-bottom: 0 !important;
+  .header-wrapper {
+    border-bottom: 1px solid rgba(256,256,256,.2) !important;
+  }
+  a:hover, a:link, a:visited {
+    color: #fff !important;
+  }
+  .ico-navegacao,
+  .header-accessibility .link-contraste:before,
+  .header-accessibility .link-vlibras:before {
+    filter: none;
+  }
 }
 #portal-breadcrumbs.inverter {
   border-bottom: 1px solid hsla(0,0%,100%,.2);
