@@ -255,7 +255,7 @@ p.tile-description {
 .tile.box-colorido {
     display: flex;
     >div {
-        background: #56c75f;
+        background: $box-colorido;
         padding: 20px 40px;
         color: #fff !important;
         font-size: 1.3rem;
