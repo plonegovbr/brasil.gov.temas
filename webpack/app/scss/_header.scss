@@ -16,7 +16,7 @@ header#main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
+    height: 80px;
     border-bottom: 1px solid $top-border-color;
   }
 
@@ -295,7 +295,7 @@ header#main-header.busca-ativa {
     color: #222 !important;
   }
   .header-wrapper {
-    border-bottom: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4 !important;
   }
   .header-icons {
     border-right: 1px solid #e4e4e4;
@@ -373,7 +373,18 @@ header#main-header.busca-ativa {
 /* inversão de cores para casos especiais */
 header.inverter {
   background-color: transparent !important;
-  margin-bottom: 0 !important
+  margin-bottom: 0 !important;
+  .header-wrapper {
+    border-bottom: 1px solid rgba(256,256,256,.2) !important;
+  }
+  a:hover, a:link, a:visited {
+    color: #fff !important;
+  }
+  .ico-navegacao,
+  .header-accessibility .link-contraste:before,
+  .header-accessibility .link-vlibras:before {
+    filter: none;
+  }
 }
 #portal-breadcrumbs.inverter {
   border-bottom: 1px solid hsla(0,0%,100%,.2);
