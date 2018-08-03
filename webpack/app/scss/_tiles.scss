@@ -133,7 +133,7 @@ p.tile-description {
 }
 /* Noticia com etiqueta */
 .tile-etiqueta .tile-subtitle {
-    background-color: $secondary-color;
+    background-color: $tile-etiqueta;
     display: inline-block;
     padding: 2px 10px 0 10px;
     margin: 0 0 0 20px;
@@ -150,13 +150,74 @@ p.tile-description {
     }
 }
 
-/* lista-blocos */
-
-.lista-blocos .cover-collection-tile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
+/*  lista-blocos */
+.lista-blocos {
+    .tile-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .tile-header {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin:20px 0 30px 0;
+        border-bottom: 2px solid #e1e1e1;
+        position: relative;
+    }
+    .tile-header h2 {
+        position: absolute;
+        background: $bg-color;
+        padding: 0 20px;
+        display: inline-flex;
+        top: -10px;
+        text-transform: uppercase;
+        font-weight: normal !important;
+        font-size: 1rem;
+        color: $h-color;
+    }
+    .list-item {
+        width: 20%;
+        height: 246px;
+        text-align: center;
+        padding:0  1%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .list-item h2 {
+        font-size: 1.5rem;
+        line-height: 1.938rem;
+        text-transform: uppercase;
+    }
+    .list-item:hover {
+        background-color: $tile-servicos;
+        color: #fff !important;
+        position: relative;
+    }
+    .list-item:hover::before {
+        content: "";
+        @include sprite($lista-seta);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .list-item:hover p,
+    .list-item:hover h2 a:link,
+    .list-item:hover h2 a:visited, {
+        color: #fff !important;
+    }
+    .cover-collection-tile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
 
     .tile-header {
         width: 100%;
@@ -173,11 +234,28 @@ p.tile-description {
         text-align: center;
     }
 }
+.linha-destacada .lista-blocos .tile-header h2 {
+    background: $tile-linha-destacada !important;
+}
+#content .lista-blocos .list-item p {
+    color: #ccc;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    margin-bottom: 5px;
+}
+#content .lista-blocos h2 a:hover {
+    color: #fff !important;
+}
+
+
+
+
 /* box colorido */
 .tile.box-colorido {
     display: flex;
     >div {
-        background: #56c75f;
+        background: $tile-box-colorido;
         padding: 20px 40px;
         color: #fff !important;
         font-size: 1.3rem;
@@ -345,7 +423,7 @@ p.tile-description {
 .portaltype-collective-cover-content #content div.row.linha-destacada {
     width: 100%!important;
     justify-content: center;
-    background: #244a7c;
+    background: $tile-linha-destacada;
     padding: 0 0 10px 0;
     margin: 0;
 

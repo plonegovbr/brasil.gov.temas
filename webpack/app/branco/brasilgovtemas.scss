@@ -1,17 +1,18 @@
 @charset 'UTF-8';
 
-/********** Variaveis principais **********/
+/* Globais */
 
-$bg-color: #fff;
+$bg-color: #f8f8f8;
 $main-font: 'Raleway', sans-serif;
 $main-fontsize: 1rem;
 $main-width: 100%;
 $main-color: #ff6d26;
-$secondary-color: #06acff;
 $coluna-1: 300px;
 $coluna-2: 300px;
 $grid-gutter: 10px;
 $content-width: 1150px;
+
+/* Topo do site */
 
 $top-color: #fbfbfb;
 $top-text: #222;
@@ -20,23 +21,35 @@ $top-icons: invert(100%);
 $top-border-color: rgba(0, 0, 0, 0.1);
 $top-busca-ativa: #fff;
 
+/* Navegacao */
+
 $nav-color: #fff;
 $nav-link: #333;
 
+/* Textos, titulos e links */
+
 $txt-color: #282828;
 $link-color: #ff6d26;
-$header-color: #333333;
+$h-color: #333333;
 $description-color: #a6a6a6;
 $byline-color: #a6a6a6;
 
+/* Tiles */
+
 $tile-link: #333;
+$tile-servicos: #1FC86A;
+$tile-box-colorido: #7c4f2c;
+$tile-etiqueta: #06acff;
+$tile-linha-destacada:#244a7c;
+
+/* Rodape */
 
 $footer-color: #f1f1f1;
 $footer-text: #222222;
 $footer-link: #222222;
 
-
 /* variacao de cor do header */
+
 $fale-conosco: #244a7c;
 $fale-conosco-text: #fff;
 $fale-conosco-link: #fff;

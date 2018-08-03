@@ -74,7 +74,7 @@ div.warning {
 
 /* cor de fundo das capas */
 body.portaltype-collective-cover-content {
-  background-color: #f8f8f8;
+  background-color: $bg-color;
 }
 
 
@@ -312,7 +312,7 @@ dd.image-caption {
   a, a:hover {
     font-size: 1.125rem;
     font-weight: bold;
-    color: $header-color !important;
+    color: $h-color !important;
     line-height: 1.39;
   }
   img {
