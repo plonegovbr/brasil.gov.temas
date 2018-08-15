@@ -223,8 +223,8 @@ Fazendo releases com o zest.releaser
 Os recursos estáticos do pacote são gerados usando o `webpack <https://webpack.js.org/>`_ e não são inclusos no VCS.
 Se você está fazendo release usando o zest.releaser, você precisa fazer `upload manual dos arquivos no PyPI <https://github.com/zestsoftware/zest.releaser/issues/261>`_ ou você vai criar uma distribuição quebrada:
 
-* execute ``longtest`` e ``fullrelease``, como de costume
-* responda "não" para evitar o upload ao PyPI e continue normalmente
+* execute ``longtest``, como de costume
+* execute ``fullrelease``, como de costume, respondendo "não" a pergunta "Check out the tag?" para evitar o upload ao PyPI
 * faça checkout na tag do release que você está liberando
 * execute ``bin/build-brasilgovtemas`` para criar os recursos estáticos
 * crie os arquivos da distribuição usando ``python setup.py sdist bdist_wheel``, como de costume
