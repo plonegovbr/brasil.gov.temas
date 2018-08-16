@@ -101,6 +101,19 @@ ul.submenu {
   top: 25px;
 }
 
+/* apenas busca expandida */
+.expandable-header-template.section-pagina-inicial {
+  header#main-header {
+    color: #fff;
+
+    a:link,
+    a:hover,
+    a:visited {
+      color: #fff;
+    }
+  }
+}
+
 /********** Icones **********/
 .header-icons {
   margin: 15px 20px 15px 0;
@@ -128,47 +141,6 @@ ul.submenu {
   }
   .ico-navegacao {
     margin-right: 10px;
-  }
-}
-
-/**** Busca expandida ****/
-.busca-expandida {
-  width: 100%;
-  z-index: 1;
-  background: #fff;
-  position: absolute;
-  
-  #portal-searchbox {
-    display: none;
-    width: 780px!important;
-    margin: 0 auto;
-    padding: 140px 0;
-    position: relative;
-
-    form {
-      border: 1px solid #e4e4e4;
-    }
-    legend {
-      height: inherit;
-      width: 780px;
-      margin: auto;
-      overflow: visible;
-      background-color: transparent;
-      position: absolute;
-      top: 100px;
-      font-weight: 900;
-      color: #222;
-      font-size: 2.25rem;
-      text-align: center;
-    }
-    .searchField {
-      width: 92%;
-      padding: 15px 0;
-      height: 30px;
-    }
-    fieldset {
-      border: none;
-    }
   }
 }
 
@@ -320,7 +292,282 @@ header#main-header.busca-ativa {
     border-right: 1px solid #e4e4e4;
   }
 }
+/*inverte cores na home do header expandido */
+.expandable-header-template.section-pagina-inicial header#main-header {
+  .ico-navegacao,
+  .link-contraste:before,
+  .link-vlibras:before {
+    filter: none;
+  }
+  .header-wrapper {
+        border-bottom: 1px solid rgba(256,256,256,.1);
+  }
+}
 
+/***** Busca extendida *****/
+.expandable-header-template {
+  #portal-searchbox {
+    z-index: 1;
+    background-color: transparent;
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 140px 0;
+    margin: 0;
+    display: none;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  #portal-searchbox fieldset {
+    border: none;
+  }
+  #portal-searchbox form {
+    background: #fff;
+    width: 780px!important;
+    margin: 0 auto;
+  }
+  #portal-searchbox .searchField {
+    width: 92%;
+    padding: 0 0 15px 0;
+    height: 30px;
+    color: #222 !important;
+    font-size: 18px;
+    position: relative;
+  }
+  #portal-searchbox .searchField::placeholder {
+      color: #222 !important;
+  }
+  #portal-searchbox input[type="text"].searchField:focus {
+      background-color: transparent;
+  }
+  .navigation-wrapper {
+      z-index: 5 !important;
+  }
+  #portal-searchbox .searchField,
+  #portal-searchbox .search-suggestions {
+    z-index: 3;
+  }
+  #search-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+  }
+  #portal-searchbox {
+      border: none;
+      position: absolute !important;
+  }
+  #portal-searchbox .search-suggestions {
+      display: none;
+  }
+  .header-wrapper>div {
+      z-index: 1;
+  }
+  #portal-searchbox legend {
+    height: inherit;
+    width: 780px;
+    margin: auto;
+    overflow: visible;
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+    font-size: 30px;
+    top: 100px;
+    font-weight: 900;
+  }
+  #portal-searchbox.ativo form {
+    border: 1px solid #e4e4e4;
+  }
+  #portal-searchbox.ativo {
+    background-color: #fff !important;
+    z-index: 2;
+    background-image: none !important;
+  }
+  #portal-searchbox.ativo legend {
+    font-size: 2.25rem;
+    color: #222!important;
+}
+  #portal-searchbox.ativo .close {
+    display: block;
+    transform: rotate(-45deg);
+    font-size: 3.5rem;
+    color: #222;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+  }
+  #portal-searchbox.ativo .searchField {
+    padding: 15px 0;
+  }
+}
+
+.expandable-header-template.section-pagina-inicial {
+  #portal-searchbox {
+      position: relative !important;
+      display: block !important;
+      border: none;
+  }
+  .header-icons {
+      width: 45px !important;
+      padding-right: 0;
+  }
+  .ico-busca {
+      display: none !important;
+  }
+  header#main-header {
+      background: transparent;
+      position: relative;
+  }
+  .header-wrapper {
+      z-index: 10;
+      position: inherit;
+      margin-bottom: 560px !important;
+  }
+  header#main-header .navigation-wrapper {
+      top: 58px;
+  }
+  #portal-searchbox legend {
+      top: 158px;
+  }
+  header #portal-searchbox {
+      width: 790px;
+      margin: 0 auto;
+      background-position: bottom center;
+      background-size: cover;
+      background-color: $main-color;
+      height: 620px;
+      position: absolute !important;
+      width: 100%;
+      top: 0;
+      z-index: 0;
+      padding-top: 198px;
+      box-sizing: border-box;
+  }
+  header #portal-searchbox:after {
+      content: ".";
+      position: absolute;
+      background: #222;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.2;
+      z-index: -1;
+  }
+}
+
+
+/********** Em Alta *************/
+.top-subjects {
+  min-width: 860px;
+  margin: 100px auto 0;
+  display: inline-block;
+
+  h3 {
+    color: #fff;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: -8px;
+    font-weight: normal !important;
+  }
+  li a {
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    padding: 15px 23px;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap;
+    display: inline-block;
+  } 
+  li a:hover {
+    background: #fff;
+    color: #0094ff !important;
+  }
+  .subjects-title {
+    display: flex;
+  }
+  .subjects-title:before, .subjects-title:after {
+    content: "linha";
+    background: rgba(255,255,255,0.5);
+    width: 40%;
+    height: 1px;
+    text-indent: -3000px;
+  }
+}
+#portal-searchbox.ativo .top-subjects {
+  h3 {
+    color: #111;
+  }
+  li a {
+    border-color: #111;
+    color: #111;
+  }
+  li a:hover {
+    background: #111;
+    color: #fff !important;
+  }
+  .subjects-title:before, .subjects-title:after {
+    background: rgba(0,0,0,0.5);
+  }
+}
+
+/********** Sugestao de busca **********/
+.search-suggestions {
+  background: #fff;
+  width: 780px;
+  margin: 0 auto;
+  border: solid 1px #c3c3c3;
+  color: #222;
+  text-align: left;
+  position: absolute;
+  padding: 20px 0;
+  white-space: normal;
+
+  a {
+    color: #222 !important;
+    z-index: 20;
+  }
+
+  .news {
+    width: 65%;
+    margin-left: 20px;
+    float: left;
+  }
+  .services {
+    width: 25%;
+    margin-right: 20px;
+    float: right;
+  }
+  .news-title, .services-title {
+    font-size: 0.875rem;
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  li {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 7px 0;
+  }
+  .more-news, .more-services {
+    border-radius: 30px;
+    border: 2px solid #333;
+    padding: 14px 20px;
+    margin: 16px auto;
+    display: inline-block;
+    font-weight: bold;
+  }
+}
 
 /********** Breadcrumb **********/
 #portal-breadcrumbs {

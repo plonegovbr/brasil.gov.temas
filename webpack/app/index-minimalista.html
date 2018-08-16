@@ -12,7 +12,7 @@
     <meta name="msapplication-config" content="<%= htmlWebpackPlugin.options.publicPath %>favicons/browserconfig.xml">
     <meta name="theme-color" content="#00a300">
   </head>
-  <body>
+  <body class="expandable-header-template">
     <p class="hiddenStructure">
       <a accesskey="2" href="#conteudo">Skip to content.</a> |
       <a accesskey="3" href="#main-navigation">Skip to navigation</a>
@@ -80,18 +80,8 @@
       </div>
 
       <!-- Search -->
-      <div class="busca-expandida">
-        <div id="search" role="search">
-          <h2>O que você está procurando?</h2>
-          <form>
-            <div class="LSBox">
-              <input name="SearchableText" type="text" size="18" title="Buscar no Site" placeholder="Buscar no Site" accesskey="4" class="searchField" id="searchGadget" autocomplete="off"><input class="searchButton" type="submit" value="Buscar">
-              <div class="LSResult" id="LSResult" style="display: none;">
-                <div class="LSShadow" id="LSShadow"></div>
-              </div>
-            </div>
-          </form>
-        </div>
+      <div id="search" role="search">
+
       </div>
 
     </header>

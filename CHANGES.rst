@@ -3,6 +3,9 @@ Changelog
 
 2.0a7 (unreleased)
 
+- Novos estilos para a variação do header
+  [agnogueira]
+
 - Adiciona novo tema branco.
   [agnogueira, rodfersou]
 
