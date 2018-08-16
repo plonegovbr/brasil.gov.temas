@@ -14,6 +14,7 @@
   <notheme if-path="ploneimage.htm" />
   <notheme if="$ajax_load" />
   <rules css:if-content="#visual-portal-wrapper">
+
     <!--Head-->
     <prepend css:theme="body" css:content="div#barra-identidade" />
     <copy css:content="html" css:theme="html" attributes="lang dir" />
@@ -35,6 +36,10 @@
     <replace css:content=".portal-redes" css:theme=".navigation-redes ul" />
     <replace css:content="#portal-services" css:theme=".links-destaque ul" />
 
+    <!-- Busca expandida - remove imagem de fundo de todaas as paginas menos na paagina inicial -->
+    <rules css:if-not-content=".section-pagina-inicial">
+      <drop attributes="style" css:content="#portal-searchbox" method="raw" />
+    </rules>
 
     <rules css:if-not-content=".linha-destaquetopo">
       <drop attributes="class" css:theme="#main-header" />
