@@ -8,7 +8,6 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <theme href="index-minimalista.html" css:if-content="#portal-searchbox.expandable-header" />
-  <merge attributes="class" css:content="#portal-searchbox" css:theme="body" />
   <theme href="index.html" css:if-content="#visual-portal-wrapper" />
   <notheme if-path="source_editor.htm" />
   <notheme if-path="@@manage-viewlets" />

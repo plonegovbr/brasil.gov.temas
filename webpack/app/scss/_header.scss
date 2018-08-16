@@ -101,62 +101,6 @@ ul.submenu {
   top: 25px;
 }
 
-/***** Busca extendida *****/
-.expandable-header.section-pagina-inicial {
-  #portal-searchbox {
-      position: relative !important;
-      display: block !important;
-      border: none;
-  }
-  .header-icons {
-      width: 45px !important;
-  }
-  .ico-busca {
-      display: none !important;
-  }
-  header#main-header {
-      background: transparent;
-      position: relative;
-  }
-  .header-wrapper {
-      z-index: 10;
-      position: inherit;
-      margin-bottom: 560px !important;
-  }
-  header#main-header .navigation-wrapper {
-      top: 58px;
-  }
-  #portal-searchbox legend {
-      top: 158px;
-  }
-  header #portal-searchbox {
-      width: 790px;
-      margin: 0 auto;
-      background-position: bottom center;
-      background-size: cover;
-      background-color: #0094ff;
-      height: 620px;
-      position: absolute !important;
-      width: 100%;
-      top: 0;
-      z-index: 0;
-      padding-top: 198px;
-      box-sizing: border-box;
-  }
-  header #portal-searchbox:after {
-      content: ".";
-      position: absolute;
-      background: #222;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      opacity: 0.2;
-      z-index: -1;
-  }
-}
-
-
 /********** Icones **********/
 .header-icons {
   margin: 15px 20px 15px 0;
