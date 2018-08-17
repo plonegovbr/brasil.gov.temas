@@ -3,7 +3,10 @@ Changelog
 
 2.0a7 (unreleased)
 
-- Adiciona visão de central de conteúdo.
+- Adiciona visäo de Filtro de resultados.
+  [rodfersou]
+
+- Adiciona visão de Central de conteúdo.
   [rodfersou]
 
 - Novos estilos para a variação do header

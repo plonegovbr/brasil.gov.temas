@@ -1,5 +1,6 @@
 import ContentCentral from './js/contentcentral.js';
 import Contraste from './js/contrast.js';
+import FilterResults from './js/filterresults.js';
 import GaleriaDeFotos from './js/albuns.js';
 
 
@@ -24,6 +25,9 @@ $(document).ready(function(){
   }
   if ($('.template-centrais-de-conteudo').length > 0) {
     new ContentCentral();
+  }
+  if ($('.template-filter-results').length > 0) {
+    new FilterResults();
   }
 });
 
