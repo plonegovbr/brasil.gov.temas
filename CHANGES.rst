@@ -3,6 +3,9 @@ Changelog
 
 2.0a7 (unreleased)
 
+- Adiciona visão de central de conteúdo.
+  [rodfersou]
+
 - Novos estilos para a variação do header
   [agnogueira]
 
