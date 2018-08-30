@@ -1,0 +1,91 @@
+/* tile share */
+#content .cover-richtext-tile,
+#content .nitf-basic-tile {
+  .share {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+
+    height: 29px;
+    margin: 0 10px 0 0;
+
+    list-style: none;
+  }
+  .share-item {
+    width: 20px;
+  }
+  .share-item,
+  .share-item > a {
+    display: none;
+  }
+  .share-item > a {
+    overflow: hidden;
+
+    transform: scale(.6);
+    white-space: nowrap;
+    text-indent: -3000px;
+
+    filter: invert(100%);
+  }
+  .share-open,
+  .share-open > a,
+  .share-pinned,
+  .share-pinned > a {
+    display: block;
+  }
+  .share-fb > a {
+    @include sprite($fb-ic);
+  }
+  .share-twitter > a {
+    @include sprite($twitter-ic);
+  }
+  .share-linkedin > a {
+    @include sprite($linkedin-ic);
+  }
+  .share-gplus > a {
+    @include sprite($gplus-ic);
+  }
+  .share-link > a {
+    @include sprite($link-ic);
+  }
+  .share-more > a {
+    font-weight: bold;
+
+    width: 20px;
+    padding-left: 6px;
+
+    text-align: center;
+  }
+  .share-more > a:link,
+  .share-more > a:visited,
+  .share-more > a:hover {
+    color: #FFF !important;
+  }
+  .share-more.share-open > a {
+    font-size: 14px;
+    font-weight: normal;
+
+    transform: translateY(0);
+  }
+}
+#content .cover-richtext-tile {
+  .share {
+    transform: translate(-10px, -11px);
+  }
+  .share-more > a {
+    transform: translateY(-6px);
+  }
+}
+#content .nitf-basic-tile {
+  .share-more > a {
+    transform: translateY(-1px);
+  }
+}
+#content .box-branco .cover-richtext-tile,
+#content .box-branco .nitf-basic-tile {
+  .share {
+    filter: invert(100%);
+  }
+}

@@ -1,7 +1,8 @@
 import ContentCentral from './js/contentcentral.js';
 import Contraste from './js/contrast.js';
-import ResultsFilter from './js/resultsfilter.js';
 import GaleriaDeFotos from './js/albuns.js';
+import ResultsFilter from './js/resultsfilter.js';
+import TileShare from './js/tileshare.js';
 
 
 $(document).ready(function(){
@@ -28,6 +29,17 @@ $(document).ready(function(){
   }
   if ($('.template-filtro-de-resultados').length > 0) {
     new ResultsFilter();
+  }
+  if ($('.section-pagina-inicial').length > 0) {
+    for (let tile of $('.cover-richtext-tile')) {
+      if ($(tile).parent().hasClass('tile-default')) {
+        continue;
+      }
+      new TileShare(tile);
+    }
+    for (let tile of $('.nitf-basic-tile')) {
+      new TileShare(tile);
+    }
   }
 });
 

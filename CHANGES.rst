@@ -3,6 +3,9 @@ Changelog
 
 2.0a7 (unreleased)
 
+- Adiciona funcionalidade de compartilhamento nos tiles da capa.
+  [rodfersou]
+
 - Adiciona visäo de Filtro de resultados.
   [rodfersou]
 
