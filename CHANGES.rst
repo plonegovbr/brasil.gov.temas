@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0a7 (unreleased)
+2.0b1 (2018-08-31)
 ^^^^^^^^^^^^^^^^^^
 
 - Adiciona visäo de Filtro de resultados.
