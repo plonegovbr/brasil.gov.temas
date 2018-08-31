@@ -218,7 +218,8 @@ p.tile-description {
     }
     .list-item:hover p,
     .list-item:hover h2 a:link,
-    .list-item:hover h2 a:visited, {
+    .list-item:hover h2 a:visited,
+    .list-item:hover h2 a {
         color: #fff !important;
     }
     .cover-collection-tile {
@@ -242,6 +243,9 @@ p.tile-description {
         width: 100%;
         text-align: center;
     }
+}
+#content .lista-blocos .list-item a:hover {
+    color: #fff !important;
 }
 .linha-destacada .lista-blocos .tile-header h2 {
     background: $tile-linha-destacada !important;
@@ -411,11 +415,15 @@ p.tile-description {
         width: 60%;
         color: #fff !important;
     }
+    h1 {
+        font-size: 3rem;
+    }
     h2 {
         font-size: 1.75rem;
         line-height: 2.188rem;
     }
-    a, a:visited {
+    a, 
+    a:visited {
         color: #fff !important;
     }
     p a {
