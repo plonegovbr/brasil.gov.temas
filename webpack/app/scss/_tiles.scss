@@ -261,9 +261,6 @@ p.tile-description {
     color: #fff !important;
 }
 
-
-
-
 /* box colorido */
 .tile.box-colorido {
     display: flex;
@@ -325,17 +322,18 @@ p.tile-description {
 
 
 /* tile de foto sobreposta */
-.tile.foto-sobreposta {
+.tile.foto-sobreposta,
+.tile.foto-sobreposta-pequena,
+.tile.foto-sobreposta-grande {
     position: relative;
-    height: 375px;
     display: flex;
 
     .tile-content {
         align-self: flex-end;
+        padding-bottom: 40px;
     }
     img {
         object-fit: cover;
-        height: 375px !important;
         width: 100%;
         position: absolute;
         top: 0;
@@ -344,9 +342,13 @@ p.tile-description {
     h1,
     h2,
     h3 {
-        padding: 0 100px 20px 20px;
-        margin: 20px 0 0 0 !important;
-
+        padding: 0 100px 5px 20px;
+        margin: 5px 0 0 0 !important;
+        color: #fff;
+    }
+    p {
+        padding: 0 100px 0 20px;
+        color: #fff;
     }
     h2 {
         font-size: 1.75rem;
@@ -382,49 +384,45 @@ p.tile-description {
         text-indent: -3000px;
     }
 }
-#content .tile.foto-sobreposta p {
+#content .tile.foto-sobreposta p,
+#content .tile.foto-sobreposta-pequena p {
     padding: 0 20px;
     color: #fff;
     line-height: 1.563rem !important;
 }
 
 
+/* tile de foto sobreposta pequena */
+.tile.foto-sobreposta-pequena {
+    height: 272px;
+    img {
+        height: 272px !important;
+    }
+    >div:before {
+        height: 272px;
+    }
+}
+
+/* tile de foto sobreposta normal */
+.tile.foto-sobreposta {
+    height: 370px;
+    img {
+        height: 370px !important;
+    }
+    >div:before {
+        height: 370px;
+    }
+}
+
 /* tile de foto sobreposta grande */
 .tile.foto-sobreposta-grande {
-    position: relative;
-    height: 560px;
-    display: flex;
+    height: 468px;
 
-    .tile-content {
-        align-self: flex-end;
-        padding-bottom: 90px;
-    }
     img {
-        object-fit: cover;
-        height: 560px !important;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        z-index: -2;
-    }
-    h1,
-    h2,
-    h3,
-    p {
-        margin: 20px 20px 20px 33px !important;
-        width: 60%;
-        color: #fff !important;
+        height: 468px !important;
     }
     h1 {
         font-size: 3rem;
-    }
-    h2 {
-        font-size: 1.75rem;
-        line-height: 2.188rem;
-    }
-    a, 
-    a:visited {
-        color: #fff !important;
     }
     p a {
         color: #fff !important;
@@ -436,6 +434,19 @@ p.tile-description {
         text-transform: uppercase;
         font-weight: bold;
         border: 2px solid #fff !important;
+    }
+    >div:before {
+        height: 468px;
+    }
+}
+.col-md-6 .tile.foto-sobreposta-grande,
+.col-md-12 .tile.foto-sobreposta-grande {
+    height: 565px;
+    img {
+        height: 565px !important;
+    }
+    >div:before {
+        height: 565px;
     }
 }
 
