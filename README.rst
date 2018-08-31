@@ -8,38 +8,24 @@
 Introdução
 ----------
 
-Este pacote provê quatro temas (Diazo) modelo do Governo Federal para uso em sites Plone do Governo da República Federativa do Brasil.
+Este pacote provê 2 temas (Diazo) modelo do Governo Federal para uso em sites Plone do Governo da República Federativa do Brasil.
 
 O desenvolvimento deste pacote foi feito como parte da iniciativa `Portal Padrão <http://portalpadrao.plone.org.br>`_ da comunidade `PloneGov.Br <http://www.softwarelivre.gov.br/plone>`_.
 
 Temas
 -----
 
-Tema Verde
+Tema Padrão
 ^^^^^^^^^^
 
-.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/verde/preview.png
-       :height: 150px
-       :width: 200px
-
-Tema Azul
-^^^^^^^^^
-
-.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/azul/preview.jpg
-       :height: 150px
-       :width: 200px
-
-Tema Amarelo
-^^^^^^^^^^^^
-
-.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/amarelo/preview.jpg
-       :height: 150px
-       :width: 200px
+.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/webpack/app/padrao/preview.png
+       :height: 214px
+       :width: 400px
 
 Tema Branco
 ^^^^^^^^^^^
 
-.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/src/brasil/gov/temas/themes/branco/preview.jpg
+.. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/webpack/app/branco/preview.png
        :height: 150px
        :width: 200px
 
