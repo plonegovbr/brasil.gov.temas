@@ -16,7 +16,7 @@ setup(
     description='Temas para o Portal Padrao do Governo Federal',
     long_description=long_description,
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 4 - Beta',
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: 4.3",
@@ -30,7 +30,7 @@ setup(
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    keywords='diazo theme ',
+    keywords='diazo theme',
     author='PloneGov.BR',
     author_email='gov@plone.org.br',
     url='https://github.com/plonegovbr/brasil.gov.temas',
