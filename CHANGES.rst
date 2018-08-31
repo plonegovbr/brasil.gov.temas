@@ -2,6 +2,7 @@ Changelog
 ---------
 
 2.0a7 (unreleased)
+^^^^^^^^^^^^^^^^^^
 
 - Adiciona visäo de Filtro de resultados.
   [rodfersou]
@@ -29,6 +30,7 @@ Changelog
 
 - Utiliza logos do rodapé a partir da barra
   [agnogueira]
+
 - Adiciona novas variações da fonte principal.
   [agnogueira]
 
