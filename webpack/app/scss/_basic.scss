@@ -93,6 +93,29 @@ h4 {
   }
 }
 
+/* acessibilidade */
+a:focus {
+    outline: 2px solid #f1ca7f;
+}
+#skip-menu {
+  width: 100%;
+  position: absolute;
+}
+#skip-menu a {
+  position: absolute;
+  top: -200em;
+  color: #fff;
+}
+#skip-menu a:focus {
+  position: absolute;
+  top: auto;
+  left: 45%;
+  margin-top: .5em;
+  background: #244a7c;
+  padding: 3px 6px;
+  z-index: 10;
+}
+
 /* icones do topo */
 .portalredes-twitter {
   @include sprite($rede-twitter-topo);
