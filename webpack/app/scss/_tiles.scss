@@ -74,6 +74,7 @@ p.tile-description {
     font-size: 1rem;
     line-height: 1rem;
     font-weight: bold !important;
+    cursor: pointer;
 }
 #content a.outstanding-link:hover {
 	background: #06ACFF;
@@ -218,7 +219,8 @@ p.tile-description {
     }
     .list-item:hover p,
     .list-item:hover h2 a:link,
-    .list-item:hover h2 a:visited, {
+    .list-item:hover h2 a:visited,
+    .list-item:hover h2 a {
         color: #fff !important;
     }
     .cover-collection-tile {
@@ -243,6 +245,9 @@ p.tile-description {
         text-align: center;
     }
 }
+#content .lista-blocos .list-item a:hover {
+    color: #fff !important;
+}
 .linha-destacada .lista-blocos .tile-header h2 {
     background: $tile-linha-destacada !important;
 }
@@ -257,12 +262,10 @@ p.tile-description {
     color: #fff !important;
 }
 
-
-
-
 /* box colorido */
 .tile.box-colorido {
     display: flex;
+    position: relative;
     >div {
         background: $tile-box-colorido;
         padding: 20px 40px;
@@ -271,6 +274,7 @@ p.tile-description {
         line-height: 120%;
         align-self: inherit !important;
         align-self: flex-end;
+        box-sizing: border-box;
     }
     a {
         color: #00d6d1 !important;
@@ -281,6 +285,13 @@ p.tile-description {
         font-size: 0.875rem;
         text-transform: uppercase;
         font-weight: bold;
+    }
+    .share a {
+        background: transparent;
+        border-radius: 0;
+        display: inline-block;
+        padding: 0;
+        box-sizing: border-box;
     }
     h1 {
         color: #fff;
@@ -304,6 +315,7 @@ p.tile-description {
     padding: 20px;
     background: #fff;
     box-sizing: border-box;
+    position: relative;
 
     .tile-subtitle {
         font-size: 0.875rem !important;
@@ -321,17 +333,18 @@ p.tile-description {
 
 
 /* tile de foto sobreposta */
-.tile.foto-sobreposta {
+.tile.foto-sobreposta,
+.tile.foto-sobreposta-pequena,
+.tile.foto-sobreposta-grande {
     position: relative;
-    height: 375px;
     display: flex;
 
     .tile-content {
         align-self: flex-end;
+        padding-bottom: 40px;
     }
     img {
         object-fit: cover;
-        height: 375px !important;
         width: 100%;
         position: absolute;
         top: 0;
@@ -340,9 +353,13 @@ p.tile-description {
     h1,
     h2,
     h3 {
-        padding: 0 100px 20px 20px;
-        margin: 20px 0 0 0 !important;
-
+        padding: 0 100px 5px 20px;
+        margin: 5px 0 0 0 !important;
+        color: #fff;
+    }
+    p {
+        padding: 0 100px 0 20px;
+        color: #fff;
     }
     h2 {
         font-size: 1.75rem;
@@ -378,43 +395,46 @@ p.tile-description {
         text-indent: -3000px;
     }
 }
-#content .tile.foto-sobreposta p {
+#content .tile.foto-sobreposta p,
+#content .tile.foto-sobreposta-pequena p {
     padding: 0 20px;
     color: #fff;
     line-height: 1.563rem !important;
 }
 
 
+/* tile de foto sobreposta pequena */
+.tile.foto-sobreposta-pequena {
+    height: 272px;
+    img {
+        height: 272px !important;
+    }
+    >div:before {
+        height: 272px;
+    }
+}
+
+/* tile de foto sobreposta normal */
+.tile.foto-sobreposta {
+    height: 370px;
+    img {
+        height: 370px !important;
+    }
+    >div:before {
+        height: 370px;
+    }
+}
+
 /* tile de foto sobreposta grande */
 .tile.foto-sobreposta-grande {
-    position: relative;
-    height: 560px;
-    display: flex;
+    height: 468px;
 
-    .tile-content {
-        align-self: flex-end;
-        padding-bottom: 90px;
-    }
     img {
-        object-fit: cover;
-        height: 560px !important;
-        position: absolute;
-        top: 0;
-        z-index: -2;
+        height: 468px !important;
     }
-    h1,
-    h2,
-    h3,
-    p {
-        margin: 20px 20px 20px 33px !important;
-        width: 60%;
-        color: #fff !important;
+    h1 {
+        font-size: 3rem;
     }
-    h2 {
-        font-size: 1.75rem;
-        line-height: 2.188rem;
-    }
-
     p a {
         color: #fff !important;
         background: transparent;
@@ -425,6 +445,19 @@ p.tile-description {
         text-transform: uppercase;
         font-weight: bold;
         border: 2px solid #fff !important;
+    }
+    >div:before {
+        height: 468px;
+    }
+}
+.col-md-6 .tile.foto-sobreposta-grande,
+.col-md-12 .tile.foto-sobreposta-grande {
+    height: 565px;
+    img {
+        height: 565px !important;
+    }
+    >div:before {
+        height: 565px;
     }
 }
 
@@ -751,6 +784,11 @@ header.inverter .search-wrapper {
     text-indent: -3000px;
     margin: 13px;
     display: inline-block;
+}
+
+/* titulo grande */
+.tile-noticia-destaque h1 {
+  font-size: 3rem !important;
 }
 
 /* geleria */

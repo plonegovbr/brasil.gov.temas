@@ -14,6 +14,18 @@ Changelog
 2.0b1 (2018-08-31)
 ^^^^^^^^^^^^^^^^^^
 
+- Altera a cor do header de noticias no tema padrão.
+  [agnogueira]
+
+- Correção de estilos para o funcionamento do share dos tiles
+  [agnogueira]
+
+- Novas variações de tamanho para a foto sobreposta
+  [agnogueira]
+
+- Novo título grande para notícias destacadas
+  [agnogueira]
+
 - Adiciona visäo de Filtro de resultados.
   [rodfersou]
 
