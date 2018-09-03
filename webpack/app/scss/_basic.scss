@@ -95,7 +95,7 @@ h4 {
 
 /* acessibilidade */
 a:focus {
-    outline: 2px solid #f1ca7f;
+  outline: 2px solid #158447;
 }
 #skip-menu {
   width: 100%;
@@ -109,11 +109,13 @@ a:focus {
 #skip-menu a:focus {
   position: absolute;
   top: auto;
-  left: 45%;
-  margin-top: .5em;
-  background: #244a7c;
-  padding: 3px 6px;
+  left: 20px;
+  border-radius: 15px;
+  margin-top: .2em;
+  background: #158447;
+  padding: 6px 12px;
   z-index: 10;
+  outline: 0;
 }
 
 /* icones do topo */
