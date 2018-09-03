@@ -1,4 +1,4 @@
-#content .tile {
+#content .brasil-navigation-tile#content .tile {
 	a:link, a:visited {
     color: $tile-link;
 	}
@@ -260,6 +260,11 @@ p.tile-description {
 }
 #content .lista-blocos h2 a:hover {
     color: #fff !important;
+}
+
+/* tile navigation */
+#content .brasil-navigation-tile {
+    width: $content-width;
 }
 
 /* box colorido */

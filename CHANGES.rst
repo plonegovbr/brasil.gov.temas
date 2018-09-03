@@ -14,6 +14,9 @@ Changelog
 - Atualiza versões do `Node.js <https://nodejs.org/>`_ e sc.recipe.staticresources.
   [rodfersou]
 
+- Corrige largura do tile de navegação
+  [agnogueira]
+
 - Altera a cor do header de noticias no tema padrão.
   [agnogueira]
 
