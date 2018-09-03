@@ -26,6 +26,14 @@ Changelog
 2.0b1 (2018-08-31)
 ^^^^^^^^^^^^^^^^^^
 
+.. warning::
+    Este release atualiza a versão do NodeJS para gerenciamento de recursos estáticos.
+    Em ambiente de desenvolvimento pode ser necessário remover a pasta parts e webpack/node_modules e rodar buildout 2 vezes
+    para efetivar a atualização de ambiente.
+
+- Atualiza pacotes node.
+  [rodfersou]
+
 - Adiciona visäo de Filtro de resultados.
   [rodfersou]
 
