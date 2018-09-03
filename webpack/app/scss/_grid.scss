@@ -98,15 +98,18 @@
 
 #main {
   @extend .ct-width;
-  display: flex; 
+  display: flex;
+  flex-shrink: 1;
 }
 #column-one {
   width: $coluna-1;
   margin-right: $grid-gutter;
+  flex-shrink: 0;
 }
 #column-two {
   width: $coluna-2;
   margin-left: $grid-gutter;
+  flex-shrink: 0;
 }
 
 /* variacao das linhas */

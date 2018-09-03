@@ -9,6 +9,10 @@ Changelog
     Em ambiente de desenvolvimento pode ser necessário remover as pastas ``parts`` e ``webpack/node_modules`` para efetivar a atualização de ambiente.
 
 - Corrige z-index dos links de acessibilidade.
+- Corrige largura do tile de navegação.
+  [agnogueira]
+
+- Corrige largura na tela de configuração (fecha `#211255 <https://github.com/plonegovbr/brasil.gov.temas/issues/211>`_).
   [agnogueira]
 
 - Atualiza versões do `Node.js <https://nodejs.org/>`_ e sc.recipe.staticresources.

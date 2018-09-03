@@ -122,6 +122,10 @@
     <rules if-content="not(//*[@id='portal-column-two'])">
       <drop css:theme="#column-two" />
     </rules>
+    <rules if-content="not(//*[@id='portal-column-two']) and not(//*[@id='portal-column-one'])">
+      <drop attributes="class" css:theme="#main" />
+    </rules>
+
     <!-- Footer -->
     <replace css:content-children="#portal-siteactions" css:theme-children=".coluna-navegacao ul" method="raw" />
     <replace css:content-children="#portal-globalnav" css:theme-children=".coluna-menu ul" />

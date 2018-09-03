@@ -216,6 +216,9 @@ dd.image-caption {
   position: relative;
   width: $content-width;
 }
+.has-portlets #viewlet-below-content {
+  width: 100% !important;
+}
 .portaltype-collective-nitf-content #viewlet-below-content {
   width: 960px;
 }
