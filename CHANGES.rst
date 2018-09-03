@@ -4,7 +4,11 @@ Changelog
 2.0b2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Deixa skip links visíveis quando acessados via teclado.
+  [agnogueira]
+
+- Adiciona retorno visual para a navegação via teclado.
+  [agnogueira]
 
 
 2.0b1 (2018-08-31)
