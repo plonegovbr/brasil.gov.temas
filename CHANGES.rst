@@ -4,16 +4,6 @@ Changelog
 2.0b2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Deixa skip links visíveis quando acessados via teclado.
-  [agnogueira]
-
-- Adiciona retorno visual para a navegação via teclado.
-  [agnogueira]
-
-
-2.0b1 (2018-08-31)
-^^^^^^^^^^^^^^^^^^
-
 - Altera a cor do header de noticias no tema padrão.
   [agnogueira]
 
@@ -25,6 +15,16 @@ Changelog
 
 - Novo título grande para notícias destacadas
   [agnogueira]
+
+- Deixa skip links visíveis quando acessados via teclado.
+  [agnogueira]
+
+- Adiciona retorno visual para a navegação via teclado.
+  [agnogueira]
+
+
+2.0b1 (2018-08-31)
+^^^^^^^^^^^^^^^^^^
 
 - Adiciona visäo de Filtro de resultados.
   [rodfersou]
