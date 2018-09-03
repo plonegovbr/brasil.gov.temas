@@ -8,7 +8,12 @@ Changelog
     Este release atualiza as dependências do processamento de recursos estáticos.
     Em ambiente de desenvolvimento pode ser necessário remover as pastas ``parts`` e ``webpack/node_modules`` para efetivar a atualização de ambiente.
 
+- Corrige cor dos links dos tiles.
+  [agnogueira]
+  
 - Corrige z-index dos links de acessibilidade.
+  [agnogueira]
+
 - Corrige largura do tile de navegação.
   [agnogueira]
 
