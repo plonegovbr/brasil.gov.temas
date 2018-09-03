@@ -10,6 +10,12 @@ Changelog
 2.0b1 (2018-08-31)
 ^^^^^^^^^^^^^^^^^^
 
+- Deixa skiplinks cisíveis quando acessados via teclado.
+  [agnogueira]
+
+- Adiciona retorno visual para a navegação via teclado.
+  [agnogueira]
+
 - Adiciona visäo de Filtro de resultados.
   [rodfersou]
 
