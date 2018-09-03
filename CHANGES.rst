@@ -8,14 +8,14 @@ Changelog
     Este release atualiza as dependências do processamento de recursos estáticos.
     Em ambiente de desenvolvimento pode ser necessário remover as pastas ``parts`` e ``webpack/node_modules`` para efetivar a atualização de ambiente.
 
+- Corrige largura do tile de navegação.
+  [agnogueira]
+
 - Corrige largura na tela de configuração (fecha `#211255 <https://github.com/plonegovbr/brasil.gov.temas/issues/211>`_).
   [agnogueira]
 
 - Atualiza versões do `Node.js <https://nodejs.org/>`_ e sc.recipe.staticresources.
   [rodfersou]
-
-- Corrige largura do tile de navegação
-  [agnogueira]
 
 - Altera a cor do header de noticias no tema padrão.
   [agnogueira]
