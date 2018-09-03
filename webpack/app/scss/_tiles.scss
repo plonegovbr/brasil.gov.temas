@@ -265,6 +265,7 @@ p.tile-description {
 /* box colorido */
 .tile.box-colorido {
     display: flex;
+    position: relative;
     >div {
         background: $tile-box-colorido;
         padding: 20px 40px;
@@ -273,6 +274,7 @@ p.tile-description {
         line-height: 120%;
         align-self: inherit !important;
         align-self: flex-end;
+        box-sizing: border-box;
     }
     a {
         color: #00d6d1 !important;
@@ -283,6 +285,13 @@ p.tile-description {
         font-size: 0.875rem;
         text-transform: uppercase;
         font-weight: bold;
+    }
+    .share a {
+        background: transparent;
+        border-radius: 0;
+        display: inline-block;
+        padding: 0;
+        box-sizing: border-box;
     }
     h1 {
         color: #fff;
@@ -306,6 +315,7 @@ p.tile-description {
     padding: 20px;
     background: #fff;
     box-sizing: border-box;
+    position: relative;
 
     .tile-subtitle {
         font-size: 0.875rem !important;
