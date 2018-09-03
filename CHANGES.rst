@@ -8,6 +8,9 @@ Changelog
     Este release atualiza as dependências do processamento de recursos estáticos.
     Em ambiente de desenvolvimento pode ser necessário remover as pastas ``parts`` e ``webpack/node_modules`` para efetivar a atualização de ambiente.
 
+- Corrige z-index dos links de acessibilidade.
+  [agnogueira]
+
 - Atualiza versões do `Node.js <https://nodejs.org/>`_ e sc.recipe.staticresources.
   [rodfersou]
 
