@@ -5,6 +5,7 @@
 }
 .tile {
 	width: 100%;
+    position: relative;
 
 	.tile-section {
 	  color: $main-color;
@@ -601,6 +602,9 @@ p.tile-description {
     }
     .column {
       padding: 0;
+    }
+    .tile {
+        position: initial;
     }
     .tile-content {
         height: 420px;
