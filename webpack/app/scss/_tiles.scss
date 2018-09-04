@@ -5,6 +5,7 @@
 }
 .tile {
 	width: 100%;
+    position: relative;
 
 	.tile-section {
 	  color: $main-color;
@@ -86,6 +87,12 @@ p.tile-description {
     display: flex;
     width: 100%;
     margin-bottom: 12px;
+}
+
+/*inverte a cor dos icones sociais para o tile padrao */
+#content .tile-default .share,
+#content .tile-default .share {
+  filter: invert(100%);
 }
 
 /* header com fio separador */
@@ -601,6 +608,9 @@ p.tile-description {
     }
     .column {
       padding: 0;
+    }
+    .tile {
+        position: initial;
     }
     .tile-content {
         height: 420px;
