@@ -89,6 +89,12 @@ p.tile-description {
     margin-bottom: 12px;
 }
 
+/*inverte a cor dos icones sociais para o tile padrao */
+#content .tile-default .share,
+#content .tile-default .share {
+  filter: invert(100%);
+}
+
 /* header com fio separador */
 .tile.fio-separador {
     margin-bottom: 2.4em;
