@@ -935,3 +935,37 @@ header.inverter .search-wrapper {
         color: #fff!important;    
     }
 }
+
+/* Capa Colorida */
+body.cover-layout-capa-fundo-destacado {
+  background-color: #2969bd;
+  color: #fff;
+
+  #portal-breadcrumbs {
+    border-bottom: 1px solid rgba(256,256,256,.2);
+    color: #fff;
+  }
+  #portal-breadcrumbs a, 
+  #portal-breadcrumbs a:hover,
+  a:link,   a:visited,
+  h1, h2, h3, h4,
+  .tile .outstanding-header h1,
+  .tile .outstanding-header h2 {
+    color: #fff;
+  }
+  .breadcrumbSeparator,
+  #portal-breadcrumbs #breadcrumbs-home a:before,
+  .voltar-topo a:after {
+    filter: invert(100%);
+  }
+  .layout .cover-tile {
+    background-color: #2969bd;
+  }
+  .tiles-configuration,
+  .tiles-configuration h1,
+  footer h3,
+  .pb-ajax,
+  .pb-ajax h1 {
+    color: #000 !important;
+  }
+}
