@@ -8,7 +8,8 @@ Changelog
     Este release atualiza as dependências do processamento de recursos estáticos.
     Em ambiente de desenvolvimento pode ser necessário remover as pastas ``parts`` e ``webpack/node_modules`` para efetivar a atualização de ambiente.
 
-- Estilos para capa com cor de fundo destacada.
+- Estilos iniciais para permitir a utilização de uma capa com fundo colorido.
+  Para que o estilo funcione, o usuário deve criar um modelo de capa com o nome "Capa fundo destacado".
   [agnogueira]
 
 - Corrige largura do tile de navegação.
