@@ -16,7 +16,7 @@ Temas
 -----
 
 Tema Padrão
-^^^^^^^^^^
+^^^^^^^^^^^
 
 .. image:: https://raw.githubusercontent.com/plonegovbr/brasil.gov.temas/master/webpack/app/padrao/preview.png
        :height: 214px
