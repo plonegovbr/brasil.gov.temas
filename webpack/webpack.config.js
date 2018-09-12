@@ -70,7 +70,6 @@ let createTheme = (theme) => {
         }
       })
     ],
-    devtool: 'source-map',
     module: {
       rules: [{
         test: /\.js$/,

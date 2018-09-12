@@ -4,7 +4,8 @@ Changelog
 2.0b3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Evita a emissão de source maps dos recursos estáticos.
+  [hvelarde]
 
 
 2.0b2 (2018-09-04)
