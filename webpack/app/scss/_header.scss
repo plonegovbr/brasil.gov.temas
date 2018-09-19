@@ -637,6 +637,34 @@ header.inverter {
   }
 }
 
+/* inversão de cores para header fundo claro */
+body.topo-fundo-claro {
+  header.inverter {
+    a:hover, a:link, a:visited {
+      color: #000 !important;
+    }
+    .ico-navegacao,
+    .header-accessibility .link-contraste:before,
+    .header-accessibility .link-vlibras:before {
+      filter: invert(100%);
+    }
+  }
+  #portal-breadcrumbs.inverter {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    color: #000;
+    margin-bottom: 0;
+    a, .breadcrumbSeparator {
+      color: #fff !important;
+    }
+    .breadcrumbSeparator {
+      @include sprite($seta-breadcrumb);
+    }
+    #breadcrumbs-home a:before {
+      @include sprite($casinha);
+    }
+  }
+}
+
 /* variacao de cor do header */
 .section-fale-conosco header#main-header {
   background-color: $fale-conosco;

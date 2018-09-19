@@ -685,6 +685,23 @@ header.inverter .search-wrapper {
   border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
 
+/* linha de fundo do header */
+.portaltype-collective-cover-content.template-view div.row.fundo-topo-escuro, 
+.portaltype-collective-cover-content.template-view div.row.fundo-topo-claro {
+    img {
+        height: fit-content;
+        object-fit: cover;
+    }
+    .tile::before {
+        display: none;
+    }
+    .tile-content {
+        height: initial;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
 /* coluna discretas */
 .colunas-discretas .column,
 .column.colunas-discretas {

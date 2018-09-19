@@ -16,6 +16,15 @@
   <rules css:if-content="#visual-portal-wrapper">
 
     <!--Head-->
+
+    <!--aplica classe quando o header tem fundo claro-->
+    <before theme-children="/html/body" method="raw">
+      <xsl:attribute name="class">
+        <xsl:value-of select="/html/body/@class" />
+        <xsl:if css:test=".fundo-topo-claro"> topo-fundo-claro</xsl:if>
+      </xsl:attribute>
+    </before>
+
     <prepend css:theme="body" css:content="div#barra-identidade" />
     <copy css:content="html" css:theme="html" attributes="lang dir" />
     <prepend css:content-children="head" css:theme="head" />
@@ -45,6 +54,7 @@
       <drop attributes="class" css:theme="#main-header" />
       <drop attributes="class" css:theme="#portal-breadcrumbs" />
     </rules>
+
 
     <!--Content -->
     <merge attributes="class" css:content="body" css:theme="body" />
