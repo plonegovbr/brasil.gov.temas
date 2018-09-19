@@ -94,6 +94,11 @@ p.tile-description {
 #content .tile-default .share {
   filter: invert(100%);
 }
+/* exceto no destaque do topo */
+#content .linha-destaquetopo .tile-default .share {
+    filter: none;
+}
+
 
 /* header com fio separador */
 .tile.fio-separador {
