@@ -648,11 +648,13 @@ body.topo-fundo-claro {
     .header-accessibility .link-vlibras:before {
       filter: invert(100%);
     }
+    .header-wrapper, 
+    .search-wrapper {
+      border-bottom: 1px solid rgba(0,0,0,.1) !important;
+    }
   }
   #portal-breadcrumbs.inverter {
-    border-bottom: 1px solid hsla(0,0%,100%,.2);
     color: #000;
-    margin-bottom: 0;
     a, .breadcrumbSeparator {
       color: #fff !important;
     }
