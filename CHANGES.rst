@@ -4,6 +4,9 @@ Changelog
 2.0b3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Adiciona estilo para controlar degrade do destaque topo
+  [agnogueira]
+
 - Altera a cor de fundo básica dos temas
   [agnogueira]
 

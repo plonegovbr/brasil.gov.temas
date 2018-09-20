@@ -657,10 +657,7 @@ p.tile-description {
 }
 .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo .tile::before {
     background-color: transparent;
-    background-image:
-    radial-gradient(
-      transparent, #000
-    );
+
     content: " ";
     white-space: nowrap;
     display: block;
@@ -673,6 +670,12 @@ p.tile-description {
     opacity: .8;
     z-index: -1;
     text-indent: -3000px;
+}
+.portaltype-collective-cover-content.template-view div.row.linha-destaquetopo.topo-com-degrade .tile::before {
+    background-image:
+    radial-gradient(
+      transparent, #000
+    );
 }
 .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo .tile.foto-destacada-grande::before {
     height: 802px;
