@@ -4,6 +4,9 @@ Changelog
 2.0b3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Adiciona funcionalidade de preview de imagens em links.
+  [rodfersou]
+
 - Adiciona estilo para controlar degrade do destaque topo
   [agnogueira]
 

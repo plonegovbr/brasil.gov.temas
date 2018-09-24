@@ -1,10 +1,11 @@
 import ContentCentral from './js/contentcentral.js';
 import Contraste from './js/contrast.js';
-import ResultsFilter from './js/resultsfilter.js';
 import GaleriaDeFotos from './js/albuns.js';
+import ResultsFilter from './js/resultsfilter.js';
+import TipPreview from './js/tippreview.js';
 
 
-$(document).ready(function(){
+$(() => {
   $(".ico-navegacao").click(function(){
     $(".navigation-wrapper").toggleClass("ativo");
   });
@@ -29,5 +30,16 @@ $(document).ready(function(){
   if ($('.template-filtro-de-resultados').length > 0) {
     new ResultsFilter();
   }
+  if ($('[data-tippreview-enabled="true"]').length > 0) {
+    new TipPreview();
+  }
 });
 
+
+export default {
+  ContentCentral,
+  Contraste,
+  GaleriaDeFotos,
+  ResultsFilter,
+  TipPreview,
+};
