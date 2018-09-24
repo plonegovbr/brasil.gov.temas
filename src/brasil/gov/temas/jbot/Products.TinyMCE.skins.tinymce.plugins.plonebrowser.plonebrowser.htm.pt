@@ -35,6 +35,12 @@
                       <img src="img/anchor_link.png" />
                       <span i18n:translate="">Anchor</span></a>
                 </div>
+                <div id="tippreview_link">
+                    <a href="#tippreview">
+                      <img src="++resource++portalbrasil/img/preview.png" />
+                      <span i18n:domain="governo.brasil.portal"
+                            i18n:translate="">Tip Preview</span></a>
+                </div>
             </div>
         </div>
 
@@ -257,6 +263,47 @@
                 </div>
             </div>
 
+        </div>
+
+        <div id="tippreview_panel" class="hide"
+             i18n:domain="governo.brasil.portal">
+            <h2 i18n:translate="">Tip Preview</h2>
+
+            <div class="field">
+                <div class="widget">
+                    <input type="checkbox"
+                           name="tippreview-enabled"
+                           id="tippreview-enabled" />
+                    <label for="tippreview-enabled"
+                           i18n:translate="">
+                        Enabled
+                    </label>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="tippreview-image"
+                       i18n:translate="">
+                    Image
+                </label>
+                <div class="widget">
+                    <input type="text"
+                           name="tippreview-image"
+                           id="tippreview-image" />
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="tippreview-title"
+                       i18n:translate="">
+                    Title
+                </label>
+                <div class="widget">
+                    <input type="text"
+                           name="tippreview-title"
+                           id="tippreview-title" />
+                </div>
+            </div>
         </div>
 
         <div class="visualClear"><!-- --></div>
