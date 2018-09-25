@@ -8,17 +8,13 @@
   display: flex;
 
   .tippreview-image {
-    display: flex;
-
-    min-width: 6rem;
-    min-height: 6rem;
-
-    align-items: center;
-    justify-content: center;
+    width: 6rem;
+    height: 6rem;
   }
   .tippreview-image > img {
-    max-width: 6rem;
-    max-height: 6rem;
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
   }
   .tippreview-title {
     font-weight: bold;
