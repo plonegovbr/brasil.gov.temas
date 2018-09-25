@@ -37,7 +37,7 @@
                 </div>
                 <div id="tippreview_link">
                     <a href="#tippreview">
-                      <img src="++resource++portalbrasil/img/preview.png" />
+                      <img src="++theme++padrao/img/preview.png" />
                       <span i18n:domain="governo.brasil.portal"
                             i18n:translate="">Tip Preview</span></a>
                 </div>
