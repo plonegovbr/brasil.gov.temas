@@ -9,9 +9,10 @@ let createTheme = (theme) => {
   let publicPath = `++theme++${theme}/`;
   return {
     entry: [
-      './app/brasilgovtemas.js',
+      `./app/${theme}/img/preview.png`,
+      `./app/${theme}/preview.png`,
       `./app/${theme}/brasilgovtemas.scss`,
-      `./app/${theme}/preview.png`
+      './app/brasilgovtemas.js',
     ],
     output: {
       filename: `brasilgovtemas-[hash].js`,

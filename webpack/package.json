@@ -26,8 +26,9 @@
   "license": "GPL-2.0",
   "dependencies": {
     "copy-webpack-plugin": "^4.5.1",
-    "sc.recipe.staticresources": "simplesconsultoria/sc.recipe.staticresources#1.0b1",
     "jquery.cookie": "^1.4.1",
+    "sc.recipe.staticresources": "simplesconsultoria/sc.recipe.staticresources#1.0b1",
+    "tippy.js": "^2.5.0",
     "webpack-clean-obsolete-chunks": "^0.3.0"
   }
 }
