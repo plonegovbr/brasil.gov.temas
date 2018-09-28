@@ -4,16 +4,16 @@ Changelog
 2.0b3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Adiciona estilo para controlar degrade do destaque topo
+- Adiciona estilo para controlar degrade do destaque topo.
   [agnogueira]
 
-- Altera a cor de fundo básica dos temas
+- Altera a cor de fundo básica dos temas.
   [agnogueira]
 
-- Adiciona estilos para permitir uma imagem de fundo para o topo de uma capa
+- Adiciona estilos para permitir uma imagem de fundo para o topo de uma capa.
   [agnogueira]
 
-- Corrige icone do estilo tile vinculado
+- Corrige icone do estilo tile vinculado.
   [agnogueira]
 
 - Evita a emissão de source maps dos recursos estáticos.
