@@ -4,6 +4,9 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Atualiza configuração do webpack.
+  [rodfersou]
+
 - Corrige inserção de viewlet de redes para permitir internacionalização.
   [rodfersou]
 
