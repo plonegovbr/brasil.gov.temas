@@ -4,7 +4,8 @@ Changelog
 2.0b4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige altura da linha de destaque no topo.
+  [agnogueira, rodfersou]
 
 
 2.0b3 (2018-09-28)
