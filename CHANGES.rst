@@ -4,6 +4,9 @@ Changelog
 2.0b4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Alteração na largura do menu.
+  [agnogueira, rodfersou]
+
 - Corrige altura da linha de destaque no topo.
   [agnogueira, rodfersou]
 

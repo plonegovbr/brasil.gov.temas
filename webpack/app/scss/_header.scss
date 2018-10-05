@@ -69,12 +69,16 @@ header#main-header {
   display: flex;
   .list-navigation {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
     li {
       font-weight: 900;
       border-right: 1px solid #f1f1f1;
       display: block;
       margin-right: 25px;
       padding-right: 20px;
+      width: 170px;
+      box-sizing: border-box;
     }
   }
   a:link,
@@ -88,6 +92,7 @@ header#main-header {
       font-weight: normal;
       margin-right: 0;
       font-size: 0.875rem;
+      border: none;
     }
     li a {
       font-weight: 500;

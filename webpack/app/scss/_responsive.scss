@@ -56,6 +56,10 @@
     flex-direction: column;
     margin: 0 10px;
   }
+  #main-navigation .list-navigation li {
+    width: 100%;
+    border: none;
+  }
   ul.submenu {
     top: 8px;
   }
