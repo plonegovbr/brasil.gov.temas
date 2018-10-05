@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0b4 (unreleased)
+2.0b4 (2018-10-05)
 ^^^^^^^^^^^^^^^^^^
 
 - Alteração na largura do menu.
