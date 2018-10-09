@@ -1,5 +1,6 @@
 {
     "name": "",
+    "short_name": "",
     "icons": [
         {
             "src": "++theme++padrao/favicons/android-chrome-192x192.png",
@@ -7,12 +8,12 @@
             "type": "image/png"
         },
         {
-            "src": "++theme++padrao/favicons/android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "++theme++padrao/favicons/android-chrome-384x384.png",
+            "sizes": "384x384",
             "type": "image/png"
         }
     ],
-    "theme_color": "#00a300",
-    "background_color": "#00a300",
+    "theme_color": "#ffc40d",
+    "background_color": "#ffc40d",
     "display": "standalone"
 }

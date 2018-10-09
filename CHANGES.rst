@@ -146,6 +146,9 @@ Changelog
 2.0a5 (2018-06-06)
 ^^^^^^^^^^^^^^^^^^
 
+- Atualiza ícone do tema padrão.
+  [rodfersou]
+
 - Revisa view de Galleria de Fotos.
   [rodfersou]
 
