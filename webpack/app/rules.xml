@@ -17,11 +17,17 @@
 
     <!--Head-->
 
-    <!--aplica classe quando o header tem fundo claro-->
+    <!-- Adiciona classe ao body, de acordo com as configurações do header -->
     <before theme-children="/html/body" method="raw">
       <xsl:attribute name="class">
+        <!-- Classe para o header padrão -->
+        <xsl:if css:test="#portal-searchbox:not(.expandable-header)">default-header-template </xsl:if>
+        <!-- Classe para o Header expandido -->
+        <xsl:if css:test="#portal-searchbox.expandable-header">expandable-header-template </xsl:if>
+        <!-- Classe para quando utilizar uma imagem clara no topo -->
+        <xsl:if css:test=".fundo-topo-claro">topo-fundo-claro </xsl:if>
+        <!-- Demais classes do Plone -->
         <xsl:value-of select="/html/body/@class" />
-        <xsl:if css:test=".fundo-topo-claro"> topo-fundo-claro</xsl:if>
       </xsl:attribute>
     </before>
 
