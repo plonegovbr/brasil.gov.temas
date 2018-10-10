@@ -5,6 +5,7 @@ import GaleriaDeFotos from './js/albuns.js';
 
 
 $(document).ready(function(){
+  $('#viewlet-social-like').stop(true, true);
   $(".ico-navegacao").click(function(){
     $(".navigation-wrapper").toggleClass("ativo");
   });
