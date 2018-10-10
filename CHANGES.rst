@@ -4,7 +4,8 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige posição dos botões de compartilhamento da notícia.
+  [agnogueira, rodfersou]
 
 
 2.0b4 (2018-10-05)

@@ -418,7 +418,8 @@ dd.image-caption {
   }
 }
 .portaltype-collective-nitf-content #viewlet-social-like {
-  margin: 0;
+  left: 50%;
+  margin-left: - $content-width / 2 !important;
 }
 
 /* colecao */
