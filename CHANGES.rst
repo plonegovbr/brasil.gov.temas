@@ -4,8 +4,12 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige cabeçalho expandido.
+  [rodfersou, agnogueira]
+
 - Move texto da licença de uso para um viewlet no brasil.gov.portal para permitir internacionalização.
   [rodfersou]
+
 - Corrige posição dos botões de compartilhamento da notícia.
   [agnogueira, rodfersou]
 
