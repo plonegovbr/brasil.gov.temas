@@ -4,6 +4,9 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Move link para voltar para o topo em um viewlet no brasil.gov.portal para permitir internacionalização.
+  [rodfersou]
+
 - Corrige cabeçalho expandido (fecha `#543 <https://github.com/plonegovbr/brasil.gov.temas/issues/543>`_).
   [rodfersou, agnogueira]
 
