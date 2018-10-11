@@ -4,7 +4,7 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Corrige cabeçalho expandido.
+- Corrige cabeçalho expandido (fecha `#543 <https://github.com/plonegovbr/brasil.gov.temas/issues/543>`_).
   [rodfersou, agnogueira]
 
 - Move texto da licença de uso para um viewlet no brasil.gov.portal para permitir internacionalização.
@@ -57,7 +57,7 @@ Changelog
 - Corrige largura do tile de navegação.
   [agnogueira]
 
-- Corrige largura na tela de configuração (fecha `#211255 <https://github.com/plonegovbr/brasil.gov.temas/issues/211>`_).
+- Corrige largura na tela de configuração (fecha `#211 <https://github.com/plonegovbr/brasil.gov.temas/issues/211>`_).
   [agnogueira]
 
 - Atualiza versões do `Node.js <https://nodejs.org/>`_ e sc.recipe.staticresources.
