@@ -87,12 +87,6 @@
       <drop css:content=".documentByLine .documentModified" />
     </rules>
 
-    <before css:content-children="#viewlet-below-content" method="raw">
-      <div class="voltar-topo">
-        <a href="#wrapper">Voltar ao Topo</a>
-      </div>
-    </before>
-
     <!-- UL DE LíNGUAS
     É necessário cadastrar uma action em site_actions com o mesmo id de
     língua que existe no css, ou seja, no padrão "language-LANGUADE_CODE",
