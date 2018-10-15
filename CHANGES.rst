@@ -4,6 +4,9 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige inserção de viewlet de redes para permitir internacionalização.
+  [rodfersou]
+
 - Move link para voltar para o topo em um viewlet no brasil.gov.portal para permitir internacionalização.
   [rodfersou]
 
