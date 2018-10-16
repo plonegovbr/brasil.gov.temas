@@ -1,11 +1,11 @@
 import ContentCentral from './js/contentcentral.js';
 import Contraste from './js/contrast.js';
-import ResultsFilter from './js/resultsfilter.js';
 import GaleriaDeFotos from './js/albuns.js';
+import ResultsFilter from './js/resultsfilter.js';
+import SocialLike from './js/sociallike.js';
 
 
-$(document).ready(function(){
-  $('#viewlet-social-like').stop(true, true);
+$(() => {
   $(".ico-navegacao").click(function(){
     $(".navigation-wrapper").toggleClass("ativo");
   });
@@ -21,14 +21,17 @@ $(document).ready(function(){
     $(this).next("dd").slideToggle();
     $(this).toggleClass("aberto");
   });
-  if ($('.template-galeria_de_fotos').length > 0) {
+  if ($('.template-galeria_de_fotos')[0] != null) {
     new GaleriaDeFotos();
   }
-  if ($('.template-centrais-de-conteudo').length > 0) {
+  if ($('.template-centrais-de-conteudo')[0] != null) {
     new ContentCentral();
   }
-  if ($('.template-filtro-de-resultados').length > 0) {
+  if ($('.template-filtro-de-resultados')[0] != null) {
     new ResultsFilter();
+  }
+  if ($('#viewlet-social-like')[0] != null) {
+    new SocialLike();
   }
 });
 

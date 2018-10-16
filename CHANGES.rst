@@ -4,6 +4,8 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Limita movimentação dos ícones de redes sociais para não invadir o rodapé do site.
+  [rodfersou]
 - Corrige inserção dos links do portal actions.
   [rodfersou]
 
