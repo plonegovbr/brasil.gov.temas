@@ -130,7 +130,7 @@
     </rules>
 
     <!-- Footer -->
-    <replace css:content-children="#portal-siteactions" css:theme-children=".coluna-navegacao ul" method="raw" />
+    <replace css:content-children="#portal-siteactions" css:theme-children=".header-accessibility ul" method="raw" />
     <replace css:content-children="#portal-globalnav" css:theme-children=".coluna-menu ul" />
   </rules>
 </rules>

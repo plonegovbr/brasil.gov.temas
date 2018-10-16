@@ -4,6 +4,9 @@ Changelog
 2.0b5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige inserção dos links do portal actions.
+  [rodfersou]
+
 - Atualiza configuração do webpack.
   [rodfersou]
 

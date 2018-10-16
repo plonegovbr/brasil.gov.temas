@@ -2,7 +2,7 @@ import 'jquery.cookie';
 
 
 jQuery(function($) {
-  $('.link-contraste').click(
+  $('#siteaction-contraste > a').click(
     function(e) {
       if($.cookie('contraste') === null) {
         $.cookie('contraste', 'on');
