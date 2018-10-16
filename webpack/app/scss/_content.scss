@@ -347,6 +347,10 @@ dd.image-caption {
     width: 73px;
     float: left;
   }
+  &.is-scrolling {
+    position: absolute;
+    bottom: 0;
+  }
   dl.image-right {
     margin-right: -10%;
   }
