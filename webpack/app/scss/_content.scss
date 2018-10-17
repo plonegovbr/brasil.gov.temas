@@ -252,6 +252,7 @@ dd.image-caption {
     width: 20%;
     float: right;
     text-align: right;
+    margin-bottom: 20px;
 
     a {
       color: #222;
@@ -282,6 +283,7 @@ dd.image-caption {
   border-top: solid 0.5px #ccc;
   border-bottom: solid 0.5px #ccc;
   padding: 20px 0;
+  clear: both;
 }
 
 
