@@ -226,9 +226,11 @@ dd.image-caption {
 #category {
   font-size: 100%;
   text-align: left;
-  padding-bottom: 20px;
   color: #fff;
   text-indent: -3000px;
+  padding: 8px 0 20px;
+  border: none;
+  width: auto;
 
   span {
     text-indent: initial;
