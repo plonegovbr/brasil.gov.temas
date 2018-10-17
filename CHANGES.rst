@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0b5 (unreleased)
+2.0b5 (2018-10-17)
 ^^^^^^^^^^^^^^^^^^
 
 - Limita movimentação dos ícones de redes sociais para não invadir o rodapé do site.
