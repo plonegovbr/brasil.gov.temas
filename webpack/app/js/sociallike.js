@@ -1,9 +1,19 @@
 export default class SocialLike {
   constructor() {
     this.$el = $('#viewlet-social-like');
-    this.$container = $('#main-content');
+    this.$container = $('#content');
     this.scrolling = false;
-    this.elementStartPosition = this.$container.offset().top + this.$el.height();
+    this.startPosition = this.$container.offset().top +
+                         this.$el.height();
+    if ($('.portaltype-collective-nitf-content')[0] != null) {
+      // how much pixels used to adjust social like position
+      this.startPosition += 245;
+    } else if ($('.portaltype-document')[0] != null) {
+      // difference between #container and #viewlet-social-like
+      this.startPosition += 85;
+      // how much pixels used to adjust social like position
+      this.startPosition += 85;
+    }
     this.bindEvents();
   }
   set isScrolling(scrolling) {
@@ -18,8 +28,10 @@ export default class SocialLike {
     this.onScroll();
   }
   onScroll() {
-    let bottomElement = this.elementStartPosition + $(document).scrollTop();
-    let bottomContainer = this.$container.offset().top + this.$container.height();
+    let bottomElement = this.startPosition +
+                        $(document).scrollTop();
+    let bottomContainer = this.$container.offset().top +
+                          this.$container.height();
     this.isScrolling = (bottomElement > bottomContainer);
   }
 }
