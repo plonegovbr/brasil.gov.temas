@@ -97,6 +97,10 @@
   position: relative;
 }
 
+.portaltype-collective-cover-content #content {
+    position: initial;
+}
+
 #main {
   @extend .ct-width;
   display: flex;
