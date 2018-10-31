@@ -4,7 +4,8 @@ Changelog
 2.0rc1 (unreleased)
 ^^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige erro de posicionamento do Destaque Topo causado pelas alterações de posicionamento do Social Like.
+  [agnogueira]
 
 
 2.0b5 (2018-10-17)
@@ -12,6 +13,7 @@ Changelog
 
 - Limita movimentação dos ícones de redes sociais para não invadir o rodapé do site.
   [rodfersou]
+
 - Corrige inserção dos links do portal actions.
   [rodfersou]
 
