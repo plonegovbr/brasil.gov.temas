@@ -127,6 +127,16 @@
     }
   }
 
+  .portaltype-agenda #content, 
+  .portaltype-agendadiaria #content {
+    .compromisso-titulo {
+      font-size: 1.25rem;
+    }
+  }
+  .portaltype-agendadiaria #content .download-compromisso>span {
+    font-size: 0.75rem;
+  }
+
   .header-accessibility,
   .links-destaque {
     display: none;
