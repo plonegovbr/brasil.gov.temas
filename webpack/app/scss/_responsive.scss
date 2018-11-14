@@ -56,9 +56,15 @@
     flex-direction: column;
     margin: 0 10px;
   }
-  #main-navigation .list-navigation li {
-    width: 100%;
-    border: none;
+  #main-navigation .list-navigation {
+    li {
+      width: 100%;
+      border: none;
+      font-size: 1.5rem;
+    }
+    ul.submenu li {
+      font-size: 1.2rem;
+    }
   }
   ul.submenu {
     top: 8px;
