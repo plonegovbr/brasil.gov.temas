@@ -99,6 +99,12 @@
     white-space: normal;
   }
   /*tamanho dos titulos */
+  .tile h2 {
+    font-size: 1.25rem;
+  }
+  .tile-subtitle {
+    font-size: 0.6875rem !important;
+  }
   .tile.foto-sobreposta-grande,
   .tile.foto-sobreposta-pequena,
   .tile.foto-sobreposta {
