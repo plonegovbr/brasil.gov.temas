@@ -113,6 +113,13 @@
     }
   }
 
+  .portaltype-collective-cover-content #content div.row.linha-destacada {
+    margin-top: -1px;
+    .box-branco .tile {
+        width: 84%;
+        margin: 0px auto 40px auto;
+    }
+  }
 
   .header-accessibility,
   .links-destaque {
