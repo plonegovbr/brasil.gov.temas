@@ -98,6 +98,16 @@
   .template-view #content .tile-em-alta a {
     white-space: normal;
   }
+  /*tamanho dos titulos */
+  .tile.foto-sobreposta-grande,
+  .tile.foto-sobreposta-pequena,
+  .tile.foto-sobreposta {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+
   .header-accessibility,
   .links-destaque {
     display: none;
