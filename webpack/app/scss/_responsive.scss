@@ -185,10 +185,17 @@
     border: 0;
   }
   #results ul:first-child {
-    flex-flow: column;
+    justify-content: space-around;
 
     li {
       z-index: 0;
+      flex-basis: 45vw;
+      width: 45vw;
+      height: 45vw;
+      margin-left: 0;
+    }
+    li img {
+      height: 45vw !important;
     }
   }
   .paginacao li {
