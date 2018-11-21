@@ -56,9 +56,15 @@
     flex-direction: column;
     margin: 0 10px;
   }
-  #main-navigation .list-navigation li {
-    width: 100%;
-    border: none;
+  #main-navigation .list-navigation {
+    li {
+      width: 100%;
+      border: none;
+      font-size: 1.5rem;
+    }
+    ul.submenu li {
+      font-size: 1.2rem;
+    }
   }
   ul.submenu {
     top: 8px;
@@ -98,6 +104,39 @@
   .template-view #content .tile-em-alta a {
     white-space: normal;
   }
+  /*tamanho dos titulos */
+  .tile h2 {
+    font-size: 1.25rem;
+  }
+  .tile-subtitle {
+    font-size: 0.6875rem !important;
+  }
+  .tile.foto-sobreposta-grande,
+  .tile.foto-sobreposta-pequena,
+  .tile.foto-sobreposta {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .portaltype-collective-cover-content #content div.row.linha-destacada {
+    margin-top: -1px;
+    .box-branco .tile {
+        width: 84%;
+        margin: 0px auto 40px auto;
+    }
+  }
+
+  .portaltype-agenda #content, 
+  .portaltype-agendadiaria #content {
+    .compromisso-titulo {
+      font-size: 1.25rem;
+    }
+  }
+  .portaltype-agendadiaria #content .download-compromisso>span {
+    font-size: 0.75rem;
+  }
+
   .header-accessibility,
   .links-destaque {
     display: none;
@@ -185,10 +224,17 @@
     border: 0;
   }
   #results ul:first-child {
-    flex-flow: column;
+    justify-content: space-around;
 
     li {
       z-index: 0;
+      flex-basis: 45vw;
+      width: 45vw;
+      height: 45vw;
+      margin-left: 0;
+    }
+    li img {
+      height: 45vw !important;
     }
   }
   .paginacao li {
