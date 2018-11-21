@@ -7,6 +7,9 @@ Changelog
 - Corrige erro de posicionamento do Destaque Topo causado pelas alterações de posicionamento do Social Like.
   [agnogueira]
 
+- Ajustes diversos no responsivo do tema (tiles e menu).
+  [agnogueira]
+
 
 2.0b5 (2018-10-17)
 ^^^^^^^^^^^^^^^^^^
