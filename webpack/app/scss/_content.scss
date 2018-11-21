@@ -703,27 +703,10 @@ a#error-reporting-toggle.open::after {
   .userrole-anonymous .microupdate-byline p {
     display: none;
   }
-  header#main-header {
-    background-color: transparent;
+  #content {
+    position: initial;
   }
-  #wrapper {
-    margin-top: 425px;
-  }
-  #liveblog-header {
-    background: #000;
-    position: absolute;
-    width: 100%;
-    height: 680px;
-    top: 0;
-    left: 0;
-    z-index: -2;
-  }
-  #liveblog-header img {
-    height: 680px;
-    width: 100%;
-    object-fit: cover;
-  }
-  .top_embedded {
+  .linha-destaquetopo {
     margin-bottom: -4px;
     position: absolute;
     top: 0;
@@ -731,20 +714,14 @@ a#error-reporting-toggle.open::after {
     right: 0;
     z-index: -1;
   }
-  .top_embedded iframe {
-    height: 680px;
-    width: 100%;
-  }
   .linha-destaquetopo iframe {
     height: 680px;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
   }
   #spinner {
     text-align: right;
+  }
+  #portal-breadcrumbs.inverter {
+    margin-bottom: 425px;
   }
 }
