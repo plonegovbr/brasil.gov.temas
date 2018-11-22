@@ -959,6 +959,24 @@ header.inverter .search-wrapper {
     }
 }
 
+/* tile de colecao */
+.column.col-md-12 .cover-collection-tile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cover-collection-tile .tile-header {
+    width: 100%;
+}
+.column.col-md-12 .collection-item {
+    width: 20%;
+    margin-left: 2%;
+}
+.column.col-md-12 .collection-item:first-of-type {
+    margin-left: 0;
+}
+
+
 /* Capa Colorida */
 body.cover-layout-capa-fundo-destacado {
   background-color: #2969bd;
