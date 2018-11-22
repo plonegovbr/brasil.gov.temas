@@ -967,15 +967,17 @@ header.inverter .search-wrapper {
 }
 .cover-collection-tile .tile-header {
     width: 100%;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 .column.col-md-12 .collection-item {
-    width: 20%;
-    margin-left: 2%;
+    width: 10%;
+    flex-grow: 1;
 }
-.column.col-md-12 .collection-item:first-of-type {
-    margin-left: 0;
+.column.col-md-12 .collection-item ~ .collection-item {
+    margin: 0 0 0 60px;
 }
-
 
 /* Capa Colorida */
 body.cover-layout-capa-fundo-destacado {

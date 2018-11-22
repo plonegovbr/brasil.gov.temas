@@ -10,6 +10,9 @@ Changelog
 - Ajustes diversos no responsivo do tema (tiles e menu).
   [agnogueira]
 
+- Estilos para o tile de coleção.
+  [agnogueira]
+
 
 2.0b5 (2018-10-17)
 ^^^^^^^^^^^^^^^^^^
