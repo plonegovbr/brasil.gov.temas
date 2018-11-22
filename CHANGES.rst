@@ -10,6 +10,9 @@ Changelog
 - Ajustes diversos no responsivo do tema (tiles e menu).
   [agnogueira]
 
+- Ajustes de layout no liveblog.
+  [agnogueira]
+
 
 2.0b5 (2018-10-17)
 ^^^^^^^^^^^^^^^^^^
