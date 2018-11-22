@@ -12,6 +12,9 @@ Changelog
 
 - Estilos para o tile de coleção.
   [agnogueira]
+  
+- Ajustes de layout no liveblog.
+  [agnogueira]
 
 
 2.0b5 (2018-10-17)
