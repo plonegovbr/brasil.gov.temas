@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0rc1 (unreleased)
+2.0rc1 (2018-11-23)
 ^^^^^^^^^^^^^^^^^^^
 
 - Corrige erro de posicionamento do Destaque Topo causado pelas alterações de posicionamento do Social Like.
