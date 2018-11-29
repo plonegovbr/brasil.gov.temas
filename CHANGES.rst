@@ -4,7 +4,8 @@ Changelog
 2.0 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Estilos para o tile de coleção.
+  [agnogueira]
 
 
 2.0rc1 (2018-11-23)
