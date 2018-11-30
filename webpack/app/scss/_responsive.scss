@@ -63,7 +63,7 @@
       font-size: 1.5rem;
     }
     ul.submenu li {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
     }
   }
   ul.submenu {
@@ -159,8 +159,11 @@
     padding: 0;
   }
   h1.documentFirstHeading {
-    font-size: 2rem!important;
-    line-height: 2.375rem;
+    font-size: 1.75rem !important;
+    line-height: normal !important;
+  }
+  #content #description, #content .documentDescription {
+    font-size: 1rem;
   }
   #viewlet-below-content {
     margin: 0;
