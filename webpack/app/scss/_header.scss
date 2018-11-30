@@ -463,6 +463,9 @@ header#main-header.busca-ativa {
   z-index: -2;
   object-fit: cover;
   overflow: hidden;
+  video {
+    width: 100%;
+  }
 }
 
 
