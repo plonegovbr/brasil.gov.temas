@@ -7,6 +7,9 @@ Changelog
 - Estilos para o tile de coleção.
   [agnogueira]
 
+- Estilos para Vídeo de fundo na Busca do Header expansivel
+  [agnogueira]
+  
 
 2.0rc1 (2018-11-23)
 ^^^^^^^^^^^^^^^^^^^

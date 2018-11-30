@@ -453,6 +453,22 @@ header#main-header.busca-ativa {
   }
 }
 
+.searchbox-background-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 620px;
+  z-index: -2;
+  object-fit: cover;
+  overflow: hidden;
+  video {
+    width: 100%;
+  }
+}
+
+
 
 /********** Em Alta *************/
 .top-subjects {
