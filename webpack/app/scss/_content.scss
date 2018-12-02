@@ -718,6 +718,14 @@ a#error-reporting-toggle.open::after {
     height: 680px;
     width: 100%;
   }
+  .linha-destaquetopo .play {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    right: 50%;
+    background: red;
+    padding: 20px;
+  }
   #spinner {
     text-align: right;
   }
