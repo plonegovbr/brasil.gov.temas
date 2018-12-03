@@ -222,7 +222,8 @@
     background: #fff;
   }
   .template-centrais-de-conteudo form fieldset input[type=text] {
-    width: 80%;
+    width: 80% !important;
+    font-size: 1rem !important;
   }
   .template-centrais-de-conteudo form fieldset {
     border: 1px solid #ccc!important;
@@ -280,5 +281,8 @@
 
     width: 100% !important;
     margin-left: -100% !important;
+  }
+  input, textarea {
+    font-size: 100%;
   }
 }
