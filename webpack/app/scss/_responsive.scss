@@ -101,8 +101,18 @@
     padding: 20px;
     box-sizing: border-box;
   }
-  .template-view #content .tile-em-alta a {
-    white-space: normal;
+  .template-view #content .tile-em-alta {
+    a {
+      white-space: normal;
+    }
+    .tile-header h2 {
+      font-size: 0.875rem;
+    }
+    .tile-em-alta h2 a {
+      font-size: 0.8125rem !important;
+      line-height: 1rem;
+      height: auto !important;
+    }
   }
   /*tamanho dos titulos */
   .tile h2 {
@@ -117,6 +127,10 @@
     h2 {
       font-size: 1.5rem;
     }
+  }
+
+  .tile a.outstanding-link {
+    font-size: 0.875rem;
   }
 
   .portaltype-collective-cover-content #content div.row.linha-destacada {
