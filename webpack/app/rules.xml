@@ -91,6 +91,12 @@
       <drop css:content=".documentByLine .documentPublished" />
       <drop css:content=".documentByLine .documentModified" />
     </rules>
+    <!-- Remove campos do liveblog -->
+    <rules css:if-content=".portaltype-liveblog.userrole-anonymous">
+      <drop css:content=".documentByLine .documentAuthor" />
+      <drop css:content=".documentByLine .documentPublished" />
+      <drop css:content=".documentByLine .documentModified" />
+    </rules>
 
     <!-- UL DE LíNGUAS
     É necessário cadastrar uma action em site_actions com o mesmo id de
