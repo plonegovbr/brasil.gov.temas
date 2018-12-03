@@ -707,6 +707,11 @@ a#error-reporting-toggle.open::after {
     position: initial;
   }
   .linha-destaquetopo {
+
+  }
+  .linha-destaquetopo iframe {
+    height: 680px;
+    width: 100%;
     margin-bottom: -4px;
     position: absolute;
     top: 0;
@@ -714,22 +719,19 @@ a#error-reporting-toggle.open::after {
     right: 0;
     z-index: -1;
   }
-  .linha-destaquetopo iframe {
-    height: 680px;
-    width: 100%;
-  }
   .linha-destaquetopo .play {
     position: absolute;
     cursor: pointer;
-    top: 50%;
-    right: 50%;
-    background: red;
-    padding: 20px;
+    top: 45%;
+    right: 46%;
+    padding: 30px 50px;
+    z-index: 2;
+    text-indent: -500000px;
   }
   #spinner {
     text-align: right;
   }
   #portal-breadcrumbs.inverter {
-    margin-bottom: 425px;
+    margin-bottom: 480px;
   }
 }
