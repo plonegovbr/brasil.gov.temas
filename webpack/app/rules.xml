@@ -80,8 +80,19 @@
     <replace css:content=".top_image" css:theme=".image" mode="raw" />
     <drop css:content="article .top_image" />
 
+    <!-- Botão de play para o video do liveblog no topo -->
+    <after css:content=".portaltype-liveblog .linha-destaquetopo iframe">
+      <a class="play" href="#">Play</a>
+    </after>
+
     <!-- Remove campos das páginas -->
     <rules css:if-content=".portaltype-document.userrole-anonymous">
+      <drop css:content=".documentByLine .documentAuthor" />
+      <drop css:content=".documentByLine .documentPublished" />
+      <drop css:content=".documentByLine .documentModified" />
+    </rules>
+    <!-- Remove campos do liveblog -->
+    <rules css:if-content=".portaltype-liveblog.userrole-anonymous">
       <drop css:content=".documentByLine .documentAuthor" />
       <drop css:content=".documentByLine .documentPublished" />
       <drop css:content=".documentByLine .documentModified" />

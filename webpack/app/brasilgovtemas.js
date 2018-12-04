@@ -3,6 +3,7 @@ import Contraste from './js/contrast.js';
 import GaleriaDeFotos from './js/albuns.js';
 import ResultsFilter from './js/resultsfilter.js';
 import SocialLike from './js/sociallike.js';
+import Youtube from './js/youtube.js';
 
 
 $(() => {
@@ -35,3 +36,12 @@ $(() => {
   }
 });
 
+
+export default {
+  ContentCentral,
+  Contraste,
+  GaleriaDeFotos,
+  ResultsFilter,
+  SocialLike,
+  Youtube,
+}

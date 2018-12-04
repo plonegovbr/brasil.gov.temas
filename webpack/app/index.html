@@ -11,6 +11,7 @@
     <link rel="mask-icon" href="<%= htmlWebpackPlugin.options.publicPath %>favicons/safari-pinned-tab.svg" color="#00a300">
     <meta name="msapplication-config" content="<%= htmlWebpackPlugin.options.publicPath %>favicons/browserconfig.xml">
     <meta name="theme-color" content="#00a300">
+    <script src="https://www.youtube.com/iframe_api"></script>
   </head>
   <body class="default-header-template">
     <ul id="skip-menu">
@@ -231,5 +232,17 @@
 
     </div>
     <div id="barra_brasil_js"></div>
+    <script>
+      function onYouTubeIframeAPIReady() {
+        $(function() {
+          var $container = $('.portaltype-liveblog.template-view .linha-destaquetopo');
+          if ($container.length === 0) {
+            return;
+          }
+          var by = new brasilgovtemas.Youtube($container);
+          by.iframeIsReady();
+        });
+      }
+    </script>
   </body>
 </html>

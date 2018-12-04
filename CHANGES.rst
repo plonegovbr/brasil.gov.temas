@@ -4,6 +4,9 @@ Changelog
 2.0 (unreleased)
 ^^^^^^^^^^^^^^^^
 
+- Usa API do youtube para controlar video no topo do liveblog
+  [rodfersou]
+
 - Estilos para o tile de coleção.
   [agnogueira]
 
