@@ -729,11 +729,16 @@ a#error-reporting-toggle.open::after {
   .linha-destaquetopo .play {
     position: absolute;
     cursor: pointer;
-    top: 45%;
-    right: 46%;
-    padding: 30px 50px;
+    top: 280px;
+    right: 42%;
+    padding: 60px 8%;
     z-index: 2;
     text-indent: -500000px;
+  }
+  #content .linha-destaquetopo .play:link,
+  #content .linha-destaquetopo .play:visited {
+    border: none;
+    outline: none;
   }
   #spinner {
     text-align: right;
