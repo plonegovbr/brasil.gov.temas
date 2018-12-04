@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0 (unreleased)
+2.0 (2018-12-04)
 ^^^^^^^^^^^^^^^^
 
 - Usa API do YouTube para controlar video no topo do liveblog.
