@@ -13,6 +13,9 @@ Changelog
 - Estilos para Vídeo de fundo na Busca do Header expansivel
   [agnogueira]
   
+- Ajustes diversos no responsivo dos títulos dos tiles.
+  [agnogueira]
+  
 
 2.0rc1 (2018-11-23)
 ^^^^^^^^^^^^^^^^^^^
