@@ -4,15 +4,18 @@ Changelog
 2.0 (unreleased)
 ^^^^^^^^^^^^^^^^
 
-- Usa API do youtube para controlar video no topo do liveblog
+- Usa API do YouTube para controlar video no topo do liveblog.
   [rodfersou]
 
 - Estilos para o tile de coleção.
   [agnogueira]
 
-- Estilos para Vídeo de fundo na Busca do Header expansivel
+- Estilos para vídeo de fundo na busca do header expansivel.
   [agnogueira]
-  
+
+- Ajustes diversos no responsivo dos títulos dos tiles.
+  [agnogueira]
+
 
 2.0rc1 (2018-11-23)
 ^^^^^^^^^^^^^^^^^^^

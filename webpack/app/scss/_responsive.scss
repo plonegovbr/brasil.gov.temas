@@ -63,7 +63,7 @@
       font-size: 1.5rem;
     }
     ul.submenu li {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
     }
   }
   ul.submenu {
@@ -101,8 +101,18 @@
     padding: 20px;
     box-sizing: border-box;
   }
-  .template-view #content .tile-em-alta a {
-    white-space: normal;
+  .template-view #content .tile-em-alta {
+    a {
+      white-space: normal;
+    }
+    .tile-header h2 {
+      font-size: 0.875rem;
+    }
+    .tile-em-alta h2 a {
+      font-size: 0.8125rem !important;
+      line-height: 1rem;
+      height: auto !important;
+    }
   }
   /*tamanho dos titulos */
   .tile h2 {
@@ -117,6 +127,10 @@
     h2 {
       font-size: 1.5rem;
     }
+  }
+
+  .tile a.outstanding-link {
+    font-size: 0.875rem;
   }
 
   .portaltype-collective-cover-content #content div.row.linha-destacada {
@@ -159,8 +173,11 @@
     padding: 0;
   }
   h1.documentFirstHeading {
-    font-size: 2rem!important;
-    line-height: 2.375rem;
+    font-size: 1.75rem !important;
+    line-height: normal !important;
+  }
+  #content #description, #content .documentDescription {
+    font-size: 1rem;
   }
   #viewlet-below-content {
     margin: 0;
@@ -205,7 +222,8 @@
     background: #fff;
   }
   .template-centrais-de-conteudo form fieldset input[type=text] {
-    width: 80%;
+    width: 80% !important;
+    font-size: 1rem !important;
   }
   .template-centrais-de-conteudo form fieldset {
     border: 1px solid #ccc!important;
@@ -263,5 +281,8 @@
 
     width: 100% !important;
     margin-left: -100% !important;
+  }
+  input, textarea {
+    font-size: 100%;
   }
 }
