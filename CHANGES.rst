@@ -1,16 +1,26 @@
 Changelog
 ---------
 
-2.0 (unreleased)
+2.0.1 (unreleased)
+^^^^^^^^^^^^^^^^^^
+
+- Correção de estilos do responsivo
+  [agnogueira]
+
+
+2.0 (2018-12-04)
 ^^^^^^^^^^^^^^^^
+
+- Usa API do YouTube para controlar video no topo do liveblog.
+  [rodfersou]
 
 - Estilos para o tile de coleção.
   [agnogueira]
 
-- Estilos para Vídeo de fundo na Busca do Header expansivel
+- Estilos para vídeo de fundo na busca do header expansivel.
   [agnogueira]
 
-- Correção de estilos do responsivo
+- Ajustes diversos no responsivo dos títulos dos tiles.
   [agnogueira]
   
 
