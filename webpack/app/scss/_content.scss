@@ -734,6 +734,7 @@ a#error-reporting-toggle.open::after {
     padding: 60px 8%;
     z-index: 2;
     text-indent: -500000px;
+    outline: none !important;
   }
   #content .linha-destaquetopo .play:link,
   #content .linha-destaquetopo .play:visited {
