@@ -9,6 +9,9 @@ Changelog
 
 - Estilos para Vídeo de fundo na Busca do Header expansivel
   [agnogueira]
+
+- Correção de estilos do responsivo
+  [agnogueira]
   
 
 2.0rc1 (2018-11-23)
