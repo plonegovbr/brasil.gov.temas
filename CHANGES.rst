@@ -4,7 +4,8 @@ Changelog
 2.0.1 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Correção de estilos do responsivo
+  [agnogueira]
 
 
 2.0 (2018-12-04)
@@ -21,7 +22,7 @@ Changelog
 
 - Ajustes diversos no responsivo dos títulos dos tiles.
   [agnogueira]
-
+  
 
 2.0rc1 (2018-11-23)
 ^^^^^^^^^^^^^^^^^^^

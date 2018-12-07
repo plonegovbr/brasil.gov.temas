@@ -37,6 +37,16 @@
 
     width: 100%;
   }
+  .expandable-header-template #logo {
+    width: 70%;
+  }
+  .expandable-header-template.section-pagina-inicial header #portal-searchbox {
+    left: 0;
+    right: 0;
+  }
+  .expandable-header-template #portal-searchbox form {
+      max-width: 90%;
+  }
   header#main-header {
     padding: 0 20px;
   }
@@ -113,6 +123,12 @@
       line-height: 1rem;
       height: auto !important;
     }
+  }
+  .tile.box-branco h2 {
+    font-size: 1.25rem;
+  }
+  .tile.box-branco .tile-subtitle {
+    font-size: 0.6875rem !important;
   }
   /*tamanho dos titulos */
   .tile h2 {
