@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0.1 (unreleased)
+2.0.1 (2018-12-07)
 ^^^^^^^^^^^^^^^^^^
 
 - Reposiciona link que impedia clique na aba de trocar senha.
