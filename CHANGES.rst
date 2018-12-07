@@ -10,6 +10,9 @@ Changelog
 - Correção de estilos do responsivo
   [agnogueira]
 
+- Corrige link para permitir que o video do liveblog seja iniciado.
+  [rodfersou, agnogueira]
+
 
 2.0 (2018-12-04)
 ^^^^^^^^^^^^^^^^

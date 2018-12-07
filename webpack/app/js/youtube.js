@@ -68,6 +68,7 @@ export default class Youtube {
     }
   }
   togglePlay(e) {
+    e.preventDefault();
     if (this.playerState === 'paused') {
       let $video = $('.video-capa');
       if (!$video.is(':visible')) {
