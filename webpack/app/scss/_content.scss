@@ -218,6 +218,7 @@ dd.image-caption {
   border-top: solid 0.5px #ccc;
   position: relative;
   width: $content-width;
+  clear: both;
 }
 .has-portlets #viewlet-below-content {
   width: 100% !important;

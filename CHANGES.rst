@@ -4,6 +4,9 @@ Changelog
 2.0.1 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Reposiciona link que impedia clique na aba de trocar senha.
+  [agnogueira]
+
 - Correção de estilos do responsivo
   [agnogueira]
 
@@ -22,7 +25,7 @@ Changelog
 
 - Ajustes diversos no responsivo dos títulos dos tiles.
   [agnogueira]
-  
+
 
 2.0rc1 (2018-11-23)
 ^^^^^^^^^^^^^^^^^^^
