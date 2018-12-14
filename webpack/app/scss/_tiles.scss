@@ -477,7 +477,6 @@ p.tile-description {
     }
 }
 
-
 /*linha destacada */
 .portaltype-collective-cover-content #content div.row.linha-destacada {
     width: 100%!important;
@@ -635,6 +634,9 @@ p.tile-description {
         a {
             color: #fff !important;
         }
+    }
+    p {
+        font-size: 0.875rem;
     }
     p.tile-description {
         font-size: 1.375rem !important;
