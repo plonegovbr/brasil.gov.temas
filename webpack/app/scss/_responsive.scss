@@ -288,6 +288,26 @@
     padding: 0 20px;
     box-sizing: border-box;
   }
+  /* busca */
+  #search-results-wrapper {
+    margin-left: 0 !important;
+  }
+  #search-results-bar {
+    width: 93%;
+    padding: 0;
+  }
+  .template-busca #content-core input[type=text] {
+    width: 80%;
+  }
+  .template-busca form .actionMenuHeader {
+    display: none;
+  }
+  #search-filter {
+    margin-left: 15px;
+  }
+  dl.searchResults {
+    padding: 10px;
+  }
 }
 
 /* Landscape phones and down */
