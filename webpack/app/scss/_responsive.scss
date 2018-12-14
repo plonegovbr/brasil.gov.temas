@@ -38,7 +38,11 @@
     width: 100%;
   }
   .expandable-header-template #logo {
-    width: 70%;
+    width: 62%;
+    margin: 0;
+  }
+  #logo #portal-title, #logo h1 {
+    font-size: 1rem;
   }
   .expandable-header-template.section-pagina-inicial header #portal-searchbox {
     left: 0;
@@ -48,7 +52,7 @@
       max-width: 90%;
   }
   header#main-header {
-    padding: 0 20px;
+    padding: 0 12px;
   }
   .portaltype-document header.inverter,
   .portaltype-collective-nitf-content header.inverter {
