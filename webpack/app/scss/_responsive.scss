@@ -312,6 +312,34 @@
   dl.searchResults {
     padding: 10px;
   }
+  /*liveblog */
+  .portaltype-liveblog #micro-updates article {
+    padding: 0;
+    margin-left: 0;
+    border-left: none;
+  }
+  .portaltype-liveblog .microupdate-byline p, .portaltype-liveblog .microupdate-text, 
+  .portaltype-liveblog .microupdate-title {
+    margin-left: 20px;
+  }
+  .portaltype-liveblog .microupdate-byline time {
+    position: relative;
+    top: 0;
+    width: auto;
+    left: 0;
+    display: inline;
+    background: transparent;
+  }
+  .portaltype-liveblog .microupdate-byline:after {
+    display: none;
+  }
+  .microupdate-byline p, .microupdate-date, .microupdate-time {
+    display: inline;
+    font-size: 0.8rem !important;
+  }
+  .portaltype-liveblog #micro-updates article:after {
+    margin: 30px 0 30px 20px;
+  }
 }
 
 /* Landscape phones and down */
