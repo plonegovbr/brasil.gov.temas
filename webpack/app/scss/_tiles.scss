@@ -6,6 +6,7 @@
 .tile {
 	width: 100%;
     position: relative;
+    display: flex;
 
 	.tile-section {
 	  color: $main-color;
@@ -81,12 +82,6 @@ p.tile-description {
 	background: #06ACFF;
 	border-color: #06ACFF !important;
 	color: #fff !important;
-}
-
-.tile {
-    display: flex;
-    width: 100%;
-    margin-bottom: 12px;
 }
 
 /*inverte a cor dos icones sociais para o tile padrao */
