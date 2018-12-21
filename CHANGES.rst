@@ -4,7 +4,23 @@ Changelog
 2.0.2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige resultado de busca no responsivo.
+  [agnogueira]
+
+- Corrige topo expansível no responsivo.
+  [agnogueira]
+  
+- Corrige posts do liveblog no responsivo.
+  [agnogueira]
+  
+- Ajustes de fontes no header e tiles.
+  [agnogueira]
+  
+- Alterar margens das linhas da capa.
+  [agnogueira]
+  
+- Corrige posicionamento do Em Alta (header expansível).
+  [agnogueira]
 
 
 2.0.1 (2018-12-07)

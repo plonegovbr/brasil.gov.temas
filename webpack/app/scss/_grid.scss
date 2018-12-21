@@ -124,7 +124,7 @@
   }
   div.row {
     width: 1176px !important; /* todo: utilizar variavel */
-    margin: 20px auto;
+    margin: $grid-gutter auto;
   }
   #content {
     margin: 0;

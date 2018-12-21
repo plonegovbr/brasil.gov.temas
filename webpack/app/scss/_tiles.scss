@@ -6,6 +6,7 @@
 .tile {
 	width: 100%;
     position: relative;
+    display: flex;
 
 	.tile-section {
 	  color: $main-color;
@@ -83,12 +84,6 @@ p.tile-description {
 	color: #fff !important;
 }
 
-.tile {
-    display: flex;
-    width: 100%;
-    margin-bottom: 12px;
-}
-
 /*inverte a cor dos icones sociais para o tile padrao */
 #content .tile-default .share,
 #content .tile-default .share {
@@ -99,7 +94,6 @@ p.tile-description {
     filter: none;
 }
 
-
 /* header com fio separador */
 .tile.fio-separador {
     margin-bottom: 2.4em;
@@ -108,8 +102,13 @@ p.tile-description {
     }
 }
 /* Texto rico */
-.cover-richtext-tile {
-    
+#content .cover-richtext-tile {
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
 }
 
 /* tile NITF basico sem estilo */
@@ -477,7 +476,6 @@ p.tile-description {
     }
 }
 
-
 /*linha destacada */
 .portaltype-collective-cover-content #content div.row.linha-destacada {
     width: 100%!important;
@@ -636,6 +634,9 @@ p.tile-description {
             color: #fff !important;
         }
     }
+    p {
+        font-size: 0.875rem;
+    }
     p.tile-description {
         font-size: 1.375rem !important;
     }
@@ -685,6 +686,10 @@ p.tile-description {
 
 header.inverter .search-wrapper {
   border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+.brasil-groupcarousel-tile h2 {
+    font-size: 1.5rem !important;
 }
 
 /* linha de fundo do header */
