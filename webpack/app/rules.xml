@@ -31,6 +31,7 @@
       </xsl:attribute>
     </before>
 
+    <copy css:content="body" css:theme="body" attributes="data-base-url data-portal-url" />
     <prepend css:theme="body" css:content="div#barra-identidade" />
     <copy css:content="html" css:theme="html" attributes="lang dir" />
     <prepend css:content-children="head" css:theme="head" />
