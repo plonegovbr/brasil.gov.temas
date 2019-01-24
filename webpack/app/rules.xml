@@ -17,6 +17,8 @@
 
     <!--Head-->
 
+    <merge attributes="class data-base-url data-portal-url" css:content="body" css:theme="body" />
+
     <!-- Adiciona classe ao body, de acordo com as configurações do header -->
     <before theme-children="/html/body" method="raw">
       <xsl:attribute name="class">
@@ -31,7 +33,6 @@
       </xsl:attribute>
     </before>
 
-    <copy css:content="body" css:theme="body" attributes="data-base-url data-portal-url" />
     <prepend css:theme="body" css:content="div#barra-identidade" />
     <copy css:content="html" css:theme="html" attributes="lang dir" />
     <prepend css:content-children="head" css:theme="head" />
@@ -64,7 +65,6 @@
 
 
     <!--Content -->
-    <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
 
     <replace css:content-children="#portal-breadcrumbs" css:theme-children="#portal-breadcrumbs" method="raw" />
