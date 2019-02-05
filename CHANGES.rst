@@ -4,8 +4,10 @@ Changelog
 1.2.6 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
-
+- Exibe corretamente o valor do atributo "data-base-url" na tag Body. 
+  Corrige o erro na atribuição de permissões locais (@@sharing).
+  (closes `#plonegovbr/brasil.gov.portal#565 <https://github.com/plonegovbr/brasil.gov.portal/issues/565>`_).
+  [idgserpro]
 
 1.2.5 (2017-11-30)
 ^^^^^^^^^^^^^^^^^^
