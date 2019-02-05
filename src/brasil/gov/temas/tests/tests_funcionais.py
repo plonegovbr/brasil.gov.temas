@@ -37,7 +37,7 @@ class TransformsTestCase(unittest.TestCase):
         self.browser.open(self.portal.absolute_url())
         self.assertIn(
             '<div id="footer-brasil" class="footer-logos"></div>',
-            self.browser.contents
+            self.browser.contents,
         )
 
     def test_tema_verde(self):
@@ -75,7 +75,7 @@ class AuthenticatedTestCase(unittest.TestCase):
         """Autentica usuário de teste no browser"""
         self.browser.handleErrors = False
         basic_auth = 'Basic {0}'.format(
-            '{0}:{1}'.format(SITE_OWNER_NAME, SITE_OWNER_PASSWORD)
+            '{0}:{1}'.format(SITE_OWNER_NAME, SITE_OWNER_PASSWORD),
         )
         self.browser.addHeader('Authorization', basic_auth)
 
