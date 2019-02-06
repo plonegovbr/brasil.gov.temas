@@ -19,6 +19,7 @@
         <append theme="/html/body" content="//div[@data-iframe='toolbar']" />
 
         <!--Head-->
+        <merge attributes="id class data-base-url data-portal-url dir" css:content="body" css:theme="body" />
         <after css:theme="#accessibility-wrapper" css:content="div#barra-identidade" />
         <copy css:content="html" css:theme="html" attributes="lang dir" />
         <prepend css:content-children="head" css:theme="head" />
@@ -31,8 +32,6 @@
         <!--Content -->
         <copy attributes="href" css:content="#portal-advanced-search a" css:theme="#link-busca" />
         <replace css:content="#logo" css:theme="#logo" />
-        <merge attributes="class" css:content="body" css:theme="body" />
-        <copy attributes="id dir" css:content="body" css:theme="body" />
         <prepend css:content="#portal-features" css:theme="#main" />
         <copy attributes="role" css:content="content" css:theme="contentspace" />
         <replace css:content="#portal-column-one" css:theme="#portal-column-one" />
