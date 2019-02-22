@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-2.0.3 (unreleased)
+2.0.3 (2019-02-22)
 ^^^^^^^^^^^^^^^^^^
 
 - Corrige sobreposição do texto no tile de destaque no topo no responsivo.
