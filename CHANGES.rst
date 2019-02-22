@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.2.6 (unreleased)
+1.2.6 (2019-02-22)
 ^^^^^^^^^^^^^^^^^^
 
 - Exibe corretamente o valor do atributo "data-base-url" na tag Body. 
