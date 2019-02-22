@@ -4,6 +4,9 @@ Changelog
 2.0.3 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige sobreposição do texto no tile de destaque no topo no responsivo.
+  [agnogueira]
+  
 - Exibe corretamente o valor do atributo "data-base-url" da tag Body.
   [agnogueira]
 

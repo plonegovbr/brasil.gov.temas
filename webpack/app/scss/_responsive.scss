@@ -278,19 +278,28 @@
   .paginacao li {
     font-size: 10px;
   }
+  .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo {
+    padding-top: 40px;
+  }
   .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo h1, .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo h2, .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo h3, .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo p {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
   }
   .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo img {
     height: 510px;
   }
   .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo .tile-content {
-    height: 210px;
+    height: 180px;
   }
   .portaltype-collective-nitf-content #content-core p, .portaltype-document #content-core p {
     padding: 0 20px;
     box-sizing: border-box;
+  }
+  .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo p.tile-description {
+    font-size: 1.125rem !important;
+  }
+  .portaltype-collective-cover-content.template-view div.row.linha-destaquetopo .tile:before {
+    height: 510px;
   }
   /* busca */
   #search-results-wrapper {
