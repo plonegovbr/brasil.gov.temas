@@ -72,11 +72,11 @@
     font-weight: normal;
     font-style: normal;
     font-family: "open_sansextrabold";
-    src: url("opensans-800-webfont.eot");
-    src: url("opensans-800-webfont.eot?#iefix") format("embedded-opentype"),
-         url("opensans-800-webfont.woff") format("woff"),
-         url("opensans-800-webfont.ttf") format("truetype"),
-         url("opensans-800-webfont.svg#open_sansextrabold") format("svg");
+    src: url("../fonts/opensans-800-webfont.eot");
+    src: url("../fonts/opensans-800-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/opensans-800-webfont.woff") format("woff"),
+         url("../fonts/opensans-800-webfont.ttf") format("truetype"),
+         url("../fonts/opensans-800-webfont.svg#open_sansextrabold") format("svg");
 }
 
 
