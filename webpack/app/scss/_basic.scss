@@ -149,6 +149,9 @@ a:focus {
 .portalredes-tumblr {
   @include sprite($rede-tumblr-topo);
 }
+.portalredes-linkedin {
+  @include sprite($rede-linkedin-topo);
+}
 
 /* Icones do Rodape */
 footer {
@@ -181,5 +184,8 @@ footer {
   }
   .portalredes-tumblr {
     @include sprite($rede-tumblr);
+  }
+  .portalredes-linkedin {
+    @include sprite($rede-linkedin);
   }
 }
