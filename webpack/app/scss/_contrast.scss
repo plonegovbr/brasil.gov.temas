@@ -198,4 +198,7 @@ body.folder_contraste {
   #portalredes-tumblr {
     @include sprite($rede-tumblr-branco);
   }
+  #portalredes-linkedin {
+    @include sprite($rede-linkedin-branco);
+  }
 }
