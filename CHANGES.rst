@@ -4,7 +4,8 @@ Changelog
 2.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Corrige formatação do menu para mais de dois níveis.
+  [agnogueira]
 
 
 2.0.3 (2019-02-22)
