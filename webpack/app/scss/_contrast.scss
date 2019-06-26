@@ -154,6 +154,15 @@ body.contraste #viewlet-social-like>div:before,
     filter: invert(100%);
 }
 
+/* voltar ao topo */
+body.contraste,
+body.folder_contraste {
+  .voltar-topo a:after {
+    background-color: #fff;
+    color: #222;
+  }
+}
+
 /* icones do topo */
 body.contraste,
 body.folder_contraste {
