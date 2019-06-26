@@ -67,7 +67,8 @@ body.folder_contraste {
   &.template-summary_view #content .tileItem .documentByLine,
   &.portaltype-collective-cover-content div.row.linha-discreta,
   &.portaltype-collective-cover-content div.row.linha-destacada,
-  #error-reporting .formControls input {
+  #error-reporting .formControls input,
+  #footer-brasil {
     color: #fff !important;
     background-color: #000 !important;
     border-color: #fff !important;
@@ -149,9 +150,12 @@ body.folder_contraste {
 body.contraste #viewlet-social-like>div {
   background: transparent; 
 }
-body.contraste #viewlet-social-like>div:before,
- {
-    filter: invert(100%);
+body.contraste,
+body.folder_contraste {
+  #viewlet-social-like>div:before,
+  #footer-brasil a {
+    filter: invert(1);
+  }
 }
 
 /* voltar ao topo */
