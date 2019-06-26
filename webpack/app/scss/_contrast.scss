@@ -159,6 +159,8 @@ body.contraste,
 body.folder_contraste {
   .header-icons .ico-busca, 
   .header-icons .ico-navegacao,
+  .header-accessibility #siteaction-contraste>a:before, 
+  .header-accessibility #siteaction-vlibras>a:before, 
   .header-accessibility .link-contraste:before,
   .header-accessibility .link-vlibras:before {
     filter: none;
