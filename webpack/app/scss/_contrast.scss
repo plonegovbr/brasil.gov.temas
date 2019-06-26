@@ -68,7 +68,10 @@ body.folder_contraste {
   &.portaltype-collective-cover-content div.row.linha-discreta,
   &.portaltype-collective-cover-content div.row.linha-destacada,
   #error-reporting .formControls input,
-  #footer-brasil {
+  #footer-brasil,
+  #content .discreet, 
+  #sidebar .discreet, 
+  .portletStaticText .discreet, {
     color: #fff !important;
     background-color: #000 !important;
     border-color: #fff !important;
@@ -107,7 +110,9 @@ body.folder_contraste {
   &.portaltype-collection h2.tileHeadline a, 
   &.template-filtro-de-resultados h2.tileHeadline a,
   &.portaltype-collection .keywords a, .template-filtro-de-resultados .keywords a,
-  ul.paginacao li a {
+  ul.paginacao li a,
+  #relatedItemBox a, 
+  #relatedItemBox a:hover {
     color: yellow !important;
     text-decoration: underline !important;
     border-color: #fff !important;
@@ -174,6 +179,17 @@ body.folder_contraste {
       filter: invert(100%);
   }
 }
+
+/* tags */
+body.contraste,
+body.folder_contraste {
+  #category a.link-category, 
+  #category a.link-category:hover {
+      background: #000;
+      border: 1px solid #fff;
+  }
+}
+
 
 body.contraste,
 body.folder_contraste {
