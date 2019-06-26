@@ -135,6 +135,38 @@ body.folder_contraste {
   }
 }
 
+/* busca avancada */
+body.contraste,
+body.folder_contraste {
+  #portal-searchbox fieldset {
+    background: #000;
+    border: 2px solid rgba(256,256,256,1);
+  }
+  #portal-searchbox .searchField {
+    font-size: .75rem;
+    background: #000;
+    color: #fff;
+  }
+  #portal-searchbox .searchButton {
+    filter: invert(100%);
+  }
+  .template-busca input.searchButton {
+    filter: invert(100%);
+  }
+  #search-filter legend {
+    color: #fff;
+  }
+  #search-filter label {
+    color: #ff0!important;
+  }
+  #search-results dt a {
+    color: #ff0!important;
+  }
+  #search-filter-toggle:after {
+    filter: invert(100%);
+  }
+}
+
 body.contraste,
 body.folder_contraste {
   #portal-breadcrumbs #breadcrumbs-home a:before {
