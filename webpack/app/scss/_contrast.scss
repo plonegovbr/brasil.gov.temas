@@ -167,6 +167,14 @@ body.folder_contraste {
   }
 }
 
+/* redes sociais do menu */
+body.contraste,
+body.folder_contraste {
+  #main-navigation .portal-redes>li {
+      filter: invert(100%);
+  }
+}
+
 body.contraste,
 body.folder_contraste {
   #portal-breadcrumbs #breadcrumbs-home a:before {
