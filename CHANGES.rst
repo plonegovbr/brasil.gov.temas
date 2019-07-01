@@ -4,7 +4,8 @@ Changelog
 2.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
+- Adiciona estilos para a busca ativa.
+  [agnogueira]
 
 
 2.0.3 (2019-02-22)
