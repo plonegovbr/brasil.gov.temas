@@ -524,12 +524,12 @@ fieldset.noborder {
     z-index: 2;
     width: 390px;
 }
-fieldset.livesearchContainer {
-    border-radius: 0 !important;
-    background: transparent !important;
-    border: none !important;
+header#main-header fieldset.livesearchContainer {
+    border-radius: 0;
+    background: transparent;
+    border: none;
 }
-fieldset.livesearchContainer a {
-    color: #000 !important;
+header#main-header fieldset.livesearchContainer a:link {
+    color: #000;
     font-weight: bold;
 }
