@@ -7,6 +7,9 @@ Changelog
 - Corrige estilos e funcionamento dos filtros da busca.
   [agnogueira]
 
+- Correções de contraste(fecha `#264 <https://github.com/plonegovbr/brasil.gov.temas/issues/264>`_).
+  [agnogueira]
+
 
 2.0.3 (2019-02-22)
 ^^^^^^^^^^^^^^^^^^
