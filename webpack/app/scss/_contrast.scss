@@ -67,7 +67,11 @@ body.folder_contraste {
   &.template-summary_view #content .tileItem .documentByLine,
   &.portaltype-collective-cover-content div.row.linha-discreta,
   &.portaltype-collective-cover-content div.row.linha-destacada,
-  #error-reporting .formControls input {
+  #error-reporting .formControls input,
+  #footer-brasil,
+  #content .discreet, 
+  #sidebar .discreet, 
+  .portletStaticText .discreet, {
     color: #fff !important;
     background-color: #000 !important;
     border-color: #fff !important;
@@ -106,7 +110,9 @@ body.folder_contraste {
   &.portaltype-collection h2.tileHeadline a, 
   &.template-filtro-de-resultados h2.tileHeadline a,
   &.portaltype-collection .keywords a, .template-filtro-de-resultados .keywords a,
-  ul.paginacao li a {
+  ul.paginacao li a,
+  #relatedItemBox a, 
+  #relatedItemBox a:hover {
     color: yellow !important;
     text-decoration: underline !important;
     border-color: #fff !important;
@@ -134,6 +140,57 @@ body.folder_contraste {
   }
 }
 
+/* busca avancada */
+body.contraste,
+body.folder_contraste {
+  #portal-searchbox fieldset {
+    background: #000;
+    border: 2px solid rgba(256,256,256,1);
+  }
+  #portal-searchbox .searchField {
+    font-size: .75rem;
+    background: #000;
+    color: #fff;
+  }
+  #portal-searchbox .searchButton {
+    filter: invert(100%);
+  }
+  .template-busca input.searchButton {
+    filter: invert(100%);
+  }
+  #search-filter legend {
+    color: #fff;
+  }
+  #search-filter label {
+    color: #ff0!important;
+  }
+  #search-results dt a {
+    color: #ff0!important;
+  }
+  #search-filter-toggle:after {
+    filter: invert(100%);
+  }
+}
+
+/* redes sociais do menu */
+body.contraste,
+body.folder_contraste {
+  #main-navigation .portal-redes>li {
+      filter: invert(100%);
+  }
+}
+
+/* tags */
+body.contraste,
+body.folder_contraste {
+  #category a.link-category, 
+  #category a.link-category:hover {
+      background: #000;
+      border: 1px solid #fff;
+  }
+}
+
+
 body.contraste,
 body.folder_contraste {
   #portal-breadcrumbs #breadcrumbs-home a:before {
@@ -149,9 +206,21 @@ body.folder_contraste {
 body.contraste #viewlet-social-like>div {
   background: transparent; 
 }
-body.contraste #viewlet-social-like>div:before,
- {
-    filter: invert(100%);
+body.contraste,
+body.folder_contraste {
+  #viewlet-social-like>div:before,
+  #footer-brasil a {
+    filter: invert(1);
+  }
+}
+
+/* voltar ao topo */
+body.contraste,
+body.folder_contraste {
+  .voltar-topo a:after {
+    background-color: #fff;
+    color: #222;
+  }
 }
 
 /* icones do topo */
@@ -159,6 +228,8 @@ body.contraste,
 body.folder_contraste {
   .header-icons .ico-busca, 
   .header-icons .ico-navegacao,
+  .header-accessibility #siteaction-contraste>a:before, 
+  .header-accessibility #siteaction-vlibras>a:before, 
   .header-accessibility .link-contraste:before,
   .header-accessibility .link-vlibras:before {
     filter: none;
