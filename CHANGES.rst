@@ -7,6 +7,9 @@ Changelog
 - Adiciona estilos para a busca ativa.
   [agnogueira]
 
+- Correções de contraste(fecha `#264 <https://github.com/plonegovbr/brasil.gov.temas/issues/264>`_).
+  [agnogueira]
+
 
 2.0.3 (2019-02-22)
 ^^^^^^^^^^^^^^^^^^
