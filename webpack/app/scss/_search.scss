@@ -525,3 +525,20 @@ fieldset.noborder {
 #results ul:first-child li:nth-child(5n-0) {background: #53cfd0 !important;}
 
 #results ul:first-child li:nth-child(4n-3) {margin-left: 0;}
+
+/*live search */
+#LSResult {
+    right: auto;
+    margin: -0.5em 47px 0 10px;
+    z-index: 2;
+    width: 390px;
+}
+header#main-header fieldset.livesearchContainer {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+}
+header#main-header fieldset.livesearchContainer a:link {
+    color: #000;
+    font-weight: bold;
+}

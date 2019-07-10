@@ -4,6 +4,9 @@ Changelog
 2.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Adiciona estilos para a busca ativa.
+  [agnogueira]
+
 - Corrige estilos e funcionamento dos filtros da busca.
   [agnogueira]
 
