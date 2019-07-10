@@ -4,6 +4,9 @@ Changelog
 2.0.4 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+- Corrige estilos e funcionamento dos filtros da busca.
+  [agnogueira]
+
 - Corrige formatação do menu para mais de dois níveis.
   [agnogueira]
 
