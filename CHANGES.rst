@@ -7,6 +7,9 @@ Changelog
 - Adiciona estilos para a busca ativa.
   [agnogueira]
 
+- Corrige formatação do menu para mais de dois níveis.
+  [agnogueira]
+
 - Correções de contraste(fecha `#264 <https://github.com/plonegovbr/brasil.gov.temas/issues/264>`_).
   [agnogueira]
 

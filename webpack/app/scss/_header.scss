@@ -106,6 +106,14 @@ ul.submenu {
   position: relative;
   top: 25px;
 }
+ul.submenu ul.submenu {
+  left: 10px;
+  margin-bottom: 5px;
+}
+#main-navigation .submenu .submenu {
+  font-size: 70%;
+  margin-top: 16px;
+}
 
 /* apenas busca expandida */
 .expandable-header-template.section-pagina-inicial {
