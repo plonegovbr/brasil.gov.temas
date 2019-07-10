@@ -7,6 +7,9 @@ Changelog
 - Adiciona estilos para a busca ativa.
   [agnogueira]
 
+- Corrige estilos e funcionamento dos filtros da busca.
+  [agnogueira]
+
 - Corrige formatação do menu para mais de dois níveis.
   [agnogueira]
 

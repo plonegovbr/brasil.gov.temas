@@ -28,7 +28,7 @@ $(() => {
   if ($('.template-centrais-de-conteudo')[0] != null) {
     new ContentCentral();
   }
-  if ($('.template-filtro-de-resultados')[0] != null) {
+  if ($('.template-busca')[0] != null) {
     new ResultsFilter();
   }
   if ($('#viewlet-social-like')[0] != null) {
