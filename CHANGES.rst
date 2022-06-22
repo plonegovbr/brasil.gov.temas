@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-1.2.5.1 (unreleased)
+1.2.5.1 (2022-06-22)
 --------------------
 
 - Remove marca do governo em função do periodo eleitoral.
