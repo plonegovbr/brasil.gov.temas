@@ -1,6 +1,13 @@
 Changelog
 ---------
 
+1.2.5.1 (unreleased)
+--------------------
+
+- Remove marca do governo em função do periodo eleitoral.
+  [wesleybl]
+
+
 1.2.5 (2017-11-30)
 ^^^^^^^^^^^^^^^^^^
 
